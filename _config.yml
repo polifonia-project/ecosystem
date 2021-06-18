@@ -38,3 +38,10 @@ markdown: kramdown
 gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE']
+plugins: [jekyll-paginate]
+
+
+collections_dir: content
+
+collections:
+    - stories

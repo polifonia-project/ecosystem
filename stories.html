@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<div class="well">
+    {% for story in site.stories %}
+    <h2>{{ story.name }} - {{ story.position }}</h2>
+    <p>{{ story.content | markdownify }}</p>
+    {% endfor %}
+</div>
