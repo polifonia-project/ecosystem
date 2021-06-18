@@ -3,8 +3,12 @@ layout: default
 ---
 
 <div class="well">
+    <h2>List of stories</h2>
+    <ul>
     {% for story in site.stories %}
-    <h2>{{ story.name }} - {{ story.position }}</h2>
-    <p>{{ story.content | markdownify }}</p>
+    <li><a href="{{ site.baseurl }}{{ story.url }}">
+        {{ story.id }}
+        </a></li>
     {% endfor %}
+    </ul>
 </div>

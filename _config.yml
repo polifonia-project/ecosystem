@@ -44,4 +44,12 @@ plugins: [jekyll-paginate]
 collections_dir: content
 
 collections:
-    - stories
+    stories:
+        output: true
+        permalink: /:collection/:name
+
+defaults:
+  - scope:
+      type: stories
+    values:
+      layout: default
