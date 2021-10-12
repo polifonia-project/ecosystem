@@ -13,6 +13,19 @@ url: https://polifonia-project.github.io/ecosystem
 #baseurl: /ecosystem
 baseurl: ""
 
+# just-the-docs
+theme: "just-the-docs"
+logo: "/assets/images/polifonia-black.png"
+# Aux links for the upper right navigation
+aux_links:
+  "Polifonia on Github":
+    - "//github.com/polifonia-project/"
+
+heading_anchors: true
+# Color scheme supports "light" (default) and "dark"
+color_scheme: polifonia
+
+
 # These can be '' to hide the Github or Gitlab nav buttons
 github: 'polifonia-project/'
 gitlab: ''
@@ -31,8 +44,7 @@ isso: ''
 # Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
 disqus: ''
 
-permalink: /:year/:month/:title
-paginate: 3
+permalink: /:path.html
 
 highlighter: rouge
 markdown: kramdown
@@ -47,10 +59,59 @@ collections_dir: content
 collections:
     stories:
         output: true
-        permalink: /:collection/:name
+        permalink: /:collection/:name.html
+    external-components:
+        output: true
+        permalink: /:collection/:path.html
+    rulebook:
+        output: true
+        permalink: /:collection/:path.html
 
 defaults:
   - scope:
       type: stories
     values:
+      layout: story
+  - scope:
+      type: rulebook
+    values:
       layout: default
+  - scope:
+      type: external-components
+    values:
+      layout: default
+
+just_the_docs:
+  collections:
+    external-components:
+      name: External components
+      nav_exclude: true
+      search_exclude: false
+    rulebook:
+      name: Rulebook
+      nav_exclude: true
+      search_exclude: false
+    stories:
+      name: Stories
+      nav_exclude: true
+      search_exclude: false
+      
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+ - .sass-cache/
+ - .jekyll-cache/
+ - gemfiles/
+ - Gemfile
+ - Gemfile.lock
+ - node_modules/
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
