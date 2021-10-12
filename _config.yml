@@ -10,8 +10,8 @@ url: https://polifonia-project.github.io/ecosystem
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: /ecosystem
-#baseurl: ""
+#baseurl: /ecosystem
+baseurl: ""
 
 # just-the-docs
 #theme: "just-the-docs"
