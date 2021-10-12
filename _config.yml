@@ -14,7 +14,7 @@ url: https://polifonia-project.github.io/ecosystem
 baseurl: ""
 
 # just-the-docs
-theme: "just-the-docs"
+#theme: "just-the-docs"
 logo: "/assets/images/polifonia-black.png"
 # Aux links for the upper right navigation
 aux_links:
