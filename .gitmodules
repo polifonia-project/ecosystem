@@ -1,9 +1,9 @@
-[submodule "stories"]
-	path = content/_stories
-	url = https://github.com/polifonia-project/stories
 [submodule "content/_external-components"]
 	path = content/_external-components
 	url = https://github.com/polifonia-project/external-components
 [submodule "rulebook"]
 	path = content/_rulebook
 	url = https://github.com/polifonia-project/rulebook
+[submodule "content/_stories"]
+	path = content/_stories
+	url = https://github.com/polifonia-project/stories
