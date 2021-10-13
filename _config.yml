@@ -2,9 +2,11 @@
 
 name: The Polifonia Ecosystem
 description: Overview and documentation of the Polifonia Project data and software components
+main-project-url: https://polifonia-project.eu/
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://polifonia-project.github.io
+
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
