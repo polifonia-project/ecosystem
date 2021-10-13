@@ -10,7 +10,7 @@ permalink: /external-components.html
     <ul>
     {% for comp in site.external-components %}
     <li><a href="{{ comp.url | relative_url }}">
-    {{ comp.path }} ({{ comp.name }})
+    {% if comp.name %} {{ comp.name }} {% else %} {{ comp.id }} {% endif %}
         </a></li>
     {% endfor %}
     </ul>
