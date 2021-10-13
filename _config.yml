@@ -44,7 +44,7 @@ isso: ''
 # Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
 disqus: ''
 
-permalink: /:path.html
+#permalink: /:path.html
 
 highlighter: rouge
 markdown: kramdown
@@ -59,13 +59,13 @@ collections_dir: content
 collections:
     stories:
         output: true
-        permalink: /:collection/:name.html
+        #permalink: /:collection/:name.html
     external-components:
         output: true
-        permalink: /:collection/:path.html
+        #permalink: /:collection/:path.html
     rulebook:
         output: true
-        permalink: /:collection/:path.html
+        #permalink: /:collection/:name.html
 
 defaults:
   - scope:
@@ -75,20 +75,20 @@ defaults:
   - scope:
       type: rulebook
     values:
-      layout: story
+      layout: component
   - scope:
       type: external-components
     values:
-      layout: default
+      layout: component
 
 just_the_docs:
   collections:
     external-components:
-      name: External components
+      name: external-components
       nav_exclude: true
       search_exclude: false
     rulebook:
-      name: Rulebook
+      name: rulebook
       nav_exclude: true
       search_exclude: false
     stories:
