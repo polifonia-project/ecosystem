@@ -3,3 +3,4 @@ Gemfile.lock
 INFOS
 _site/
 vendor/
+_config-raph.yml
