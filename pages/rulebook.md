@@ -9,7 +9,7 @@ permalink: /rulebook.html
     <h2>Rulebook</h2>
     <ul>
     {% for file in site.rulebook %}
-    <li><a href="{{ site.baseurl }}{{ file.url }}">
+    <li><a href="{{ file.url | relative_url }}">
         {{ file.id | replace: "/rulebook/", ""  }}
         </a></li>
     {% endfor %}
