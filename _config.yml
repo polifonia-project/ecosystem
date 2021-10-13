@@ -75,7 +75,7 @@ defaults:
   - scope:
       type: rulebook
     values:
-      layout: default
+      layout: story
   - scope:
       type: external-components
     values:

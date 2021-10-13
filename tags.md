@@ -7,43 +7,10 @@ permalink: /tags.html
 
 # Tags
 
-## WP
+## Work Packages
 
-<div class="wps">
-  {% assign wps = site.pages | group_by: 'WP' %}
-  {% for wp in wps %}
-{{ wp }}
-
-  {% endfor %}
-</div>
-
-## WP2 
-
-<ul>
-{% assign sorted-posts = site.pages | where: "Pilots","Access" %}
-{% for page in sorted-posts %}
-  <li>coucou {{page.id}}</li>
-  {% endfor %}
-</ul>
-
-## 3
-
-{% assign items_grouped = site.pages | group_by: 'Pilots' %}
-  {% for group in items_grouped %}
-    <h3>{{group.name}}</h3>
-    {% for item in group.items %}
-        <p>{{item.path}}</p>
-    {% endfor %}
-  {% endfor %}
-
-## Data
-
-<ul>
 {% for wp in site.data.wps %}
-  <li>
-    <a href="{{ }}">
-      {{ wp.name }}
-    </a>
-  </li>
+### {{ wp.name }}
+{% assign wp-posts = site.documents | where: "WP", wp.name %}
+{% for page in wp-posts %} <span><a href="{{ page.url }}">{{ page.persona }}</a> </span> {% endfor %}
 {% endfor %}
-</ul>
