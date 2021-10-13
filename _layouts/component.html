@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.name %}
+<h1> {{ page.name }} </h1>
+{% else %}
+<h1> {{ page.id }} </h1>
+{% endif %}
+
 {{ content }}
 
 <div class="tags"> 
@@ -13,6 +19,5 @@ layout: default
   WP:{% for wp in page.WP %}
   {{ wp }}
   {% endfor %}
-
   
 </div>
