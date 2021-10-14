@@ -18,3 +18,15 @@ permalink: /tags.html
 {% endfor %}
 </ul>
 {% endfor %}
+
+## Pilots
+
+{% for pilot in site.data.pilots %}
+### {{ pilot.name }}
+{% assign pilot-posts = site.documents | where: "pilot", pilot.name %}
+<ul class="inline">
+{% for page in pilot-posts %}
+<li> {% if page.name %}<a href="{{ page.url | relative_url }}">{{ page.name }}</a>{% else %}<a href="{{ page.url | relative_url }}">{{ page.persona }}</a> {% endif %} </li>
+{% endfor %}
+</ul>
+{% endfor %}

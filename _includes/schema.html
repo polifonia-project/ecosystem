@@ -1,0 +1,27 @@
+<ul>
+<li>id: {{ page.id }}</li>
+<li>name: {{ page.name }}</li>
+<li>brief-description: {{ page.brief-description }}</li>
+<li>type: {{ page.type }}</li>
+<li>release-date: {{ page.release-date }}</li>
+<li>release-number: {{ page.release-number }}</li>
+{% if page.work-package %}
+<li>work-package: <ul>{% for wp in page.work-package %}<li>{{wp}}</li>{% endfor %}</ul> </li>
+{% else %}
+<li>work-package: <ul>{% for wp in page.WP %}<li>{{wp}}</li>{% endfor %}</ul> </li>
+{% endif %}
+<li>pilot: {{ page.pilot }}</li>
+<li>keywords: <ul>{% for k in page.keywords %}<li>{{ k }}</li>{% endfor %}</ul></li>
+<li>changelog: {{ page.changelog }}</li>
+<li>licence: {{ page.licence }}</li>
+<li>release-link: {{ page.release-link }}</li>
+<li>image: {{ page.image }}</li>
+<li>logo: {{ page.logo }}</li>
+<li>demo: {{ page.demo }}</li>
+<li>links: {% for l in page.links %}{{ l }}{% endfor %}</li>
+<li>running-instance: {{ page.running-instance }}</li>
+<li>credits: {{ page.credits }}</li>
+<li>related-components: <ul>{% for l in page.related-components %}<li>{{ l }}</li>{% endfor %}</ul></li>
+<li>bibliography: <ul>{% for ref in page.bibliography %}<li>{{ ref }}</li>{% endfor %}</ul></li>
+
+</ul>
