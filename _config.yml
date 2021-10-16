@@ -61,10 +61,8 @@ collections_dir: content
 collections:
     stories:
         output: true
-        #permalink: /:collection/:name.html
     external-components:
         output: true
-        #permalink: /:collection/:path.html
     rulebook:
         output: true
         #permalink: /:collection/:name.html

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Stories
-nav_order: 2
+nav_order: 10
 permalink: /stories.html
 ---
 

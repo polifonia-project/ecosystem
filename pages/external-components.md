@@ -1,7 +1,7 @@
 ---
 layout: default
 title: External components
-nav_order: 4
+nav_order: 30
 permalink: /external-components.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rulebook
-nav_order: 3
+nav_order: 20
 permalink: /rulebook.html
 ---
 
