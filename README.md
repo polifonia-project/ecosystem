@@ -54,6 +54,11 @@ You may leave this terminal open and start hacking the code with your tool of
 choice, it will detect the changes and update automatically (a simple refresh of
 the page in the browser is needed though).
 
+After a satisfactory version is obtained, don't forget to commit (`git add <files>`, 
+`git commit -m"<message>"`) your changes and push them on Github (`git push`), so that 
+the world may see them. Obvisouly, try to not commit a broken version (ie: which does not 
+compile with Jekyll).
+
 ## Need help with this procedure
 
 Contact [Raphaël Fournier-S'niehotta](http://github.com/raphaelfournier).
