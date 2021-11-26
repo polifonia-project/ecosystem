@@ -6,6 +6,8 @@ layout: default
 
 <p>{{ page.description }}</p>
 
+<p>{{ page.content }}</p>
+
 <h2>List of pages relevant for {{ page.wp }}</h2>
 
 {% assign wp-posts = site.documents | where: "WP", page.wp %}
