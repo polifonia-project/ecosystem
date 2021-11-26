@@ -6,7 +6,9 @@ layout: default
 
 <p>{{ page.description }}</p>
 
-<h2>List of pages relevant for {{ page.pilot }}</h2>
+{{ page.content }}
+
+<h2>List of components relevant for {{ page.pilot }}</h2>
 
 {% assign wp-posts = site.documents | where: "pilot", page.pilot %}
 <ul>
@@ -15,4 +17,5 @@ layout: default
 <li> {% if p.name %}<a href="{{ p.url | relative_url }}">{{ p.name }} ({{ category}})</a>{% else %}<a href="{{ p.url | relative_url }}">{{ p.persona }} ({{ category }})</a> {% endif %} </li>
 {% endfor %}
 </ul>
+
 
