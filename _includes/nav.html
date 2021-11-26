@@ -58,6 +58,9 @@
   {%- assign pages_list = sorted_number_ordered_pages | concat: sorted_string_ordered_pages -%}
   
   {%- for node in pages_list -%}
+  {% if node.url contains "rulebook" %}
+  {% continue %}
+  {% endif %}
     {%- if node.parent == nil -%}
       {%- unless node.nav_exclude -%}
       <li class="nav-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
@@ -96,4 +99,9 @@
       {%- endunless -%}
     {%- endif -%}
   {%- endfor -%}
+
+      <li class="nav-list-item">
+        <a href="./rulebook/README.html" class="nav-list-link">Rulebook</a>
+      </li>
+
 </ul>
