@@ -1,8 +1,8 @@
 ---
-title: "Work package 5"
+title: "#5 Interaction"
 wp: "WP5"
 parent: "Work packages"
 layout: wp
-description: ""
+description: "Human Interaction with Musical Heritage"
 --- 
 

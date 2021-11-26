@@ -1,8 +1,8 @@
 ---
-title: "Work package 2"
+title: "#2 Knowledge Graphs"
 wp: "WP2"
 parent: "Work packages"
 layout: wp
-description: ""
+description: "Musical Heritage Knowledge Graphs"
 --- 
 
