@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<div class="meta">
+<ul>
+  {% for tup in site.data.schema %}
+{% assign key = tup.first[0] %}
+{% if page[key] %}
+  <li>{{ tup.first }}: {{ page[key] }}</li>
+{% endif %}
+{% endfor%}
+</ul>
+
+  <a href="{{ page.repository_url }}/blob/main/{{ page.id | remove: "/stories/" | replace: "#", "%23"}}.md">View on Github</a>
+
+</div>
+
 {{ content }}
 
 <hr/>

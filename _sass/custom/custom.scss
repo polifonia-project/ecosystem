@@ -28,3 +28,9 @@ ul.inline li {
   color: $black;
 }
 
+.meta {
+  border: $border #fc0000; // purple-polifonia
+  border-radius: $border-radius;
+  background-color: #fc000055;
+  padding: 5px;
+}
