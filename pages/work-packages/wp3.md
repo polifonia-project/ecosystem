@@ -1,8 +1,8 @@
 ---
-title: "Work package 3"
+title: "#3 Musical Patterns"
 wp: "WP3"
 parent: "Work packages"
 layout: wp
-description: ""
+description: "Mining Musical Patterns"
 --- 
 

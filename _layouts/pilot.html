@@ -4,9 +4,13 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<p>{{ page.description }}</p>
+<h2>{{ page.description }}</h2>
 
-<h2>List of pages relevant for {{ page.pilot }}</h2>
+{{ page.content }}
+
+<p><a href="{{page.link}}" target="_blank">Continue reading on the Polifonia project website</a></p>
+
+<h2>Related ecosystem components:</h2>
 
 {% assign wp-posts = site.documents | where: "pilot", page.pilot %}
 <ul>
@@ -15,4 +19,5 @@ layout: default
 <li> {% if p.name %}<a href="{{ p.url | relative_url }}">{{ p.name }} ({{ category}})</a>{% else %}<a href="{{ p.url | relative_url }}">{{ p.persona }} ({{ category }})</a> {% endif %} </li>
 {% endfor %}
 </ul>
+
 
