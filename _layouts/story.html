@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="meta">
-  baseurl : {{ site.baseurl }}
 <ul>
   {% for tup in site.data.schema %}
 {% assign key = tup.first[0] %}
@@ -11,10 +10,10 @@ layout: default
 {% if page[key] %}
 <li>{{ key | capitalize }}: {% for item in page[key] %} 
   {% case key %}
-  {% when "Pilots" %}
-  <a href="{{ item | downcase | prepend: "/pages/pilots/" | prepend: site.baseurl }}.html ">{{item}}</a>
   {% when "WP" %}
   <a href="{{ item | downcase | prepend: "/pages/work-packages/" | prepend: site.baseurl }}.html ">{{item}}</a>
+  {% when "Pilots" %}
+  <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
   {% else %}
   <span class="attr">{{item}}</span>
   {% endcase %}
