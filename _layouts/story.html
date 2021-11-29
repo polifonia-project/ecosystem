@@ -11,7 +11,7 @@ layout: default
 <li>{{ key | capitalize }}: {% for item in page[key] %} 
   {% case key %}
   {% when "WP" %}
-  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | prepend: site.baseurl }}.html ">{{item}}</a>
+  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
   {% when "Pilots" %}
   <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
   {% else %}
