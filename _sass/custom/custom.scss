@@ -29,8 +29,14 @@ ul.inline li {
 }
 
 .meta {
-  border: $border #fc0000; // purple-polifonia
+  border: $border #fc0000; 
   border-radius: $border-radius;
-  background-color: #fc000055;
-  padding: 5px;
+  background-color: #fc000022;
+  padding: 4px 10px;
+}
+
+.attr {
+  border-radius: $border-radius;
+  background-color: #aaa;
+  padding: 1px 3px;
 }

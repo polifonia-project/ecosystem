@@ -6,29 +6,39 @@ layout: default
 <ul>
   {% for tup in site.data.schema %}
 {% assign key = tup.first[0] %}
+{% if key == "id" %} {% continue %} {% endif %}
 {% if page[key] %}
-  <li>{{ tup.first }}: {{ page[key] }}</li>
+<li>{{ key | capitalize }}: {% for item in page[key] %} 
+  {% case key %}
+  {% when "Pilots" %}
+  <a href="{{ site.baseurl }}/pages/pilots/{{ item | downcase }}.html">{{item}}</a>
+  {% when "WP" %}
+  <a href="{{ site.baseurl }}/pages/work-packages/{{ item | downcase }}.html">{{item}}</a>
+  {% else %}
+  <span class="attr">{{item}}</span>
+  {% endcase %}
+  {% endfor %}</li>
 {% endif %}
 {% endfor%}
 </ul>
 
-  <a href="{{ page.repository_url }}/blob/main/{{ page.id | remove: "/stories/" | replace: "#", "%23"}}.md">View on Github</a>
+  <a href="{{ page.repository_url }}/blob/main/{{ page.id | remove: "/stories/" | replace: "#", "%23"}}.md">View this file on Github</a>
 
 </div>
 
 {{ content }}
 
-<hr/>
+<!--<hr/>-->
 
-<div class="tags"> 
-  id: {{ page.id }} <br/>
-  persona: {{ page.persona }} <br/>
-  keywords: {% for kw in page.keywords %}
-  {{ kw }}
-  {% endfor %} <br/>
-  WP:{% for wp in page.WP %}
-  {{ wp }}
-  {% endfor %}
+<!--<div class="tags"> -->
+  <!--id: {{ page.id }} <br/>-->
+  <!--persona: {{ page.persona }} <br/>-->
+  <!--keywords: {% for kw in page.keywords %}-->
+  <!--{{ kw }}-->
+  <!--{% endfor %} <br/>-->
+  <!--WP:{% for wp in page.WP %}-->
+  <!--{{ wp }}-->
+  <!--{% endfor %}-->
 
-{% include schema.html %} 
-</div>
+<!--{% include schema.html %} -->
+<!--</div>-->
