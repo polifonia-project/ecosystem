@@ -33,6 +33,7 @@ ul.inline li {
   border-radius: $border-radius;
   background-color: #fc000022;
   padding: 4px 10px;
+  margin-bottom: 10px;
 }
 
 .attr {
@@ -40,3 +41,15 @@ ul.inline li {
   background-color: #aaa;
   padding: 1px 3px;
 }
+
+#sticky-navigator {
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+  top: 5px;
+  border: $border #fc0000; 
+  border-radius: $border-radius;
+  background-color: #0000ff22;
+  padding: 4px 10px;
+}
+
