@@ -8,9 +8,9 @@ layout: default
 
 <p>{{ page.content }}</p>
 
-<h2>List of pages relevant for {{ page.wp }}</h2>
+<h2>List of components relevant for {{ page.wp }}</h2>
 
-{% assign wp-posts = site.documents | where: "WP", page.wp %}
+{% assign wp-posts = site.documents | where: "work-package", page.wp %}
 <ul>
 {% for p in wp-posts %}
 {% assign category = p.path | remove_first: "_" | split: "/" | first %}

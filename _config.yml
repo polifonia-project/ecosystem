@@ -65,7 +65,22 @@ collections:
         output: true
     rulebook:
         output: true
-        #permalink: /:collection/:name.html
+    core:
+        output: true
+    instrument:
+        output: true
+    musical-performance:
+        output: true
+    ocr:
+        output: true
+    folk_ngram_analysis:
+        output: true
+    patterns:
+        output: true
+    registry_app:
+        output: true
+    source:
+        output: true
 
 defaults:
   - scope:
@@ -78,6 +93,14 @@ defaults:
       layout: component
   - scope:
       type: external-components
+    values:
+      layout: component
+  - scope:
+      type: core
+    values:
+      layout: component
+  - scope:
+      type: folk_ngram_analysis
     values:
       layout: component
 
@@ -95,6 +118,10 @@ just_the_docs:
       name: Stories
       nav_exclude: true
       search_exclude: false
+    # folk_ngram_analysis:
+    #   name: folk_ngram_analysis
+    #   nav_exclude: true
+    #   search_exclude: false
       
 # Exclude from processing.
 # The following items will not be processed, by default.
