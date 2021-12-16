@@ -7,3 +7,30 @@
 [submodule "external-components"]
 	path = content/_external-components
 	url = https://github.com/polifonia-project/external-components
+[submodule "content/_patterns"]
+	path = content/_patterns
+	url = https://github.com/polifonia-project/patterns
+[submodule "content/_folk_ngram_analysis"]
+	path = content/_folk_ngram_analysis
+	url = https://github.com/polifonia-project/folk_ngram_analysis
+[submodule "content/_registry_app"]
+	path = content/_registry_app
+	url = https://github.com/polifonia-project/registry_app
+[submodule "content/_core"]
+	path = content/_core
+	url = https://github.com/polifonia-project/core
+[submodule "content/_ocr"]
+	path = content/_ocr
+	url = https://github.com/polifonia-project/OCR
+[submodule "content/_musical-performance"]
+	path = content/_musical-performance
+	url = https://github.com/polifonia-project/musical-performance
+[submodule "content/_comparative-measure"]
+	path = content/_comparative-measure
+	url = https://github.com/polifonia-project/comparative-measure
+[submodule "content/_source"]
+	path = content/_source
+	url = https://github.com/polifonia-project/source
+[submodule "content/_instrument"]
+	path = content/_instrument
+	url = https://github.com/polifonia-project/instrument
