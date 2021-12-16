@@ -103,6 +103,10 @@ defaults:
       type: folk_ngram_analysis
     values:
       layout: component
+  - scope:
+      type: registry_app
+    values:
+      layout: component
 
 just_the_docs:
   collections:
