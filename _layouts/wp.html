@@ -10,7 +10,9 @@ layout: default
 
 <h2>List of components relevant for {{ page.wp }}</h2>
 
-{% assign wp-posts = site.documents | where: "work-package", page.wp %}
+{% assign wp1-posts = site.documents | where: "WP", page.wp %}
+{% assign wp2-posts = site.documents | where: "work-packages", page.work-package %}
+{% assign wp-posts = wp1-posts | concat: wp2-posts %}
 <ul>
 {% for p in wp-posts %}
 {% assign category = p.path | remove_first: "_" | split: "/" | first %}
