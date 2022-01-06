@@ -34,3 +34,18 @@
 [submodule "content/_instrument"]
 	path = content/_instrument
 	url = https://github.com/polifonia-project/instrument
+[submodule "content/_harmonic-similarity"]
+	path = content/_harmonic-similarity
+	url = https://github.com/polifonia-project/harmonic-similarity
+[submodule "content/_meetups-dataset"]
+	path = content/_meetups-dataset
+	url = https://github.com/polifonia-project/meetups-dataset
+[submodule "content/_child-dataset"]
+	path = content/_child-dataset
+	url = https://github.com/polifonia-project/child-dataset
+[submodule "content/_organs-dataset"]
+	path = content/_organs-dataset
+	url = https://github.com/polifonia-project/organs-dataset
+[submodule "content/_sonar2021_data_transformation"]
+	path = content/_sonar2021_data_transformation
+	url = https://github.com/polifonia-project/sonar2021_data_transformation
