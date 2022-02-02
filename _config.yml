@@ -83,6 +83,14 @@ collections:
 
 defaults:
   - scope:
+      path: pages/work-packages
+    values:
+      identifier: "wppage"
+  - scope:
+      path: pages/pilots
+    values:
+      identifier: "pilotpage"
+  - scope:
       type: stories
     values:
       layout: story
