@@ -5,6 +5,7 @@ nav_order: 10
 permalink: /stories.html
 ---
 
+<div class="well">
 <h2>Stories</h2>
 {% assign stories_grouped = site.stories | group_by: "persona" %} 
 {% for group in stories_grouped %}
@@ -20,4 +21,6 @@ permalink: /stories.html
 </ul>
 {% endfor %}
 {% endfor %}
+</div>
 
+message to be removed.
