@@ -52,7 +52,6 @@ highlighter: rouge
 markdown: kramdown
 gems: ['jekyll-paginate']
 
-exclude: ['README.md', 'LICENSE']
 plugins: [jekyll-paginate]
 
 
@@ -146,3 +145,9 @@ exclude:
  - vendor/cache/
  - vendor/gems/
  - vendor/ruby/
+ - LICENSE
+ - README.md
+ - "*.py"
+ - "*.owl"
+ - "*.ipynb"
+
