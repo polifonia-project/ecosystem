@@ -15,8 +15,10 @@ layout: default
 {% assign wp-posts = wp1-posts | concat: wp2-posts %}
 <ul>
 {% for p in wp-posts %}
+  {% if p.id | p.persona %}
 {% assign category = p.path | remove_first: "_" | split: "/" | first %}
 <li> {% if p.name %}<a href="{{ p.url | relative_url }}">{{ p.name }} ({{ category}})</a>{% else %}<a href="{{ p.url | relative_url }}">{{ p.persona }} ({{ category }})</a> {% endif %} </li>
+  {% endif %}
 {% endfor %}
 </ul>
 
