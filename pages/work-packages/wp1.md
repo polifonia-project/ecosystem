@@ -1,6 +1,6 @@
 ---
 title: "#1 Pilots and Web portal"
-wp: "WP1"
+work-package: "WP1"
 parent: "Work packages"
 layout: wp
 description: "Pilots and Web portal"

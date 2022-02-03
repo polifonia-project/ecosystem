@@ -10,15 +10,21 @@ layout: default
 
 <h2>Related ecosystem components:</h2>
 
-{% assign wp1-posts = site.documents | where: "WP", page.wp %}
-{% assign wp2-posts = site.documents | where: "work-packages", page.work-package %}
-{% assign wp-posts = wp1-posts | concat: wp2-posts %}
+{% assign wp-posts = site.documents | where: "work-package", page.work-package %}
 <ul>
 {% for p in wp-posts %}
-  {% if p.id | p.persona %}
 {% assign category = p.path | remove_first: "_" | split: "/" | first %}
-<li> {% if p.name %}<a href="{{ p.url | relative_url }}">{{ p.name }} ({{ category}})</a>{% else %}<a href="{{ p.url | relative_url }}">{{ p.persona }} ({{ category }})</a> {% endif %} </li>
-  {% endif %}
+<li> 
+  {% if p.name %}
+<a href="{{ p.url | relative_url }}">{{ p.name }} ({{ category}})</a>
+  {% else %}
+  {% assign headers = p.content | split: '<h' %}
+	{% assign _string = headers[1] | split: '</h' %}
+	{% capture _hAttrToStrip %}{{ _string[0] | split: '>' | first }}>{% endcapture %}
+	{% assign title = _string[0] | replace: _hAttrToStrip, '' %}
+<a href="{{ p.url | relative_url }}">"{{ title }}" (persona: {{ p.persona }}, in {{ category}})</a>
+  {% endif %} 
+</li>
 {% endfor %}
 </ul>
 
