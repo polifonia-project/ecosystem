@@ -80,12 +80,6 @@ collections:
         output: true
     source:
         output: true
-    child-dataset:
-        output: true
-    harmonic-similarity:
-        output: true
-    organs-dataset:
-        output: true
 
 defaults:
   - scope:
@@ -120,18 +114,7 @@ defaults:
       type: registry_app
     values:
       layout: component
-  - scope:
-      type: child-dataset
-    values:
-      layout: component
-  - scope:
-      type: harmonic-similarity
-    values:
-      layout: component
-  - scope:
-      type: organs-dataset
-    values:
-      layout: component
+
 
 just_the_docs:
   collections:
