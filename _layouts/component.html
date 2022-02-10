@@ -10,15 +10,6 @@ layout: default
 
 {{ content }}
 
-<div class="tags"> 
-  id: {{ page.id }} <br/>
-  persona: {{ page.persona }} <br/>
-  keywords: {% for kw in page.keywords %}
-  {{ kw }}
-  {% endfor %} <br/>
-  WP:{% for wp in page.WP %}
-  {{ wp }}
-  {% endfor %}
-  
+---
+
 {% include schema.html %} 
-</div>
