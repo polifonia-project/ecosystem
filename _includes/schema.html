@@ -1,7 +1,8 @@
 <table>
+{% assign ignored = "output,previous,ext,content,excerpt,next" | split: "," %}
 {% for key in page %}
-{% if key != "output" and key != "previous" and key != "ext" and page[key] != "" %}
-<tr><th>{{ key }}</th><td>
+{% if page[key] != "" %}
+{% unless ignored contains key %}<tr><th>{{ key }}</th><td>
 {% assign http = page[key] | slice: 0,4 %}
 {% if http == "http" %}
 	<a href="{{ page[key] }}">{{ page[key] }}</a>
@@ -9,6 +10,7 @@
 	{{ page[key] }}
 {% endif %}
 </td></tr>
+{% endunless %}
 {% endif %}
 {% endfor%}
 </table>
