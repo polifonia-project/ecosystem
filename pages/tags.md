@@ -12,7 +12,7 @@ permalink: /tags.html
 {% for wp in site.pages %}
   {% if wp.identifier == "wppage" and wp.name != "index.md" %}
 ### WP{{ wp.title }}
-  {% assign wp-posts = site.documents | where: "WP", wp.wp %}
+{% assign wp-posts = site.documents | where: "work-package", wp.work-package %}
 <ul class="inline list-style-none">
 {% for page in wp-posts %}
   <li> {% if page.name %}<a href="{{ page.url | relative_url }}">{{ page.name }}</a>{% else %}<a href="{{ page.url | relative_url }}">{{ page.persona }}</a> {% endif %} </li>
