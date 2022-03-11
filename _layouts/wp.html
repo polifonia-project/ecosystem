@@ -6,10 +6,11 @@ layout: default
 <!-- <h2>{{ page.description }}</h2> -->
 
 <p>{{ page.content }}</p>
+
 {% assign wp-posts = site.documents | where: "work-package", page.work-package %}
 {% assign wpsize = wp-posts | size %}
 {% unless wpsize < 1 %} 
-<h2>Related ecosystem components:</h2>
+<h2>Related components:</h2>
 {% assign types = wp-posts | map: 'type' | join: ','  | split: ',' | uniq %}
 <ul>
 {% for type in types %}
@@ -18,9 +19,10 @@ layout: default
 	{% assign components =  wp-posts | where: 'type',type %}
   <ul>
 	{% for component in components %}
-  {% if component.type[1] == Story %}
+  {% if component.type contains "Story" %}
     {% if component.name %}
-    <li><a href="{{ component.url | relative_url }}">{{ component.name }}</a> ({{component.persona}})</li>	
+    <li><a href="{{ component.url | relative_url }}">{{ component.name }}</a>
+      ({{component.persona}})</li>	
     {% else %}
 {% assign fakename = component.id | split: '_' | last %} 
 <li><a href="{{ component.url | relative_url }}">{{ fakename }}</a> ({{component.persona}})</li>	
