@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git add content/_*
+git add content/
 git commit -m "update submodules"
 git push
 
