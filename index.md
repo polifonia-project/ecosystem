@@ -17,6 +17,8 @@ Data, software, and documentation of the output of the EU H2020 project [Polifon
 The Polifonia Ecosystem is a collection of components for developing intelligent applications leveraging musical cultural heritage, result of the Polifonia Project.
 The project aims at realising and deploying anecosystem of computational methods and tools supporting discovery, extraction, encoding, interlinking, classification, exploration of, and access to, musical heritage knowledge on the Web.
 
+Polifonia content is managed on [GitHub](http://github.com/{{ site.github }}).
+
 {% comment %} 
 Polifonia development methodology is two ways. 
 It follows a bottom-up approach, ensuring that the development is participatory, agile, feature driven, and collaborative.
@@ -27,17 +29,16 @@ Independence is a well known principle of software engineering, which is conceiv
 However, the possible connections between ecosystem components don’t necessarily derive from software-to-software relations but involve, for example, users being able to perform a complex task by using multiple tools, whose user interfaces are linked, or enable users to transfer data from one environment to another thanks to the mutual support of shared formats. 
 The Polifonia Project delivers its results as reusable assets, alongside an extensive metadata set and documentation. This is the Polifonia Ecosystem.
 {% endcomment %} 
-
+{% assign types =  site.documents  | map: 'type' | join: ','  | split: ',' | uniq | sort %}
+{% comment %}
 ## Summary
-{% assign types =  site.documents  | map: 'type' | join: ','  | split: ',' | uniq %}
-
 {% for type in types %}
 {% if type != "" %}
 {% assign ncomponents =  site.documents  | where: 'type',type | size %}
 {% if ncomponents > 0 %} {{ type }}: {{ ncomponents }} {% endif %}
 {% endif %}
 {% endfor %}
-
+{% endcomment %} 
 ## List of components 
 {% for type in types %}
 {% if type != "" %}
@@ -47,7 +48,4 @@ The Polifonia Project delivers its results as reusable assets, alongside an exte
 - [{{ component.name }}]({{ component.url | relative_url }})	{% endfor %}	
 {% endif %}
 {% endfor %}
-
-## Repositories
-Polifonia content is managed on [GitHub](http://github.com/{{ site.github }}).
 
