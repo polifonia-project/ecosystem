@@ -8,10 +8,12 @@ nav_order: 5
 
 # {{ page.title }}
 
-<ul>
+The Polifonia Ecosystem, from the perspective of the project work packages.
+
 {% assign children_list = site.pages | where: "parent", page.title %}
 {% for child in children_list %}
-<li><a href="{{ child.url | absolute_url }}">{{ child.title }}</a></li>
+### <a href="{{ child.url | absolute_url }}">{{ child.long-title }}</a>
+{{ child.description }}
 {% endfor %}
-</ul>
+
 
