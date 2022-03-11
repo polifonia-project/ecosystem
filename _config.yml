@@ -71,6 +71,8 @@ collections:
         output: true
     textual-corpus-population:
         output: true
+    documentary-evidence-benchmark:
+        output: true
     rulebook:
         output: true
     core:
@@ -105,6 +107,10 @@ defaults:
       layout: story
   - scope:
       type: rulebook
+    values:
+      layout: component
+  - scope:
+      type: documentary-evidence-benchmark
     values:
       layout: component
   - scope:
