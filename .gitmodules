@@ -36,4 +36,4 @@
 	url = https://github.com/polifonia-project/sonar2021_demo
 [submodule "content/_documentary-evidence-benchmark"]
 	path = content/_documentary-evidence-benchmark
-	url = https://github.com/polifonia-project/documentary-evidence-benchmark.git
+	url = https://github.com/polifonia-project/documentary-evidence-benchmark
