@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stories
+title: foo
 nav_order: 10
 permalink: /stories.html
 ---
@@ -22,5 +22,3 @@ permalink: /stories.html
 {% endfor %}
 {% endfor %}
 </div>
-
-message to be removed.

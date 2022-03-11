@@ -34,6 +34,8 @@ ul.inline li {
   background-color: #fc000022;
   padding: 4px 10px;
   margin-bottom: 10px;
+  width: 460px;
+  float: left;
 }
 
 .attr {
@@ -43,9 +45,10 @@ ul.inline li {
 }
 
 #sticky-navigator {
-  position: -webkit-sticky;
-  position: sticky;
+  //position: -webkit-sticky;
+  //position: sticky;
   float: right;
+  width: 250px;
   top: 5px;
   border: $border #fc0000; 
   border-radius: $border-radius;
@@ -53,3 +56,7 @@ ul.inline li {
   padding: 4px 10px;
 }
 
+.site-footer a {
+color: #aaa;
+border: none;
+}
