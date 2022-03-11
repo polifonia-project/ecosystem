@@ -11,7 +11,7 @@ nav_order: 6
 <ul>
 {% assign children_list = site.pages | where: "parent", page.title %}
 {% for child in children_list %}
-<li><a href="{{ child.url | absolute_url }}">{{ child.title }}</a></li>
+<li><a href="{{ child.url | absolute_url }}">{{ child.title }}</a> {{ child.description }}</li>
 {% endfor %}
 </ul>
 
