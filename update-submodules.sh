@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for d in */ ; do
+for d in content/* ; do
     cd "$d"
     pwd
     git pull
-    cd ..
+    cd ../..
 done

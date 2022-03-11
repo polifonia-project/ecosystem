@@ -5,26 +5,18 @@ nav_order: 11
 permalink: /personas.html
 ---
 
+# {{ page.title }}
 
-<div class="well">
-    <h2>Personas</h2>
-    {% include group-by-array.html collection=site.stories field='persona' %}
+The Polifonia Ecosystem, from the perspective of the target communities, exemplified by a set of Persona.
 
+{% assign children_list = site.documents | where: "type", "Persona" %}
+{% for child in children_list %}
+## <a href="{{ child.url | absolute_url }}">{{ child.long-title }}</a>
+{{ child.description }}
+{% assign stories = site.stories | where: "persona", child.component-id %}
 <ul>
-  {% for persona in group_names %}
-    {% assign posts = group_items[forloop.index0] %}
-
-    <li>
-      <h2>{{ persona }}</h2>
-      <ul>
-        {% for post in posts %}
-        <li>
-          <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
+{% for story in stories %}
+<li> <a href="{{ story.url | absolute_url }}">{{ story.name }}</a></li>
+{% endfor %}
 </ul>
-</div>
-
+{% endfor %}
