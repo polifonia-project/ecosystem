@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="meta">
+<div class="meta-large">
 <ul>
   {% for tup in site.data.schema %}
 {% assign key = tup.first[0] %}
@@ -14,6 +14,8 @@ layout: default
   <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
   {% when "Pilots" %}
   <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
+  {% when "work-package" %}
+  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
   {% else %}
   <span class="attr">{{item}}</span>
   {% endcase %}

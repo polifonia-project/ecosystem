@@ -28,6 +28,14 @@ ul.inline li {
   color: $black;
 }
 
+.meta-large {
+  border: 2px solid #aaa; 
+  border-radius: $border-radius;
+  background-color: #eee;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+}
+
 .meta {
   border: $border #fc0000; 
   border-radius: $border-radius;
@@ -40,14 +48,14 @@ ul.inline li {
 
 .attr {
   border-radius: $border-radius;
-  background-color: #aaa;
-  padding: 1px 3px;
+  background-color: #faa;
+  padding: 2px 4px;
 }
 
 #sticky-navigator {
   //position: -webkit-sticky;
   //position: sticky;
-  float: right;
+  //float: right;
   width: 250px;
   top: 5px;
   border: $border #fc0000; 
@@ -59,4 +67,8 @@ ul.inline li {
 .site-footer a {
 color: #aaa;
 border: none;
+}
+
+a.nav-list-expander {
+color: white;
 }
