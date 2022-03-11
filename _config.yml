@@ -61,6 +61,16 @@ collections:
         output: true
     external-components:
         output: true
+    harmonic-similarity:
+        output: true
+    ontology-network:
+        output: true
+    sonar2021_data_transformation:
+        output: true
+    sonar2021_demo:
+        output: true
+    textual-corpus-population:
+        output: true
     rulebook:
         output: true
     core:
@@ -95,6 +105,26 @@ defaults:
       layout: story
   - scope:
       type: rulebook
+    values:
+      layout: component
+  - scope:
+      type: harmonic-similarity
+    values:
+      layout: component
+  - scope:
+      type: ontology-network
+    values:
+      layout: component
+  - scope:
+      type: sonar2021_data_transformation
+    values:
+      layout: component
+  - scope:
+      type: sonar2021_demo
+    values:
+      layout: component
+  - scope:
+      type: textual-corpus-population
     values:
       layout: component
   - scope:
