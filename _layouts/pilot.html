@@ -8,16 +8,39 @@ layout: default
 
 {{ page.content }}
 
-<p><a href="{{page.link}}" target="_blank">Continue reading on the Polifonia project website</a></p>
-
-<h2>Related ecosystem components:</h2>
-
-{% assign wp-posts = site.documents | where: "pilot", page.pilot %}
+{% assign wp-posts = site.documents | where: "work-package", page.work-package
+%}
+{% assign wpsize = wp-posts | size %}
+{% unless wpsize < 1 %} 
+<h2>Related components:</h2>
+{% assign types = wp-posts | map: 'type' | join: ','  | split: ',' | uniq %}
 <ul>
-{% for p in wp-posts %}
-{% assign category = p.path | remove_first: "_" | split: "/" | first %}
-<li> {% if p.name %}<a href="{{ p.url | relative_url }}">{{ p.name }} ({{ category}})</a>{% else %}<a href="{{ p.url | relative_url }}">{{ p.persona }} ({{ category }})</a> {% endif %} </li>
-{% endfor %}
+  {% for type in types %}
+  {% if type != "" %}
+  <li> {{ type }}</li>
+  {% assign components =  wp-posts | where: 'type',type %}
+  <ul>
+    {% for component in components %}
+    {% if component.type contains "Story" %}
+    {% if component.name %}
+    <li><a href="{{ component.url | relative_url }}">{{
+        component.name }}</a>
+      ({{component.persona}})</li>  
+    {% else %}
+    {% assign fakename = component.id | split: '_' | last %} 
+    <li><a href="{{ component.url | relative_url }}">{{
+        fakename }}</a> ({{component.persona}})</li>  
+    {% endif %}
+    {% else %}
+    <li><a href="{{ component.url | relative_url
+    }}">{{ component.name }}</a></li> 
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% endfor %}
 </ul>
+
+{% endunless %}
 
 
