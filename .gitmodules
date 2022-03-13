@@ -25,9 +25,6 @@
 [submodule "content/_ontology-network"]
 	path = content/_ontology-network
 	url = https://github.com/polifonia-project/ontology-network.git
-[submodule "content/_harmonic-similarity"]
-	path = content/_harmonic-similarity
-	url = https://github.com/polifonia-project/harmonic-similarity
 [submodule "content/_textual-corpus-population"]
 	path = content/_textual-corpus-population
 	url = https://github.com/polifonia-project/textual-corpus-population
