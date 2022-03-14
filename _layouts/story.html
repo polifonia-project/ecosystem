@@ -16,8 +16,12 @@ layout: default
   <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
   {% when "work-package" %}
   <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
-  {% else %}
+  {% when "pilot" %}
+  <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
+  {% when "keywords" %}
   <span class="attr">{{item}}</span>
+  {% else %}
+  {{item}}
   {% endcase %}
   {% endfor %}</li>
 {% endif %}
