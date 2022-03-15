@@ -61,7 +61,7 @@ collections:
         output: true
     external-components:
         output: true
-    harmonic-similarity:
+    lharp:
         output: true
     ontology-network:
         output: true
@@ -114,7 +114,7 @@ defaults:
     values:
       layout: component
   - scope:
-      type: harmonic-similarity
+      type: lharp
     values:
       layout: component
   - scope:

@@ -34,6 +34,6 @@
 [submodule "content/_documentary-evidence-benchmark"]
 	path = content/_documentary-evidence-benchmark
 	url = https://github.com/polifonia-project/documentary-evidence-benchmark
-[submodule "content/_harmonic-similarity"]
-	path = content/_harmonic-similarity
-	url = https://github.com/polifonia-project/harmonic-similarity.git
+[submodule "content/_lharp"]
+	path = content/_lharp
+	url = https://github.com/polifonia-project/lharp
