@@ -37,3 +37,6 @@
 [submodule "content/_lharp"]
 	path = content/_lharp
 	url = https://github.com/polifonia-project/lharp
+[submodule "content/_clef"]
+	path = content/_clef
+	url = https://github.com/polifonia-project/clef
