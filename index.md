@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 0
 permalink: /
-ecosystem-release: v1-alpha
+ecosystem-release: v1
 ---
 
 # Polifonia Ecosystem ({{ page.ecosystem-release }})
