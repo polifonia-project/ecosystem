@@ -1,0 +1,14 @@
+polifonia-project/rulebook:tag:v1.0
+polifonia-project/external-components:tag:v1.0
+polifonia-project/folk_ngram_analysis:tag:v0.4-dev.ecosystem-v1.0
+polifonia-project/clef:tag:v1.0.0
+polifonia-project/registry_app:tag:v0.1.5
+polifonia-project/lharp:tag:v1.0.0
+polifonia-project/documentary-evidence-benchmark:tag:v1.0
+polifonia-project/ontology-network:tag:v0.1
+polifonia-project/stories:tag:v1.0
+polifonia-project/textual-corpus-population:tag:v0.1.ecosystem-v1.0
+polifonia-project/meetups_pilot:tag:v0.1-rc
+polifonia-project/polifonia-lexicon:tag:v1_0
+polifonia-project/dashboard:tag:v0.1.1
+polifonia-project/web_portal:tag:v0.0.1

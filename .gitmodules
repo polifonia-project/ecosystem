@@ -40,3 +40,15 @@
 [submodule "content/_clef"]
 	path = content/_clef
 	url = https://github.com/polifonia-project/clef
+[submodule "content/_dashboard"]
+	path = content/_dashboard
+	url = https://github.com/polifonia-project/dashboard
+[submodule "content/_web_portal"]
+	path = content/_web_portal
+	url = https://github.com/polifonia-project/web_portal
+[submodule "content/_meetups_pilot"]
+	path = content/_meetups_pilot
+	url = https://github.com/polifonia-project/meetups_pilot.git
+[submodule "content/_polifonia-lexicon"]
+	path = content/_polifonia-lexicon
+	url = https://github.com/polifonia-project/polifonia-lexicon.git
