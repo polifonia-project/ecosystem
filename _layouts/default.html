@@ -204,5 +204,15 @@ layout: table_wrappers
       <div class="search-overlay"></div>
     {% endif %}
   </div>
+  <script>
+    function toggleMetaData() {
+      var x = document.getElementById("schema");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    } 
+  </script>
 </body>
 </html>

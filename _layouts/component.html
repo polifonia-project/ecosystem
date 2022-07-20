@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="meta-large">
+<button onclick="toggleMetaData()">Toggle metadata</button>
+<div class="meta-large" id="schema">
 <ul>
   {% for tup in site.data.schema %}
 {% assign key = tup.first[0] %}
