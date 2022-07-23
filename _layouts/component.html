@@ -30,7 +30,14 @@ layout: default
 {% endfor%}
 </ul>
 
-  <a href="https://github.com/polifonia-project/stories/blob/main/{{ page.id | remove: "/stories/" | replace: "#", "%23"}}.md">View this file on Github</a>
+<!--  <a href="https://github.com/polifonia-project/stories/blob/main/{{ page.id | remove: "/stories/" | replace: "#", "%23"}}.md">View this file on Github</a> -->
+
+{% assign ghLinkParts = page.id | split: "/" %}
+{% assign ghLinkBefore = page.id | split: "/" %}
+{% capture ghLinkBefore %}{{ ghLinkParts[1] }}/{{ ghLinkParts[2] }}/{% endcapture %}
+{% assign ghLinkAfter = page.id | replace: ghLinkBefore, "" %}
+{% capture ghLink %}{{ ghLinkBefore }}blob/master{{ ghLinkAfter }}{% endcapture %}
+  <a href="https://github.com/{{ ghLink | replace: "#", "%23"}}.md">View this file on Github</a>
 
 </div>
 
