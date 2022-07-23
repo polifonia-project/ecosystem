@@ -109,54 +109,54 @@ defaults:
       path: pages/pilots
     values:
       identifier: "pilotpage"
-  - scope:
-      type: stories
-    values:
-      layout: story
-  - scope:
-      type: rulebook
-    values:
-      layout: component
-  - scope:
-      type: documentary-evidence-benchmark
-    values:
-      layout: component
-  - scope:
-      type: lharp
-    values:
-      layout: component
-  - scope:
-      type: ontology-network
-    values:
-      layout: component
-  - scope:
-      type: sonar2021_data_transformation
-    values:
-      layout: component
-  - scope:
-      type: sonar2021_demo
-    values:
-      layout: component
-  - scope:
-      type: textual-corpus-population
-    values:
-      layout: component
-  - scope:
-      type: external-components
-    values:
-      layout: component
-  - scope:
-      type: core
-    values:
-      layout: component
-  - scope:
-      type: folk_ngram_analysis
-    values:
-      layout: component
-  - scope:
-      type: registry_app
-    values:
-      layout: component
+# - scope:
+#     type: stories
+#   values:
+#     layout: story
+# - scope:
+#     type: rulebook
+#   values:
+#     layout: component
+# - scope:
+#     type: documentary-evidence-benchmark
+#   values:
+#     layout: component
+# - scope:
+#     type: lharp
+#   values:
+#     layout: component
+# - scope:
+#     type: ontology-network
+#   values:
+#     layout: component
+# - scope:
+#     type: sonar2021_data_transformation
+#   values:
+#     layout: component
+# - scope:
+#     type: sonar2021_demo
+#   values:
+#     layout: component
+# - scope:
+#     type: textual-corpus-population
+#   values:
+#     layout: component
+# - scope:
+#     type: external-components
+#   values:
+#     layout: component
+# - scope:
+#     type: core
+#   values:
+#     layout: component
+# - scope:
+#     type: folk_ngram_analysis
+#   values:
+#     layout: component
+# - scope:
+#     type: registry_app
+#   values:
+#     layout: component
 
 
 just_the_docs:
