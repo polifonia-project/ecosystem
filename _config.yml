@@ -53,46 +53,54 @@ gems: ['jekyll-paginate']
 
 plugins: [jekyll-paginate]
 
+exclude: [ '.git' ]
 
-collections_dir: content
+collections_dir: content/
 
 collections:
-    stories:
+    polifonia-project:
         output: true
-    external-components:
-        output: true
-    lharp:
-        output: true
-    ontology-network:
-        output: true
-    sonar2021_data_transformation:
-        output: true
-    sonar2021_demo:
-        output: true
-    textual-corpus-population:
-        output: true
-    documentary-evidence-benchmark:
-        output: true
-    rulebook:
-        output: true
-    core:
-        output: true
-    instrument:
-        output: true
-    musical-performance:
-        output: true
-    ocr:
-        output: true
-    folk_ngram_analysis:
-        output: true
-    patterns:
-        output: true
-    registry_app:
-        output: true
-    source:
-        output: true
+#
+# stories:
+#     output: true
+# external-components:
+#     output: true
+# lharp:
+#     output: true
+# ontology-network:
+#     output: true
+# sonar2021_data_transformation:
+#     output: true
+# sonar2021_demo:
+#     output: true
+# textual-corpus-population:
+#     output: true
+# documentary-evidence-benchmark:
+#     output: true
+# rulebook:
+#     output: true
+# core:
+#     output: true
+# instrument:
+#     output: true
+# musical-performance:
+#     output: true
+# ocr:
+#     output: true
+# folk_ngram_analysis:
+#     output: true
+# patterns:
+#     output: true
+# registry_app:
+#     output: true
+# source:
+#     output: true
 
 defaults:
+  - scope:
+      type: polifonia-project
+    values:
+      layout: component
   - scope:
       path: pages/work-packages
     values:
