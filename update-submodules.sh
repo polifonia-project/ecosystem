@@ -22,8 +22,8 @@ while IFS= read -r line; do
 	version=${arrIN[2]}
 	echo "repo: $repo"
 	echo "version: $version"     
-	[ -d "content/$repo" ] || git clone -n "https://github.com/$repo" "content/$repo"
-	cd "content/$repo" 
+	[ -d "content/_$repo" ] || git clone -n "https://github.com/$repo" "content/_$repo"
+	cd "content/_$repo" 
 	git ls-tree -r "$version" --full-tree --name-only | grep "\.md" > files.tmp
 	while IFS= read -r line; do 
 		git checkout "$version" "$line"
