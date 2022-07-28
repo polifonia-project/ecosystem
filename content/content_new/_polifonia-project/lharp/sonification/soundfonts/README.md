@@ -1,0 +1,1 @@
+This directory should contain any soundfont used for the sonification of MIDIs representing chord progressions.

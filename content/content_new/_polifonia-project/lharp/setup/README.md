@@ -1,0 +1,1 @@
+In this folder we will move all the (intermediate) data structures used to preprocess, encode, ngram-ify and compare chord sequences for harmonic similarity. The code should be adapted accordingly.
