@@ -29,5 +29,6 @@ while IFS= read -r line; do
 		git checkout "$version" "$line"
 	done < files.tmp
 	rm files.tmp
+	rm -rf .git
 	cd -
 done < repositories.txt
