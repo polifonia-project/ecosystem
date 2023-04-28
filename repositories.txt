@@ -1,4 +1,4 @@
-polifonia-project/rulebook:tag:v1.0
+polifonia-project/rulebook:tag:v2.0
 polifonia-project/external-components:tag:v1.0
 polifonia-project/folk_ngram_analysis:tag:v0.4-dev.ecosystem-v1.0
 polifonia-project/clef:tag:v1.0.0
@@ -13,3 +13,4 @@ polifonia-project/meetups_corpus_collection:tag:v1.0
 polifonia-project/polifonia-lexicon:tag:v1_0
 polifonia-project/dashboard:tag:v0.1.1
 polifonia-project/web_portal:tag:v0.0.1
+polifonia-project/licences:tag:v0.3
