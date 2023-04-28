@@ -29,7 +29,7 @@ A repository with annotated component descriptions (see later) is mandatory for 
 You don’t need to fork the repository in the Polifonia organisation. External components can be described (with annotations) in the repository [external-components](https://github.com/polifonia-project/external-components/). 
 
 ### Champion 
-Each repository must have a champion. Champions need to be annotated in the [CHAMPIONS.md](CHAMPIONS.html) file.
+Each repository must have a champion. Champions need to be annotated in the [CHAMPIONS.md](CHAMPIONS.md) file.
 
 ### Discussion and decisions 
 Discussions can happen anywhere at anytime. However, decisions that impact the development of the component **MUST** be logged within an Issue (a Github issue, example) and motivated. 
@@ -119,12 +119,12 @@ This website will provide a user interface for navigating through the Polifonia 
 Please note that the Polifonia ecosystem website uses the content of Github repositories as is, hence the need for good quality annotations / documentation.  
 
 ### Developing Schema Components Annotations 
-The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see also example at the top of this file). The schema to follow is [this one](schema.html). Developers can use this service to test the YAML code:  https://jsonformatter.org/yaml-validator .
+The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see also example at the top of this file). The schema to follow is [this one](schema.md). Developers can use this service to test the YAML code:  https://jsonformatter.org/yaml-validator .
 
 ### Process towards ecosystem releases
 
 - Champions curate releases with project-specific frequency and rationale
-- Releases must be linked to Zenodo and the related Polifonia Community
+- - Releases must be linked to Zenodo and the related Polifonia Community
 - TB calls for next Ecosystem Release
 - Champions reply giving details about version number and expected deadline (if any)
 - Champions ensure component metadata is accurate
