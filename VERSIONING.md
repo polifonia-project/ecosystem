@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2
+
+Repositories versions:
+
+TODO
+
 ## v1.1
 
 Repositories versions:

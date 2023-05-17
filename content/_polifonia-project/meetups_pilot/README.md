@@ -24,6 +24,8 @@ credits:
 ---
 # MEETUPS PILOT
 
+[![DOI](https://zenodo.org/badge/436452967.svg)](https://zenodo.org/badge/latestdoi/436452967)
+
 Extracting information of musical artist from Wikipedia pages.
 
 The initial collection of Wikipedia pages can be found here: https://github.com/albamoralest/scrappingWikipediaMusicBiographies
