@@ -17,3 +17,7 @@ polifonia-project/licences:branches:main
 polifonia-project/Polifonia-Corpus-Web-API:branches:main
 polifonia-project/music-analysis-ontology:branches:main
 polifonia-project/tonalities_pilot:branches:main
+polifonia-project/meetups-knowledge-graph:tag:v0.2
+polifonia-project/meetups-ontology:tag:v0.1
+polifonia-project/meetups-application:branches:main
+polifonia-project/meetups-ui-design:branches:main
