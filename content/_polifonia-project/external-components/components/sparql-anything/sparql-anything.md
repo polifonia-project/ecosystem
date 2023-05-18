@@ -1,44 +1,41 @@
 ---
-component-id: sparql-anything
+container-id: sparql-anything
 name: SPARQL Anything
 description: SPARQL Anything is a system for Semantic Web re-engineering that allows to query non-RDF files as-if they are in RDF.
-type: 
-- Library
-- CLI tool
-release-date: 01/2022
-release-number: v0.6.0
+type: Project
 work-package: 
 - WP1
 - WP2
 - WP4
 pilot:
-- ORGANS
-- CHILD
 - MEETUPS
-keywords:
-  - knowledge graph construction
-changelog:
-licence:
-- Apache 2.0
-release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.3.1
-image: https://sparql-anything.cc/img/logo.png
-logo: https://sparql-anything.cc/img/logo.png
-demo:
-- https://github.com/SPARQL-Anything/showcase-tate
-- https://github.com/SPARQL-Anything/showcase-imma
-links: 
-  - http://sparql-anything.cc
-  - https://github.com/SPARQL-Anything/sparql.anything/
-#running-instance:
-credits: 
-- http://github.com/luigi-asprino
-- http://github.com/enridaga
-bibliography: 
-- "Daga, Enrico; Asprino, Luigi; Mulholland, Paul and Gangemi, Aldo (2021). Facade-X: An Opinionated Approach to SPARQL Anything. In: Alam, Mehwish; Groth, Paul; de Boer, Victor; Pellegrini, Tassilo and Pandit, Harshvardhan J. eds. Volume 53: Further with Knowledge Graphs, Volume 53. IOS Press, pp. 58–73. http://oro.open.ac.uk/78973/1/78973.pdf"
-related-components:
+- CHILD
+project: polifonia-project
+bibliography:
+- main-publication: "Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312"
+- publication: 
+  - "Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73."
+  - "Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf"
+- funder:
+  - name: European Commission H2020
+    url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020
+    grant-agreement: "GA101004746"
+  - name: European Commission H2020
+    url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020
+    grant-agreement: "GA870811"
+credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreements GA101004746 (Polifonia) and GA870811 (SPICE)."
+has-part:
+  - sparql-anything-cli
+  - sparql-anything-java
+  - sparql-anything-docs
+  - sparql-anything-tutorials
+  - sparql-anything-python
+  - sparql-anything-requirements
+  - sparql-anything-docker
 ---
 
 # SPARQL Anything
+
 [SPARQL Anything](http://sparql-anything.eu) is a system for Semantic Web re-engineering that allows users to ... query anything with SPARQL.
 
 Main features:

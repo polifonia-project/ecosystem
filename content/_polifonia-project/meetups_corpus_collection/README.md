@@ -20,6 +20,9 @@ credits:
 ---
 
 # MEETUPS Corpus collection
+
+[![DOI](https://zenodo.org/badge/504547694.svg)](https://zenodo.org/badge/latestdoi/504547694)
+
 ### Collecting Wikipedia pages of people in the music scene in Europe
 
 

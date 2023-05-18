@@ -2,8 +2,7 @@
 component-id: documentary-evidence-benchmark
 name: Documentary evidence benchmark
 brief-description: the benchmark for the extraction of documentary evidence
-type: 
-- Dataset
+type: Dataset
 release-date: 25/04/2022
 release-number: v1.0
 work-package: 
@@ -11,12 +10,13 @@ work-package:
 - WP4
 pilot:
 - CHILD
-licence: Apache 2.0
+licence:
+- Apache-2.0
 related-component:
 - led
-- sparql-anything
+- sparql-anything-cli
 credits:
-- https://github.com/enridaga
+- Enrico Daga <https://github.com/enridaga>
 ---
 # Documentary evidence benchmark
 

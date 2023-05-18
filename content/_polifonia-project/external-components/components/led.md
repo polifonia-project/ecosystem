@@ -22,13 +22,13 @@ links:
   - "https://led.kmi.open.ac.uk"
 logo: "https://www.listeningexperience.org/led-data/themes/thekeynote-v1-01/images/logo.png"
 name: "Listening Experience Database"
-running-instance:
-  - https://led.kmi.open.ac.uk
-  - https://data.open.ac.uk/sparql
+demo: https://led.kmi.open.ac.uk
+resource: https://data.open.ac.uk/sparql
 related-components:
-  - Ortenz
-  - Ortenz#2_MusicalSocialNetwork
-  - Ortenz#1_MusicAndChildhood
+  - informed-by:
+    - Ortenz
+    - Ortenz#2_MusicalSocialNetwork
+    - Ortenz#1_MusicAndChildhood
 --- 
 
 # The Listening Experience Database
