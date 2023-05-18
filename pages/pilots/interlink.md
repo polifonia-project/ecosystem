@@ -20,5 +20,4 @@ layout: pilot
 link: "https://polifonia-project.eu/pilots/interlink/"
 --- 
 
-# INTERLINK: Integrating digital music libraries
 In order to answer research questions, musical heritage scholars need to combine diverse datasets ranging from music scores, audiovisual material to metadata. They need to identify similar entities and concepts implicitly present in the data, across different collections in different institutions.

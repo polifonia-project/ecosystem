@@ -26,7 +26,7 @@ related-components:
     - Schubert-Winterreise dataset
     - JAAH
 bibliography: 
-  - "A simple local harmonic similarity function based on shared repeated chord structures" (manuscript in progress)  
+  - "A simple local harmonic similarity function based on shared repeated chord structures (manuscript in progress)" 
 ---
 
 # Local Harmonic Agreement based on Recurrent Patterns (LHARP)
