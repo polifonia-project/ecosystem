@@ -31,7 +31,7 @@ while IFS= read -r line; do
         rm files.tmp
         rm -rf .git
         cd -
-    else
-        echo "Skipping $repo"
+        # else
+        # echo "Skipping $repo"
     fi
 done < repositories.txt
