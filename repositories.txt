@@ -16,3 +16,4 @@ polifonia-project/web_portal:branches:main
 polifonia-project/licences:branches:main
 polifonia-project/Polifonia-Corpus-Web-API:branches:main
 polifonia-project/music-analysis-ontology:branches:main
+polifonia-project/tonalities_pilot:branches:main
