@@ -22,6 +22,5 @@ layout: pilot
 link: https://polifonia-project.eu/pilots/access/
 --- 
 
-# ACCESS: Perceiving music with your body
 The aim of this use case is to co-design, develop and evaluate wearable haptic technology to enable people who are Deaf or hearing impaired to engage as audience members in live performances.
 

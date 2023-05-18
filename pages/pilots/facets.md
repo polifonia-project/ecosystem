@@ -20,5 +20,4 @@ layout: pilot
 link: https://polifonia-project.eu/pilots/facets/
 --- 
 
-# FACETS: Exploration and discovery in large collections of music scores
 Music libraries currently lacks well-founded information retrieval tools. While it is relatively easy to find music based on metadata, content-based music retrieval still remains as a challenge. The Facets pilot aims to tackle this challenge by building a faceted search engine (FSE) for large collections of music documents.
