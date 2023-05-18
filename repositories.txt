@@ -14,3 +14,4 @@ polifonia-project/polifonia-lexicon:branches:master
 polifonia-project/dashboard:branches:main
 polifonia-project/web_portal:branches:main
 polifonia-project/licences:branches:main
+polifonia-project/Polifonia-Corpus-Web-API:branches:main
