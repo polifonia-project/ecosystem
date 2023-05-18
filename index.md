@@ -1,9 +1,36 @@
 ---
+container-id: polifonia-project
+type: Project
+work-package:
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
+- WP8
+pilot:
+- TUNES
+- BELLS
+- INTERLINK
+- MUSICBO
+- TONALITIES
+- MEETUPS
+- CHILD
+- ORGANS
+- ACCESS
+- FACETS
+funder:
+  - name: Horizon 2020 Framework Programme
+    url: https://cordis.europa.eu/programme/id/H2020-EC
+    grant-agreement: "https://cordis.europa.eu/project/id/101004746"
+credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746."
 layout: default
 title: Home
 nav_order: 0
 permalink: /
-ecosystem-release: v1.2
+ecosystem-release: v2.0
 ---
 
 # Polifonia Ecosystem ({{ page.ecosystem-release }})
