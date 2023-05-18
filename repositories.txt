@@ -1,4 +1,4 @@
-polifonia-project/rulebook:tag:v3.0
+polifonia-project/rulebook:tag:v3.1
 polifonia-project/external-components:branches:main
 polifonia-project/folk_ngram_analysis:tag:v0.4-dev.ecosystem-v1.0
 polifonia-project/clef:branches:master
