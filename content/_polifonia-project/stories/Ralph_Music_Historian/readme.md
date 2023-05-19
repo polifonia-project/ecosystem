@@ -1,13 +1,16 @@
 ---
 component-id: Ralph
 name: "Ralph"
-long-title: "Ralph"
+description: Researcher and Professor in Musicology
 type: Persona
+long-title: "Ralph"
 related-components:
-- Ralph#1_WordsAndMusic
+  - Ralph#1_WordsAndMusic
+project: polifonia-project
+pilot: []
 ---
 
-# Persona description
+# Ralph
 
 This is a description of the persona Ralph.
 
