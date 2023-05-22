@@ -9,13 +9,13 @@
   description: "The container name"
 - description:
   label: description
-  description: A text describing the component
+  description: A text describing the activity
 - image:
   label: image
-  description: "Link to one reference image illustrating the component"
+  description: "Link to one reference image illustrating the activity"
 - logo:
   label: logo
-  description: "Logo of the component in Web format. Accepted image formats are JPEG and PNG."
+  description: "Logo of the activity in Web format. Accepted image formats are JPEG and PNG."
 - funder:
   label: funder
   description: "The name of the funding body of the project and the URL"
