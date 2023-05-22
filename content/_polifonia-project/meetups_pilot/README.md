@@ -1,27 +1,29 @@
 ---
-component-id: meetups-knowledge-extraction
-name: MEETUPS Knowledge Extraction
-brief-description: Dataset for experiments within the MEETUPS Pilot
-type: Software
-release-date: 20/07/2022
-release-number: v0.1
+container-id: meetups-pilot
+name: Musical MEETUPS
+type: Project
+description: MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups
 work-package: 
 - WP4
 pilot:
 - MEETUPS
-licence: Apache 2.0
-related-component:
+project: polifonia-project
+bibliography:
+- main-publication: "Morales Tirado, Alba; Carvalho, Jason; Mulholland, Paul and Daga, Enrico (2023). Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis. In: Proceedings of the ESWC 2023 Workshops and Tutorials, Semantic Methods for Events and Stories (SEMMES)."
+funder:
+  - name: European Commission H2020
+    url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020
+credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746. The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains."
+has-part:
+- meetups-knowledge-graph
+- meetups-ontology
 - meetups-data-cleaning
 - meetups-themes
 - meetups-entity-recognition
 - meetups-time-extraction
 - meetups-corpus-collection
-release link:
-- https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.1
-credits:
-- https://github.com/albamoralest
-- https://github.com/enridaga
 ---
+
 # MEETUPS PILOT
 
 [![DOI](https://zenodo.org/badge/436452967.svg)](https://zenodo.org/badge/latestdoi/436452967)

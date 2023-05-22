@@ -1,29 +1,29 @@
 ---
 component-id: meetups-data-cleaning
-name: MEETUPS preparation - data cleaning
-brief-description: This tool is part of the corpus preparation process and it is used to clean data collected from Wikipedia. 
 type: Software
-release-date: 20/07/2022
-release-number: v0.1
+name: MEETUPS preparation - data cleaning
+description: "This tool is part of the corpus preparation process and it is used to clean data collected from Wikipedia."
 work-package:
 - WP4
 pilot:
 - MEETUPS
-keywords:
-- Wikipedia
-- Music
+project: polifonia-project
+resource: https://github.com/polifonia-project/meetups_pilot/blob/main/01_CleaningText.ipynb
+release-date: 20/07/2022
+release-number: v0.1
+release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
+doi: https://zenodo.org/badge/latestdoi/436452967
+changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
 licence: Apache 2.0
+copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
+contributors:
+- Alba Morales Tirado <https://github.com/albamoralest>
+- Enrico Daga <https://github.com/enridaga>
 related-component:
-- meetups-data-cleaning
-- meetups-themes
-- meetups-entity-recognition
-- meetups-time-extraction
-- meetups-corpus-collection
-release link:
-  - https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.1
-credits:
-  - https://github.com/albamoralest
-  - https://github.com/enridaga
+- persona:
+  - Ortenz
+  - David
+  - Sophie
 ---
 
 # MEETUPS Corpus preparation: data cleaning
@@ -65,4 +65,4 @@ MEETUPS data cleaning is a tool developed using Python and Jupyter Notebook. Thi
 
 DOI:
 
-    TODO
+[![DOI](https://zenodo.org/badge/436452967.svg)](https://zenodo.org/badge/latestdoi/436452967)

@@ -1,31 +1,28 @@
 ---
 component-id: meetups-time-extraction
+type: Software
 name: MEETUPS - Identification of temporal knowledge
 brief-description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find time expressions. It uses NLTK and a set of heuristic rules to identify and annotate temporal knowledge from text. The tool extracts information from one out of the four elements that define a meetup: the date or moment in time when it happened (when). Time expressions, along with data of the people involved (who), the place (where) and the event that took place (what), complete the historical meetup information."
-type: Software
-release-date: 20/07/2022
-release-number: v0.1
 work-package:
 - WP4
 pilot:
 - MEETUPS
-keywords:
-- Wikipedia
-- Music
-- Natural Language processing
-- Time expressions
+project: polifonia-project
+resource: https://github.com/polifonia-project/meetups_pilot/blob/main/03_Identify_TimeE.ipynb
+release-date: 20/07/2022
+release-number: v0.1
+release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
+doi: https://zenodo.org/badge/latestdoi/436452967
+changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
 licence: Apache 2.0
+copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
+contributors:
+- Alba Morales Tirado <https://github.com/albamoralest>
+- Enrico Daga <https://github.com/enridaga>
 related-component:
-- meetups-data-cleaning
-- meetups-themes
-- meetups-entity-recognition
-- meetups-time-extraction
-- meetups-corpus-collection
-release link:
-  - https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.1
-credits:
-  - https://github.com/albamoralest
-  - https://github.com/enridaga
+- informed-by: 
+  - meetups-data-cleaning
+  - meetups-corpus-collection
 ---
 
 # MEETUPS 
