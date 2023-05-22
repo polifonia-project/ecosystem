@@ -1,0 +1,65 @@
+- container-id:
+  label: container identifier
+  description: Local identifier of the container
+- type:
+  label: container type
+  description: "The type of container (Project, WorkPackage, ...)"
+- name:
+  label: container name
+  description: "The container name"
+- description:
+  label: description
+  description: A text describing the component
+- image:
+  label: image
+  description: "Link to one reference image illustrating the component"
+- logo:
+  label: logo
+  description: "Logo of the component in Web format. Accepted image formats are JPEG and PNG."
+- funder:
+  label: funder
+  description: "The name of the funding body of the project and the URL"
+  terms:
+  - name:
+    label: name
+    description: "The name of the funder"
+  - url:
+    label: url
+    description: "Link to the funder organisation web site"
+  - grant-agreement:
+    label: grant agreement
+    description: "Identifier of the grant agreement relative to the funding organisation"
+- credits:
+  label: credits
+  description: "Credits statement"
+- work-package:
+  label: "work package"
+  description: "The work package associated to this component, if any."
+- pilot:
+  label: pilot
+  description: "A pilot application or case study"
+- project:
+  label: project
+  description: "The local id of the project"
+- bibliography:
+  label: bibliography
+  description: "List of bibliographic references that are relevant to the container (activity)"
+  terms:
+  - main-publication:
+    label: "main publication"
+    description: "The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead)."
+  - publication:
+    label: publication
+    description: "A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead)."
+  - report:
+    label: "technical report"
+    description: "A document related to this component (if peer-reviewed publication, use publication instead)."
+  - main-report:
+    label: "main technical report"
+    description: "The primary document related to this research (if peer-reviewed publication, use scientific-work instead)."
+  - deliverable-document:
+    label: "deliverable document"
+    description: "Link to the deliverable document related to this activity"
+- has-part:
+  label: "has part"
+  description: "List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component"

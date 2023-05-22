@@ -1,0 +1,9 @@
+{% if include.value.first %}
+<ul>
+  {% for val in include.value %}
+    <li>{% include reeco-value.html key=include.key value=val %}
+  {% endfor %}
+</ul>
+{% else %}
+  {% include reeco-value.html key=include.key value=include.value %}
+{% endif %}

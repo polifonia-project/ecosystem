@@ -1,0 +1,13 @@
+   {% case include.key %}
+        {% when "pilot" %}
+    <a href="{{ include.value | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{include.value}}</a>
+        {% when "work-package" %}
+    <a href="{{ include.value | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{include.value}}</a>
+        {% else %}
+          {% assign islink = include.value | slice: 0,4 %}
+          {% if islink == "http" %}
+    <span class=""><a href="{{include.value}}">{{include.value}}</a></span>
+          {% else %}
+    <span class="">{{include.value}}</span>
+          {% endif %}
+   {% endcase %}

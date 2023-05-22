@@ -2,20 +2,20 @@
 layout: default
 ---
 
-<button onclick="toggleMetaData()">Toggle metadata</button>
+<button onclick="toggleMetaData()">View Metadata</button>
 <div class="annotation-schema" id="schema">
-<table>
+<!-- <table>
 {% for tup in site.data.schema %}
   {% assign key = tup.first[0] %}
   {% if key == "id" %} {% continue %} {% endif %}
   {% if page[key] %}
- <tr>  
+ <tr>
   <th>
-	{{ key | replace:'-',' ' | capitalize }}
-  </th> 
-  <td>  
-	{% for item in page[key] %}
-	  {% assign k = key | downcase %}
+    {{ key | replace:'-',' ' | capitalize }}
+  </th>
+  <td>
+    {% for item in page[key] %}
+      {% assign k = key | downcase %}
       {% case k %}
         {% when "wp" %}
     <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
@@ -35,9 +35,47 @@ layout: default
   {% endif %}
  </tr>
 {% endfor%}
+</table> -->
+	
+<table>
+  <!-- USE CONTAINER TEMPLATE -->
+  {% for term in site.data.container %}
+    {% assign k = term.first[0] %}
+    {% if page[k] %}
+      {% assign item = page[k] %}
+  <tr>
+      {% if term['terms'] %}
+      <th>{{ term['label'] | capitalize }}</th>
+      <!-- Sub-terms -->
+      <td>
+        {% for subitem in item %}
+          
+          {% for subt in term['terms'] %}
+            {% assign subk = subt.first[0] %}
+              {% if subitem[subk] %}
+        <p><strong>{{ subt['label'] | capitalize }}</strong>:
+               {% assign subv = subitem[subk] %}
+               {% include reeco-values.html key=subk value=subv %}
+             {% endif %}
+          {% endfor %}
+          
+        {% endfor %}
+      </td>
+      {% else %}
+      <!-- No sub-terms -->
+      <th>{{term['label'] | capitalize}}</th>
+      <td>{% include reeco-values.html key=k value=item %}</td>
+      {% endif %}
+  </tr>
+    {% endif %}
+  {% endfor %}
+
+  {% if page['component-id'] %}
+  <!-- USE COMPONENT TEMPLATE -->
+ <tr><th>Component ID</th><td>{{page['component-id']}}</td></tr>
+  {% endif %}
 </table>
-	
-	
+
 <!-- <ul>
   {% for tup in site.data.schema %}
 {% assign key = tup.first[0] %}
