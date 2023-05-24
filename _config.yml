@@ -60,6 +60,8 @@ collections_dir: content/
 collections:
     polifonia-project:
         output: true
+    project:
+        output: true
 #
 # stories:
 #     output: true
@@ -102,10 +104,12 @@ defaults:
     values:
       layout: component
   - scope:
+      type: project
       path: pages/work-packages
     values:
       identifier: "wppage"
   - scope:
+      type: project
       path: pages/pilots
     values:
       identifier: "pilotpage"

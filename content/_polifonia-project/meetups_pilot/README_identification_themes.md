@@ -14,7 +14,8 @@ release-number: v0.1
 release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
 doi: https://zenodo.org/badge/latestdoi/436452967
 changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
-licence: Apache 2.0
+licence:
+- Apache-2.0
 copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
 contributors:
 - Alba Morales Tirado <https://github.com/albamoralest>

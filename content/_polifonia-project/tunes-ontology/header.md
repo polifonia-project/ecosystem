@@ -24,16 +24,16 @@ contributors: # replace these with the GitHub URL of each contributor
 - Peter van Kranenburg <https://github.com/pvankranenburg>
 related-components:
 - informed-by:
-  - https://github.com/polifonia-project/polifoniacq-dataset
+  - polifoniacq-dataset
 - reuses:  # any reused/imported ontology
-  - https://github.com/polifonia-project/core/
+  - https://w3id.org/polifonia/ontology/core/
 - story:  # any related story this ontology addresses
-  - https://github.com/polifonia-project/stories/blob/main/Mark_Computational_Musicologist/Mark%231_FolkMusic.md
+  - Mark#1_FolkMusic
 - persona:  # any persona this ontology addresses
-  - https://github.com/polifonia-project/stories/tree/main/Mark_Computational_Musicologist
-- documentation:  # link any resource providing documentation for this ontology
-  - https://polifonia-project.github.io/tunes-ontology/
+  - Mark
 ---
+<!-- - documentation:  # link any resource providing documentation for this ontology
+  - https://polifonia-project.github.io/tunes-ontology/ -->
 
 # Tunes Ontology
 

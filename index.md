@@ -60,29 +60,34 @@ The Polifonia Project delivers its results as reusable assets, alongside an exte
 
 ## Summary
 
-{% assign types_data = "Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
+{% assign types_activity = "Container,Project,WorkingGroup,WorkPackage,Task,UseCase,Pilot" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"types_activity contains item.type" | size %}
+<a href="activities.html">Activities</a>: {{ncomponents}}
+
+{% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"types_data contains item.type" | size %}
 <a href="data.html">Data</a>: {{ncomponents}}
 
-{% assign software_data = "Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
+{% assign software_data = "Software,Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"software_data contains item.type" | size %}
 <a href="software.html">Software</a>: {{ncomponents}}
 
-{% assign apps_data = "Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}
+{% assign apps_data = "Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"apps_data contains item.type" | size %}
 <a href="application.html">Application</a>: {{ncomponents}}
 
-{% assign report_data = "RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}
+{% assign report_data = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"report_data contains item.type" | size %}
 <a href="report.html">Report</a>: {{ncomponents}}
 
+
+{% comment %}
 #### All types
 {% for type in types %}
 {% assign ncomponents =  site.documents  | where: 'type', type | size %}
 {% if ncomponents > 0 %} {{ type }}: {{ ncomponents }} {% endif %}
 {% endfor %}
 
-{% comment %}
 ## List of components 
 {% for type in types %}
 {% if type != "" %}

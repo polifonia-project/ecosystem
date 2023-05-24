@@ -25,22 +25,22 @@ contributors: # replace these with the GitHub URL of each contributor
 - Jacopo de Berardinis <https://github.com/jonnybluesman>
 related-components:
 - informed-by:
-  - https://github.com/polifonia-project/polifoniacq-dataset
+  - polifoniacq-dataset
 - reuses:  # any reused/imported ontology
-  - https://github.com/polifonia-project/core/
+  - https://w3id.org/polifonia/ontology/core/
 - story:  # any related story this ontology addresses
-  - https://github.com/polifonia-project/stories/blob/main/Carolina_Music_Historian/Carolina%231_SourcesCrossAnalysis.md
-  - https://github.com/polifonia-project/stories/blob/main/Keoma_Architect/Keoma%231_RestorationAndSoundPractices.md
-  - https://github.com/polifonia-project/stories/blob/main/Ortenz_Music_Historian/Ortenz%231_MusicAndChildhood.md
-  - https://github.com/polifonia-project/stories/blob/main/Sonia_Playlist_User/Sonia%231_ExplorationMode.md
+  - Carolina#1_SourcesCrossAnalysis
+  - Keoma#1_RestorationAndSoundPractices
+  - Ortenz#1_MusicAndChildhood
+  - Sonia#1_ExplorationMode
 - persona:  # any persona this ontology addresses
-  - https://github.com/polifonia-project/stories/tree/main/Keoma_Architect
-  - https://github.com/polifonia-project/stories/tree/main/Carolina_Music_Historian
-  - https://github.com/polifonia-project/stories/tree/main/Sonia_Playlist_User
-  - https://github.com/polifonia-project/stories/tree/main/Ortenz_Music_Historian
-- documentation:  # link any resource providing documentation for this ontology
-  - https://github.com/polifonia-project/source-ontology
+  - Keoma
+  - Carolina
+  - Sonia
+  - Ortenz
 ---
+<!-- - documentation:  # link any resource providing documentation for this ontology
+  - https://github.com/polifonia-project/source-ontology -->
 
 # Source Ontology
 

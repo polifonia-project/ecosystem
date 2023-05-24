@@ -11,12 +11,15 @@ permalink: /software.html
 # Software
 
 ## List of components 
-{% assign software_data = "Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
+{% assign software_data = "Software,Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
 {% for type in software_data %}
 {% if type != "" %}
-### {{ type }} ({{ site.documents  | where: 'type',type | size }})
+{% assign numberOf = site.documents  | where: 'type',type | size %}
+{% if numberOf > 0 %}
+### {{ type }} ({{numberOf}})
 	{% assign components =  site.documents  | where: 'type',type %}
 	{% for component in components %}
-- [{{ component.name }}]({{ component.url | relative_url }})	{% endfor %}	
+- [{% if component.name %}{{ component.name }}{%else%}{{ component.component-id}} {%endif%}]({{ component.url | relative_url }})	{% endfor %}	
+{% endif %}
 {% endif %}
 {% endfor %}

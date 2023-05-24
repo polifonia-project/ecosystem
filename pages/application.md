@@ -11,12 +11,15 @@ permalink: /application.html
 # Application
 
 ## List of components 
-{% assign apps_data = "Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}
+{% assign apps_data = "Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}
 {% for type in apps_data %}
 {% if type != "" %}
-### {{ type }} ({{ site.documents  | where: 'type',type | size }})
+{% assign numberOf = site.documents  | where: 'type',type | size %}
+{% if numberOf > 0 %}
+### {{ type }} ({{numberOf}})
 	{% assign components =  site.documents  | where: 'type',type %}
 	{% for component in components %}
-- [{{ component.name }}]({{ component.url | relative_url }})	{% endfor %}	
+- [{% if component.name %}{{ component.name }}{%else%}{{ component.component-id}} {%endif%}]({{ component.url | relative_url }})	{% endfor %}	
+{% endif %}
 {% endif %}
 {% endfor %}
