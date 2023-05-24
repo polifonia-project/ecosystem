@@ -57,15 +57,22 @@ However, the possible connections between ecosystem components don’t necessari
 The Polifonia Project delivers its results as reusable assets, alongside an extensive metadata set and documentation. This is the Polifonia Ecosystem.
 {% endcomment %} 
 {% assign types =  site.documents  | map: 'type' | join: ','  | split: ',' | uniq | sort %}
-{% comment %}
+
 ## Summary
+
+
+{% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"types_data contains item.type" | size %}
+<a href="data.html">Data</a>: {{ncomponents}}
+
+
+
+#### All types
 {% for type in types %}
-{% if type != "" %}
 {% assign ncomponents =  site.documents  | where: 'type',type | size %}
 {% if ncomponents > 0 %} {{ type }}: {{ ncomponents }} {% endif %}
-{% endif %}
 {% endfor %}
-{% endcomment %} 
+
 ## List of components 
 {% for type in types %}
 {% if type != "" %}
