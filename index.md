@@ -60,19 +60,29 @@ The Polifonia Project delivers its results as reusable assets, alongside an exte
 
 ## Summary
 
-
-{% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
+{% assign types_data = "Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"types_data contains item.type" | size %}
 <a href="data.html">Data</a>: {{ncomponents}}
 
+{% assign software_data = "Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"software_data contains item.type" | size %}
+<a href="software.html">Software</a>: {{ncomponents}}
 
+{% assign apps_data = "Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"apps_data contains item.type" | size %}
+<a href="application.html">Application</a>: {{ncomponents}}
+
+{% assign report_data = "RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"report_data contains item.type" | size %}
+<a href="report.html">Report</a>: {{ncomponents}}
 
 #### All types
 {% for type in types %}
-{% assign ncomponents =  site.documents  | where: 'type',type | size %}
+{% assign ncomponents =  site.documents  | where: 'type', type | size %}
 {% if ncomponents > 0 %} {{ type }}: {{ ncomponents }} {% endif %}
 {% endfor %}
 
+{% comment %}
 ## List of components 
 {% for type in types %}
 {% if type != "" %}
@@ -82,4 +92,4 @@ The Polifonia Project delivers its results as reusable assets, alongside an exte
 - [{{ component.name }}]({{ component.url | relative_url }})	{% endfor %}	
 {% endif %}
 {% endfor %}
-
+{% endcomment %}

@@ -1,18 +1,18 @@
 ---
-id: data
-name: Components of type Data
-description: List of components of type data
+id: software
+name: Components of type Software
+description: List of components of type software
 layout: default
-title: Data
-nav_order: 12
-permalink: /data.html
+title: Software
+nav_order: 13
+permalink: /software.html
 ---
 
-# Data
+# Software
 
 ## List of components 
-{% assign types_data = "Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
-{% for type in types_data %}
+{% assign software_data = "Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
+{% for type in software_data %}
 {% if type != "" %}
 ### {{ type }} ({{ site.documents  | where: 'type',type | size }})
 	{% assign components =  site.documents  | where: 'type',type %}

@@ -4,8 +4,8 @@ name: "ACCESS: Perceiving music with your body"
 description: Making musical performances accessible to people with disabilities
 type: Pilot
 work-package: 
-- WP1
-- WP5
+  - WP1
+  - WP5
 project: polifonia-project
 funder:
   - name: Horizon 2020 Framework Programme
