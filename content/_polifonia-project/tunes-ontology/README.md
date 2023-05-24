@@ -41,7 +41,7 @@ WHERE { ?artist mm:isComposerOf ?musicEntity .
 GROUP BY ?artist ?collection
 ```
 
-## Related ontologies
+## Imported ontologies
 
 ### Direct imports
 - [Music-Meta Ontology](https://w3id.org/polifonia/ontology/music-meta/)

@@ -1,5 +1,5 @@
 ---
-id: LHARP
+component-id: LHARP
 name: Local Harmonic Agreement based on Recurrent Patterns
 brief-description: A method for computing harmonic similarity from symbolic sequences, based on shared recurring harmonic structures.
 type: Repository
@@ -11,7 +11,8 @@ keywords:
   - patterns
   - chords
 changelog: n/a.
-licence: CC-BY-NC 4.0
+licence:
+- CC-BY-NC_v4
 release link: n/a.
 image: n/a.
 logo: n/a.

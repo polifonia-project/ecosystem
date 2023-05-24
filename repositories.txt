@@ -8,8 +8,6 @@ polifonia-project/documentary-evidence-benchmark:branches:main
 polifonia-project/ontology-network:branches:main
 polifonia-project/stories:branches:main
 polifonia-project/textual-corpus-population:branches:main
-polifonia-project/meetups_pilot:branches:main
-polifonia-project/meetups_corpus_collection:branches:main
 polifonia-project/polifonia-lexicon:branches:master
 polifonia-project/dashboard:branches:main
 polifonia-project/web_portal:branches:main
@@ -17,8 +15,10 @@ polifonia-project/licences:branches:main
 polifonia-project/Polifonia-Corpus-Web-API:branches:main
 polifonia-project/music-analysis-ontology:branches:main
 polifonia-project/tonalities_pilot:branches:main
-polifonia-project/meetups-knowledge-graph:tag:v0.2
-polifonia-project/meetups-ontology:tag:v0.1
+polifonia-project/meetups-knowledge-graph:branches:main
+polifonia-project/meetups_pilot:branches:main
+polifonia-project/meetups_corpus_collection:branches:main
+polifonia-project/meetups-ontology:branches:main
 polifonia-project/meetups-application:branches:main
 polifonia-project/meetups-ui-design:branches:main
 polifonia-project/ontology-network:branches:main

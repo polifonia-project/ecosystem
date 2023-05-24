@@ -3,40 +3,8 @@ layout: default
 ---
 
 <button onclick="toggleMetaData()">View Metadata</button>
-<div class="annotation-schema" id="schema">
-<!-- <table>
-{% for tup in site.data.schema %}
-  {% assign key = tup.first[0] %}
-  {% if key == "id" %} {% continue %} {% endif %}
-  {% if page[key] %}
- <tr>
-  <th>
-    {{ key | replace:'-',' ' | capitalize }}
-  </th>
-  <td>
-    {% for item in page[key] %}
-      {% assign k = key | downcase %}
-      {% case k %}
-        {% when "wp" %}
-    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
-        {% when "pilot" %}
-    <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
-        {% when "work-package" %}
-    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
-        {% else %}
-          {% assign islink = item | slice: 0,4 %}
-          {% if islink == "http" %}
-    <span class=""><a href="{{item}}">{{item}}</a></span>
-          {% else %}
-    <span class="">{{item}}</span>
-          {% endif %}
-       {% endcase %}
-    {% endfor %}
-  {% endif %}
- </tr>
-{% endfor%}
-</table> -->
-	
+<div class="annotation-schema" id="schema" style="display:none">
+
 <table>
 
   {% if page['component-id'] %}
@@ -49,7 +17,7 @@ layout: default
   {% endif %}
      
   {% for term in metadata_terms %}
-    {% assign k = term.first[0] %}
+    {% assign k = term.term %}
     {% if page[k] %}
       {% assign item = page[k] %}
   <tr>
@@ -60,7 +28,7 @@ layout: default
         {% for subitem in item %}
           
           {% for subt in term['terms'] %}
-            {% assign subk = subt.first[0] %}
+            {% assign subk = subt.term %}
               {% if subitem[subk] %}
         <p><strong>{{ subt['label'] | capitalize }}</strong>:
                {% assign subv = subitem[subk] %}
@@ -87,7 +55,7 @@ layout: default
 {% assign ghLinkBefore = page.id | split: "/" %}
 {% capture ghLinkBefore %}{{ ghLinkParts[1] }}/{{ ghLinkParts[2] }}/{% endcapture %}
 {% assign ghLinkAfter = page.id | replace: ghLinkBefore, "" %}
-{% capture ghLink %}{{ ghLinkBefore }}blob/master{{ ghLinkAfter }}{% endcapture %}
+{% capture ghLink %}{{ ghLinkBefore }}blob/main{{ ghLinkAfter }}{% endcapture %}
   <a href="https://github.com/{{ ghLink | replace: "#", "%23"}}.md">View this file on Github</a>
 
 </div>

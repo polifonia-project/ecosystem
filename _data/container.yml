@@ -1,65 +1,446 @@
-- container-id:
-  label: container identifier
+- _position: 1
+  constraint: Y
   description: Local identifier of the container
-- type:
+  domain:
+  - Container
+  example-values:
+  - 'container-id: my-open-source-project'
+  label: container identifier
+  mandatory: Y
+  regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
+  ro-crate: '@ id '
+  scope: Container
+  term: container-id
+  unique: Y
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 2
+  constraint: Y
+  description: The type of container (Project, WorkPackage, ?)
+  domain:
+  - Container
+  example-values:
+  - 'type: Project'
   label: container type
-  description: "The type of container (Project, WorkPackage, ...)"
-- name:
+  mandatory: Y
+  scope: Container
+  term: type
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 3
+  constraint: N
+  description: The container name
+  domain:
+  - Container
+  example-values:
+  - 'name: "A short project name"'
   label: container name
-  description: "The container name"
-- description:
+  mandatory: Y
+  ro-crate: name
+  scope: Container
+  term: name
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 4
+  constraint: N
+  description: A text describing the component
+  domain:
+  - Container
+  example-values:
+  - 'description: "A longer description of a project, activity, or task."'
   label: description
-  description: A text describing the activity
-- image:
+  mandatory: Y
+  ro-crate: description
+  schema: 'https://schema.org/abstract '
+  scope: Container
+  spar: dcterms:description
+  term: description
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 5
+  constraint: N
+  description: Link to one reference image illustrating the component
+  domain:
+  - Container
+  example-values:
+  - 'image: "http://www.example.org/image.jpg"'
   label: image
-  description: "Link to one reference image illustrating the activity"
-- logo:
+  mandatory: N
+  ro-crate: image
+  schema: https://schema.org/image
+  scope: Container
+  spar: cito:isDocumentedBy
+  term: image
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 6
+  constraint: Y
+  description: Logo of the component in Web format. Accepted image formats are JPEG
+    and PNG.
+  domain:
+  - Container
+  example-values:
+  - 'logo: "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"'
   label: logo
-  description: "Logo of the activity in Web format. Accepted image formats are JPEG and PNG."
-- funder:
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: logo
+  schema: https://schema.org/logo
+  scope: Container
+  term: logo
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 7
+  constraint: N
+  description: The name of the funding body of the project and the URL
+  domain:
+  - Container
+  example-values:
+  - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+    - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
   label: funder
-  description: "The name of the funding body of the project and the URL"
+  mandatory: N
+  ro-crate: funder[Organization]
+  schema: https://schema.org/funder
+  scope: Container
+  spar: "frapo:isOutputOf (Investigation) \n> frapo:isEnabledBy (Project) \n> frapo:isFundedBy\
+    \ (Grant) \n> frapo:isAwardedBy (Funding Agency) "
+  term: funder
   terms:
-  - name:
-    label: name
-    description: "The name of the funder"
-  - url:
-    label: url
-    description: "Link to the funder organisation web site"
-  - grant-agreement:
+  - &id001
+    _position: 8
+    constraint: N
+    description: The name of the funder
+    domain:
+    - Container
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
+    label: funder name
+    mandatory: N
+    ro-crate: funder[Organization]/name
+    scope: Container
+    super-term: funder
+    term: name
+    unique: N
+    xsd-datatype:
+    - string
+    yaml-type: String
+  - &id002
+    _position: 9
+    constraint: Y
+    description: Link to the funder organisation web site
+    domain:
+    - Container
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
+    label: funder URL
+    mandatory: N
+    regex: ^http[s]?://.+$
+    ro-crate: funder[Organization]/url
+    scope: Container
+    super-term: funder
+    term: url
+    unique: N
+    xsd-datatype:
+    - anyURI
+    yaml-type: String
+  - &id003
+    _position: 10
+    constraint: N
+    description: Identifier of the grant agreement relative to the funding organisation
+    domain:
+    - Container
+    example-values:
+    - "funder:\n- name: H2020\n  url: www.example.org\n  grant-agreement: ABC123456\n\
+      - name: AHRC\n  url: www.another.org\n  grant-agreement: ABC234"
     label: grant agreement
-    description: "Identifier of the grant agreement relative to the funding organisation"
-- credits:
+    mandatory: N
+    ro-crate: funder[Organization]/funding[Grant]/identifier
+    schema: https://schema.org/funding
+    scope: Container
+    spar: "frapo:isOutputOf (Investigation) \n> frapo:isEnabledBy (Project) \n> frapo:isFundedBy\
+      \ (Grant) \n> frapo:hasGrantNumber "
+    super-term: funder
+    term: grant-agreement
+    unique: N
+    xsd-datatype:
+    - string
+    yaml-type: String
+  unique: N
+  yaml-type: List.Dictionary
+- *id001
+- *id002
+- *id003
+- _position: 11
+  constraint: N
+  description: Credits
+  domain:
+  - Container
+  example-values:
+  - 'credits: "This project was funded by the European Union"'
   label: credits
-  description: "Credits statement"
-- work-package:
-  label: "work package"
-  description: "The work package associated to this component, if any."
-- pilot:
+  mandatory: N
+  scope: Container
+  term: credits
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 12
+  constraint: Y
+  description: Specifies whether this yaml file is the reference file for creating
+    a RO crate.
+  domain:
+  - Container
+  enum:
+  - 'true'
+  - 'false'
+  example-values:
+  - 'ro-crate: true'
+  label: ro crate
+  mandatory: N
+  ro-crate: isPartOf
+  scope: Container
+  term: ro-crate
+  unique: N
+  xsd-datatype:
+  - boolean
+  yaml-type: Boolean
+- _position: 13
+  constraint: N
+  description: The work package associated to this component, if any.
+  domain:
+  - Container
+  example-values:
+  - 'work-package:
+
+    - WP1
+
+    - WP5'
+  label: "work \npackage"
+  mandatory: N
+  ro-crate: isPartOf
+  schema: https://schema.org/isPartOf
+  scope: Container
+  spar: frbr:partOf
+  term: work-package
+  unique: N
+  xsd-datatype:
+  - 'string '
+  yaml-type: List.String
+- _position: 14
+  constraint: N
+  description: A pilot application or case study
+  domain:
+  - Container
+  example-values:
+  - '- MEETUPS
+
+    - BELLS'
   label: pilot
-  description: "A pilot application or case study"
-- project:
+  mandatory: N
+  ro-crate: isPartOf
+  schema: https://schema.org/isPartOf
+  scope: Container
+  spar: frbr:partOf
+  term: pilot
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 15
+  constraint: Y
+  description: The local id of the project
+  domain:
+  - Container
+  example-values:
+  - '- polifonia'
   label: project
-  description: "The local id of the project"
-- bibliography:
+  mandatory: N
+  ro-crate: isPartOf
+  scope: Container
+  term: project
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 16
+  constraint: N
+  description: List of bibliographic references that are relevant to the container
+    (activity)
+  domain:
+  - Container
+  example-values:
+  - "bibliography:\n  - main-publication: \"7. Wang, Y., & Chen, X. (2013). A Novel\
+    \ Approach for Cloud Computing Security Using Homomorphic Encryption. Communications\
+    \ in Computer and Information Science, 50(1), 67-73.\"\n  - technical-report:\n\
+    \    - \"8. Li, J., & Yang, S. (2012). A New Algorithm for Text Classification\
+    \ Based on Support Vector Machines. Technical Report: Computer Science and Information\
+    \ Security, 7(4), 23-30.\"\n  - deliverable-document: \n    - \"Zhang, H., & Liu,\
+    \ Y. (2011). A Survey of Data Mining Techniques in Financial Analysis. Computer\
+    \ Science Project, 6(3), 12-18.\" "
   label: bibliography
-  description: "List of bibliographic references that are relevant to the container (activity)"
+  mandatory: N
+  ro-crate: cito:citesForInformation
+  schema: https://schema.org/citation
+  scope: Container
+  spar: cito:isCreditedBy
+  term: bibliography
   terms:
-  - main-publication:
-    label: "main publication"
-    description: "The primary, peer reviewed scientific publication related to this research (if non peer-reviewed, use technical-report instead)."
-  - publication:
+  - &id004
+    _position: 17
+    constraint: N
+    description: The primary, peer reviewed scientific publication related to this
+      research (if non peer-reviewed, use technical-report instead).
+    domain:
+    - Container
+    example-values:
+    - 'bibliography:
+
+      - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child
+      Development. Child Development Perspectives, 13(3), 145-153."
+
+      '
+    label: "main \npublication"
+    mandatory: N
+    ro-crate: cito:isReferencedBy
+    scope: Container
+    super-term: bibliography
+    term: main-publication
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: String
+  - &id005
+    _position: 18
+    constraint: N
+    description: A peer reviewed scientific publication related to this component
+      (if non peer-reviewed, use technical-report instead).
+    domain:
+    - Container
+    example-values:
+    - "bibliography:\n- publication: \n  - \"Smith, J. (2020). The Impact of Social\
+      \ Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2),\
+      \ 45-62.\""
     label: publication
-    description: "A peer reviewed scientific publication related to this component (if non peer-reviewed, use technical-report instead)."
-  - report:
-    label: "technical report"
-    description: "A document related to this component (if peer-reviewed publication, use publication instead)."
-  - main-report:
-    label: "main technical report"
-    description: "The primary document related to this research (if peer-reviewed publication, use scientific-work instead)."
-  - deliverable-document:
-    label: "deliverable document"
-    description: "Link to the deliverable document related to this activity"
-- has-part:
-  label: "has part"
-  description: "List of components or containers that are parts of this container. Refer to components with organisation, repo and local id of the component"
+    mandatory: N
+    ro-crate: cito:isReferencedBy
+    scope: Container
+    super-term: bibliography
+    term: publication
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: String
+  - &id006
+    _position: 19
+    constraint: N
+    description: A document related to this component (if peer-reviewed publication,
+      use publication instead).
+    domain:
+    - Container
+    example-values:
+    - "bibliography:\n- report: \n  - \"Smith, J. (2020). The Impact of Social Media\
+      \ on Mental Health. Technical Report.\""
+    label: technical report
+    mandatory: N
+    scope: Container
+    super-term: bibliography
+    term: report
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: List.String
+  - &id007
+    _position: 20
+    constraint: N
+    description: The primary document related to this research (if peer-reviewed publication,
+      use scientific-work instead).
+    domain:
+    - Container
+    example-values:
+    - "bibliography:\n- main-report: \n  - \"Smith, J. (2020). The Impact of Social\
+      \ Media on Mental Health. Technical Report.\""
+    label: main technical report
+    mandatory: N
+    ro-crate: cito:isDocumentedBy
+    scope: Container
+    super-term: bibliography
+    term: main-report
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: String
+  - &id008
+    _position: 21
+    constraint: N
+    description: Link to the deliverable document related to this activity
+    domain:
+    - Container
+    example-values:
+    - "bibliography:\n- deliverable-document: \n  - \"Smith, J. (2020). The Impact\
+      \ of Social Media on Mental Health. Technical Report.\""
+    label: deliverable document
+    mandatory: N
+    ro-crate: cito:isDocumentedBy
+    schema: https://schema.org/subjectOf
+    scope: Container
+    spar: cito:isDocumentedBy
+    super-term: bibliography
+    term: deliverable-document
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: List.String
+  unique: N
+  xsd-datatype:
+  - string
+  - ' anyURI'
+  yaml-type: List.Dictionary
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- _position: 22
+  constraint: Y
+  description: List of components or containers that are parts of this container.
+    Refer to components with organisation, repo and local id of the component
+  domain:
+  - Container
+  example-values:
+  - 'has-part:
+
+    - polifonia/musow/my-dataset
+
+    - polifonia/meetups/my-dataset
+
+    - other/repo/my-dataset'
+  label: has part
+  mandatory: N
+  regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
+  ro-crate: 'hasPart '
+  scope: Container
+  term: has-part
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String

@@ -1,5 +1,5 @@
 ---
-container-id: sparql-anything-tutorials
+component-id: sparql-anything-tutorials
 type: Tutorial
 name: "SPARQL Anything: Tutorials"
 description: a collection of tutorials to introduce users to SPARQL Anything

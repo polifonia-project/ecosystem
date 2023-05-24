@@ -1,26 +1,40 @@
 ---
 component-id: meetups-knowledge-graph
+type: KnowledgeGraph
 name: MEETUPS Knowledge Graph
-brief-description: MEETUPS Knowledge Graph module with data on historical meetups and related to MEETUPS Pilot
-type: Repository
-release-date: 20/07/2022
-release-number: v0.1
+description: MEETUPS Knowledge Graph module with data on historical meetups and related to MEETUPS Pilot
 work-package:
 - WP4
 pilot:
 - MEETUPS
-licence: CC BY
-related-component:
-- meetups-data-cleaning
-- meetups-themes
-- meetups-entity-recognition
-- meetups-time-extraction
-- meetups-corpus-collection
-release link:
-- https://github.com/polifonia-project/meetups-knowledge-graph/releases/tag/v0.1
+project: polifonia-project
+resource: https://github.com/polifonia-project/meetups-knowledge-graph/
+release-date: 20/07/2022
+release-number: v0.1
+release link: https://github.com/polifonia-project/meetups-knowledge-graph/releases/tag/v0.1
+doi: https://zenodo.org/badge/latestdoi/588597123
+changelog: https://github.com/polifonia-project/meetups-knowledge-graph/releases/tag/v0.1
+licence:
+- CC-BY_v4
+copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
+contributors:
+- Alba Morales Tirado <https://github.com/albamoralest>
+- Enrico Daga <https://github.com/enridaga>
+- Jason Carvalho <https://github.com/JaseMK>
 credits:
 - https://github.com/albamoralest
 - https://github.com/enridaga
+related components:
+- informed-by: 
+  - meetups-ontology
+  - meetups-corpus-collection
+- persona:
+  - Ortenz
+  - David
+  - Sophie
+- reuses:
+  - sparql-anything-java
+  - sparql-anything-cli
 ---
 
 # MEETUPS Knowledge Graph
@@ -36,7 +50,7 @@ All the data is extracted from artists' biographies, mainly from open-access dig
 A total of 33,309 biographies were collected for knowledge extraction and construction of the KG.
 Currently, the KG contains data on the data extraction of 1000 biographies in the next deliverable. The KG will include data on the total number of biographies collected.
 
-## Competency questions related to MEETUPS ontology module
+## Competency questions related to MEETUPS knowledge graph 
 Ortenz
 - What places did musician Z visited in her career?
 - Where did she perform?
