@@ -1,9 +1,36 @@
 ---
+container-id: polifonia-project
+type: Project
+work-package:
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
+- WP8
+pilot:
+- TUNES
+- BELLS
+- INTERLINK
+- MUSICBO
+- TONALITIES
+- MEETUPS
+- CHILD
+- ORGANS
+- ACCESS
+- FACETS
+funder:
+  - name: Horizon 2020 Framework Programme
+    url: https://cordis.europa.eu/programme/id/H2020-EC
+    grant-agreement: "https://cordis.europa.eu/project/id/101004746"
+credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746."
 layout: default
 title: Home
 nav_order: 0
 permalink: /
-ecosystem-release: v1.1
+ecosystem-release: v2.0
 ---
 
 # Polifonia Ecosystem ({{ page.ecosystem-release }})
@@ -30,15 +57,39 @@ However, the possible connections between ecosystem components don’t necessari
 The Polifonia Project delivers its results as reusable assets, alongside an extensive metadata set and documentation. This is the Polifonia Ecosystem.
 {% endcomment %} 
 {% assign types =  site.documents  | map: 'type' | join: ','  | split: ',' | uniq | sort %}
-{% comment %}
+
 ## Summary
+
+{% assign types_activity = "Container,Project,WorkingGroup,WorkPackage,Task,UseCase,Pilot" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"types_activity contains item.type" | size %}
+{% assign npages = site.pages  | where_exp: 'item',"types_activity contains item.type" | size %}
+{% assign nactivities = npages | plus: ncomponents %}
+<a href="activities.html">Activities</a>: {{nactivities}}
+
+{% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"types_data contains item.type" | size %}
+<a href="data.html">Data</a>: {{ncomponents}}
+
+{% assign software_data = "Software,Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"software_data contains item.type" | size %}
+<a href="software.html">Software</a>: {{ncomponents}}
+
+{% assign apps_data = "Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"apps_data contains item.type" | size %}
+<a href="application.html">Application</a>: {{ncomponents}}
+
+{% assign report_data = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}
+{% assign ncomponents = site.documents  | where_exp: 'item',"report_data contains item.type" | size %}
+<a href="report.html">Report</a>: {{ncomponents}}
+
+
+{% comment %}
+#### All types
 {% for type in types %}
-{% if type != "" %}
-{% assign ncomponents =  site.documents  | where: 'type',type | size %}
+{% assign ncomponents =  site.documents  | where: 'type', type | size %}
 {% if ncomponents > 0 %} {{ type }}: {{ ncomponents }} {% endif %}
-{% endif %}
 {% endfor %}
-{% endcomment %} 
+
 ## List of components 
 {% for type in types %}
 {% if type != "" %}
@@ -48,4 +99,54 @@ The Polifonia Project delivers its results as reusable assets, alongside an exte
 - [{{ component.name }}]({{ component.url | relative_url }})	{% endfor %}	
 {% endif %}
 {% endfor %}
+style="width: 100%; height: 100%"
+{% endcomment %}
 
+
+<div id="chart_container"></div>
+<script>
+anychart.onDocumentReady(function() {
+    // set the data
+    var data = [
+        {x: "Application", value: 1},
+        {x: "CLITool", value: 2},
+        {x: "Corpus", value: 1},
+        {x: "Dataset", value: 4},
+        {x: "Documentation", value: 4},
+        {x: "KnowledgeGraph", value: 1},
+        {x: "Lexicon", value: 1},
+        {x: "Library", value: 1},
+        {x: "Ontology", value: 6},
+        {x: "Persona", value: 22},
+        {x: "Project", value: 3},
+        {x: "Repository", value: 4},
+        {x: "RequirementsCollection", value: 2},
+        {x: "Schema", value: 2},
+        {x: "Service", value: 1},
+        {x: "Software", value: 8},
+        {x: "SoftwareLibrary", value: 1},
+        {x: "Story", value: 35},
+        {x: "Tutorial", value: 1},
+        {x: "UserInterface", value: 2},
+        {x: "WebApplication", value: 3},
+        {x: "WebServer", value: 1}
+
+    ];
+    // create the chart
+    var chart = anychart.pie3d();
+    // set the chart title
+    chart.title("Polifonia Project Components by Type");
+    // add the data
+    chart.data(data);
+    // sort elements
+    chart.sort("desc");  
+    // set legend position
+    chart.legend().position("right");
+    // set items layout
+    chart.legend().itemsLayout("vertical");  
+    // display the chart in the container
+    chart.container('chart_container');
+    chart.fill("aquastyle");
+    chart.draw();
+  });
+  </script>

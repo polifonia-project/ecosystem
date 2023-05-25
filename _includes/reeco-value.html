@@ -1,0 +1,34 @@
+
+   {% case include.key %}
+        {% when "pilot" %}
+    <a href="{{ include.value | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{include.value}}</a>
+        {% when "work-package" %}
+    <a href="{{ include.value | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{include.value}}</a>
+        {% else %}
+            {% capture printValue %}
+                {% assign has_range_component = "informed-by|use-case|story|persona|documentation|evaluated-in|extends|reuses|serves|generated-by|derived-from" | split: "|" %}
+                {% if has_range_component contains include.key %}
+                {% assign target = site.documents  | where_exp: "item","item['component-id'] == include.value" | first %}
+                  {% if target %}
+                <a href="{{target.url|relative_url}}">{% if target.name %}{{target.name}}{%else%}{{include.value}}{%endif%}</a> ({{target.type}})
+                  {% else %}
+                        {% assign islink = include.value | slice: 0,4 %}
+                        {% if islink == "http" %}
+                  <span class=""><a href="{{include.value}}">{{include.value}}</a></span>
+                        {% else %}
+                          {{include.value}}
+                        {% endif %}
+                  {% endif %}
+                {% else %}
+                        {% assign islink = include.value | slice: 0,4 %}
+                        {% if islink == "http" %}
+                  <span class=""><a href="{{include.value}}">{{include.value}}</a></span>
+                        {% else %}
+                          {{include.value}}
+                        {% endif %}
+                {% endif %}
+            {% endcapture%}
+
+    <span class="">{{printValue}}</span>
+
+   {% endcase %}

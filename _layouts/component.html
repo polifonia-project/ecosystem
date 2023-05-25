@@ -2,67 +2,52 @@
 layout: default
 ---
 
-<button onclick="toggleMetaData()">Toggle metadata</button>
-<div class="annotation-schema" id="schema">
+<button onclick="toggleMetaData()">View Metadata</button>
+<div class="annotation-schema" id="schema" style="display:none">
+
 <table>
-{% for tup in site.data.schema %}
-  {% assign key = tup.first[0] %}
-  {% if key == "id" %} {% continue %} {% endif %}
-  {% if page[key] %}
- <tr>  
-  <th>
-	{{ key | replace:'-',' ' | capitalize }}
-  </th> 
-  <td>  
-	{% for item in page[key] %}
-	  {% assign k = key | downcase %}
-      {% case k %}
-        {% when "wp" %}
-    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html " class="work-package">{{item}}</a>
-        {% when "pilot" %}
-    <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html " class="pilot">{{item}}</a>
-        {% when "work-package" %}
-    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html " class="work-package">{{item}}</a>
-        {% else %}
-          {% assign islink = item | slice: 0,4 %}
-          {% if islink == "http" %}
-    <span class="{{ key | replace:'-',' ' | lowercase }}"><a href="{{item}}">{{item}}</a></span>
-          {% else %}
-    <span class="{{ key | replace:'-',' ' | lowercase }}">{{item}}</span>
-          {% endif %}
-       {% endcase %}
-    {% endfor %}
+
+  {% if page['component-id'] %}
+      <!-- USE CONTAINER TERMS -->
+     {% assign metadata_terms = site.data.component %}
   {% endif %}
- </tr>
-{% endfor%}
+  {% if page['container-id'] %}
+      <!-- USE COMPONENT TERMS -->
+     {% assign metadata_terms = site.data.container %}
+  {% endif %}
+     
+  {% for term in metadata_terms %}
+    {% assign k = term.term %}
+    {% if page[k] %}
+      {% assign item = page[k] %}
+  <tr>
+      {% if term['terms'] %}
+      <th>{{ term['label'] | capitalize }}</th>
+      <!-- Sub-terms -->
+      <td>
+        {% for subitem in item %}
+          
+          {% for subt in term['terms'] %}
+            {% assign subk = subt.term %}
+              {% if subitem[subk] %}
+        <p><strong>{{ subt['label'] | capitalize }}</strong>:
+               {% assign subv = subitem[subk] %}
+               {% include reeco-values.html key=subk value=subv %}
+             {% endif %}
+          {% endfor %}
+          
+        {% endfor %}
+      </td>
+      {% else %}
+      <!-- No sub-terms -->
+      <th>{{term['label'] | capitalize}}</th>
+      <td>{% include reeco-values.html key=k value=item %}</td>
+      {% endif %}
+  </tr>
+    {% endif %}
+  {% endfor %}
 </table>
-	
-	
-<!-- <ul>
-  {% for tup in site.data.schema %}
-{% assign key = tup.first[0] %}
-{% if key == "id" %} {% continue %} {% endif %}
-{% if page[key] %}
-<li>{{ key | capitalize }}: {% for item in page[key] %}
-  {% case key %}
-  {% when "WP" %}
-  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
-  {% when "Pilots" %}
-  <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
-  {% when "work-package" %}
-  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
-  {% else %}
-  {% assign islink = item | slice: 0,4 %}
-  {% if islink == "http" %}
-  <span class="attr"><a href="{{item}}">{{item}}</a></span>
-  {% else %}
-  <span class="attr">{{item}}</span>
-  {% endif %}
-  {% endcase %}
-  {% endfor %}</li>
-{% endif %}
-{% endfor%}
-</ul> -->
+
 
 <!--  <a href="https://github.com/polifonia-project/stories/blob/main/{{ page.id | remove: "/stories/" | replace: "#", "%23"}}.md">View this file on Github</a> -->
 
@@ -70,16 +55,25 @@ layout: default
 {% assign ghLinkBefore = page.id | split: "/" %}
 {% capture ghLinkBefore %}{{ ghLinkParts[1] }}/{{ ghLinkParts[2] }}/{% endcapture %}
 {% assign ghLinkAfter = page.id | replace: ghLinkBefore, "" %}
-{% capture ghLink %}{{ ghLinkBefore }}blob/master{{ ghLinkAfter }}{% endcapture %}
-  <a href="https://github.com/{{ ghLink | replace: "#", "%23"}}.md">View this file on Github</a>
+{% assign repo_arr = page.url | split: "/" %}
+{% assign repo = "" | append: repo_arr[1] | append: '/' | append: repo_arr[2] %}
+{% assign repo_data = site.data.repositories | where_exp: "item", "item.repo == repo" | first %}
+
+{% assign raw_link = repo_data.raw_link %}
+{% capture ghLink %}{{ repo_data.link }}{{ ghLinkAfter }}{% endcapture %}
+  <a href="{{ ghLink | replace: "#", "%23"}}.md">View this file on Github</a>
 
 </div>
 
+<!--
+{{page.url}}
+
+{{raw_link}}
+-->
 
 <div id="contents">
 {{ content }}
 </div>
-
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="{{ site.baseurl }}/assets/js/jquery-stickyNavigator.js" type="text/javascript"></script>
@@ -90,6 +84,27 @@ wrapselector: '#contents',
 targetselector: "h2,h3,h4",
 });
 
+// Fix anchor links
+$('#contents a').each(function(ix,el){
+    var raw_link = "{{repo_data.link}}";
+    //console.log(ix,$(el).attr('href'))
+    var href = $(el).attr('href').trim()
+    if ( ! (href.startsWith('#') || href.startsWith('http'))){
+        var link = raw_link + href
+        //console.log(href, link)
+        $(el).attr('href', link)
+    }
+});
+// Fix image src links
+$('#contents img').each(function(ix,el){
+    var raw_link = "{{raw_link}}";
+    console.log(ix,$(el).attr('src'))
+    var href = $(el).attr('src').trim()
+    if ( ! (href.startsWith('#') || href.startsWith('http'))){
+        var link = raw_link + href
+        console.log(href, link)
+        $(el).attr('src', link)
+    }
+});
 </script>
-
 

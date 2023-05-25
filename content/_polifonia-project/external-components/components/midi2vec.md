@@ -2,10 +2,7 @@
 component-id: midi2vec
 name: midi2vec
 description: Compute graph embeddings from MIDI.
-type: 
-- Library
-- Service
-- CLI tool
+type: Library
 release-date: 01/2022
 release-number: v0.0.1
 work-package: 
@@ -34,3 +31,9 @@ bibliography:
 - "Pasquale Lisena, Albert Meroño-Peñuela, Raphaël Troncy. MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata, to appear in Semantic Web Journal, Special Issue on Deep Learning for Knowledge Graphs, 2021. http://www.semantic-web-journal.net/content/midi2vec-learning-midi-embeddings-reliable-prediction-symbolic-music-metadata-0"
 
 ---
+
+# midi2vec
+
+A software library to compute graph embeddings from MIDI. 
+
+See https://github.com/midi-ld/midi2vec

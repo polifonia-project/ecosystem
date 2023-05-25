@@ -11,7 +11,7 @@ layout: default
 {% assign pilot-posts = site.documents | where: "pilot", page.pilot %}
 {% assign psize = pilot-posts | size %}
 {% unless psize < 1 %} 
-<h2>Related components:</h2>
+<h3>Components:</h3>
 {% assign types = pilot-posts | map: 'type' | join: ','  | split: ',' | uniq %}
 <ul>
   {% for type in types %}
