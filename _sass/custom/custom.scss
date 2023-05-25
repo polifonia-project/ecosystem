@@ -121,7 +121,8 @@ a:not([class]){text-decoration:none !important;background-image:none !important;
 # sidebar
 #
 --------------------------------------------------*/
-.side-bar{border-right:none !important;background-color:#2c42c8;}
+.side-bar {border-right: none !important;/* background-color: #2c42c8; */background-image: url(http://localhost:4000/ecosystem/assets/images/background.jpg);background-repeat:no-repeat;background-position: top left;background-size:cover;}
+/*.side-bar{border-right:none !important;background-color:#2c42c8;}*/
 .side-bar .site-footer{color:#fff;}
 .side-bar .site-footer a{color:#fff;text-decoration:none;}
 
