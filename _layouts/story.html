@@ -12,13 +12,13 @@ layout: default
 <li>{{ key | capitalize }}: {% for item in page[key] %} 
   {% case key %}
   {% when "WP" %}
-  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
+  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html " class="work-package">{{item}}</a>
   {% when "Pilots" %}
-  <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
+  <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html " class="pilot">{{item}}</a>
   {% when "work-package" %}
-  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
+  <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html " class="work-package">{{item}}</a>
   {% when "pilot" %}
-  <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
+  <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html " class="pilot">{{item}}</a>
   {% when "keywords" %}
   <span class="attr">{{item}}</span>
   {% else %}
@@ -58,7 +58,7 @@ layout: default
 <!--</div>-->
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="{{ '/assets/js/jquery-stickyNavigator.js' | relative_url }}" type="text/javascript"></script>
+<script src="{{ '/assets/js/jquery-stickyNavigator.js' | relative_url }}" type="text/javascript"></script>
 
 <script>
 $('#sticky-navigator').stickyNavigator({

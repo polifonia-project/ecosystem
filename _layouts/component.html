@@ -18,17 +18,17 @@ layout: default
 	  {% assign k = key | downcase %}
       {% case k %}
         {% when "wp" %}
-    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
+    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html " class="work-package">{{item}}</a>
         {% when "pilot" %}
-    <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html ">{{item}}</a>
+    <a href="{{ item | downcase | prepend: "/pages/pilots/" | absolute_url }}.html " class="pilot">{{item}}</a>
         {% when "work-package" %}
-    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html ">{{item}}</a>
+    <a href="{{ item | downcase | prepend: "/pages/work-packages/" | absolute_url }}.html " class="work-package">{{item}}</a>
         {% else %}
           {% assign islink = item | slice: 0,4 %}
           {% if islink == "http" %}
-    <span class=""><a href="{{item}}">{{item}}</a></span>
+    <span class="{{ key | replace:'-',' ' | lowercase }}"><a href="{{item}}">{{item}}</a></span>
           {% else %}
-    <span class="">{{item}}</span>
+    <span class="{{ key | replace:'-',' ' | lowercase }}">{{item}}</span>
           {% endif %}
        {% endcase %}
     {% endfor %}
