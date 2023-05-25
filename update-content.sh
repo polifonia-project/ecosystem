@@ -33,3 +33,5 @@ while IFS= read -r line; do
 	rm -rf .git
 	cd -
 done < repositories.txt
+
+./generate-repo-data.sh

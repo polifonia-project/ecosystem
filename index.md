@@ -62,7 +62,9 @@ The Polifonia Project delivers its results as reusable assets, alongside an exte
 
 {% assign types_activity = "Container,Project,WorkingGroup,WorkPackage,Task,UseCase,Pilot" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"types_activity contains item.type" | size %}
-<a href="activities.html">Activities</a>: {{ncomponents}}
+{% assign npages = site.pages  | where_exp: 'item',"types_activity contains item.type" | size %}
+{% assign nactivities = npages | plus: ncomponents %}
+<a href="activities.html">Activities</a>: {{nactivities}}
 
 {% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"types_data contains item.type" | size %}

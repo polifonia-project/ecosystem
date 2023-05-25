@@ -18,5 +18,6 @@ while IFS= read -r line; do
     echo "  type: \"$treetype\"" >> _data/repositories.yml
     echo "  version: \"$version\"" >> _data/repositories.yml
     echo "  url: \"http://github.com/$repo\"" >> _data/repositories.yml
+    echo "  link: \"http://github.com/$repo/blob/$version/\"" >> _data/repositories.yml
     echo "  raw_link: \"https://raw.githubusercontent.com/$repo/$version/\"" >> _data/repositories.yml
 done < repositories.txt

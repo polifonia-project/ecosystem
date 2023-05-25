@@ -14,10 +14,10 @@ permalink: /data.html
 {% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
 {% for type in types_data %}
 {% if type != "" %}
-{% assign numberOf = site.documents  | where: 'type',type | size %}
+{% assign components =  site.documents  | where: 'type',type %}
+{% assign numberOf = components | size %}
 {% if numberOf > 0 %}
 ### {{ type }} ({{numberOf}})
-	{% assign components =  site.documents  | where: 'type',type %}
 	{% for component in components %}
 - [{% if component.name %}{{ component.name }}{%else%}{{ component.component-id}} {%endif%}]({{ component.url | relative_url }})	{% endfor %}	
 {% endif %}

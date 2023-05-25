@@ -35,3 +35,5 @@ while IFS= read -r line; do
         # echo "Skipping $repo"
     fi
 done < repositories.txt
+
+./generate-repo-data.sh

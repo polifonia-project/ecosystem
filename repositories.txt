@@ -22,7 +22,7 @@ polifonia-project/meetups-ontology:branches:main
 polifonia-project/meetups-application:branches:main
 polifonia-project/meetups-ui-design:branches:main
 polifonia-project/ontology-network:branches:main
-polifonia-project/musicmeta-ontology:branches:main
+polifonia-project/music-meta-ontology:branches:main
 polifonia-project/instrument-ontology:branches:main
 polifonia-project/source-ontology:branches:main
 polifonia-project/tunes-ontology:branches:main

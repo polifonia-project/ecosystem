@@ -27,3 +27,15 @@ related-components:
   - informed-by:
     - Ortenz
 ---
+# MEETUPS UI Designs
+A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface.
+
+Follows three images, for the whole content please see [this PDF](meetups-ui-initial-designs.pdf).
+
+![image](png/meetups-ui-initial-designs-1.png)
+
+
+![image](png/meetups-ui-initial-designs-2.png)
+
+
+![image](png/meetups-ui-initial-designs-3.png)
