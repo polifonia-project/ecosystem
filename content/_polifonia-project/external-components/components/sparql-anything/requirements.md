@@ -12,7 +12,7 @@ bibliography:
 
 The motivation for researching  novel ways to transform non-RDF resources into RDF comes from the scenarios under development in two EU H2020 projects [SPICE](http://spice-h2020.eu) and [Polifonia](http://polifonia-project.eu). 
 
-In Polifonia, a consortium collaborate in developing novel ways for valorising musical cultural heritage, relying on a \textit{linked data} network of resources from many different stakeholders in the cultural sector.
+In Polifonia, a consortium collaborate in developing novel ways for valorising musical cultural heritage, relying on a *linked data* network of resources from many different stakeholders in the cultural sector.
 However, the majority of resources involved are not exposed as Linked Data but are released, for example, as CSV, XML, JSON files, or combinations of these formats.
 
 It is clear how the effort required for transforming resources could constitute a significant cost to the project.
