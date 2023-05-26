@@ -13,7 +13,7 @@ permalink: /software.html
 This section collects project outputs that are released as *software*.
 The ecosystem considers software any digital object that is being produced by the project to achieve a certain task computationally.
 We distinguish software from [applications](applications.html), where software is used (executed) by a user to perform the task.
-These include various types of digital objects such as scripts, software libraries, workflows, or APIs.
+These include various types of digital objects such as scripts, [software](#software) libraries, workflows, or APIs.
 <div id="chart_container_software"></div>
 <script>
 anychart.onDocumentReady(function() {
@@ -41,10 +41,11 @@ anychart.onDocumentReady(function() {
   </script>
 
 ## List of components 
-{% assign software_data = "Software,Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
+{% assign software_data = "Software,Workflow,API,UserInterface,SoftwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
 {% for type in software_data %}
 {% if type != "" %}
-{% assign numberOf = site.documents  | where: 'type',type | size %}
+{% assign numberOf = site.documents  | where_exp: 'item', "item.type == type" | size %}
+--{{type}}--
 {% if numberOf > 0 %}
 ### {{ type }} ({{numberOf}})
 	{% assign components =  site.documents  | where: 'type',type %}

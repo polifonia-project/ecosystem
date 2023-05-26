@@ -13,7 +13,7 @@ permalink: /report.html
 This section collects project outputs that are released as *report*.
 The ecosystem considers reports any digital object that specifies, describes, or represents facts about the project's domain of interest.
 Reports differ from *data* as they are mainly directed to human consumption, rather than computational treatment.
-Reports include various types of digital objects such as documentation, tutorial, requirements collections, stories or persona specifications.
+Reports include various types of digital objects such as [documentation](#documentation), [tutorial](#tutorial), [requirements collections](#requirementscollection), [stories](#story) or [persona](#persona) specifications.
 
 <div id="chart_container_report"></div>
 <script>
@@ -44,14 +44,15 @@ anychart.onDocumentReady(function() {
   });
   </script>
 
-## List of components 
 {% assign report_data = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}
 {% for type in report_data %}
 {% if type != "" %}
 {% assign components =  site.documents  | where: 'type',type %}
 {% assign numberOf = components | size %}
 {% if numberOf > 0 %}
-### {{ type }} ({{numberOf}})
+### {{ type }}
+
+There are {{numberOf}} components of type {{type}}:
 	{% for component in components %}
 - [{% if component.name %}{{ component.name }}{%else%}{{ component.component-id}} {%endif%}]({{ component.url | relative_url }})	{% endfor %}	
 {% endif %}
