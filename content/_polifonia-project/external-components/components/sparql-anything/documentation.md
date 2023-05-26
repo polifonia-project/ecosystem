@@ -17,9 +17,9 @@ related-components:
 
 The SPARQL Anything project contributors produced an extensive [documentation](https://sparql-anything.readthedocs.io/en/latest/BROWSER/), including:
 
-- the complete list of configuration parameters 
-- description of SAPRQL extension functions and magic properties
-- guides to use the command line interface or server
-- guides to configuration for specific input formats
-- how to configure the HTTP client to query Web APIs
-- tutorials
+- The complete list of configuration parameters
+- Description of SPARQL extension functions and magic properties
+- Guides to use the command line interface or server
+- Guides to configuration for specific input formats
+- How to configure the HTTP client to query Web APIs
+- Tutorials

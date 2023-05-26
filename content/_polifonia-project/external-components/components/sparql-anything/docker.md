@@ -1,6 +1,6 @@
 ---
 component-id: sparql-anything-docker
-type: CLITool
+type: DockerImageContainer
 name: SPARQL Anything Docker Instance
 description: Docker file of the SPARQL Anything Web Server
 logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4

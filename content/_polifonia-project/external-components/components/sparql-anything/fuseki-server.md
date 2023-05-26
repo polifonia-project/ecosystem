@@ -1,6 +1,6 @@
 ---
 component-id: sparql-anything-server
-type: WebServer
+type: WebApplication
 name: SPARQL Anything Web Server
 description: Web server executable of SPARQL Anything
 logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
