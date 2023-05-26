@@ -1,6 +1,6 @@
 - id:
 - name:
-- brief-description:
+- description:
 - type:
 - release-date:
 - release-number:
@@ -16,7 +16,6 @@
 - logo:
 - demo:
 - links:
-- running-instance:
 - credits:
 - related-components:
 - bibliography:

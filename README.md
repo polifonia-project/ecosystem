@@ -33,7 +33,7 @@ git clone git@github.com:polifonia-project/ecosystem.git
 ```
 And update the submodules:
 ```bash
-git submodule update --init
+./update-submodules.sh
 ```
 
 Go into the directory and run the following to grab the dependencies (it may be

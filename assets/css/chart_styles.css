@@ -1,0 +1,29 @@
+#chart_container{
+    height: 500px;
+    margin: 1;
+    padding: 0;
+  }
+
+  #chart_container_report{
+    height: 500px;
+    margin: 1;
+    padding: 0;
+  }
+
+  #chart_container_application{
+    height: 500px;
+    margin: 1;
+    padding: 0;
+  }
+
+  #chart_container_software{
+    height: 500px;
+    margin: 1;
+    padding: 0;
+  }
+
+  #chart_container_data{
+    height: 500px;
+    margin: 1;
+    padding: 0;
+  }

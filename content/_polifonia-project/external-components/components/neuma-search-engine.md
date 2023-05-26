@@ -2,8 +2,7 @@
 component-id: neuma-search-engine
 name: Neuma search engine
 description: "A search engine for music content"
-type:
-- Application
+type: Application
 release-date: 05/22
 release-number: v0.5
 work-package:
@@ -23,15 +22,15 @@ demo:
 links: 
   - http://neuma.huma-num.fr
   - https://github.com/polifonia-project/facets-search-engine
-running-instance: http://neuma.huma-num.fr
+resource: http://neuma.huma-num.fr
 credits: 
 - Tiange Zhu (CNAM Paris)
 - Philippe Rigaux (CNAM Paris)
 - Nicolas Travers (ESILV Paris)
 - Raphaël Fournier-S'niehotta (CNAM Paris)
-related-components:
+related-components: []
 bibliography: 
-- Zhu, T.; Fournier-S’niehotta, R.; Rigaux, P.; Travers, N. [A Framework for Content-Based Search in Large Music Collections](https://www.mdpi.com/2504-2289/6/1/23). Big Data Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023
+- "Zhu, T.; Fournier-S’niehotta, R.; Rigaux, P.; Travers, N. [A Framework for Content-Based Search in Large Music Collections](https://www.mdpi.com/2504-2289/6/1/23). Big Data Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023"
 --- 
 
 # Neuma Search Engine

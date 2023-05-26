@@ -1,0 +1,897 @@
+- _position: 23
+  constraint: N
+  description: The ID of the component in the Ecosystem. Can be a local identifier
+    or a URI.
+  domain:
+  - Component
+  example-values:
+  - 'component-id: my-dataset1'
+  label: component ID
+  mandatory: Y
+  regex: '[^\s]+(/[^\s]+(/[^\s]+)?)?'
+  schema: https://schema.org/identifier
+  scope: Component
+  spar: dcterms:identifier
+  term: component-id
+  unique: Y
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 24
+  constraint: Y
+  description: The component type, according to the list of components available.
+  domain:
+  - Component
+  enum:
+  - Component
+  - Dataset
+  - Registry
+  - RequirementsCollection
+  - Workflow
+  - Software
+  - Service
+  - Tutorial
+  - Web site
+  - Survey
+  - EcosystemWebsite
+  - SoftwareLibrary
+  - DockerImageContainer
+  - RunningInstance
+  - Ontology
+  - Notebook
+  - Script
+  - KnowledgeGraph
+  - InPresenceSurvey
+  - FocusGroup
+  - Story
+  - Persona
+  - Report
+  - Deliverable
+  - Documentation
+  - EvaluationReport
+  example-values:
+  - 'type: Dataset'
+  label: type
+  mandatory: Y
+  ro-crate: '@ type '
+  schema: https://schema.org/applicationCategory
+  scope: Component
+  spar: rdf:type
+  term: type
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 25
+  constraint: N
+  description: The name of the component
+  domain:
+  - Component
+  example-values:
+  - 'name: "The name of my database"'
+  label: name
+  mandatory: Y
+  ro-crate: name
+  schema: https://schema.org/name
+  scope: Component
+  spar: dcterms:title
+  term: name
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 26
+  constraint: N
+  description: A text describing the component
+  domain:
+  - Component
+  example-values:
+  - 'description: "A longer description of a dataset, a software, or some other component"'
+  label: description
+  mandatory: Y
+  ro-crate: description
+  schema: 'https://schema.org/abstract '
+  scope: Component
+  spar: dcterms:description
+  term: description
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 27
+  constraint: N
+  description: Link to one reference image illustrating the component
+  domain:
+  - Component
+  example-values:
+  - 'image: http://www.example.org/image.jpg'
+  label: image
+  mandatory: N
+  ro-crate: image
+  schema: https://schema.org/image
+  scope: Component
+  spar: cito:isDocumentedBy
+  term: image
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 28
+  constraint: Y
+  description: Logo of the component in Web format. Accepted image formats are JPEG
+    and PNG.
+  domain:
+  - Component
+  example-values:
+  - 'logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4'
+  label: logo
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: logo
+  schema: https://schema.org/logo
+  scope: Component
+  term: logo
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 29
+  constraint: N
+  description: The work package associated to this component, if any.
+  domain:
+  - Component
+  example-values:
+  - 'work-package:
+
+    - WP1
+
+    - WP5'
+  label: "work \npackage"
+  mandatory: N
+  ro-crate: isPartOf
+  schema: https://schema.org/isPartOf
+  scope: Component
+  spar: frbr:partOf
+  term: work-package
+  unique: N
+  xsd-datatype:
+  - 'string '
+  yaml-type: List.String
+- _position: 30
+  constraint: N
+  description: A pilot application or case study
+  domain:
+  - Component
+  example-values:
+  - '- MEETUPS
+
+    - BELLS'
+  label: pilot
+  mandatory: N
+  ro-crate: isPartOf
+  schema: https://schema.org/isPartOf
+  scope: Component
+  spar: frbr:partOf
+  term: pilot
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 31
+  constraint: Y
+  description: The local id of the project
+  domain:
+  - Component
+  example-values:
+  - '- polifonia'
+  label: project
+  mandatory: N
+  ro-crate: isPartOf
+  scope: Component
+  term: project
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String
+- _position: 32
+  constraint: N
+  description: "The digital resource representing the component (e.g. if the component\
+    \ is of type Dataset, it may be my-dataset.csv or a folder in the repository).\
+    \ \nValues can be the path to a file (if 1 file), the path to a folder (if many\
+    \ files), or absolute URL of an online file (DOIs should not be used, use `doi`\
+    \ instead). It can be a URL of a remote resource, e.g. a Website or Web api."
+  domain:
+  - Component
+  example-values:
+  - 'resource: ./data.csv '
+  - '
+
+    resource: "http://www.example.org/myFile.json" '
+  - '
+
+    resource: "./data/" '
+  - '
+
+    resource: "http://data.open.ac.uk/sparql"
+
+    '
+  label: resource
+  mandatory: N
+  ro-crate: '@ id '
+  scope: Component
+  term: resource
+  unique: Y
+  xsd-datatype:
+  - string
+  - anyURI
+  yaml-type: String
+- _position: 33
+  constraint: Y
+  description: Link to an online demo of the component
+  domain:
+  - Component
+  example-values:
+  - 'http://data.open.ac.uk/sparql-demo '
+  label: demo
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: workExample
+  schema: https://schema.org/workExample
+  scope: Component
+  spar: fabio:isManifestationOf
+  term: demo
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 34
+  constraint: Y
+  description: The date the component was released. Accepted values include any valid
+    XSD date.
+  domain:
+  - Component
+  example-values:
+  - 'release-date: 2022-02-02 '
+  - '
+
+    release-date: 2020-01-10T12:00:00'
+  label: "release \ndate"
+  mandatory: N
+  ro-crate: releaseDate
+  schema: 'https://schema.org/releasedEvent / https://schema.org/startDate '
+  scope: Component
+  spar: dcterms:issued
+  term: release-date
+  unique: N
+  xsd-datatype:
+  - date
+  yaml-type: String
+- _position: 35
+  constraint: N
+  description: 'Version number of the release. Any value is permitted, although we
+    recommend semantic versioning: https://semver.org/'
+  domain:
+  - Component
+  example-values:
+  - 'release-number: v0.1'
+  label: "release \nnumber"
+  mandatory: N
+  ro-crate: version
+  schema: https://schema.org/releasedEvent / https://schema.org/softwareVersion
+  scope: Component
+  spar: prism:versionIdentifier
+  term: release-number
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 36
+  constraint: Y
+  description: Link to access or download the component release
+  domain:
+  - Component
+  example-values:
+  - 'release-link: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1'
+  label: release link
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: downloadUrl
+  schema: https://schema.org/releasedEvent / https://schema.org/releaseNotes
+  scope: Component
+  spar: fabio:hasURL
+  term: release-link
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 37
+  constraint: Y
+  description: The DOI of the GitHub repository related to this component, e.g. as
+    published on Zenodo.org
+  domain:
+  - Component
+  example-values:
+  - 'doi: http://doi.org/10.xxxxxx '
+  - '
+
+    doi: 10.zenodo.1234566'
+  label: DOI
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: identifier
+  scope: Component
+  term: doi
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 38
+  constraint: Y
+  description: Link to a Changelog document, a file which contains a chronologically
+    ordered list of notable changes for each version of the component.
+  domain:
+  - Component
+  example-values:
+  - 'changelog: "https://github.com/my-org/my-project/releases" '
+  - '
+
+    changelog: "./CHANGELOG"'
+  label: changelog
+  mandatory: N
+  regex: ^http[s]?://.+$
+  ro-crate: discussionUrl
+  schema: https://schema.org/discussionUrl
+  scope: Component
+  spar: cito:isDocumentedBy
+  term: changelog
+  unique: N
+  xsd-datatype:
+  - anyURI
+  yaml-type: String
+- _position: 39
+  constraint: N
+  description: Link to a licence document of the resource, or a string pointing to
+    one of the supported licences in the framework.
+  domain:
+  - Component
+  example-values:
+  - 'licence:
+
+    - CC-BY '
+  - '
+
+    licence:
+
+    - https://creativecommons.org/licenses/by/4.0/ '
+  - '
+
+    licence:
+
+    - "This component is unlicenced" '
+  - '
+
+    licence:
+
+    - APACHE-2.0
+
+    - CC-BY-SA_v4'
+  label: licence
+  mandatory: N
+  ro-crate: license
+  schema: https://schema.org/license
+  scope: Component
+  spar: dcterms:license
+  term: licence
+  unique: N
+  xsd-datatype:
+  - string
+  - anyURI
+  yaml-type: List.String
+- _position: 40
+  constraint: N
+  description: Copyright info
+  domain:
+  - Component
+  example-values:
+  - 'copyright: "The project contributors" '
+  - '
+
+    copyright: "http://my.organisation.org"'
+  label: copyright
+  mandatory: N
+  schema: https://schema.org/copyrightNotice
+  scope: Component
+  term: copyright
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: String
+- _position: 41
+  constraint: Y
+  description: 'A list of contributors in the form: "Name <name.surname@mail.com>"'
+  domain:
+  - Component
+  example-values:
+  - 'contributors:
+
+    - John Doe <john@doe.com>
+
+    - Mick1234 <mick1234@mail.com>
+
+    - Fabio009 <http://fabio009.com>
+
+    - <http://github.com/enridaga>
+
+    - Name Surname
+
+    - Name Surname <email>
+
+    - Name Surname <URI>
+
+    - Name Surname <URI> <ORCID>
+
+    - Name Surname <URI|email|ORCID>*'
+  label: contributors
+  mandatory: N
+  regex: TODO
+  ro-crate: contributor
+  schema: "could be several\nhttps://schema.org/accountablePerson\nhttps://schema.org/author\
+    \ \nhttps://schema.org/contributor"
+  scope: Component
+  spar: 'dcterms:creator
+
+    dcterms:contributor'
+  term: contributors
+  unique: N
+  xsd-datatype:
+  - string
+  - anyURI
+  yaml-type: List.String
+- _position: 42
+  constraint: N
+  description: List of components that are related to this one.
+  domain:
+  - Component
+  example-values:
+  - "related-components:\n- informed-by: component-local-11\n- use-case: \n   - component-local-12\n\
+    \   - component-local-13\n- story: [ story1, story2 ]"
+  label: "related \ncomponents"
+  mandatory: N
+  ro-crate: isRelatedTo
+  schema: "could be several:\nhttps://schema.org/supportingData \nhttps://schema.org/isBasedOn\n\
+    https://schema.org/usageInfo "
+  scope: Component
+  spar: 'cito:usesDataFrom / cito:providesDataFor
+
+    cito:usesMethodIn / cito:providesMethodFor
+
+    cito:isExtendedBy / cito:extends'
+  term: related-components
+  terms:
+  - &id001
+    _position: 43
+    constraint: N
+    description: The component was informed by another component (or resource), for
+      example, a requirements document or a Persona, a Story, a use case, etc...
+    domain:
+    - Component
+    example-values:
+    - "related-component:\n- informed-by: \n   - requirement-document-1\n   - http://www.link-to-website-with-requirements.com"
+    label: informed by
+    mandatory: N
+    ro-crate: prov:wasInformedBy
+    scope: Component
+    super-term: related-components
+    term: informed-by
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id002
+    _position: 44
+    constraint: N
+    description: Link to one or more use cases. This term is a specialisation of 'informed-by'
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - use-case: my-use-case-component"
+    label: use case
+    mandatory: N
+    ro-crate: prov:wasInformedBy
+    schema: https://schema.org/assesses
+    scope: Component
+    spar: cito:obtainsBackgroundFrom
+    super-term: related-components
+    term: use-case
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id003
+    _position: 45
+    constraint: N
+    description: Link to one or more user stories. This term is a specialisation of
+      'informed-by'.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - story: \n     - story1-component\n     - story2-component"
+    label: story
+    mandatory: N
+    ro-crate: prov:wasInformedBy
+    schema: https://schema.org/assesses
+    scope: Component
+    spar: cito:obtainsBackgroundFrom
+    super-term: related-components
+    term: story
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id004
+    _position: 46
+    constraint: N
+    description: Link to one or more persona. This term is a specialisation of 'informed-by'.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - persona: \n     - John-component\n     - Monica-component"
+    label: persona
+    mandatory: N
+    ro-crate: prov:wasInformedBy
+    schema: https://schema.org/assesses
+    scope: Component
+    spar: cito:obtainsBackgroundFrom
+    super-term: related-components
+    term: persona
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id005
+    _position: 47
+    constraint: N
+    description: 'Link to the documentation of the component. '
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - documentation: \n     - component-source-javadoc"
+    label: documentation
+    mandatory: N
+    ro-crate: cito:isDocumentedBy
+    schema: https://schema.org/subjectOf
+    scope: Component
+    spar: cito:isDocumentedBy
+    super-term: related-components
+    term: documentation
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id006
+    _position: 48
+    constraint: N
+    description: Link to a document (e.g. a user study) or source code demonstrating
+      the validity of the component.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - evaluated-in: \n     - component-notebook"
+    label: evaluated in
+    mandatory: N
+    ro-crate: cito:isSupportedBy
+    scope: Component
+    super-term: related-components
+    term: evaluated-in
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id007
+    _position: 49
+    constraint: N
+    description: Link to a component that is extended by the current component. If
+      not a component, can be an external URI
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - extends: \n     - \"Apache Jena http://jena.apache.org\"\
+      \n     - other-component"
+    label: extends
+    mandatory: N
+    ro-crate: cito:extends
+    scope: Component
+    super-term: related-components
+    term: extends
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id008
+    _position: 50
+    constraint: N
+    description: Link to a component that is reused as-is by the current component.
+      Can be a component or an external URL.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - reuses: \n     - \"Apache Jena http://jena.apache.org\"\
+      \n     - other-component"
+    label: reuses
+    mandatory: N
+    ro-crate: cito:usesMethodIn
+    scope: Component
+    super-term: related-components
+    term: reuses
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id009
+    _position: 51
+    constraint: N
+    description: Link to a dataset that is served by the current component (e.g. an
+      API). Can be a component or an external dataset.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - serves: \n     - my-dataset"
+    label: "serves data \nfrom"
+    mandatory: N
+    ro-crate: cito:providesDataFor
+    scope: Component
+    super-term: related-components
+    term: serves
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id010
+    _position: 52
+    constraint: N
+    description: Link to a software, dataset, or any other component that produced
+      or generated the current component. Can be a component or an external URL.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - generated-by: \n     - my-component-algorithm"
+    label: generated by
+    mandatory: N
+    ro-crate: cito:isCompiledBy
+    scope: Component
+    super-term: related-components
+    term: generated-by
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  - &id011
+    _position: 53
+    constraint: N
+    description: Link to a resource from which this component was derived from.
+    domain:
+    - Component
+    example-values:
+    - "related-components:\n  - derived-from: \n     - my-component-algorithm"
+    label: generated by
+    mandatory: N
+    ro-crate: prov:wasDerivedFrom
+    scope: Component
+    super-term: related-components
+    term: derived-from
+    unique: N
+    xsd-datatype:
+    - string
+    - anyURI
+    yaml-type: List.String
+  unique: N
+  xsd-datatype:
+  - Component
+  yaml-type: List.Dictionary
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- _position: 54
+  constraint: N
+  description: "List of bibliographic references that are relevant to the component\
+    \ but that do not fall under a specific category. \nUse \"scientific work\" for\
+    \ the main scholarly publication related to the component"
+  domain:
+  - Component
+  example-values:
+  - "bibliography:\n  - main-publication: \"7. Wang, Y., & Chen, X. (2013). A Novel\
+    \ Approach for Cloud Computing Security Using Homomorphic Encryption. Communications\
+    \ in Computer and Information Science, 50(1), 67-73.\"\n  - technical-report:\n\
+    \    - \"8. Li, J., & Yang, S. (2012). A New Algorithm for Text Classification\
+    \ Based on Support Vector Machines. Technical Report: Computer Science and Information\
+    \ Security, 7(4), 23-30.\"\n  - deliverable-document: \n    - \"Zhang, H., & Liu,\
+    \ Y. (2011). A Survey of Data Mining Techniques in Financial Analysis. Computer\
+    \ Science Project, 6(3), 12-18.\" "
+  label: bibliography
+  mandatory: N
+  ro-crate: cito:citesForInformation
+  schema: https://schema.org/citation
+  scope: Component
+  spar: cito:isCreditedBy
+  term: bibliography
+  terms:
+  - &id012
+    _position: 55
+    constraint: N
+    description: Link to a meaningful venue where the current component is served
+      or published (e.g. a dataset published on a web portal).
+    domain:
+    - Component
+    example-values:
+    - "bibliography:\n  - published-in: \"Lee, S., & Kim, J. (2010). A Comparative\
+      \ Study of Machine Learning Algorithms for Sentiment Analysis. Communications\
+      \ in Computer and Information Science, 45(1), 23-29.\"\n  - technical-report:\n\
+      \    - \"Kim, J., & Lee, S. (2019). A Novel Deep Learning Approach for Predicting\
+      \ Customer Behavior in E-commerce. International Journal of Computer Science,\
+      \ 14(3), 45-52. http://doi.org/10.xxxx \"\n"
+    label: published in
+    mandatory: N
+    ro-crate: publisher
+    scope: Component
+    super-term: bibliography
+    term: published-in
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: List.String
+  - &id013
+    _position: 56
+    constraint: N
+    description: The primary, peer reviewed scientific publication related to this
+      component (if non peer-reviewed, use technical-report instead).
+    domain:
+    - Component
+    example-values:
+    - "bibliography:\n  - main-publication:\n    - \"Kim, J., & Lee, S. (2019). A\
+      \ Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce.\
+      \ International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx\
+      \ \"\n"
+    label: "main \npublication"
+    mandatory: N
+    ro-crate: cito:isReferencedBy
+    scope: Component
+    super-term: bibliography
+    term: main-publication
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: String
+  - &id014
+    _position: 57
+    constraint: N
+    description: A peer reviewed scientific publication related to this component
+      (if non peer-reviewed, use technical-report instead).
+    domain:
+    - Component
+    example-values:
+    - "bibliography:\n  - publication:\n    - \"Kim, J., & Lee, S. (2019). A Novel\
+      \ Deep Learning Approach for Predicting Customer Behavior in E-commerce. International\
+      \ Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx \"\n"
+    label: publication
+    mandatory: N
+    ro-crate: cito:isReferencedBy
+    scope: Component
+    super-term: bibliography
+    term: publication
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: String
+  - &id015
+    _position: 58
+    constraint: N
+    description: The primary document related to this component (if peer-reviewed
+      publication, use scientific-work instead).
+    domain:
+    - Component
+    example-values:
+    - "bibliography:\n  - main-report:\n    - \"Kim, J., & Lee, S. (2019). A Novel\
+      \ Deep Learning Approach for Predicting Customer Behavior in E-commerce. International\
+      \ Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx \"\n"
+    label: main technical report
+    mandatory: N
+    ro-crate: cito:isDocumentedBy
+    scope: Component
+    super-term: bibliography
+    term: main-report
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: String
+  - &id016
+    _position: 59
+    constraint: N
+    description: A document related to this component (if peer-reviewed publication,
+      use publication instead).
+    domain:
+    - Component
+    example-values:
+    - "bibliography:\n   - report:\n      - http://doi.org/10.xxxx \n  - deliverable-document:\
+      \ \n    - http://something.pdf "
+    label: technical report
+    mandatory: N
+    scope: Component
+    super-term: bibliography
+    term: report
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: List.String
+  - &id017
+    _position: 60
+    constraint: N
+    description: Link to the deliverable document related to this component
+    domain:
+    - Component
+    example-values:
+    - "bibliography:\n  - deliverable-document:\n    - \"Kim, J., & Lee, S. (2019).\
+      \ A Novel Deep Learning Approach for Predicting Customer Behavior in E-commerce.\
+      \ International Journal of Computer Science, 14(3), 45-52. http://doi.org/10.xxxx\
+      \ \"\n"
+    label: deliverable document
+    mandatory: N
+    ro-crate: cito:isDocumentedBy
+    schema: https://schema.org/subjectOf
+    scope: Component
+    spar: cito:isDocumentedBy
+    super-term: bibliography
+    term: deliverable-document
+    unique: N
+    xsd-datatype:
+    - string
+    - ' anyURI'
+    yaml-type: List.String
+  unique: N
+  xsd-datatype:
+  - string
+  - ' anyURI'
+  yaml-type: List.Dictionary
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- _position: 61
+  constraint: N
+  description: Credits
+  domain:
+  - Component
+  example-values:
+  - This project was funded by the European Union
+  label: credits
+  mandatory: N
+  scope: Component
+  term: credits
+  unique: N
+  xsd-datatype:
+  - string
+  yaml-type: List.String

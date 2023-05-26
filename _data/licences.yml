@@ -1,0 +1,260 @@
+- _position: 1
+  code: NonCommercialGovernmentLicence
+  link: http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/
+  publisher: The National Archives
+  title: Non-Commercial Government Licence
+- _position: 2
+  code: PythonLicense20
+  link: http://opensource.org/licenses/Python-2.0
+  publisher: Python Software Foundation
+  title: Python License-2.0
+- _position: 3
+  code: Cc010Universal
+  link: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  publisher: Creative Commons
+  title: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+- _position: 4
+  code: CC-BY_v4
+  link: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Creative Commons
+  title: Creative Commons Attribution 4.0 International
+- _position: 5
+  code: CC-BY-NC_v4
+  link: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+  publisher: Creative Commons
+  title: Creative Commons Attribution-NonCommercial 4.0 International
+- _position: 6
+  code: FreePublicLicense100
+  link: http://opensource.org/licenses/FPL-1.0.0
+  publisher: '- not specified -'
+  title: Free Public License 1.0.0
+- _position: 7
+  code: OpenDataLicenceAgreement
+  link: https://lobbycanada.gc.ca/eic/site/012.nsf/eng/00873.html
+  publisher: Office of the Commissioner of Lobbying
+  title: Open Data Licence Agreement
+- _position: 8
+  code: PhpLicense30
+  link: http://opensource.org/licenses/PHP-3.0
+  publisher: PHP Group
+  title: PHP License 3.0
+- _position: 9
+  code: Wtfpl
+  link: http://www.wtfpl.net/about/
+  publisher: N.N.
+  title: WTFPL
+- _position: 10
+  code: ApplePublicSourceLicense20
+  link: http://opensource.org/licenses/APSL-2.0
+  publisher: Apple
+  title: Apple Public Source License 2.0
+- _position: 11
+  code: QPublicLicenseVersion10
+  link: http://opensource.org/licenses/QPL-1.0
+  publisher: Trolltech AS
+  title: Q Public License Version 1.0
+- _position: 12
+  code: GNU_GPL_v2
+  link: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+  publisher: Free Software Foundation
+  title: GNU General Public License, Version 2
+- _position: 13
+  code: W3cSoftwareAndDocumentNoticeAndLicense
+  link: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
+  publisher: W3C
+  title: W3C Software and Document Notice and License
+- _position: 14
+  code: MicrosoftPublicLicense
+  link: http://opensource.org/licenses/MS-PL
+  publisher: N.N.
+  title: Microsoft Public License
+- _position: 15
+  code: DataExplorationLicence
+  link: https://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/data-exploration.html
+  publisher: Ordnance Survey
+  title: Data Exploration Licence
+- _position: 16
+  code: TheUniversalPermissiveLicenseUplVersion10
+  link: http://opensource.org/licenses/UPL
+  publisher: '- not specified -'
+  title: The Universal Permissive License (UPL), Version 1.0
+- _position: 17
+  code: OpenDataCommonsAttributionLicenseV10
+  link: https://opendatacommons.org/licenses/by/1.0/
+  publisher: Open Data Commons
+  title: Open Data Commons Attribution License v1.0
+- _position: 18
+  code: DeveloperLicense
+  link: http://www.nationalarchives.gov.uk/documents/information-management/developer-licence.pdf
+  publisher: The National Archives
+  title: Developer License
+- _position: 19
+  code: CeaCnrsInriaLogicielLibreLicenseVersion21
+  link: http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html
+  publisher: ' CEA, CNRS, INRIA'
+  title: Cea Cnrs Inria Logiciel Libre License, version 2.1
+- _position: 20
+  code: Apache-1.1
+  link: http://www.apache.org/licenses/LICENSE-1.1
+  publisher: The Apache Software Foundation
+  title: Apache License, Version 1.1
+- _position: 21
+  code: GnuFreeDocumentationLicense
+  link: https://www.gnu.org/licenses/fdl.html
+  publisher: Free Software Foundation
+  title: GNU Free Documentation License version 1.3
+- _position: 22
+  code: ArtisticLicense20
+  link: http://opensource.org/licenses/Artistic-2.0
+  publisher: N.N.
+  title: Artistic License 2.0
+- _position: 23
+  code: LatexProjectPublicLicenseVersion13c
+  link: http://opensource.org/licenses/LPPL-1.3c
+  publisher: LaTeX3 Project
+  title: LaTeX Project Public License, Version 1.3c
+- _position: 24
+  code: EclipsePublicLicense10
+  link: http://opensource.org/licenses/EPL-1.0
+  publisher: Eclipse
+  title: Eclipse Public License 1.0
+- _position: 25
+  code: ComputerAssociatesTrustedOpenSourceLicense11
+  link: http://opensource.org/licenses/CATOSL-1.1
+  publisher: Computer Associates International, Inc. (CA)
+  title: Computer Associates Trusted Open Source License 1.1
+- _position: 26
+  code: InspireEndUserLicence
+  link: https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html
+  publisher: Ordnance Survey Limited
+  title: INSPIRE End User Licence
+- _position: 27
+  code: EclipsePublicLicense20
+  link: http://opensource.org/licenses/EPL-2.0
+  publisher: N.N.
+  title: Eclipse Public License 2.0
+- _position: 28
+  code: Apache-2.0
+  link: http://www.apache.org/licenses/LICENSE-2.0
+  publisher: The Apache Software Foundation
+  title: Apache License, Version 2.0
+- _position: 29
+  code: OdcPublicDomainDedicationAndLicence
+  link: https://opendatacommons.org/licenses/pddl/1.0/
+  publisher: Open Data Commons
+  title: ODC Public Domain Dedication and Licence (PDDL)
+- _position: 30
+  code: AttributionAssuranceLicense
+  link: http://opensource.org/licenses/AAL
+  publisher: Edwin A. Suominen
+  title: Attribution Assurance License
+- _position: 31
+  code: CC-BY-SA_v4
+  link: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+  publisher: Creative Commons
+  title: Creative Commons Attribution-ShareAlike 4.0 International
+- _position: 32
+  code: AdaptivePublicLicense10
+  link: http://opensource.org/licenses/APL-1.0
+  publisher: '- not specified -'
+  title: Adaptive Public License 1.0
+- _position: 33
+  code: IscLicense
+  link: http://opensource.org/licenses/ISC
+  publisher: N.N.
+  title: ISC License
+- _position: 34
+  code: CC-BY-NC-ND_v4
+  link: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  publisher: Creative Commons
+  title: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+- _position: 35
+  code: OpenSupremeCourtLicence
+  link: http://www.nationalarchives.gov.uk/doc/open-supreme-court-licence/version/1/open-supreme-court-licence-version-1.0.pdf
+  publisher: The National Archives UK
+  title: Open Supreme Court Licence
+- _position: 36
+  code: AGPL
+  link: https://www.gnu.org/licenses/agpl-3.0.html
+  publisher: GNU Affero General Public License
+  title: GNU Affero General Public License
+- _position: 37
+  code: CC-BY-ND_v4
+  link: https://creativecommons.org/licenses/by-nd/4.0/legalcode
+  publisher: Creative Commons
+  title: Creative Commons Attribution-NoDerivatives 4.0 International
+- _position: 38
+  code: OpenGovernmentLicenceCanada
+  link: https://open.canada.ca/en/open-government-licence-canada
+  publisher: Her Majesty the Queen in right of Canada
+  title: Open Government Licence - Canada
+- _position: 39
+  code: BoostSoftwareLicense10
+  link: http://opensource.org/licenses/BSL-1.0
+  publisher: '- not specified -'
+  title: Boost Software License 1.0
+- _position: 40
+  code: MozillaPublicLicenseVersion20
+  link: https://www.mozilla.org/en-US/MPL/2.0/
+  publisher: Mozilla Corporation
+  title: Mozilla Public License Version 2.0
+- _position: 41
+  code: LGPLv3
+  link: https://www.gnu.org/licenses/lgpl-3.0.html
+  publisher: Free Software Foundation
+  title: GNU Lesser General Public License version 3.0
+- _position: 42
+  code: AcademicFreeLicense30
+  link: http://opensource.org/licenses/AFL-3.0
+  publisher: '- not specified -'
+  title: Academic Free License 3.0
+- _position: 43
+  code: CommonPublicAttributionLicenseVersion10
+  link: http://opensource.org/licenses/CPAL-1.0
+  publisher: Socialtext Incorporated
+  title: Common Public Attribution License Version 1.0
+- _position: 44
+  code: OdcOpenDatabaseLicense
+  link: https://opendatacommons.org/licenses/odbl/1.0/
+  publisher: Socialtext Incorporated
+  title: ODC Open Database License (ODbL)
+- _position: 45
+  code: CommonDevelopmentAndDistributionLicense10
+  link: http://opensource.org/licenses/CDDL-1.0
+  publisher: N.N.
+  title: Common Development and Distribution License 1.0
+- _position: 46
+  code: TheZlibLibpngLicense
+  link: http://opensource.org/licenses/Zlib
+  publisher: N.N.
+  title: The zlib libpng License
+- _position: 47
+  code: SunPublicLicenseVersion10
+  link: http://opensource.org/licenses/SPL-1.0
+  publisher: Sun Microsystems, Inc.
+  title: SUN PUBLIC LICENSE Version 1.0
+- _position: 48
+  code: UkOpenGovernmentLicenseForPublicSectorInformation
+  link: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  publisher: UK Government
+  title: UK Open Government License for Public Sector Information
+- _position: 49
+  code: StatisticsCanadaOpenLicenceAgreement
+  link: https://www.statcan.gc.ca/eng/reference/licence
+  publisher: Statistics Canada
+  title: Statistics Canada Open Licence Agreement
+- _position: 50
+  code: GNU_GPL_v3
+  link: https://www.gnu.org/licenses/gpl.html
+  publisher: Free Software Foundation
+  title: GNU General Public License 3
+- _position: 51
+  code: CC-BY-NC-SA_v4
+  link: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+  publisher: Creative Commons
+  title: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+- _position: 52
+  code: OpenSoftwareLicenseV30
+  link: http://opensource.org/licenses/OSL-3.0
+  publisher: Lawrence Rosen
+  title: Open Software License v. 3.0

@@ -1,31 +1,29 @@
 ---
 component-id: meetups-themes
-name: MEETUPS - Identification of themes
-brief-description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find encounter types. It uses \"sklearn\" and a set of Machine Learning algorithms to classify sentences according to the established type of events. The tool extracts information from one of the four elements defining a meetup: the type of encounter (what). Encounter type, along with data of the people involved (who), the place (where) and the time it took place (what), complete the historical meetup information."
 type: Software
-release-date: 20/07/2022
-release-number: v0.1
+name: MEETUPS Identification of themes
+description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find encounter types. It uses 'sklearn' and a set of Machine Learning algorithms to classify sentences according to the established type of events. The tool extracts information from one of the four elements defining a meetup: the type of encounter (what). Encounter type, along with data of the people involved (who), the place (where) and the time it took place (what), complete the historical meetup information."
 work-package:
 - WP4
 pilot:
 - MEETUPS
-keywords:
-- Wikipedia
-- Music
-- Text classification
-- Encounter type
-licence: Apache 2.0
+project: polifonia-project
+resource: https://github.com/polifonia-project/meetups_pilot/blob/main/MeetupType_applyClassifier.ipynb
+release-date: 20/07/2022
+release-number: v0.1
+release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
+doi: https://zenodo.org/badge/latestdoi/436452967
+changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
+licence:
+- Apache-2.0
+copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
+contributors:
+- Alba Morales Tirado <https://github.com/albamoralest>
+- Enrico Daga <https://github.com/enridaga>
 related-component:
-- meetups-data-cleaning
-- meetups-themes
-- meetups-entity-recognition
-- meetups-time-extraction
-- meetups-corpus-collection
-release link:
-  - https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.1
-credits:
-  - https://github.com/enridaga
-  - https://github.com/albamoralest
+- informed-by: 
+  - meetups-data-cleaning
+  - meetups-corpus-collection
 ---
 
 # MEETUPS - Identification of themes
@@ -49,12 +47,12 @@ Approach:
 c) Applying the classifier
 Use the model tested in b) and infer the type of encounter for all the data in the corpus
 
-### Information on installation and setup
+## Information on installation and setup
 
   - Jupyter Notebook:
     MeetupType_applyClassifier.ipynb
     
-### Details of the data
+## Details of the data
 
     Running the Themes classifier:
     |_ MeetupType_applyClassifier.ipynb
@@ -83,6 +81,6 @@ Use the model tested in b) and infer the type of encounter for all the data in t
     |_ README_identification_themes.md
     
 
-### DOI:
+## DOI:
 
-    TODO
+[![DOI](https://zenodo.org/badge/436452967.svg)](https://zenodo.org/badge/latestdoi/436452967)
