@@ -3,12 +3,17 @@ id: report
 name: Components of type Report
 description: List of components of type report
 layout: default
-title: Documentation
+title: Reports
 nav_order: 15
 permalink: /report.html
 ---
 
-# Documentation
+# Reports
+
+This section collects project outputs that are released as *report*.
+The ecosystem considers reports any digital object that specifies, describes, or represents facts about the project's domain of interest.
+Reports differ from *data* as they are mainly directed to human consumption, rather than computational treatment.
+Reports include various types of digital objects such as documentation, tutorial, requirements collections, stories or persona specifications.
 
 <div id="chart_container_report"></div>
 <script>

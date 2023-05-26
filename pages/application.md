@@ -10,6 +10,11 @@ permalink: /application.html
 
 # Application
 
+This section collects project outputs that are released as *application*.
+The ecosystem considers applications executable systems and tools produced by the project for the end-user to achieve a certain task computationally.
+We distinguish [applications](applications.html) from [software](software.html), where software can be copied, moved, and executed in multiple different applications (each in relation to some usage senarios).
+Applications include various types of artifacts such as Web Applications, Web sites, and Command Line Interface (CLI) tools.
+
 <div id="chart_container_application"></div>
 <script>
 anychart.onDocumentReady(function() {

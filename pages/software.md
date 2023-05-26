@@ -10,6 +10,10 @@ permalink: /software.html
 
 # Software
 
+This section collects project outputs that are released as *software*.
+The ecosystem considers software any digital object that is being produced by the project to achieve a certain task computationally.
+We distinguish software from [applications](applications.html), where software is used (executed) by a user to perform the task.
+These include various types of digital objects such as scripts, software libraries, workflows, or APIs.
 <div id="chart_container_software"></div>
 <script>
 anychart.onDocumentReady(function() {

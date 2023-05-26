@@ -1,14 +1,18 @@
 ---
 id: data
 name: Components of type Data
-description: List of components of type data
+description: List of components of type data, schemas, ontologies
 layout: default
-title: Data
+title: Data, schemas, ontologies
 nav_order: 12
 permalink: /data.html
 ---
 
 # Data
+
+This section collects project outputs that are released as *data*.
+The ecosystem considers data any digital object that specifies, describes, or represents facts about the project's domain of interest.
+These include various types of digital objects such as schemas, corpora, ontologies, or repositories.
 
 <div id="chart_container_data"></div>
 <script>
