@@ -33,6 +33,8 @@ Repositories included in this version:
 - polifonia-project/source-ontology
 - polifonia-project/tunes-ontology
 - polifonia-project/cometa-ontology
+- polifonia-project/deep-listening
+
 ## v1.1
 
 Repositories versions:
