@@ -20,7 +20,9 @@ anychart.onDocumentReady(function() {
     // set the data
     var data = [
         {x: "Software", value: 8},
-        {x: "UserInterface", value: 2}
+        {x: "UserInterface", value: 2},
+        {x: "SoftwareLibrary", value: 1},
+        {x: "DockerImageContainer", value: 1}
     ];
     // create the chart
     var chart = anychart.pie3d();
@@ -40,13 +42,15 @@ anychart.onDocumentReady(function() {
   });
   </script>
 
-## List of components 
+
 {% assign software_data = "Software,Workflow,API,UserInterface,SoftwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %}
 {% for type in software_data %}
 {% if type != "" %}
 {% assign numberOf = site.documents  | where_exp: 'item', "item.type == type" | size %}
 {% if numberOf > 0 %}
-### {{ type }} ({{numberOf}})
+### {{ type }}
+
+There are {{numberOf}} components of type {{type}}:
 	{% assign components =  site.documents  | where: 'type',type %}
 	{% include reeco-components-table.html components=components %}
 {% endif %}
