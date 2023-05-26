@@ -111,13 +111,14 @@ anychart.onDocumentReady(function() {
     chart.draw();
   });
   </script>
-{% endcomment %}
-
 {% assign types_activity = "Container,Project,WorkingGroup,WorkPackage,Task,UseCase,Pilot" | split: "," %}
 {% assign ncomponents = site.documents  | where_exp: 'item',"types_activity contains item.type" | size %}
 {% assign npages = site.pages  | where_exp: 'item',"types_activity contains item.type" | size %}
 {% assign nactivities = npages | plus: ncomponents %}
-The ecosystem includes {{nactivities}} <a href="activities.html">activities</a>, {% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}{% assign ncomponents = site.documents  | where_exp: 'item',"types_data contains item.type" | size %} {{ncomponents}} <a href="data.html">data</a> objects, {% assign software_data = "Software,Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %} {% assign ncomponents = site.documents  | where_exp: 'item',"software_data contains item.type" | size %} {{ncomponents}} <a href="software.html">software</a>, {% assign apps_data = "Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}{% assign ncomponents = site.documents  | where_exp: 'item',"apps_data contains item.type" | size %} {{ncomponents}} <a href="application.html">application</a>, {% assign report_data = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}{% assign ncomponents = site.documents  | where_exp: 'item',"report_data contains item.type" | size %} and {{ncomponents}} <a href="report.html">reference material</a>.
+{% endcomment %}
+
+
+The ecosystem includes {% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}{% assign ncomponents = site.documents  | where_exp: 'item',"types_data contains item.type" | size %} {{ncomponents}} <a href="data.html">data</a>, {% assign software_data = "Software,Workflow,API,UserInterface,SofwareLibrary,DockerImageContainer,Notebook,Script" | split: "," %} {% assign ncomponents = site.documents  | where_exp: 'item',"software_data contains item.type" | size %} {{ncomponents}} <a href="software.html">software</a>, {% assign apps_data = "Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," %}{% assign ncomponents = site.documents  | where_exp: 'item',"apps_data contains item.type" | size %} {{ncomponents}} <a href="application.html">application</a>, {% assign report_data = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}{% assign ncomponents = site.documents  | where_exp: 'item',"report_data contains item.type" | size %} and {{ncomponents}} <a href="report.html">reference documentation</a>.
 
 Polifonia content is managed on [GitHub](http://github.com/{{ site.github }}).
 

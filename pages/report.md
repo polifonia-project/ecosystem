@@ -3,12 +3,12 @@ id: report
 name: Components of type Report
 description: List of components of type report
 layout: default
-title: Report
+title: Documentation
 nav_order: 15
 permalink: /report.html
 ---
 
-# Report
+# Documentation
 
 <div id="chart_container_report"></div>
 <script>
