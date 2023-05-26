@@ -85,14 +85,14 @@ div.annotation-schema div.table-wrapper table th {
 # polifonia custom styles
 #
 --------------------------------------------------*/
-body{color:#000 !important;font-size:18px !important;font-size:1.2rem !important;}
+body{color:#000 !important;font-size:18px !important;font-size:1.1rem !important;}
 h1, h2, h3, h4, h5, h6{color:#000 !important;font-weight:500;margin-bottom:20px !important;}
-h1{font-size:38px !important;font-size:2.5rem !important;}
-h2{font-size:34px !important;font-size:2.1rem !important;}
-h3{font-size:30px !important;font-size:1.8rem !important;}
-h4{font-size:26px !important;font-size:1.5rem !important;}
-h5{font-size:18px !important;font-size:1.2rem !important;}
-h6{font-size:18px !important;font-size:1.2rem !important;}
+h1, h1.fs-9{font-size:32px !important;font-size:2.0rem !important;}
+h2{font-size:28px !important;font-size:1.8rem !important;}
+h3{font-size:24px !important;font-size:1.6rem !important;}
+h4{font-size:20px !important;font-size:1.4rem !important;}
+h5{font-size:18px !important;font-size:1.1rem !important;}
+h6{font-size:18px !important;font-size:1.1rem !important;}
 .main{max-width:100% !important;}
 hr{display:none !important;}
 
@@ -136,7 +136,7 @@ a:not([class]){text-decoration:none !important;background-image:none !important;
 .site-nav, .site-header, .site-footer{width:300px !important;}
 /*.nav-list .nav-list-item:hover, .nav-list .nav-list-item:hover a{background-color:#fff !important;color:#2c42c8 !important;}*/
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active{background-color:#fff !important;color:#2c42c8 !important;}
-.nav-list .nav-list-item {font-size:22px !important;font-size:1.4rem !important;}
+.nav-list .nav-list-item {font-size:18px !important;font-size:1.1rem !important;}
 .nav-list .nav-list-item .nav-list-link{line-height:2.2rem !important;padding-top:10px !important;padding-bottom:10px !important;}
 .nav-list-link{color:#fff;}
 
