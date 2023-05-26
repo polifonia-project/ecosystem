@@ -1,11 +1,38 @@
 # Changelog
 
-## v1.2
+## v2.0-RC1
 
-Repositories versions:
+Repositories included in this version:
 
-TODO
-
+- polifonia-project/rulebook
+- polifonia-project/external-components
+- polifonia-project/folk_ngram_analysis
+- polifonia-project/clef
+- polifonia-project/registry_app
+- polifonia-project/lharp
+- polifonia-project/documentary-evidence-benchmark
+- polifonia-project/ontology-network
+- polifonia-project/stories
+- polifonia-project/textual-corpus-population
+- polifonia-project/polifonia-lexicon
+- polifonia-project/dashboard
+- polifonia-project/web_portal
+- polifonia-project/licences
+- polifonia-project/Polifonia-Corpus-Web-API
+- polifonia-project/music-analysis-ontology
+- polifonia-project/tonalities_pilot
+- polifonia-project/meetups-knowledge-graph
+- polifonia-project/meetups_pilot
+- polifonia-project/meetups_corpus_collection
+- polifonia-project/meetups-ontology
+- polifonia-project/meetups-application
+- polifonia-project/meetups-ui-design
+- polifonia-project/ontology-network
+- polifonia-project/music-meta-ontology
+- polifonia-project/instrument-ontology
+- polifonia-project/source-ontology
+- polifonia-project/tunes-ontology
+- polifonia-project/cometa-ontology
 ## v1.1
 
 Repositories versions:
