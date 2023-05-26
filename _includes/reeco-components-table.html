@@ -1,0 +1,2 @@
+{% for component in include.components%}
+- [{% if component.name %}{{ component.name }}{%else%}{{ component.component-id}} {%endif%}]({{ component.url | relative_url }})	{% endfor %}

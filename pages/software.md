@@ -44,8 +44,7 @@ anychart.onDocumentReady(function() {
 {% if numberOf > 0 %}
 ### {{ type }} ({{numberOf}})
 	{% assign components =  site.documents  | where: 'type',type %}
-	{% for component in components %}
-- [{% if component.name %}{{ component.name }}{%else%}{{ component.component-id}} {%endif%}]({{ component.url | relative_url }})	{% endfor %}	
+	{% include reeco-components-table.html components=components %}
 {% endif %}
 {% endif %}
 {% endfor %}

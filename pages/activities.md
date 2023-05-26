@@ -4,7 +4,7 @@ name: Activities
 description: List of activities (ecosystem containers)
 layout: default
 title: Activities
-nav_order: 13
+nav_order: 10
 permalink: /activities.html
 ---
 
