@@ -45,7 +45,6 @@ anychart.onDocumentReady(function() {
 {% for type in software_data %}
 {% if type != "" %}
 {% assign numberOf = site.documents  | where_exp: 'item', "item.type == type" | size %}
---{{type}}--
 {% if numberOf > 0 %}
 ### {{ type }} ({{numberOf}})
 	{% assign components =  site.documents  | where: 'type',type %}
