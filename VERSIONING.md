@@ -34,6 +34,7 @@ Repositories included in this version:
 - polifonia-project/tunes-ontology
 - polifonia-project/cometa-ontology
 - polifonia-project/deep-listening
+- polifonia-project/broadcast-concerts-knowledge-graph
 
 ## v1.1
 
