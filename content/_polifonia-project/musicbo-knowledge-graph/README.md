@@ -2,12 +2,12 @@
 component-id: musicbo-knowledge-graph
 name: MusicBO Knowledge Graph
 description: The Knowledge Graph about the role of Bologna in the European musical landscape.
-type: Repository
+type: KnowledgeGraph
 release-date: 12/02/2023
 release-number: v0.1
 work-package: 
 - WP4
-licence: CC BY
+licence: CC-BY_v4
 links:
 - https://github.com/polifonia-project/musicbo-knowledge-graph
 credits:
