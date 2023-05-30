@@ -1,24 +1,22 @@
 ---
-component-id: sparql-anything-cli
-type: CLITool
-name: SPARQL Anything Command Line
-description: Command line executable of SPARQL Anything
+component-id: data-open-ac-uk
+type: SPARQLEndpoint
+name: "The Open Knowldedge Graph (OKG)"
+description: "The Open Knowldedge Graph (OKG) SPARQL Endpoint"
 logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
 work-package:
 - WP1
 - WP2
-- WP3
 - WP4
 pilot:
 - MEETUPS
 - CHILD
 project: polifonia-project
-resource: https://github.com/SPARQL-Anything/sparql.anything/releases
-demo: https://github.com/SPARQL-Anything/showcase-tate
-changelog: https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
+resource: https://data.open.ac.uk/sparql
+demo: https://data.open.ac.uk/sparql
 licence:
-- Apache-2.0
-copyright: "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything"
+- CC-BY_4
+copyright: "Copyright (c) 2023 The Open University"
 contributors:
 - Enrico Daga <https://github.com/enridaga>
 - Mathieu d'Aquin <https://mdaquin.github.io/>
@@ -33,7 +31,7 @@ related-components:
   - meetups-ontology
 ---
 
-# The Open Knowledge Graph
+# The Open Knowledge Graph SPARQL Endpoint
 
 [The Open Knowldedge Graph (OKG)](http://data.open.ac.uk) is the home of Linked Data from The Open University.
 
