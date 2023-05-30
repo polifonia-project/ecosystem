@@ -14,8 +14,7 @@ pilot:
   - MEETUPS
 work-package:
   - WP4
-type:
-  - Dataset
+type: KnowledgeGraph
 links: 
   - "https://www.listeningexperience.org"
   - "https://data.open.ac.uk/sparql"
