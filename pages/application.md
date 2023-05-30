@@ -21,8 +21,9 @@ anychart.onDocumentReady(function() {
     // set the data
     var data = [
         {x: "Application", value: 1},
-        {x: "CLITool", value: 2},
-        {x: "WebApplication", value: 3}
+        {x: "CLITool", value: 1},
+        {x: "WebApplication", value: 4}
+        {x: "SPARQLEndpoint", value: 2}
 		];
     // create the chart
     var chart = anychart.pie3d();
