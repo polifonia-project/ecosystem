@@ -60,6 +60,8 @@ collections_dir: content/
 collections:
     polifonia-project:
         output: true
+    smashub:
+        output: true
 # project:
     #     output: true
 #
