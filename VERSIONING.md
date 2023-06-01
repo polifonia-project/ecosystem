@@ -36,7 +36,8 @@ Repositories included in this version:
 - polifonia-project/deep-listening
 - polifonia-project/broadcast-concerts-knowledge-graph
 - polifonia-project/musicbo-knowledge-graph
-
+- polifonia-project/Polifonia-Corpus
+- smashub/choco
 
 ## v1.1
 

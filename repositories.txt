@@ -30,4 +30,6 @@ polifonia-project/cometa-ontology:branches:main
 polifonia-project/deep-listening:branches:main
 polifonia-project/broadcast-concerts-knowledge-graph:branches:main
 polifonia-project/musicbo-knowledge-graph:branches:main
+polifonia-project/Polifonia-Corpus:branches:master
+smashub/choco:branches:main
 
