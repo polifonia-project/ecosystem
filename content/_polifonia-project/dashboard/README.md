@@ -1,5 +1,6 @@
 ---
-component-id: melody
+component-id: melody-software
+type: WebApplication
 name: MELODY
 description: MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data.
 work-package:
@@ -12,12 +13,13 @@ release-number: v0.1.1
 release-link: https://github.com/polifonia-project/dashboard/releases/latest
 doi: 10.5281/zenodo.6637345
 changelog: https://github.com/polifonia-project/dashboard/releases/latest
-licence:
+license:
 - IscLicense
 contributors:
 - Marilena Daquino <https://github.com/marilenadaquino>
 - Giulia Renda <https://github.com/mondoboia>
 ---
+
 
 # Polifonia Dashboard
 
