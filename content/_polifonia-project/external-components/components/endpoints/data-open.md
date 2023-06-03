@@ -21,7 +21,7 @@ contributors:
 - Enrico Daga <https://github.com/enridaga>
 - Mathieu d'Aquin <https://mdaquin.github.io/>
 bibliography:
-- main-publication: "Daga, Enrico, Mathieu d’Aquin, Alessandro Adamou, and Stuart Brown. "The open university linked data–data. open. ac. uk." Semantic Web 7, no. 2 (2016): 183-191."
+- main-publication: "Daga, Enrico, Mathieu d’Aquin, Alessandro Adamou, and Stuart Brown. \"The open university linked data–data. open. ac. uk.\" Semantic Web 7, no. 2 (2016): 183-191."
 related-components:
 - serves:
   - led

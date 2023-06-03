@@ -83,7 +83,9 @@ $('#sticky-navigator').stickyNavigator({
 wrapselector: '#contents',
 targetselector: "h2,h3,h4",
 });
-
+</script>
+<!-- site.baseurl: "{{ site.baseurl }}" -->
+<script>
 // Fix anchor links
 $('#contents a').each(function(ix,el){
     var raw_link = "{{repo_data.link}}";
