@@ -171,8 +171,8 @@ If you use the code in this repository, please cite this software as follows:
 ```
 @software{diamond_fonn_2022,
 	address = {Galway, Ireland},
-	title = {{FONN} - {FOlk} {N}-gram {aNalysis}},
-	shorttitle = {{FONN}},
+	title = {% raw %}{{{% endraw %}FONN} - {FOlk} {N}-gram {aNalysis}},
+	shorttitle = {% raw %}{{{% endraw %}FONN}},
 	url = {https://github.com/polifonia-project/folk_ngram_analysis},
 	publisher = {National University of Ireland, Galway},
 	author = {Diamond, Danny and Shahid, Abdul and McDermott, James},

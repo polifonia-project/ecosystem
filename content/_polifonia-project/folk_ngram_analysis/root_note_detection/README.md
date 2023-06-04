@@ -55,7 +55,7 @@ If you use the code in this repository, please cite this software as follow:
   author       = {Danny Diamond and
                   Abdul Shahid and
                   James McDermott},
-  title        = {{polifonia-project/folk\_ngram\_analysis: FONN 
+  title        = {% raw %}{{{% endraw %}polifonia-project/folk\_ngram\_analysis: FONN 
                    v0.5dev}},
   month        = may,
   year         = 2022
