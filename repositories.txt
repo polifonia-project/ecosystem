@@ -1,6 +1,6 @@
-polifonia-project/rulebook:tag:v3.1
+polifonia-project/rulebook:branches:main
 polifonia-project/external-components:branches:main
-polifonia-project/folk_ngram_analysis:tag:v0.4-dev.ecosystem-v1.0
+polifonia-project/folk_ngram_analysis:branches:master
 polifonia-project/clef:branches:master
 polifonia-project/registry_app:branches:main
 polifonia-project/lharp:branches:master
