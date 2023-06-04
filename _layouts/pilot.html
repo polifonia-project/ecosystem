@@ -13,22 +13,22 @@ layout: default
 {% unless psize < 1 %} 
 <h3>Components:</h3>
 {% assign types = pilot-posts | map: 'type' | join: ','  | split: ',' | uniq %}
-<ul>
+
   {% for type in types %}
   {% if type != "" %}
-  <li> {{ type }}</li>
+{{ type }}
   {% assign components =  pilot-posts | where: 'type',type %}
+
   <ul>
     {% for component in components %}
     {% if component.type contains "Story" %}
     {% if component.name %}
     <li><a href="{{ component.url | relative_url }}">{{
-        component.name }}</a>
-      ({{component.persona}})</li>  
+        component.name }}</a></li>  
     {% else %}
     {% assign fakename = component.id | split: '_' | last %} 
     <li><a href="{{ component.url | relative_url }}">{{
-        fakename }}</a> ({{component.persona}})</li>  
+        fakename }}</a></li>  
     {% endif %}
     {% else %}
     <li><a href="{{ component.url | relative_url
@@ -36,9 +36,10 @@ layout: default
     {% endif %}
     {% endfor %}
   </ul>
+
   {% endif %}
   {% endfor %}
-</ul>
+
 
 {% endunless %}
 
