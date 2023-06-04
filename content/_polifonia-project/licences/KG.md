@@ -6,14 +6,16 @@ type: KnowledgeGraph
 release-date: 28/04/2023
 release-number: v0.3
 work-package: 
+- WP1
 - WP2
-licence: Public domain, https://unlicense.org
+licence:
+- CC_BY_v4
 doi: 10.5281/zenodo.7875034
 links:
 credits:
-- https://github.com/enridaga
-- https://github.com/jasemk
-- Marco Gurrieri
+- "Enrico Daga" <https://github.com/enridaga>
+- "Jason Carvalho" <https://github.com/jasemk>
+- "Marco Gurrieri"
 related-components:
 - generated-by:
   - licences-pipeline
