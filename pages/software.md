@@ -13,11 +13,11 @@ permalink: /software.html
 This section collects project outputs that are released as *software* or *application*.
 
 The ecosystem considers software any digital object that is being produced by the project to achieve a certain task computationally.
-We distinguish software from [applications](applications.html), where software is used (executed) by a user to perform the task.
-These include various types of digital objects such as scripts, [software](#software) libraries, workflows, or APIs.
+We distinguish software from applications, where software is used (executed) by a user to perform the task.
+These include various types of digital objects such as scripts, software libraries, workflows, or APIs.
 
 The ecosystem considers applications executable systems and tools produced by the project for the end-user to achieve a certain task computationally.
-We distinguish [applications](applications.html) from [software](software.html), where software can be copied, moved, and executed in multiple different applications (each in relation to some usage senarios).
+We distinguish applications from software, where software can be copied, moved, and executed in multiple different applications (each in relation to some usage senarios).
 Applications include various types of artifacts such as Web Applications, Web sites, and Command Line Interface (CLI) tools.
 
 <div id="chart_container_software"></div>
