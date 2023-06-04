@@ -13,8 +13,8 @@ licence:
 doi: 10.5281/zenodo.7875034
 links:
 credits:
-- "Enrico Daga" <https://github.com/enridaga>
-- "Jason Carvalho" <https://github.com/jasemk>
+- "Enrico Daga <https://github.com/enridaga>"
+- "Jason Carvalho <https://github.com/jasemk>"
 - "Marco Gurrieri"
 related-components:
 - generated-by:
