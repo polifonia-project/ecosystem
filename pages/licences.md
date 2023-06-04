@@ -15,10 +15,10 @@ The Polifonia Ecosystem components, grouped by licences.
 anychart.onDocumentReady(function() {
     // set the data
     var data = [
-        {x: "Apache License, Version 2.0", value: 12},
-        {x: "CC0 1.0 Universal ", value: 2},
-        {x: "Creative Commons Attribution 4.0", value: 9},
-        {x: "Creative Commons Attribution-NonCommercial", value: 1},
+        {x: "Apache 2.0", value: 12},
+        {x: "CC0 Universal ", value: 2},
+        {x: "CC Attribution", value: 9},
+        {x: "CC Attribution-NonCommercial", value: 1},
         {x: "ISC License", value: 1}
     ];
     // create the chart
