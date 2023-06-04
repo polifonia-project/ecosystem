@@ -8,7 +8,7 @@ release-number: v0.3
 work-package: 
 - WP2
 licence: 
-- CC_BY_v4
+- "CC-BY_v4"
 doi: 10.5281/zenodo.7875034
 links:
 credits:
