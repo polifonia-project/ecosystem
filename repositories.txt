@@ -33,3 +33,4 @@ polifonia-project/musicbo-knowledge-graph:branches:main
 polifonia-project/Polifonia-Corpus:branches:master
 smashub/choco:branches:main
 polifonia-project/pitchcontext:branches:main
+smashub/harmory:branches:main

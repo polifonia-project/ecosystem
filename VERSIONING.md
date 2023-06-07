@@ -38,6 +38,7 @@ Repositories included in this version:
 - polifonia-project/musicbo-knowledge-graph
 - polifonia-project/Polifonia-Corpus
 - smashub/choco
+- smashub/harmory
 - polifonia-project/pitchcontext
 
 ## v1.1
