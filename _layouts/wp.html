@@ -25,7 +25,7 @@ layout: default
       ({{component.persona}})</li>	
     {% else %}
 {% assign fakename = component.id | split: '_' | last %} 
-<li><a href="{{ component.url | relative_url }}">{{ fakename }}</a> ({{component.persona}})</li>	
+<li><a href="{{ component.url | relative_url }}">{{ fakename }}</a></li>	
     {% endif %}
   {% else %}
   <li><a href="{{ component.url | relative_url }}">{{ component.name }}</a></li>	
