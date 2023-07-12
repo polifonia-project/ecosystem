@@ -34,3 +34,5 @@ polifonia-project/Polifonia-Corpus:branches:master
 smashub/choco:branches:main
 polifonia-project/pitchcontext:branches:main
 smashub/harmory:branches:main
+polifonia-project/patterns-knowledge-graph:branches:main
+

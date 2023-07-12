@@ -40,6 +40,7 @@ Repositories included in this version:
 - smashub/choco
 - smashub/harmory
 - polifonia-project/pitchcontext
+- polifonia-project/patterns-knowledge-graph
 
 ## v1.1
 
