@@ -14,36 +14,40 @@ This section collects project outputs that are released as *data*.
 The ecosystem considers data any digital object that specifies, describes, or represents facts about the project's domain of interest.
 These include various types of digital objects such as [datasets](#dataset), [corpora](#corpus), [ontologies](#ontology), or [repositories](#repository).
 
-<div id="chart_container_data"></div>
+<!-- Create the canvas for the chart -->
+<div>
+  <canvas id="data_pie_chart"></canvas>
+</div>
+<!-- Import chart.js and build the chart -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
-anychart.onDocumentReady(function() {
-    // set the data
-    var data = [
-        {x: "Corpus", value: 1},
-        {x: "Dataset", value: 4},
-        {x: "KnowledgeGraph", value: 1},
-        {x: "Lexicon", value: 1},
-        {x: "Ontology", value: 6},
-        {x: "Repository", value: 4},
-        {x: "Schema", value: 2}
-    ];
-    // create the chart
-    var chart = anychart.pie3d();
-    // set the chart title
-    // chart.title("Polifonia Project Components by Type");
-	// add the data
-    chart.data(data);
-	// sort elements
-    chart.sort("desc");  
-	// set legend position
-    chart.legend().position("right");
-	// set items layout
-    chart.legend().itemsLayout("vertical");
-	// display the chart in the container
-    chart.container('chart_container_data');
-    chart.draw();
+  const ctx = document.getElementById('data_pie_chart');
+
+  new Chart(ctx, {
+    type: 'doughnut',
+    options: {
+      responsive: true,
+      radius: '70%'
+    },
+    data: {
+      labels: [
+        'Corpus',
+        'Dataset',
+        'KnowledgeGraph', 
+        'Lexicon',
+        'Ontology',
+        'Repository',
+        'Schema'
+        ],
+      datasets: [{
+        label: 'No. of Components',
+        data: [2, 2, 6, 1, 6, 4, 1],
+        borderWidth: 3
+      }]
+    }
   });
-  </script>
+</script>
 
 {% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
 {% for type in types_data %}
