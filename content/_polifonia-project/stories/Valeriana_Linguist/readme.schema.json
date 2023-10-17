@@ -1,0 +1,42 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Valeriana",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Valeriana is a linguist expert in discourse analysis and terminology."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Valeriana"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Valeriana is a linguist expert in discourse analysis and terminology."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Valeriana"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Jorge",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Jorge#1_OrganizeMyLibrary",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Jorge manages a digital library of scores. He aims at describing each score with a rich set of contextual information, although a comprehensive description is often not possible."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Jorge#1_OrganizeMyLibrary"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Jorge#3_DynamicExploration"
+      },
+      {
+        "@value": "Jorge#4_LinkToSources"
+      },
+      {
+        "@value": "Jorge manages a digital library of scores. He aims at describing each score with a rich set of contextual information, although a comprehensive description is often not possible."
+      },
+      {
+        "@value": "Jorge#2_FindSimilarScores"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Jorge"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Organize my digital library"
+      }
+    ]
+  }
+]

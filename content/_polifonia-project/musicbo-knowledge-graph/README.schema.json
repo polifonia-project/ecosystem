@@ -1,0 +1,47 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/musicbo-knowledge-graph",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Knowledge Graph about the role of Bologna in the European musical landscape."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/463323eecdf15c5b7112ef49d5692a26#/credits"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "musicbo-knowledge-graph"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The Knowledge Graph about the role of Bologna in the European musical landscape."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MusicBO Knowledge Graph"
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-python",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/SoftwareLibrary"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The PySPARQL-Anything software library."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/PySPARQL-Anything"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-java"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "sparql-anything-python"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The PySPARQL-Anything software library."
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n23304f846b0a41c9be1805d6d19cbf53b1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "PySPARQL-Anything"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "http://not-exisats.com/ddd"
+      }
+    ]
+  },
+  {
+    "@id": "_:n23304f846b0a41c9be1805d6d19cbf53b1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/PySPARQL-Anything/releases/tag/v0.8.1.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.8.1.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2023/01/31"
+      }
+    ]
+  }
+]

@@ -10,7 +10,32 @@ Source represents various sources of music-related information. These include ma
 
 ![Source module diagram](diagrams/source-module.png)
 
+## Competency questions addressed
 
+| **ID** | **Competency Question**              |
+|--------|--------------------------------------|
+| CQ1    | Which is the subject of a source?     |
+| CQ2    | Which is the credibility of a source?     |
+| CQ3    | Which is the goal of a source?          |
+| CQ4    | Which is the type of a source?          |
+| CQ5    | Which is the context of production of a source?         |
+| CQ6    | Which is the context of usage of a source?         |
+
+## Examples of SPARQL queries
+
+- Which is the subject of a source?
+
+```sparql
+PREFIX src: <https://w3id.org/polifonia/ontology/source/>
+SELECT DISTINCT ?source ?subject
+WHERE { ?source src:hasSubject ?subject .
+}
+```
+
+## Statistics
+- number of classes: 9 
+- number of object properties: 14
+- number of datatype properties: 1
 
 
 ## License

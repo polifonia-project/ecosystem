@@ -1,0 +1,45 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keith",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Keith"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Keith#1_MusicConnections"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Keith"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

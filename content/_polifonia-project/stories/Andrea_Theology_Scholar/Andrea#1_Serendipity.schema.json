@@ -1,0 +1,69 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Andrea#1_Serendipity",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Andrea's goal is to discover and explore sacred music written from the period of the Renaissance through the twentieth century and its unexpected links with his scholarly studies."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Andrea#1_Serendipity"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Andrea's goal is to discover and explore sacred music written from the period of the Renaissance through the twentieth century and its unexpected links with his scholarly studies."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Andrea"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/ORGANS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Serendipity"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Andrea",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]

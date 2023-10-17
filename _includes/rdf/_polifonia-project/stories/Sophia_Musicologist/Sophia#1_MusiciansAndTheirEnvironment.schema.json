@@ -1,0 +1,66 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophia#1_MusiciansAndTheirEnvironment",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Story"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sophia#1_MusiciansAndTheirEnvironment"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sophia#3_Reorchestration"
+      },
+      {
+        "@value": "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds."
+      },
+      {
+        "@value": "Sophia#2_OriginsAndForm"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Sophia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Musicians and their environment"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]

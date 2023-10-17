@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-java",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Software"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Source code of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Justin Dowdy <https://github.com/justin2004>"
+      },
+      {
+        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "SPARQL 1.1 Query Language https://www.w3.org/TR/sparql11-query/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "sparql-anything-java"
+      },
+      {
+        "@id": "_:ne3dc5fa9b96842cc862889e6fd6a92b6b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Source code of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "Apache Jena https://jena.apache.org/"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:ne3dc5fa9b96842cc862889e6fd6a92b6b2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "SPARQL Anything Source Code"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/showcase-tate"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne3dc5fa9b96842cc862889e6fd6a92b6b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7454360"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne3dc5fa9b96842cc862889e6fd6a92b6b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.8.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2022/12/18"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  }
+]

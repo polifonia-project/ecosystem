@@ -1,0 +1,93 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus#3_ConflictingAnalyticalAnnotations",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Story"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sethus#3_ConflictingAnalyticalAnnotations"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sethus#2_CreateRelevantCorpus"
+      },
+      {
+        "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
+      },
+      {
+        "@value": "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Sethus"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Conflicting analytical annotations"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

@@ -12,7 +12,7 @@ resource: https://github.com/polifonia-project/meetups-ontology
 release-date: 2023/01/13
 release-number: v0.1
 release-link: https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1
-doi: 10.5281/zenodo.7534343
+doi: https://zenodo.org/badge/latestdoi/588540533
 changelog: https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1
 licence: Apache-2.0
 copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
@@ -32,9 +32,9 @@ related-components:
 # MEETUPS Ontology
 
 [![DOI](https://zenodo.org/badge/588540533.svg)](https://zenodo.org/badge/latestdoi/588540533)
-[![License: Apache 2.0]]
+[![License: Apache 2.0]](http://www.apache.org/licenses/LICENSE-2.0)
 
-Ontology URI: [http://w3id.org/polifonia/ontology/meetups-ontology#/](http://w3id.org/polifonia/ontology/meetups-ontology#/)
+Ontology URI: [https://w3id.org/polifonia/ontology/meetups-ontology#/](https://w3id.org/polifonia/ontology/meetups-ontology#/)
 
 The ontology module MEETUPS, which is part of the Polifonia Ontology Network, represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945.
 
@@ -45,11 +45,11 @@ Typically, historical meetups, which are the main subject of this module, are de
 This ontology module is strictly related to the Polifonia pilot MEETUPS: ![MEETUPS Pilot](https://github.com/polifonia-project/meetups_pilot)
 
 Ontology graphic description:
-![MEETUPS ontology module](meetups-ont-diagram-V0.2.png?raw=true "MEETUPS ontology module")
+![MEETUPS ontology module](diagrams/meetups-ont-diagram-V0.2.png?raw=true "MEETUPS ontology module")
 
 
 Ontology provenance information:
-![MEETUPS ontology module](meetups-ont-diagram-V2_prov.png?raw=true "MEETUPS provenance")
+![MEETUPS ontology module](diagrams/meetups-ont-diagram-V2_prov.png?raw=true "MEETUPS provenance")
 
 
 
@@ -105,4 +105,8 @@ MEETUPS Pilot dataset: dataset representing a collection of ~33k biographies col
 ## Alignment to other ontologies
 
 MEETUPS pilot is part of the European project Polifonia and it is align to the Polifonia Ontology Network (PON)
+- [Core](https://w3id.org/polifonia/ontology/core)
+
 MEETUPS also reuse ontologies such as Time and ProvOnto
+- [Time](http://www.w3.org/2006/time)
+- [PROV-Onto](http://w3.org/ns/prov#)

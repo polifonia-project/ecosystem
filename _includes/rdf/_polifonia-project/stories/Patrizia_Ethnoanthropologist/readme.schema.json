@@ -1,0 +1,51 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Patrizia",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Ethnoanthropologist and Officer at the Italian Ministry of Culture"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Patrizia"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Ethnoanthropologist and Officer at the Italian Ministry of Culture"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/BELLS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Patrizia"
+      }
+    ]
+  }
+]

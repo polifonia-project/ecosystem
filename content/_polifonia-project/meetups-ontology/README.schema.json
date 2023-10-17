@@ -1,0 +1,160 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/meetups-ontology",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Ontology"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Ontology that represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Alba Morales Tirado <https://github.com/albamoralest>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 MEETUPS @ The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups-ontology"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "meetups-ontology"
+      },
+      {
+        "@id": "_:n56896775a9834ce9bbb28f8413d24e8ab1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Ontology that represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Ortenz"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/David"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Sophie"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n56896775a9834ce9bbb28f8413d24e8ab2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MEETUPS Ontology"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "meetups-pilot"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56896775a9834ce9bbb28f8413d24e8ab1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "https://zenodo.org/badge/latestdoi/588540533"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56896775a9834ce9bbb28f8413d24e8ab2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2023/01/13"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]
