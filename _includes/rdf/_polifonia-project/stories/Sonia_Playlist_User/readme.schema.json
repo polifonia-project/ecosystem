@@ -1,0 +1,40 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Lecturer, music producer and festival director interested in finding new music."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sonia"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sonia#3_StatsMode"
+      },
+      {
+        "@value": "Sonia#2_ShuffleMode"
+      },
+      {
+        "@value": "Lecturer, music producer and festival director interested in finding new music."
+      },
+      {
+        "@value": "Sonia#1_ExplorationMode"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Sonia"
+      }
+    ]
+  }
+]

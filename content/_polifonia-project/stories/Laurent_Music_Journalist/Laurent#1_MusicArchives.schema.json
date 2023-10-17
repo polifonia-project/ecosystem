@@ -1,0 +1,51 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/--",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent#1_MusicArchives",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Laurent's goal is to discover and explore Archives, Historical and Research Resources that deal with music in some way, for the extrapolation of content to be included in his newsletter."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Laurent#1_MusicArchives"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Laurent's goal is to discover and explore Archives, Historical and Research Resources that deal with music in some way, for the extrapolation of content to be included in his newsletter."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Laurent"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/--"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Music Archives"
+      }
+    ]
+  }
+]

@@ -84,7 +84,7 @@ If you would like to use this software and knowledge graph, please cite this rep
 @software{shahid_patternkg_2023,
 	address = {Galway, Ireland},
 	title = {Pattern Knowledge Graph},
-	shorttitle = {{PatternKG}},
+	shorttitle = {% raw %}{{{% endraw %}PatternKG}},
 	url = {https://github.com/polifonia-project/patterns-knowledge-graph},
 	publisher = {University of Galway},
 	author = {Shahid, Abdul and Diamond, Danny and McDermott, James},

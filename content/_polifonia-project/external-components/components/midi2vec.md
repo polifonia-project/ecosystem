@@ -2,7 +2,7 @@
 component-id: midi2vec
 name: midi2vec
 description: Compute graph embeddings from MIDI.
-type: Library
+type: SoftwareLibrary
 release-date: 01/2022
 release-number: v0.0.1
 work-package: 

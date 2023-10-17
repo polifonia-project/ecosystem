@@ -1,0 +1,55 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/rulebook-schema",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Schema",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "the Ecosystem Component Annotation Schema"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "Ecosystem Annotation Schema https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "rulebook-schema"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "the Ecosystem Component Annotation Schema"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "rulebook"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Cc010Universal"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Ecosystem Component Annotation Schema"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

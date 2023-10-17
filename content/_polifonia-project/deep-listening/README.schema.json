@@ -1,0 +1,77 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/deep-listening",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Userinterface"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+      },
+      {
+        "@value": "Paul Mulholland <https://github.com/paulmulholland>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/spice-h2020/imma-slow-looking"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "deep-listening"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Deep Listening"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

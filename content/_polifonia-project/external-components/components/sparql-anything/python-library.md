@@ -4,7 +4,7 @@ type: SoftwareLibrary
 name: PySPARQL-Anything
 description: The PySPARQL-Anything software library.
 logo: https://avatars.githubusercontent.com/u/79987779?s=200&v=4
-demo: 
+demo: http://not-exisats.com/ddd
 resource: https://github.com/SPARQL-Anything/PySPARQL-Anything
 release-date: 2023/01/31
 release-number: v0.8.1.1

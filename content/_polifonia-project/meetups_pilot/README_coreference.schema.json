@@ -1,0 +1,119 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/meetups-coreference",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Software",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Alba Morales Tirado <https://github.com/albamoralest>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 MEETUPS @ The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/blob/main/05_Coreference.ipynb"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "meetups-coreference"
+      },
+      {
+        "@id": "_:n60af87c85cda43be8ddf149ce14eae9fb1"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n60af87c85cda43be8ddf149ce14eae9fb2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MEETUPS - Identification of temporal knowledge"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60af87c85cda43be8ddf149ce14eae9fb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60af87c85cda43be8ddf149ce14eae9fb2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "31/08/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  }
+]

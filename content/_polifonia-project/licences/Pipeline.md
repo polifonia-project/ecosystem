@@ -19,6 +19,7 @@ related-components:
 - reuses:
   - sparql-anything-cli
   - Dalicc, https://www.dalicc.net/
+  - musow-licences
 ---
 # Licences KG generation pipeline
 
@@ -26,29 +27,48 @@ This project includes resources for the Polifonia Licences KG, containing licenc
 
 In what follows, fx refers to the following command line `java -jar sparql-anything-<version>-.jar`.
 	
-## Download licence descriptions from Dalicc
+## Knowledge Graph Construction
+
+### Dalicc licence descriptions
 We reuse a catalogue of machine readable licences from the [Dalicc project](https://www.dalicc.net/).
 
-```
+```bash
 fx -q queries/harvest-dalicc.sparql -f TTL -o knowledgegraph/dalicc.ttl
 ```
 
-## Knowledge Graph Construction
-
-### Generate `datasets-licences.ttl`
+### Generate `external-datasets-licences.ttl`
+This part of the dataset comes from a survey of reused datasets in the Polifonia project
 From the spreadhseet in `data/` to the RDF file.
 
+```bash
+fx -q queries/datasets-kg.sparql -f TTL -o knowledgegraph/datasets-licences.ttl
 ```
-fx -q queries/kg.sparql -f TTL -o knowledgegraph/datasets-licences.ttl
+### MusoW licences
+This part of the knowledge graph includes a snapshot of the [musoW KG](https://projects.dharc.unibo.it/musow/): `knowledgegraph/musow.ttl`
+
+```bash
+fx -q queries/download-musow.sparql -f TTL -o knowledgegraph/musow.ttl
 ```
 
-### Views
+musoW licence annotations are aligned to Dalicc entities, alignmments are stored at `knowledgegraph/musow-alignments.ttl`
+Such alignments are used to generate the musow-licences part of the KG:
+
+```bash
+fx -q queries/musow-licences.sparql -f TTL -o knowledgegraph/musow-licences.ttl
+```
+
+However, musoW licence annotations are complemented with additional metadata from [experimenting with extracting and linking licence information from web resources with the help of LLMs](https://github.com/polifonia-project/musow-licences-experiments-llm). Results are included in file: `knowledgegraph/musow-licences-llm.ttl`
+
+
+## Queries 
+
+### List of can, cannot, and must terms for each dataset
 
 ```
 fx -q queries/terms-view.sparql -l knowledgegraph/
 ```
 
-### Stats
+### Statistics of datasets / actions
 
 ```
 fx -q queries/datasets-by-licence.sparql -l knowledgegraph/

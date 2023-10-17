@@ -19,8 +19,10 @@ credits:
 related-components:
 - generated-by:
   - licences-pipeline
+  - musow-licences
 - reuses:
   - Dalicc, https://www.dalicc.net/
+  - sparql-anything-cli
 ---
 # Licences Knowlegde Graph
 

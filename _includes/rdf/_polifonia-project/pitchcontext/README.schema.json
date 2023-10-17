@@ -1,0 +1,51 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/pitchcontext",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/SoftwareLibrary",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Python module for melody analysis based on pitch context vectors."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "pitchcontext"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Python module for melody analysis based on pitch context vectors."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "pitchcontext"
+      }
+    ]
+  }
+]

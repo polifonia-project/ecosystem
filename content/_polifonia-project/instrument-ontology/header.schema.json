@@ -1,0 +1,208 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/instrument/",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "An ontology to describe instruments as mediums of performance and their technical properties."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
+      },
+      {
+        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Music Instrument Contributors"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "ontology/music-instrument.owl"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/core/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/instrument/"
+      },
+      {
+        "@id": "_:nf9ce7d79f8b948ae927391d72c131c32b1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "diagrams/music-instrument-main-entities.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Frank#1_OrganKnowledge"
+      },
+      {
+        "@value": "Paul#2_ResourceReliability"
+      },
+      {
+        "@value": "An ontology to describe instruments as mediums of performance and their technical properties."
+      },
+      {
+        "@value": "Paul#1_OrganComparison"
+      },
+      {
+        "@value": "Amy#2_OrganBuilders"
+      },
+      {
+        "@value": "Amy#1_OrganTrends"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Paul"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Frank"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Amy"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/BELLS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/ORGANS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:nf9ce7d79f8b948ae927391d72c131c32b2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Music Instrument Ontology"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "polifoniacq-dataset"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf9ce7d79f8b948ae927391d72c131c32b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7919970"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf9ce7d79f8b948ae927391d72c131c32b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "13/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

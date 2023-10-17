@@ -1,0 +1,207 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "An ontology to describe music metadata"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Mari Wigham <https://github.com/mwigham>"
+      },
+      {
+        "@value": "Philippe Rigaux <https://github.com/rigaux>"
+      },
+      {
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+      },
+      {
+        "@value": "Nicolas Lazzari <https://github.com/n28div>"
+      },
+      {
+        "@value": "Marco Gurrieri <https://github.com/margur78>"
+      },
+      {
+        "@value": "Peter van Kranenburg <https://github.com/pvankranenburg>"
+      },
+      {
+        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Music Meta Contributors"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "ontology/musicmeta.owl"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/core/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
+      },
+      {
+        "@id": "_:nd2e08dc458084a58964202c4f0574f4ab1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "diagrams/music_meta.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "An ontology to describe music metadata"
+      },
+      {
+        "@value": "Linka#1_MusicKnowledge"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Linka"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "website/static/img/musicmeta_logo.png"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:nd2e08dc458084a58964202c4f0574f4ab2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Music Meta"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "polifoniacq-dataset"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd2e08dc458084a58964202c4f0574f4ab1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7919970"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd2e08dc458084a58964202c4f0574f4ab2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "13/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

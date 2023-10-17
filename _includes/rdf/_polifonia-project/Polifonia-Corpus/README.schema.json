@@ -1,0 +1,47 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia-Corpus",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Corpus",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Data, metadata, statistics, annotations and interrogation APIs of the Polifonia Textual Corpus."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/a47caa1028b2c378de125c60cd8d1a28#/credits"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Polifonia-Corpus"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Data, metadata, statistics, annotations and interrogation APIs of the Polifonia Textual Corpus."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Polifonia Corpus"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

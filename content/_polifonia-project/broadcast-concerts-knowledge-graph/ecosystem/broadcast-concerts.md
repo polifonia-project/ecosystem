@@ -24,9 +24,9 @@ related-components:
   - https://schema.org
   - broadcast-concerts-sparql-endpoint
 - story:
-  - William: Curator Europeana/William#1EuropeanFolkMusic.md
+  - "William#1_EuropeanFolkMusic"
 - persona:
-  - William: Curator Europeana
+  - William
 
 ---
 # Broadcast Concerts Knowledge Graph

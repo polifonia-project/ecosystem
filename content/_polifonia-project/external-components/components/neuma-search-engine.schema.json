@@ -1,0 +1,70 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/neuma-search-engine",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Application"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "A search engine for music content"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/07d0fedf5c3e76263c81d02cb50a3760#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "http://neuma.huma-num.fr"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "neuma-search-engine"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "A search engine for music content"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Neuma search engine"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

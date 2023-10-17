@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Patrizia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Patrizia#1_IdentificationOfIntangibleElements",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Patrizia must propose safeguarding actions on some intangible practices related with bells sound."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Patrizia#1_IdentificationOfIntangibleElements"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Patrizia must propose safeguarding actions on some intangible practices related with bells sound."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Patrizia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/BELLS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Identification of Intangible Elements"
+      }
+    ]
+  }
+]

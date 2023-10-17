@@ -1,0 +1,105 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/meetups-ui-design",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/RequirementsCollection"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Alba Morales-Tirado <https://github.com/albamoralest>"
+      },
+      {
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups-ui-design/blob/main/meetups-ui-initial-designs.pdf"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "meetups-ui-design"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n76202b44096f42d18aaa64137d1fb40ab1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MEETUPS UI Designs"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "Ortenz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n76202b44096f42d18aaa64137d1fb40ab1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "17/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  }
+]

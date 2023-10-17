@@ -1,0 +1,207 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-cli",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/CLITool",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Command line executable of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
+      },
+      {
+        "@value": "Justin Dowdy <https://github.com/justin2004>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-java"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "sparql-anything-cli"
+      },
+      {
+        "@id": "_:n13136acea9d64972acc237efd0446331b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Command line executable of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/CHILD"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n13136acea9d64972acc237efd0446331b2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "SPARQL Anything Command Line"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/showcase-tate"
+      }
+    ]
+  },
+  {
+    "@id": "_:n13136acea9d64972acc237efd0446331b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7454360"
+      }
+    ]
+  },
+  {
+    "@id": "_:n13136acea9d64972acc237efd0446331b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.8.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2022/12/18"
+      }
+    ]
+  }
+]

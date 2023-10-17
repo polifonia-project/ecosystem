@@ -1,0 +1,106 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/led",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "LED is an open and freely searchable database that brings together a mass of data about people’s experiences of listening to music of all kinds, in any historical period and any culture."
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Adamou, Alessandro, Simon Brown, Helen Barlow, Carlo Allocca, and Mathieu d’Aquin. \"Crowdsourcing Linked Data on listening experiences through reuse and enhancement of library data.\" International Journal on Digital Libraries 20, no. 1 (2019): 61-79. http://oro.open.ac.uk/42045/1/paper_74.pdf"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/959bede7c9920694703ec6621f60fce5#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://data.open.ac.uk/sparql"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "led"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "LED is an open and freely searchable database that brings together a mass of data about people’s experiences of listening to music of all kinds, in any historical period and any culture."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/CHILD"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY-NC-SA_v4"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://www.listeningexperience.org/led-data/themes/thekeynote-v1-01/images/logo.png"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@value": "Daga, Enrico, and Enrico Motta. \"Capturing themed evidence, a hybrid approach.\" In Proceedings of the 10th International Conference on Knowledge Capture, pp. 93-100. 2019. http://oro.open.ac.uk/67014/1/TE_Preprint_V1.pdf"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Listening Experience Database"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "Ortenz#1_MusicAndChildhood"
+      },
+      {
+        "@value": "Ortenz"
+      },
+      {
+        "@value": "Ortenz#2_MusicalSocialNetwork"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://led.kmi.open.ac.uk"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

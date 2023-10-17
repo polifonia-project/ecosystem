@@ -1,0 +1,46 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-requirements",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/RequirementsCollection",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Requirements collection of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "sparql-anything-requirements"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Requirements collection of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Requirements of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/showcase-tate"
+      }
+    ]
+  }
+]
