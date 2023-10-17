@@ -1,5 +1,35 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n7a2ead706a8b48429219afe77f038fa2b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7a2ead706a8b48429219afe77f038fa2b2",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -12,12 +42,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:na8471cac6b554cdc9402c7204ffc7156b1"
+        "@id": "_:n7a2ead706a8b48429219afe77f038fa2b1"
       }
     ]
   },
   {
-    "@id": "_:na8471cac6b554cdc9402c7204ffc7156b1",
+    "@id": "_:n7a2ead706a8b48429219afe77f038fa2b1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -27,6 +57,12 @@
       {
         "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -117,49 +153,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:na8471cac6b554cdc9402c7204ffc7156b2"
-      }
-    ]
-  },
-  {
-    "@id": "_:na8471cac6b554cdc9402c7204ffc7156b2",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

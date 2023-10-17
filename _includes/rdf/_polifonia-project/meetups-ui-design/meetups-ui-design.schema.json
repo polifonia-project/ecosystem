@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -63,7 +69,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n76202b44096f42d18aaa64137d1fb40ab1"
+        "@id": "_:nb169c149be2443f587f5df43269820ccb1"
       }
     ],
     "https://schema.org/title": [
@@ -79,7 +85,7 @@
     ]
   },
   {
-    "@id": "_:n76202b44096f42d18aaa64137d1fb40ab1",
+    "@id": "_:nb169c149be2443f587f5df43269820ccb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -94,12 +100,6 @@
       {
         "@value": "17/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

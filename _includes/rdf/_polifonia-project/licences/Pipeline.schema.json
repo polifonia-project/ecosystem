@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/licences-pipeline",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -32,7 +38,7 @@
         "@value": "licences-pipeline"
       },
       {
-        "@id": "_:nda9b1520f71e4b679e95a209f09c4008b1"
+        "@id": "_:ne28510d4af3145008bd0d22b59a1b658b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -58,7 +64,7 @@
     ]
   },
   {
-    "@id": "_:nda9b1520f71e4b679e95a209f09c4008b1",
+    "@id": "_:ne28510d4af3145008bd0d22b59a1b658b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -71,12 +77,6 @@
       {
         "@value": "10.5281/zenodo.7875034"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

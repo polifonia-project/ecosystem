@@ -1,8 +1,20 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -39,7 +51,7 @@
         "@value": "meetups-time-extraction"
       },
       {
-        "@id": "_:n5fcb0d5f0b114bc09b5ab4acde58b5e0b1"
+        "@id": "_:ndd5e8dcabd0040b1b32686edd7f6e9cab1"
       }
     ],
     "https://schema.org/isPartOf": [
@@ -60,7 +72,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n5fcb0d5f0b114bc09b5ab4acde58b5e0b2"
+        "@id": "_:ndd5e8dcabd0040b1b32686edd7f6e9cab2"
       }
     ],
     "https://schema.org/title": [
@@ -71,7 +83,7 @@
     ]
   },
   {
-    "@id": "_:n5fcb0d5f0b114bc09b5ab4acde58b5e0b1",
+    "@id": "_:ndd5e8dcabd0040b1b32686edd7f6e9cab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -87,7 +99,7 @@
     ]
   },
   {
-    "@id": "_:n5fcb0d5f0b114bc09b5ab4acde58b5e0b2",
+    "@id": "_:ndd5e8dcabd0040b1b32686edd7f6e9cab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -102,18 +114,6 @@
       {
         "@value": "20/07/2022"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

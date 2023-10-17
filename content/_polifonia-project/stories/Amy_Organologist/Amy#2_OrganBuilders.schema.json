@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Amy#2_OrganBuilders",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
@@ -49,6 +43,12 @@
     "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
