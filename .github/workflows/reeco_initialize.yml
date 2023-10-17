@@ -60,7 +60,7 @@ jobs:
         id: check_if_issue_exists
         with:
           repo: ${{ github.event.repository.name }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
           title: missing repositories.txt
           labels: bug
 
@@ -68,7 +68,7 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'false' && steps.check_if_issue_exists.outputs.exists == 'false'
         uses: JasonEtco/create-an-issue@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           filename: .github/initialize.md
 
@@ -106,7 +106,7 @@ jobs:
       - name: commit and push report
         uses: Andro999b/push@v1.3
         with:
-          github_token: ${{ secrets.MY_TOKEN }}
+          github_token: ${{ github.token }}
           branch: main
           force: true
           message: new report - ${{ steps.date.outputs.date }}
@@ -127,7 +127,7 @@ jobs:
       - name: commit and push report
         uses: Andro999b/push@v1.3
         with:
-          github_token: ${{ secrets.MY_TOKEN }}
+          github_token: ${{ github.token }}
           branch: main
           force: true
           message: new release report - ${{ steps.date.outputs.date }}
