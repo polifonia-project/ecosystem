@@ -108,6 +108,10 @@ defaults:
     values:
       layout: component
   - scope:
+      type: smashub
+    values:
+      layout: component
+  - scope:
       #type: project
       path: pages/work-packages
     values:
@@ -195,6 +199,10 @@ just_the_docs:
   collections:
     polifonia-project:
       name: polifonia-project
+      nav_exclude: true
+      search_exclude: false
+    smashub:
+      name: smashub
       nav_exclude: true
       search_exclude: false
     # rulebook:
