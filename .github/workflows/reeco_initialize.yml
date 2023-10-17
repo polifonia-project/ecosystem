@@ -1,0 +1,147 @@
+name: initialize reeco
+
+on: [push]
+  # schedule:
+  #   - cron: '25 9 * * *' # '0 0 * * 1' At 00:00 on Monday
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v3
+
+      - name: setup github user
+        run: |
+          git config --global user.email "enricodaga@gmail.com"
+          git config --global user.name "enrico daga"
+
+      - name: check if repositories.txt exists in this repo
+        id: check_files
+        uses: andstor/file-existence-action@v2
+        with:
+          files: "repositories.txt"
+
+      - name: repositories.txt exists, read and update submodules
+        if: steps.check_files.outputs.files_exists == 'true'
+        id: split_repos
+        env:
+          ACCESS_TOKEN: ${{ secrets.MY_TOKEN }}
+        run: |
+          git rm -r --ignore-unmatch content
+          while IFS= read -r line; do
+            echo "Text read from file: $line"
+            IN="$line"
+            [ -z "$line" ] && continue
+            arrIN=(${IN//:/ })
+            repo=${arrIN[0]}
+            version=${arrIN[2]}
+            echo "repo: $repo"
+            echo "version: $version"
+            rm -rf "content/_$repo"
+            git clone -n "https://github.com/$repo" "content/_$repo"
+            cd "content/_$repo"
+            git ls-tree -r "$version" --full-tree --name-only | grep "\.md" > files.tmp
+            while IFS= read -r line; do
+              git checkout "$version" "$line"
+              sed -i 's#{{#{% raw %}{{{% endraw %}#g' "$line"
+            done < files.tmp
+            rm files.tmp
+            rm -rf .git
+            rm -rf .github
+            cd -
+            done < repositories.txt  
+          ./generate-repo-data.sh
+
+      - name: repositories.txt does not exist, check if an issue already exists
+        if: steps.check_files.outputs.files_exists == 'false'
+        uses: nickderobertis/check-if-issue-exists-action@master
+        id: check_if_issue_exists
+        with:
+          repo: ${{ github.event.repository.name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: missing repositories.txt
+          labels: bug
+
+      - name: repositories.txt and issue do not exist, create an issue
+        if: steps.check_files.outputs.files_exists == 'false' && steps.check_if_issue_exists.outputs.exists == 'false'
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
+        with:
+          filename: .github/initialize.md
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: validate yaml headings in md files
+        id: validate_yml
+        run: python validate.py
+
+      - name: build RDF data files
+        id: build_rdf_data_files
+        run: |
+          pip install pysparql-anything
+          python build_rdf_data_files.py
+
+      - name: get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y_%m_%d_%H-%M')"
+
+      - name: write report file
+        uses: "DamianReeves/write-file-action@master"
+        with:
+          path: reports/${{ steps.date.outputs.date }}_report.json
+          write-mode: overwrite
+          contents: ${{ steps.validate_yml.outputs.report }}
+
+      - name: commit and push report
+        uses: Andro999b/push@v1.3
+        with:
+          github_token: ${{ secrets.MY_TOKEN }}
+          branch: main
+          force: true
+          message: new report - ${{ steps.date.outputs.date }}
+
+      - name: check releases, zenodo sync, write report, PR zenodo.json to repos
+        id: releases_zenodo
+        run: python releases_zenodo.py
+        env:
+          TOKEN: ${{ secrets.MY_TOKEN }}
+
+      - name: write release report file
+        uses: "DamianReeves/write-file-action@master"
+        with:
+          path: releases/${{ steps.date.outputs.date }}_report.json
+          write-mode: overwrite
+          contents: ${{ steps.releases_zenodo.outputs.releases_report }}
+
+      - name: commit and push report
+        uses: Andro999b/push@v1.3
+        with:
+          github_token: ${{ secrets.MY_TOKEN }}
+          branch: main
+          force: true
+          message: new release report - ${{ steps.date.outputs.date }}
+
+      #- name: transform valid data and releases to RDF and store
+
+# todo
+# - name: setup python
+#   uses: actions/setup-python@v4
+#   with:
+#     python-version: '3.9' # install the python version needed
+# - name: install python packages
+#   run: |
+#     python -m pip install --upgrade pip
+#     pip install -r requirements.txt
+# - name: execute py script # run main.py
+#   run: python initialize.py
