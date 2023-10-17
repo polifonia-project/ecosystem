@@ -1,17 +1,23 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n2fa9e0d4cae8485cb3d2c1885dfd2bbfb1"
+        "@id": "_:n29f09ef615884ceb958280f6180139ebb1"
       }
     ]
   },
   {
-    "@id": "_:n2fa9e0d4cae8485cb3d2c1885dfd2bbfb1",
+    "@id": "_:n29f09ef615884ceb958280f6180139ebb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission"
@@ -63,12 +69,6 @@
         "@language": "en",
         "@value": "The musoW registry"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

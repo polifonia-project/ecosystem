@@ -12,15 +12,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -86,7 +86,7 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:nb2ef8e7436f24a9590cb2bbd2cfd7066b1"
+        "@id": "_:nb93f70f2475a4604a51c66981090c249b1"
       }
     ],
     "https://schema.org/image": [
@@ -137,7 +137,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb2ef8e7436f24a9590cb2bbd2cfd7066b2"
+        "@id": "_:nb93f70f2475a4604a51c66981090c249b2"
       }
     ],
     "https://schema.org/title": [
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "@id": "_:nb2ef8e7436f24a9590cb2bbd2cfd7066b1",
+    "@id": "_:nb93f70f2475a4604a51c66981090c249b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -169,7 +169,7 @@
     ]
   },
   {
-    "@id": "_:nb2ef8e7436f24a9590cb2bbd2cfd7066b2",
+    "@id": "_:nb93f70f2475a4604a51c66981090c249b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -187,7 +187,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -199,9 +199,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/pymusicmeta",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -44,7 +80,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:nf9fecd496054477daa9068d0d2e8aeffb1"
+        "@id": "_:ncc1564c2641745a2ad77c3539d36edbeb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -84,7 +120,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf9fecd496054477daa9068d0d2e8aeffb2"
+        "@id": "_:ncc1564c2641745a2ad77c3539d36edbeb2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -105,7 +141,7 @@
     ]
   },
   {
-    "@id": "_:nf9fecd496054477daa9068d0d2e8aeffb1",
+    "@id": "_:ncc1564c2641745a2ad77c3539d36edbeb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -121,7 +157,7 @@
     ]
   },
   {
-    "@id": "_:nf9fecd496054477daa9068d0d2e8aeffb2",
+    "@id": "_:ncc1564c2641745a2ad77c3539d36edbeb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -139,45 +175,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

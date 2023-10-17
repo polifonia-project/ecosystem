@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/musow-dataset",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Dataset",
@@ -56,7 +68,7 @@
         "@value": "musow-dataset"
       },
       {
-        "@id": "_:n4626f76f1397479da259bdf55015af6ab1"
+        "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -87,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n4626f76f1397479da259bdf55015af6ab2"
+        "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b2"
       }
     ],
     "https://schema.org/title": [
@@ -103,7 +115,7 @@
     ]
   },
   {
-    "@id": "_:n4626f76f1397479da259bdf55015af6ab1",
+    "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -119,7 +131,7 @@
     ]
   },
   {
-    "@id": "_:n4626f76f1397479da259bdf55015af6ab2",
+    "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
@@ -134,18 +146,6 @@
       {
         "@value": "2023/05/16"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {
