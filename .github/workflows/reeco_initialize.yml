@@ -40,12 +40,12 @@ jobs:
             echo "repo: $repo"
             echo "version: $version"
             rm -rf "content/_$repo"
-            git clone -n "https://github.com/$repo" "content/_$repo"
+            git clone -n "https://github.com/$repo" "content/_$repo" 
             cd "content/_$repo"
             git ls-tree -r "$version" --full-tree --name-only | grep "\.md" > files.tmp 
             while IFS= read -r line; do
               git checkout "$version" "$line" || echo "WARNING: error checking out $line"
-              sed -i 's#{{#{% raw %}{{{% endraw %}#g' "$line"
+              sed -i 's#{{#{% raw %}{{{% endraw %}#g' "$line" || echo ""
             done < files.tmp
             rm files.tmp
             rm -rf .git
