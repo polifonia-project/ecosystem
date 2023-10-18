@@ -35,6 +35,8 @@ related-components:
   - sparql-anything-tutorials
 - reuses:
   - sparql-anything-java
+bibliography:
+- main-publication: "Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312"
 ---
 
 # SPARQL Anything Command Line

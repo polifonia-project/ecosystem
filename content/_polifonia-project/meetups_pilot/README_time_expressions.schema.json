@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -16,6 +10,12 @@
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
       "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find time expressions. It uses NLTK and a set of heuristic rules to identify and annotate temporal knowledge from text. The tool extracts information from one out of the four elements that define a meetup: the date or moment in time when it happened (when). Time expressions, along with data of the people involved (who), the place (where) and the event that took place (what), complete the historical meetup information."
+      }
     ],
     "https://schema.org/contributor": [
       {
@@ -45,7 +45,12 @@
         "@value": "meetups-time-extraction"
       },
       {
-        "@id": "_:nfdf43fb4f4b84604a0660124de4fe6c7b1"
+        "@id": "_:na04e20111330418bb7ce6d44367f260cb1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find time expressions. It uses NLTK and a set of heuristic rules to identify and annotate temporal knowledge from text. The tool extracts information from one out of the four elements that define a meetup: the date or moment in time when it happened (when). Time expressions, along with data of the people involved (who), the place (where) and the event that took place (what), complete the historical meetup information."
       }
     ],
     "https://schema.org/isPartOf": [
@@ -66,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nfdf43fb4f4b84604a0660124de4fe6c7b2"
+        "@id": "_:na04e20111330418bb7ce6d44367f260cb2"
       }
     ],
     "https://schema.org/title": [
@@ -74,10 +79,18 @@
         "@language": "en",
         "@value": "MEETUPS - Identification of temporal knowledge"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-data-cleaning"
+      },
+      {
+        "@value": "meetups-corpus-collection"
+      }
     ]
   },
   {
-    "@id": "_:nfdf43fb4f4b84604a0660124de4fe6c7b1",
+    "@id": "_:na04e20111330418bb7ce6d44367f260cb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -88,12 +101,12 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+        "@value": "10.5281/zenodo.7875353"
       }
     ]
   },
   {
-    "@id": "_:nfdf43fb4f4b84604a0660124de4fe6c7b2",
+    "@id": "_:na04e20111330418bb7ce6d44367f260cb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -111,9 +124,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

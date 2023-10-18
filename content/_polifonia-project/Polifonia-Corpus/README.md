@@ -7,10 +7,17 @@ release-date: 28/06/2022
 release-number: v0.1.3
 work-package: 
 - WP4
-licence: CC-BY_v4
-links:
-- https://github.com/polifonia-project/Polifonia-Corpus
-credits:
+licence:
+- CC-BY_v4
+related-components:
+- persona:
+  - Valeriana
+  - Carolina
+- reuses:
+  - Polifonia-Lexicon
+bibliography:
+- deliverable-document: "D4.2 Interrogation and annotation of plurilingual corpora for discourse analysis"
+contributors:
 - https://github.com/roccotrip
 - https://github.com/arianna-graciotti
 - https://github.com/EleonoraMarzi

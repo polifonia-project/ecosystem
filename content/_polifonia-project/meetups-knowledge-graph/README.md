@@ -12,7 +12,7 @@ resource: https://github.com/polifonia-project/meetups-knowledge-graph/
 release-date: 20/07/2022
 release-number: v0.1
 release link: https://github.com/polifonia-project/meetups-knowledge-graph/releases/tag/v0.1
-doi: https://zenodo.org/badge/latestdoi/588597123
+doi: 10.5281/zenodo.7924618
 changelog: https://github.com/polifonia-project/meetups-knowledge-graph/releases/tag/v0.1
 licence:
 - CC-BY_v4
@@ -24,10 +24,12 @@ contributors:
 credits:
 - https://github.com/albamoralest
 - https://github.com/enridaga
-related components:
+related-components:
 - informed-by: 
   - meetups-ontology
   - meetups-corpus-collection
+- generated-by:
+  - meetups-hm-identification
 - persona:
   - Ortenz
   - David

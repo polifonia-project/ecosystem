@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docker",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -46,7 +34,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n2ac9fb43e2414dd5b74114663ec0a4fab1"
+        "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -71,6 +59,11 @@
         "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
       }
     ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
     "https://schema.org/logo": [
       {
         "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
@@ -78,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n2ac9fb43e2414dd5b74114663ec0a4fab2"
+        "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb2"
       }
     ],
     "https://schema.org/title": [
@@ -89,7 +82,7 @@
     ]
   },
   {
-    "@id": "_:n2ac9fb43e2414dd5b74114663ec0a4fab1",
+    "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -105,7 +98,7 @@
     ]
   },
   {
-    "@id": "_:n2ac9fb43e2414dd5b74114663ec0a4fab2",
+    "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -132,6 +125,18 @@
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

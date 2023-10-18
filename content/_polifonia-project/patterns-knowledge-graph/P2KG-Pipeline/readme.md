@@ -9,17 +9,20 @@ work-package:
 - WP3
 project: polifonia-project
 demo: https://projects.dharc.unibo.it/melody/fonn/statistics_on_the_session_annotated_subset_and_meertens_tune_collections_mtcann_pattern_kg
-licence:  CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+licence: 
+- GPLv3
 links:
-- https://zenodo.org/record/ TODO
+- https://zenodo.org/record/TODO
 related-components:
-- sparql-anything
-- https://github.com/smashub/choco
+- reuses:
+  - sparql-anything-cli
+- extends:
+  - "The Smashub pipeline exemplified in Choco https://github.com/smashub/choco"
 contributors:
 - Danny Diamond <https://github.com/danDiamo>
 - Abdul Shahid <https://github.com/ashahidkhattak>
 - James McDermott <https://github.com/jmmcd>
-credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746"
+credits: "This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement N. 101004746"
 ---
 
 # P2KG - Patterns to Knowledge Graph JAMS Pipeline

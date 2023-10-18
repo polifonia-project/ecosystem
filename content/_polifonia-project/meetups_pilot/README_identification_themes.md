@@ -10,9 +10,9 @@ pilot:
 project: polifonia-project
 resource: https://github.com/polifonia-project/meetups_pilot/blob/main/MeetupType_applyClassifier.ipynb
 release-date: 20/07/2022
-release-number: v0.1
+release-number: v0.2
 release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
-doi: https://zenodo.org/badge/latestdoi/436452967
+doi: 10.5281/zenodo.7875353
 changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
 licence:
 - Apache-2.0
@@ -20,7 +20,7 @@ copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
 contributors:
 - Alba Morales Tirado <https://github.com/albamoralest>
 - Enrico Daga <https://github.com/enridaga>
-related-component:
+related-components:
 - informed-by: 
   - meetups-data-cleaning
   - meetups-corpus-collection

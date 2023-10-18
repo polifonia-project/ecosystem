@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -68,7 +68,7 @@
         "@value": "musow-dataset"
       },
       {
-        "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b1"
+        "@id": "_:n467bb5ad5d8b4fa697a7d4329fa64791b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -89,7 +89,7 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC0"
+        "@value": "Cc010Universal"
       }
     ],
     "https://schema.org/provider": [
@@ -99,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b2"
+        "@id": "_:n467bb5ad5d8b4fa697a7d4329fa64791b2"
       }
     ],
     "https://schema.org/title": [
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b1",
+    "@id": "_:n467bb5ad5d8b4fa697a7d4329fa64791b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -131,10 +131,10 @@
     ]
   },
   {
-    "@id": "_:n22c87804d9ca4d95871d0a27d16e4418b2",
+    "@id": "_:n467bb5ad5d8b4fa697a7d4329fa64791b2",
     "https://schema.org/releaseNotes": [
       {
-        "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
+        "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"
       }
     ],
     "https://schema.org/softwareVersion": [
@@ -149,9 +149,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   }
 ]

@@ -1,9 +1,21 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-entity-recognition",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
       "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies. It uses DBpedia Spotlight to identify and annotate possible entity mentions from input text. This is an essential process to identify two of the four main elements that define a meetup: people (who participated) and place (where). Along with data of time (when) the meeting happened and the event that took place (what) complete a historical meetup data point."
+      }
     ],
     "https://schema.org/contributor": [
       {
@@ -33,7 +45,12 @@
         "@value": "meetups-entity-recognition"
       },
       {
-        "@id": "_:nb0e6285c22504a02b79d8260f78dfd33b1"
+        "@id": "_:ne534c4caec0940fb907a2ce959acf3f9b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies. It uses DBpedia Spotlight to identify and annotate possible entity mentions from input text. This is an essential process to identify two of the four main elements that define a meetup: people (who participated) and place (where). Along with data of time (when) the meeting happened and the event that took place (what) complete a historical meetup data point."
       }
     ],
     "https://schema.org/isPartOf": [
@@ -54,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb0e6285c22504a02b79d8260f78dfd33b2"
+        "@id": "_:ne534c4caec0940fb907a2ce959acf3f9b2"
       }
     ],
     "https://schema.org/title": [
@@ -62,10 +79,18 @@
         "@language": "en",
         "@value": "MEETUPS identification of people and places"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-corpus-collection"
+      },
+      {
+        "@value": "meetups-data-cleaning"
+      }
     ]
   },
   {
-    "@id": "_:nb0e6285c22504a02b79d8260f78dfd33b1",
+    "@id": "_:ne534c4caec0940fb907a2ce959acf3f9b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -76,12 +101,12 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+        "@value": "10.5281/zenodo.7875353"
       }
     ]
   },
   {
-    "@id": "_:nb0e6285c22504a02b79d8260f78dfd33b2",
+    "@id": "_:ne534c4caec0940fb907a2ce959acf3f9b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -108,12 +133,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -20,12 +14,17 @@
     "https://schema.org/abstract": [
       {
         "@language": "en",
-        "@value": "This is a tool to build to download the Wikipedia pages of people in the music scene in Europe"
+        "@value": "This is a tool to download the Wikipedia pages of people in the music scene in Europe"
       }
     ],
-    "https://schema.org/creditText": [
+    "https://schema.org/contributor": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/84a45888403c5e66dc47093ede408020#/credits"
+        "@value": "https://github.com/albamoralest"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_corpus_collection/"
       }
     ],
     "https://schema.org/identifier": [
@@ -35,10 +34,13 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "This is a tool to build to download the Wikipedia pages of people in the music scene in Europe"
+        "@value": "This is a tool to download the Wikipedia pages of people in the music scene in Europe"
       }
     ],
     "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
       },
@@ -56,6 +58,23 @@
         "@language": "en",
         "@value": "MEETUPS Corpus collection"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-corpus"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-ui-design",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -54,6 +42,11 @@
         "@value": "meetups-ui-design"
       }
     ],
+    "https://schema.org/image": [
+      {
+        "@value": "https://raw.githubusercontent.com/polifonia-project/meetups-ui-design/main/png/meetups-ui-initial-designs-1.png"
+      }
+    ],
     "https://schema.org/isBasedOn": [
       {
         "@value": "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface"
@@ -65,11 +58,19 @@
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf3c6a89d20d5404a9f947c860bd2ddf5b1"
+        "@id": "_:ne3e7fbced7524e039a60b13bb5101826b1"
       }
     ],
     "https://schema.org/title": [
@@ -85,7 +86,7 @@
     ]
   },
   {
-    "@id": "_:nf3c6a89d20d5404a9f947c860bd2ddf5b1",
+    "@id": "_:ne3e7fbced7524e039a60b13bb5101826b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -100,6 +101,24 @@
       {
         "@value": "17/04/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

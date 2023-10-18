@@ -1,17 +1,25 @@
 ---
 component-id: Polifonia-Lexicon
 name: Polifonia Lexicon - The Polifonia Multilingual WordNet
-description: Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL).
+description: Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL)
 type: Lexicon
 release-date: 22/06/2022
 release-number: v1.0
 work-package: 
 - WP4
-licence: CC BY
-links:
-- https://github.com/polifonia-project/Polifonia-Lexicon
-credits:
+licence:
+- CC-BY_v4
+related-components:
+- persona:
+  - Valeriana
+  - Carolina
+- extends:
+  - Polifonia-Lexicon
+bibliography:
+- deliverable-document: "D4.1 Plurilingual corpora containing source texts in English, French, Spanish and German"
+contributors:
 - https://github.com/roccotrip
+- https://github.com/arianna-graciotti
 - https://github.com/EleonoraMarzi
 ---
 

@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
@@ -65,7 +71,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:nb28d510d5f5142a596f97535df3e1d8bb1"
+        "@id": "_:ne0a521a933f0496cb021bbe08f5a84fdb1"
       }
     ],
     "https://schema.org/image": [
@@ -102,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb28d510d5f5142a596f97535df3e1d8bb2"
+        "@id": "_:ne0a521a933f0496cb021bbe08f5a84fdb2"
       }
     ],
     "https://schema.org/title": [
@@ -118,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:nb28d510d5f5142a596f97535df3e1d8bb1",
+    "@id": "_:ne0a521a933f0496cb021bbe08f5a84fdb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:nb28d510d5f5142a596f97535df3e1d8bb2",
+    "@id": "_:ne0a521a933f0496cb021bbe08f5a84fdb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -149,12 +155,6 @@
       {
         "@value": "13/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

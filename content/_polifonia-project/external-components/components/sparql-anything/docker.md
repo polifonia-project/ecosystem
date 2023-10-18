@@ -8,6 +8,8 @@ work-package:
 - WP2
 - WP3
 - WP4
+licence:
+- Apache-2.0
 pilot:
 - MEETUPS
 project: polifonia-project

@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -57,7 +45,7 @@
         "@value": "meetups-themes"
       },
       {
-        "@id": "_:n486dd29e9a6b40e2a5daa5765eb4ede2b1"
+        "@id": "_:ne2a9cb8995a245fe8360b2a2058d51cfb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -83,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n486dd29e9a6b40e2a5daa5765eb4ede2b2"
+        "@id": "_:ne2a9cb8995a245fe8360b2a2058d51cfb2"
       }
     ],
     "https://schema.org/title": [
@@ -91,10 +79,18 @@
         "@language": "en",
         "@value": "MEETUPS Identification of themes"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-data-cleaning"
+      },
+      {
+        "@value": "meetups-corpus-collection"
+      }
     ]
   },
   {
-    "@id": "_:n486dd29e9a6b40e2a5daa5765eb4ede2b1",
+    "@id": "_:ne2a9cb8995a245fe8360b2a2058d51cfb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -105,12 +101,12 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+        "@value": "10.5281/zenodo.7875353"
       }
     ]
   },
   {
-    "@id": "_:n486dd29e9a6b40e2a5daa5765eb4ede2b2",
+    "@id": "_:ne2a9cb8995a245fe8360b2a2058d51cfb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -118,13 +114,25 @@
     ],
     "https://schema.org/softwareVersion": [
       {
-        "@value": "v0.1"
+        "@value": "v0.2"
       }
     ],
     "https://schema.org/startDate": [
       {
         "@value": "20/07/2022"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

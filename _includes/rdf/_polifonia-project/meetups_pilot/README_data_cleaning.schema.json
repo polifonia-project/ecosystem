@@ -1,23 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-data-cleaning",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -57,12 +39,21 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:nb0411671d89e4c6b9ee025e74aec971cb1"
+        "@id": "_:n5a56490e564d4014b1501798e2dc9d34b1"
       }
     ],
     "https://schema.org/isBasedOn": [
       {
         "@value": "This tool is part of the corpus preparation process and it is used to clean data collected from Wikipedia."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Ortenz"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/David"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Sophie"
       }
     ],
     "https://schema.org/isPartOf": [
@@ -83,7 +74,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb0411671d89e4c6b9ee025e74aec971cb2"
+        "@id": "_:n5a56490e564d4014b1501798e2dc9d34b2"
       }
     ],
     "https://schema.org/title": [
@@ -94,7 +85,7 @@
     ]
   },
   {
-    "@id": "_:nb0411671d89e4c6b9ee025e74aec971cb1",
+    "@id": "_:n5a56490e564d4014b1501798e2dc9d34b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -105,12 +96,12 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+        "@value": "10.5281/zenodo.7875353"
       }
     ]
   },
   {
-    "@id": "_:nb0411671d89e4c6b9ee025e74aec971cb2",
+    "@id": "_:n5a56490e564d4014b1501798e2dc9d34b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -125,6 +116,42 @@
       {
         "@value": "20/07/2022"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

@@ -1,14 +1,20 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -46,7 +52,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:n8f9045c196b944edb325154ed66e67f6b1"
+        "@id": "_:n34abdf511d4d4607b8882a93c8eb41a3b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -62,9 +68,42 @@
         "@id": "http://w3id.org/polifonia/ecosystem/WP1"
       }
     ],
+    "https://schema.org/license": [
+      {
+        "@value": "IscLicense"
+      }
+    ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n8f9045c196b944edb325154ed66e67f6b2"
+        "@id": "_:n34abdf511d4d4607b8882a93c8eb41a3b2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@value": "Giulia Renda, Marilena Daquino (2023). Storytelling with Linked Open Data. In La memoria digitale: forme del testo e organizzazione della conoscenza. Atti del XII Convegno Annuale AIUCD. Siena: Università degli Studi di Siena. https://zenodo.org/doi/10.5281/zenodo.8070707"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes"
+      }
+    ],
+    "https://schema.org/supportingData": [
+      {
+        "@value": "musow-dataset"
+      },
+      {
+        "@value": "led"
+      },
+      {
+        "@value": "musicbo-knowledge-graph"
+      },
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "bells-knowledge-graph"
+      },
+      {
+        "@value": "broadcast-concerts-knowledge-graph"
       }
     ],
     "https://schema.org/title": [
@@ -80,7 +119,7 @@
     ]
   },
   {
-    "@id": "_:n8f9045c196b944edb325154ed66e67f6b1",
+    "@id": "_:n34abdf511d4d4607b8882a93c8eb41a3b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -96,10 +135,10 @@
     ]
   },
   {
-    "@id": "_:n8f9045c196b944edb325154ed66e67f6b2",
+    "@id": "_:n34abdf511d4d4607b8882a93c8eb41a3b2",
     "https://schema.org/releaseNotes": [
       {
-        "@value": "https://github.com/polifonia-project/dashboard/releases/latest"
+        "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
       }
     ],
     "https://schema.org/softwareVersion": [

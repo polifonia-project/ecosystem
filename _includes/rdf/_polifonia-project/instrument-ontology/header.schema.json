@@ -1,8 +1,32 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Amy",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -15,6 +39,12 @@
     "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -65,7 +95,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:n51f5f5cfb6c34ae5bf91a85258c527ecb1"
+        "@id": "_:n5f764fe244bb4988bbb816db246cbde6b1"
       }
     ],
     "https://schema.org/image": [
@@ -126,7 +156,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n51f5f5cfb6c34ae5bf91a85258c527ecb2"
+        "@id": "_:n5f764fe244bb4988bbb816db246cbde6b2"
       }
     ],
     "https://schema.org/title": [
@@ -142,7 +172,7 @@
     ]
   },
   {
-    "@id": "_:n51f5f5cfb6c34ae5bf91a85258c527ecb1",
+    "@id": "_:n5f764fe244bb4988bbb816db246cbde6b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -158,7 +188,7 @@
     ]
   },
   {
-    "@id": "_:n51f5f5cfb6c34ae5bf91a85258c527ecb2",
+    "@id": "_:n5f764fe244bb4988bbb816db246cbde6b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -173,36 +203,6 @@
       {
         "@value": "13/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]

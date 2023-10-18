@@ -2,7 +2,7 @@
 component-id: meetups-time-extraction
 type: Software
 name: MEETUPS - Identification of temporal knowledge
-brief-description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find time expressions. It uses NLTK and a set of heuristic rules to identify and annotate temporal knowledge from text. The tool extracts information from one out of the four elements that define a meetup: the date or moment in time when it happened (when). Time expressions, along with data of the people involved (who), the place (where) and the event that took place (what), complete the historical meetup information."
+description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find time expressions. It uses NLTK and a set of heuristic rules to identify and annotate temporal knowledge from text. The tool extracts information from one out of the four elements that define a meetup: the date or moment in time when it happened (when). Time expressions, along with data of the people involved (who), the place (where) and the event that took place (what), complete the historical meetup information."
 work-package:
 - WP4
 pilot:
@@ -12,7 +12,7 @@ resource: https://github.com/polifonia-project/meetups_pilot/blob/main/03_Identi
 release-date: 20/07/2022
 release-number: v0.1
 release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
-doi: https://zenodo.org/badge/latestdoi/436452967
+doi: 10.5281/zenodo.7875353
 changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
 licence: 
 - Apache-2.0
@@ -20,7 +20,7 @@ copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
 contributors:
 - Alba Morales Tirado <https://github.com/albamoralest>
 - Enrico Daga <https://github.com/enridaga>
-related-component:
+related-components:
 - informed-by: 
   - meetups-data-cleaning
   - meetups-corpus-collection
