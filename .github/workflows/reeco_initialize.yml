@@ -96,13 +96,6 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y_%m_%d_%H-%M')"
 
-      - name: write report file
-        uses: "DamianReeves/write-file-action@master"
-        with:
-          path: reports/${{ steps.date.outputs.date }}_report.json
-          write-mode: overwrite
-          contents: "{{ steps.validate_yml.outputs.report }}"
-
       - name: commit and push report
         uses: Andro999b/push@v1.3
         with:
@@ -115,7 +108,7 @@ jobs:
         id: releases_zenodo
         run: python releases_zenodo.py
         env:
-          TOKEN: ${{ secrets.MY_TOKEN }}
+          TOKEN: ${{ github.token }}
 
       - name: write release report file
         uses: "DamianReeves/write-file-action@master"
