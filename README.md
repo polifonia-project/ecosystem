@@ -63,6 +63,4 @@ After a satisfactory version is obtained, don't forget to commit (`git add <file
 the world may see them. Obvisouly, try to not commit a broken version (ie: which does not 
 compile with Jekyll).
 
-## Need help with this procedure
 
-Contact [Raphaël Fournier-S'niehotta](http://github.com/raphaelfournier).
