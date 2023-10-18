@@ -101,7 +101,7 @@ jobs:
         with:
           path: reports/${{ steps.date.outputs.date }}_report.json
           write-mode: overwrite
-          contents: ${{ steps.validate_yml.outputs.report }}
+          contents: "{{ steps.validate_yml.outputs.report }}"
 
       - name: commit and push report
         uses: Andro999b/push@v1.3
