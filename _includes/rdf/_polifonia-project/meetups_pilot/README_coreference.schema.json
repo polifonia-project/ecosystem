@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -16,6 +10,12 @@
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
       "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "This tool is part of the MEETUPS pilot and executes the coreference resolution task. It is in charge of identifying mentions to entities in the form of noun phrase, named, or pronominal text, particularly people and places. This software supports the identification of missing entities during the entity recognition and linking task and leverages the possibility of identifying historical meetups. Furthermore, the software tool validates that these mentions refer to the a named entity and link them to DBpedia or Wikipedia resources."
+      }
     ],
     "https://schema.org/contributor": [
       {
@@ -32,7 +32,7 @@
     ],
     "https://schema.org/discussionUrl": [
       {
-        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3"
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
       }
     ],
     "https://schema.org/distribution": [
@@ -45,7 +45,12 @@
         "@value": "meetups-coreference"
       },
       {
-        "@id": "_:n6c90c4f7f1d248be9243c4f53e67b265b1"
+        "@id": "_:n87438266623146b986e32fa0c6e1452bb1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "This tool is part of the MEETUPS pilot and executes the coreference resolution task. It is in charge of identifying mentions to entities in the form of noun phrase, named, or pronominal text, particularly people and places. This software supports the identification of missing entities during the entity recognition and linking task and leverages the possibility of identifying historical meetups. Furthermore, the software tool validates that these mentions refer to the a named entity and link them to DBpedia or Wikipedia resources."
       }
     ],
     "https://schema.org/isPartOf": [
@@ -66,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6c90c4f7f1d248be9243c4f53e67b265b2"
+        "@id": "_:n87438266623146b986e32fa0c6e1452bb2"
       }
     ],
     "https://schema.org/title": [
@@ -74,10 +79,21 @@
         "@language": "en",
         "@value": "MEETUPS - Identification of temporal knowledge"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-time-extraction"
+      },
+      {
+        "@value": "meetups-entity-recognition"
+      },
+      {
+        "@value": "meetups-themes"
+      }
     ]
   },
   {
-    "@id": "_:n6c90c4f7f1d248be9243c4f53e67b265b1",
+    "@id": "_:n87438266623146b986e32fa0c6e1452bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -88,15 +104,15 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+        "@value": "10.5281/zenodo.7875353"
       }
     ]
   },
   {
-    "@id": "_:n6c90c4f7f1d248be9243c4f53e67b265b2",
+    "@id": "_:n87438266623146b986e32fa0c6e1452bb2",
     "https://schema.org/releaseNotes": [
       {
-        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3"
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
       }
     ],
     "https://schema.org/softwareVersion": [
@@ -111,9 +127,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

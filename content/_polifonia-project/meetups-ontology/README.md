@@ -12,9 +12,10 @@ resource: https://github.com/polifonia-project/meetups-ontology
 release-date: 2023/01/13
 release-number: v0.1
 release-link: https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1
-doi: https://zenodo.org/badge/latestdoi/588540533
+doi: 10.5281/zenodo.7928155
 changelog: https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1
-licence: Apache-2.0
+licence: 
+- Apache-2.0
 copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
 contributors:
 - Alba Morales Tirado <https://github.com/albamoralest>

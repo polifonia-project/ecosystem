@@ -2,7 +2,7 @@
 component-id: meetups-hm-identification
 type: Software
 name: MEETUPS - Historical meetups identification
-brief-description: "MEETUPS Historical meetups identification was developed using Python and Jupyter Notebook. As input it uses the bag of entities obtained from the Entity Recognition and Coreference steps. The output is a corpus that contains the text (typically a sentence or a set of sentences), and the list of entities that account for a meetup. The results are stored in CSV files, grouped by biographies. The corpus is used later to build the MEETUPS KG."
+description: "MEETUPS Historical meetups identification was developed using Python and Jupyter Notebook. As input it uses the bag of entities obtained from the Entity Recognition and Coreference steps. The output is a corpus that contains the text (typically a sentence or a set of sentences), and the list of entities that account for a meetup. The results are stored in CSV files, grouped by biographies. The corpus is used later to build the MEETUPS KG."
 work-package:
 - WP4
 pilot:
@@ -11,8 +11,8 @@ project: polifonia-project
 resource: https://github.com/polifonia-project/meetups_pilot/blob/main/06_Coreference.ipynb
 release-date: 31/08/2023
 release-number: v0.1
-release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3
-doi: https://zenodo.org/badge/latestdoi/436452967
+release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
+doi: 10.5281/zenodo.7875353
 changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3
 licence: 
 - Apache-2.0
@@ -20,7 +20,7 @@ copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
 contributors:
 - Alba Morales Tirado <https://github.com/albamoralest>
 - Enrico Daga <https://github.com/enridaga>
-related-component:
+related-components:
 - informed-by: 
   - meetups-entity-recognition
   - meetups-time-extraction

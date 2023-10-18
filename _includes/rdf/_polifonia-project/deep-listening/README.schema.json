@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -9,7 +9,7 @@
     "@id": "http://w3id.org/polifonia/ecosystem/deep-listening",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://w3id.org/polifonia/ecosystem/Userinterface"
+      "http://w3id.org/polifonia/ecosystem/UserInterface"
     ],
     "https://schema.org/abstract": [
       {
@@ -41,11 +41,20 @@
     "https://schema.org/isBasedOn": [
       {
         "@value": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+      },
+      {
+        "@value": "Paul#1_OrganComparison"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Paul_Organ_Advisor"
       }
     ],
     "https://schema.org/isPartOf": [
       {
         "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP5"
@@ -64,14 +73,26 @@
     ],
     "https://schema.org/workExample": [
       {
-        "@value": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking"
+        "@value": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking/home"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul_Organ_Advisor",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

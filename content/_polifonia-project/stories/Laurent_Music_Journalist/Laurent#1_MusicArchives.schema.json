@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/--",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -46,6 +40,12 @@
         "@language": "en",
         "@value": "Music Archives"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

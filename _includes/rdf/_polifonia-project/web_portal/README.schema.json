@@ -1,9 +1,15 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/web-portal-prototypes",
     "@type": [
-      "http://w3id.org/polifonia/ecosystem/Documentation",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Documentation"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,7 +19,12 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@value": "Giulia Manganelli (UNIBO), Marco Grasso (UNIBO), Marilena Daquino (UNIBO)"
+        "@value": "Marco Grasso (UNIBO), Marilena Daquino (UNIBO)"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "musoW"
       }
     ],
     "https://schema.org/identifier": [
@@ -24,6 +35,16 @@
     "https://schema.org/isBasedOn": [
       {
         "@value": "Documents and materials relevant to the Polifonia Web portal (WP1.T3)"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
       }
     ],
     "https://schema.org/title": [

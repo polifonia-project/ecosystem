@@ -1,26 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -30,9 +12,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -75,7 +69,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:ncdcd88ea27a1491695a93f3464083d74b1"
+        "@id": "_:nd50e305f3b014e64bd0eee9d4230ff35b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -103,9 +97,14 @@
         "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
       }
     ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ncdcd88ea27a1491695a93f3464083d74b2"
+        "@id": "_:nd50e305f3b014e64bd0eee9d4230ff35b2"
       }
     ],
     "https://schema.org/title": [
@@ -124,7 +123,7 @@
     ]
   },
   {
-    "@id": "_:ncdcd88ea27a1491695a93f3464083d74b1",
+    "@id": "_:nd50e305f3b014e64bd0eee9d4230ff35b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -135,12 +134,12 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/588540533"
+        "@value": "10.5281/zenodo.7928155"
       }
     ]
   },
   {
-    "@id": "_:ncdcd88ea27a1491695a93f3464083d74b2",
+    "@id": "_:nd50e305f3b014e64bd0eee9d4230ff35b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -155,6 +154,12 @@
       {
         "@value": "2023/01/13"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

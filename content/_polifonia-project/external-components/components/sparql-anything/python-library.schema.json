@@ -56,7 +56,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n00ba813fe9f449f58dbefa5df47e2503b1"
+        "@id": "_:n772c363b1edb4455b63f026f99e5cbf1b1"
       }
     ],
     "https://schema.org/title": [
@@ -64,15 +64,10 @@
         "@language": "en",
         "@value": "PySPARQL-Anything"
       }
-    ],
-    "https://schema.org/workExample": [
-      {
-        "@value": "http://not-exisats.com/ddd"
-      }
     ]
   },
   {
-    "@id": "_:n00ba813fe9f449f58dbefa5df47e2503b1",
+    "@id": "_:n772c363b1edb4455b63f026f99e5cbf1b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/PySPARQL-Anything/releases/tag/v0.8.1.1"

@@ -8,15 +8,15 @@ work-package:
 project: polifonia-project
 resource: https://polifonia.disi.unibo.it/corpus/
 demo: https://polifonia.disi.unibo.it/corpus/
-release-date: 2023-03-15
+release-date: 2023/3/15
 release-number: latest
 release link: https://github.com/polifonia-project/Polifonia-Corpus-Web-API/releases/latest
 doi: 10.5281/zenodo.7736486
 licence:
-- CC0
+- Cc010Universal
 contributors:
-- Marco Grasso <https://github.com/roccotrip>
-- Rocco Tripodi <https://github.com/marcograsso>
+- Marco Grasso <https://github.com/marcograsso>
+- Rocco Tripodi <https://github.com/roccotrip> 
 related-components:
 - reuses:
   - Polifonia-Corpus

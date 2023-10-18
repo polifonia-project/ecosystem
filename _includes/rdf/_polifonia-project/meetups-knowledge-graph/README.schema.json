@@ -1,14 +1,38 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -41,7 +65,7 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/ea45f94d98b1693e54b2d38637dff197#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/79688c6da0ce3a26db056adf4aad55c3#/credits"
       }
     ],
     "https://schema.org/discussionUrl": [
@@ -54,17 +78,34 @@
         "@value": "https://github.com/polifonia-project/meetups-knowledge-graph/"
       }
     ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-java"
+      },
+      {
+        "@value": "sparql-anything-cli"
+      }
+    ],
     "https://schema.org/identifier": [
       {
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:n6920c2cfe13042f7b709bd9dcbb9c01eb1"
+        "@id": "_:ne3f32afb02ba41f5a78e044c718c48d3b1"
       }
     ],
     "https://schema.org/isBasedOn": [
       {
         "@value": "MEETUPS Knowledge Graph module with data on historical meetups and related to MEETUPS Pilot"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Sophie"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Ortenz"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/David"
       }
     ],
     "https://schema.org/isPartOf": [
@@ -83,15 +124,28 @@
         "@value": "CC-BY_v4"
       }
     ],
+    "https://schema.org/provider": [
+      {
+        "@value": "meetups-hm-identification"
+      }
+    ],
     "https://schema.org/title": [
       {
         "@language": "en",
         "@value": "MEETUPS Knowledge Graph"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-ontology"
+      },
+      {
+        "@value": "meetups-corpus-collection"
+      }
     ]
   },
   {
-    "@id": "_:n6920c2cfe13042f7b709bd9dcbb9c01eb1",
+    "@id": "_:ne3f32afb02ba41f5a78e044c718c48d3b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -102,14 +156,8 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/588597123"
+        "@value": "10.5281/zenodo.7924618"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

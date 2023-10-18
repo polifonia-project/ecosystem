@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Polifonia-Corpus-Web-API",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/WebApplication",
@@ -13,10 +19,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Rocco Tripodi <https://github.com/marcograsso>"
+        "@value": "Marco Grasso <https://github.com/marcograsso>"
       },
       {
-        "@value": "Marco Grasso <https://github.com/roccotrip>"
+        "@value": "Rocco Tripodi <https://github.com/roccotrip>"
       }
     ],
     "https://schema.org/distribution": [
@@ -34,7 +40,7 @@
         "@value": "Polifonia-Corpus-Web-API"
       },
       {
-        "@id": "_:ndae91634e164483e9e7e8d5ff1883d37b1"
+        "@id": "_:na7aea54a6a90474eb1e85f37503e45f7b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -52,7 +58,7 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC0"
+        "@value": "Cc010Universal"
       }
     ],
     "https://schema.org/title": [
@@ -68,7 +74,7 @@
     ]
   },
   {
-    "@id": "_:ndae91634e164483e9e7e8d5ff1883d37b1",
+    "@id": "_:na7aea54a6a90474eb1e85f37503e45f7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -87,12 +93,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
