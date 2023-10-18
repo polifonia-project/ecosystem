@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/pitchcontext",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -27,7 +21,7 @@
         "@value": "pitchcontext"
       },
       {
-        "@id": "_:n3ac50096c8d8462da22c78a81aa851aeb1"
+        "@id": "_:nc4eb20e3e6474f558af4ff4d7bd72e3bb1"
       }
     ],
     "https://schema.org/image": [
@@ -70,7 +64,7 @@
     ]
   },
   {
-    "@id": "_:n3ac50096c8d8462da22c78a81aa851aeb1",
+    "@id": "_:nc4eb20e3e6474f558af4ff4d7bd72e3bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -83,6 +77,12 @@
       {
         "@value": "10.5281/zenodo.8020644"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

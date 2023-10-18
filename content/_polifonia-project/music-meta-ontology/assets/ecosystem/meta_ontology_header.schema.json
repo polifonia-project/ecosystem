@@ -1,38 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -104,7 +80,7 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:n5a27a0aaa92743469badacc1780e1740b1"
+        "@id": "_:ncd8e51fbe170470e96e2cd878ca5ba34b1"
       }
     ],
     "https://schema.org/image": [
@@ -155,7 +131,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n5a27a0aaa92743469badacc1780e1740b2"
+        "@id": "_:ncd8e51fbe170470e96e2cd878ca5ba34b2"
       }
     ],
     "https://schema.org/title": [
@@ -171,7 +147,7 @@
     ]
   },
   {
-    "@id": "_:n5a27a0aaa92743469badacc1780e1740b1",
+    "@id": "_:ncd8e51fbe170470e96e2cd878ca5ba34b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -187,7 +163,7 @@
     ]
   },
   {
-    "@id": "_:n5a27a0aaa92743469badacc1780e1740b2",
+    "@id": "_:ncd8e51fbe170470e96e2cd878ca5ba34b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -202,6 +178,30 @@
       {
         "@value": "13/04/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

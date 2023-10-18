@@ -1,5 +1,29 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docker",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -34,7 +58,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb1"
+        "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -71,7 +95,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb2"
+        "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b2"
       }
     ],
     "https://schema.org/title": [
@@ -82,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb1",
+    "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -98,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:nf87c7e5a43df4db6811a4db1b3388d0fb2",
+    "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -113,30 +137,6 @@
       {
         "@value": "2022/12/18"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

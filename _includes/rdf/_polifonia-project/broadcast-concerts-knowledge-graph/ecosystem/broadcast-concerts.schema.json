@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/William",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-blog",
     "@type": [
       "https://schema.org/HowTo"
@@ -9,6 +21,18 @@
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -57,7 +81,7 @@
         "@value": "broadcast-concerts-knowledge-graph"
       },
       {
-        "@id": "_:n0cadb77e0adf43869d966145dfe1854eb1"
+        "@id": "_:nb1eedad258a843eaa2c26e6072b7d571b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -98,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n0cadb77e0adf43869d966145dfe1854eb1",
+    "@id": "_:nb1eedad258a843eaa2c26e6072b7d571b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -111,30 +135,6 @@
       {
         "@value": "10.5281/zenodo.7377532"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/William",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

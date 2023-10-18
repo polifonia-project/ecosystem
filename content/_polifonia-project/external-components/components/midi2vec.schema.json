@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/midi2vec",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/SoftwareLibrary",
@@ -39,7 +33,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n74043217f58a4bb78440021af8cc3b1fb1"
+        "@id": "_:n8dc3b2132ff84815a150949190abdb3cb1"
       }
     ],
     "https://schema.org/title": [
@@ -50,7 +44,7 @@
     ]
   },
   {
-    "@id": "_:n74043217f58a4bb78440021af8cc3b1fb1",
+    "@id": "_:n8dc3b2132ff84815a150949190abdb3cb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/midi-ld/midi2vec/releases/tag/v0.0.1"
@@ -65,6 +59,12 @@
       {
         "@value": "01/2022"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -12,12 +18,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n7eeb17386f9c4352a89a068b6dd2f3b3b1"
+        "@id": "_:n5c46d857f306480eac480d47ea3cb9acb1"
       }
     ]
   },
   {
-    "@id": "_:n7eeb17386f9c4352a89a068b6dd2f3b3b1",
+    "@id": "_:n5c46d857f306480eac480d47ea3cb9acb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission"
@@ -27,12 +33,6 @@
       {
         "@value": "https://cordis.europa.eu/project/id/101004746/it"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {
