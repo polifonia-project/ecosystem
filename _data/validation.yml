@@ -1,0 +1,4058 @@
+content/_polifonia-project/Polifonia-Corpus-Web-API/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''release-date'' error:
+
+      datetime.date(2023, 3, 15) should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''release-date'' error:'
+      - datetime.date(2023, 3, 15) should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fd2883a1af0>))
+        did not validate 'CC0'
+      - null
+      - <lambda>('CC0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/Polifonia-Corpus/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''CC-BY_v4'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/broadcast-concerts-knowledge-graph/ecosystem/broadcast-concerts-docs-blog.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/broadcast-concerts-knowledge-graph/ecosystem/broadcast-concerts-docs-melody.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/broadcast-concerts-knowledge-graph/ecosystem/broadcast-concerts-sparql-endpoint.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/broadcast-concerts-knowledge-graph/ecosystem/broadcast-concerts.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''resource'' error:
+
+      [''https://cat.apis.beeldengeluid.nl/#transientDatasources=https%3A%2F%2Fcat.apis.beeldengeluid.nl%2Fsparql&query=PREFIX%20sdo%3A%20%3Chttps%3A%2F%2Fschema.org%2F%3E%0A%0A%23%20Show%20the%20ID%20and%20title%20of%20all%20concerts%20that%20are%20part%20of%20the%20Dutch%20Broadcast%20Concert%20%0A%23%20(MOZ)%20collection%2C%20in%20alphabetical%20order%0A%0ASELECT%20DISTINCT%20%3FprogramUri%20%3FprogramName%0AWHERE%0A%7B%0A%20%23%20Filter%20for%20programmes%20belonging%20to%20the%20series%20%22Muziekopnamen%20Zendgemachtigden%20(MOZ)%22%2C%20using%20its%20ID%0A%20%3FprogramUri%20sdo%3ApartOfSeason%2Fsdo%3ApartOfSeries%20%3Chttp%3A%2F%2Fdata.beeldengeluid.nl%2Fid%2Fseries%2F2101608030025711131%3E%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20sdo%3Aname%20%3FprogramName%20.%20%0A%7D%20ORDER%20BY%20%3FprogramName'']
+      should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''resource'' error:'
+      - '[''https://cat.apis.beeldengeluid.nl/#transientDatasources=https%3A%2F%2Fcat.apis.beeldengeluid.nl%2Fsparql&query=PREFIX%20sdo%3A%20%3Chttps%3A%2F%2Fschema.org%2F%3E%0A%0A%23%20Show%20the%20ID%20and%20title%20of%20all%20concerts%20that%20are%20part%20of%20the%20Dutch%20Broadcast%20Concert%20%0A%23%20(MOZ)%20collection%2C%20in%20alphabetical%20order%0A%0ASELECT%20DISTINCT%20%3FprogramUri%20%3FprogramName%0AWHERE%0A%7B%0A%20%23%20Filter%20for%20programmes%20belonging%20to%20the%20series%20%22Muziekopnamen%20Zendgemachtigden%20(MOZ)%22%2C%20using%20its%20ID%0A%20%3FprogramUri%20sdo%3ApartOfSeason%2Fsdo%3ApartOfSeries%20%3Chttp%3A%2F%2Fdata.beeldengeluid.nl%2Fid%2Fseries%2F2101608030025711131%3E%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20sdo%3Aname%20%3FprogramName%20.%20%0A%7D%20ORDER%20BY%20%3FprogramName'']
+        should be instance of ''str'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/clef/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/polifonia-project/clef/releases/latest') raised
+        Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning: []
+content/_polifonia-project/cometa-ontology/header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'diagrams/cometa_overview.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/dashboard/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/polifonia-project/dashboard/releases/latest')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/deep-listening/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Type must be one of: Data, Application, Software, Report, Dataset, Schema,
+      Repository, Registry, Ontology, Corpus, Lexicon, KnowledgeGraph, WebSite, WebApplication,
+      WebService, MobileApp, CLITool, SPARQLEndpoint, Workflow, API, UserInterface,
+      DockerImageContainer, SoftwareLibrary, Notebook, Script, RequirementsCollection,
+      Survey, Documentation, EvaluationReport, Story, Persona, Mockup, InPresenceSurvey,
+      FocusGroup, Tutorial, Component'
+    state:
+      autos:
+      - 'Key ''type'' error:'
+      - null
+      - <lambda>('User interface') should evaluate to True
+      errors:
+      - null
+      - null
+      - 'Type must be one of: Data, Application, Software, Report, Dataset, Schema,
+        Repository, Registry, Ontology, Corpus, Lexicon, KnowledgeGraph, WebSite,
+        WebApplication, WebService, MobileApp, CLITool, SPARQLEndpoint, Workflow,
+        API, UserInterface, DockerImageContainer, SoftwareLibrary, Notebook, Script,
+        RequirementsCollection, Survey, Documentation, EvaluationReport, Story, Persona,
+        Mockup, InPresenceSurvey, FocusGroup, Tutorial, Component'
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://spice.kmi.open.ac.uk/demos/imma-slow-looking') raised Exception('URL
+        cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning: []
+content/_polifonia-project/documentary-evidence-benchmark/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/endpoints/data-open.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('http://dev-ext.kmi.open.ac.uk/data/assets/img/open-data-icon.pngl')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  warning: []
+content/_polifonia-project/external-components/components/led.md:
+  error: []
+  warning: []
+content/_polifonia-project/external-components/components/midi2vec.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''changelog'' error:
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''changelog'' error:'
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - None should be instance of 'list'
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - "Key 'bibliography' error:\nOr({Optional('published-in'): Or(<class 'str'>,\
+      \ <class 'list'>), Optional('main-publication'): <class 'str'>, Optional('publication'):\
+      \ Or(<class 'str'>, <class 'list'>), Optional('main-report'): <class 'str'>,\
+      \ Optional('deliverable-document'): Or(<class 'str'>, <class 'list'>)}) did\
+      \ not validate 'Pasquale Lisena, Albert Mero\xF1o-Pe\xF1uela, Rapha\xEBl Troncy.\
+      \ MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music\
+      \ Metadata, to appear in Semantic Web Journal, Special Issue on Deep Learning\
+      \ for Knowledge Graphs, 2021. http://www.semantic-web-journal.net/content/midi2vec-learning-midi-embeddings-reliable-prediction-symbolic-music-metadata-0'\n\
+      'Pasquale Lisena, Albert Mero\xF1o-Pe\xF1uela, Rapha\xEBl Troncy. MIDI2vec:\
+      \ Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata,\
+      \ to appear in Semantic Web Journal, Special Issue on Deep Learning for Knowledge\
+      \ Graphs, 2021. http://www.semantic-web-journal.net/content/midi2vec-learning-midi-embeddings-reliable-prediction-symbolic-music-metadata-0'\
+      \ should be instance of 'dict'"
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - "Or({Optional('published-in'): Or(<class 'str'>, <class 'list'>), Optional('main-publication'):\
+        \ <class 'str'>, Optional('publication'): Or(<class 'str'>, <class 'list'>),\
+        \ Optional('main-report'): <class 'str'>, Optional('deliverable-document'):\
+        \ Or(<class 'str'>, <class 'list'>)}) did not validate 'Pasquale Lisena, Albert\
+        \ Mero\xF1o-Pe\xF1uela, Rapha\xEBl Troncy. MIDI2vec: Learning MIDI Embeddings\
+        \ for Reliable Prediction of Symbolic Music Metadata, to appear in Semantic\
+        \ Web Journal, Special Issue on Deep Learning for Knowledge Graphs, 2021.\
+        \ http://www.semantic-web-journal.net/content/midi2vec-learning-midi-embeddings-reliable-prediction-symbolic-music-metadata-0'"
+      - "'Pasquale Lisena, Albert Mero\xF1o-Pe\xF1uela, Rapha\xEBl Troncy. MIDI2vec:\
+        \ Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata,\
+        \ to appear in Semantic Web Journal, Special Issue on Deep Learning for Knowledge\
+        \ Graphs, 2021. http://www.semantic-web-journal.net/content/midi2vec-learning-midi-embeddings-reliable-prediction-symbolic-music-metadata-0'\
+        \ should be instance of 'dict'"
+      errors:
+      - null
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      None should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - None should be instance of 'list'
+      errors:
+      - null
+      - null
+  warning: []
+content/_polifonia-project/external-components/components/neuma-search-engine.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''changelog'' error:
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''changelog'' error:'
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - None should be instance of 'list'
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - "Key 'bibliography' error:\nOr({Optional('published-in'): Or(<class 'str'>,\
+      \ <class 'list'>), Optional('main-publication'): <class 'str'>, Optional('publication'):\
+      \ Or(<class 'str'>, <class 'list'>), Optional('main-report'): <class 'str'>,\
+      \ Optional('deliverable-document'): Or(<class 'str'>, <class 'list'>)}) did\
+      \ not validate 'Zhu, T.; Fournier-S\u2019niehotta, R.; Rigaux, P.; Travers,\
+      \ N. [A Framework for Content-Based Search in Large Music Collections](https://www.mdpi.com/2504-2289/6/1/23).\
+      \ Big Data Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023'\n\
+      'Zhu, T.; Fournier-S\u2019niehotta, R.; Rigaux, P.; Travers, N. [A Framework\
+      \ for Content-Based Search in Large Music Collections](https://www.mdpi.com/2504-2289/6/1/23).\
+      \ Big Data Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023' should\
+      \ be instance of 'dict'"
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - "Or({Optional('published-in'): Or(<class 'str'>, <class 'list'>), Optional('main-publication'):\
+        \ <class 'str'>, Optional('publication'): Or(<class 'str'>, <class 'list'>),\
+        \ Optional('main-report'): <class 'str'>, Optional('deliverable-document'):\
+        \ Or(<class 'str'>, <class 'list'>)}) did not validate 'Zhu, T.; Fournier-S\u2019\
+        niehotta, R.; Rigaux, P.; Travers, N. [A Framework for Content-Based Search\
+        \ in Large Music Collections](https://www.mdpi.com/2504-2289/6/1/23). Big\
+        \ Data Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023'"
+      - "'Zhu, T.; Fournier-S\u2019niehotta, R.; Rigaux, P.; Travers, N. [A Framework\
+        \ for Content-Based Search in Large Music Collections](https://www.mdpi.com/2504-2289/6/1/23).\
+        \ Big Data Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023'\
+        \ should be instance of 'dict'"
+      errors:
+      - null
+      - null
+      - null
+  warning: []
+content/_polifonia-project/external-components/components/ramose.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Type must be one of: Data, Application, Software, Report, Dataset, Schema,
+      Repository, Registry, Ontology, Corpus, Lexicon, KnowledgeGraph, WebSite, WebApplication,
+      WebService, MobileApp, CLITool, SPARQLEndpoint, Workflow, API, UserInterface,
+      DockerImageContainer, SoftwareLibrary, Notebook, Script, RequirementsCollection,
+      Survey, Documentation, EvaluationReport, Story, Persona, Mockup, InPresenceSurvey,
+      FocusGroup, Tutorial, Component'
+    state:
+      autos:
+      - 'Key ''type'' error:'
+      - null
+      - <lambda>('Service') should evaluate to True
+      errors:
+      - null
+      - null
+      - 'Type must be one of: Data, Application, Software, Report, Dataset, Schema,
+        Repository, Registry, Ontology, Corpus, Lexicon, KnowledgeGraph, WebSite,
+        WebApplication, WebService, MobileApp, CLITool, SPARQLEndpoint, Workflow,
+        API, UserInterface, DockerImageContainer, SoftwareLibrary, Notebook, Script,
+        RequirementsCollection, Survey, Documentation, EvaluationReport, Story, Persona,
+        Mockup, InPresenceSurvey, FocusGroup, Tutorial, Component'
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''ISC'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''running-instance'' error:'
+      - null
+      - null
+      - '[''https://opencitations.net/ccc/api/v1'', ''https://opencitations.net/index/croci/api/v1'',
+        ''https://opencitations.net/index/coci/api/v1'', ''https://opencitations.net/index/api/v1'',
+        ''https://opencitations.net/api/v1''] should be instance of ''str'''
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''webportal'''
+      - null
+      - '''webportal'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''bibliography'' error:
+
+      Or({Optional(''published-in''): Or(<class ''str''>, <class ''list''>), Optional(''main-publication''):
+      <class ''str''>, Optional(''publication''): Or(<class ''str''>, <class ''list''>),
+      Optional(''main-report''): <class ''str''>, Optional(''deliverable-document''):
+      Or(<class ''str''>, <class ''list''>)}) did not validate ''Daquino, Marilena,
+      Heibi, Ivan, Peroni, Silvio, Shotton, David "Creating RESTful APIs over SPARQL
+      endpoints using RAMOSE." Semantic Web Journal (2021): 1-19. https://content.iospress.com/articles/semantic-web/sw210439''
+
+      ''Daquino, Marilena, Heibi, Ivan, Peroni, Silvio, Shotton, David "Creating RESTful
+      APIs over SPARQL endpoints using RAMOSE." Semantic Web Journal (2021): 1-19.
+      https://content.iospress.com/articles/semantic-web/sw210439'' should be instance
+      of ''dict'''
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - 'Or({Optional(''published-in''): Or(<class ''str''>, <class ''list''>), Optional(''main-publication''):
+        <class ''str''>, Optional(''publication''): Or(<class ''str''>, <class ''list''>),
+        Optional(''main-report''): <class ''str''>, Optional(''deliverable-document''):
+        Or(<class ''str''>, <class ''list''>)}) did not validate ''Daquino, Marilena,
+        Heibi, Ivan, Peroni, Silvio, Shotton, David "Creating RESTful APIs over SPARQL
+        endpoints using RAMOSE." Semantic Web Journal (2021): 1-19. https://content.iospress.com/articles/semantic-web/sw210439'''
+      - '''Daquino, Marilena, Heibi, Ivan, Peroni, Silvio, Shotton, David "Creating
+        RESTful APIs over SPARQL endpoints using RAMOSE." Semantic Web Journal (2021):
+        1-19. https://content.iospress.com/articles/semantic-web/sw210439'' should
+        be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+  warning: []
+content/_polifonia-project/external-components/components/sparql-anything/command-line.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/sparql-anything/docker.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/sparql-anything/documentation.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/sparql-anything/fuseki-server.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/sparql-anything/java-source-code.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/sparql-anything/python-library.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - '<lambda>(''http://not-exisats.com/ddd'') raised ConnectionError(MaxRetryError("HTTPConnectionPool(host=''not-exisats.com'',
+        port=80): Max retries exceeded with url: /ddd (Caused by NewConnectionError(''<urllib3.connection.HTTPConnection
+        object at 0x7fd288345d30>: Failed to establish a new connection: [Errno 8]
+        nodename nor servname provided, or not known''))"))'
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/sparql-anything/requirements.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning: []
+content/_polifonia-project/external-components/components/sparql-anything/sparql-anything.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - The activity should have at least one funding organisation.
+    state:
+      autos:
+      - 'Key ''funder'' error:'
+      - null
+      - 'Or() did not validate {''name'': ''European Commission H2020'', ''url'':
+        ''https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020'',
+        ''grant-agreement'': ''GA101004746''}'
+      errors:
+      - null
+      - null
+      - The activity should have at least one funding organisation.
+content/_polifonia-project/external-components/components/sparql-anything/tutorials.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/folk_ngram_analysis/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fd2883a1af0>))
+        did not validate 'CC_BY_v4'
+      - null
+      - <lambda>('CC_BY_v4') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fd2883a1af0>))
+        did not validate 'CC_BY_v4'
+      - null
+      - <lambda>('CC_BY_v4') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fd2883a1af0>))
+        did not validate 'CC_BY_v4'
+      - null
+      - <lambda>('CC_BY_v4') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/instrument-ontology/header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'diagrams/music-instrument-main-entities.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/lharp/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a.'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a.'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''running-instance'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''dataset - Isophonics - Schubert-Winterreise
+        dataset - JAAH'''
+      - null
+      - '''dataset - Isophonics - Schubert-Winterreise dataset - JAAH'' should be
+        instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''bibliography'' error:
+
+      ''A simple local harmonic similarity function based on shared repeated chord
+      structures (manuscript in progress)'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - '''A simple local harmonic similarity function based on shared repeated chord
+        structures (manuscript in progress)'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''work-package'' error:
+
+      ''WP2, WP3'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''work-package'' error:'
+      - '''WP2, WP3'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      ''INTERLINK'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - '''INTERLINK'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Components should have an associated bibliography
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - null
+      - '''A simple local harmonic similarity function based on shared repeated chord
+        structures (manuscript in progress)'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Components should have an associated bibliography
+content/_polifonia-project/licences/KG.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/licences/Pipeline.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups-application/meetups-application.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''doi'' error:
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''reuses - meetups-knowledge-graph'''
+      - null
+      - '''reuses - meetups-knowledge-graph'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      ''MEETUPS'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - '''MEETUPS'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups-knowledge-graph/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/588597123'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/588597123'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/588597123'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/588597123'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups-ontology/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/588540533'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/588540533'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/588540533'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/588540533'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''Apache-2.0'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups-ui-design/meetups-ui-design.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''doi'' error:
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      ''MEETUPS'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - '''MEETUPS'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups_corpus_collection/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups_pilot/README.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - The activity should have at least one funding organisation.
+    state:
+      autos:
+      - 'Key ''funder'' error:'
+      - null
+      - 'Or() did not validate {''name'': ''European Commission H2020'', ''url'':
+        ''https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020''}'
+      errors:
+      - null
+      - null
+      - The activity should have at least one funding organisation.
+content/_polifonia-project/meetups_pilot/README_coreference.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups_pilot/README_data_cleaning.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups_pilot/README_hm-identification.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups_pilot/README_identification_themes.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups_pilot/README_people_places_identification.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/meetups_pilot/README_time_expressions.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/436452967'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/music-meta-ontology/assets/ecosystem/meta_ontology_header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'diagrams/music_meta.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'website/static/img/musicmeta_logo.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/music-meta-ontology/assets/ecosystem/pymusicmeta_header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'website/static/img/musicmeta_logo.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/musicbo-knowledge-graph/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''CC-BY_v4'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/ontology-network/header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'assets/pon_architecture.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate {''reuses'': None}'
+      - null
+      - 'Key ''reuses'' error:'
+      - null
+      - Or(<class 'str'>, <class 'list'>) did not validate None
+      - None should be instance of 'str'
+      - None should be instance of 'list'
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+      - Invalid or malformed annotation
+      - null
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/patterns-knowledge-graph/P2KG-Pipeline/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''CC BY 4.0, https://creativecommons.org/licenses/by/4.0/'' should be instance
+        of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://projects.dharc.unibo.it/melody/fonn/statistics_on_the_session_annotated_subset_and_meertens_tune_collections_mtcann_pattern_kg')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''sparql-anything'''
+      - null
+      - '''sparql-anything'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/patterns-knowledge-graph/README.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - The activity should have at least one funding organisation.
+    state:
+      autos:
+      - 'Key ''funder'' error:'
+      - null
+      - 'Or() did not validate {''name'': ''Horizon 2020 Framework Programme'', ''url'':
+        ''https://cordis.europa.eu/programme/id/H2020-EC'', ''grant-agreement'': ''https://cordis.europa.eu/project/id/101004746''}'
+      errors:
+      - null
+      - null
+      - The activity should have at least one funding organisation.
+content/_polifonia-project/patterns-knowledge-graph/patterns-knowledge-graph-datasets/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Type must be one of: Data, Application, Software, Report, Dataset, Schema,
+      Repository, Registry, Ontology, Corpus, Lexicon, KnowledgeGraph, WebSite, WebApplication,
+      WebService, MobileApp, CLITool, SPARQLEndpoint, Workflow, API, UserInterface,
+      DockerImageContainer, SoftwareLibrary, Notebook, Script, RequirementsCollection,
+      Survey, Documentation, EvaluationReport, Story, Persona, Mockup, InPresenceSurvey,
+      FocusGroup, Tutorial, Component'
+    state:
+      autos:
+      - 'Key ''type'' error:'
+      - null
+      - <lambda>('Project') should evaluate to True
+      errors:
+      - null
+      - null
+      - 'Type must be one of: Data, Application, Software, Report, Dataset, Schema,
+        Repository, Registry, Ontology, Corpus, Lexicon, KnowledgeGraph, WebSite,
+        WebApplication, WebService, MobileApp, CLITool, SPARQLEndpoint, Workflow,
+        API, UserInterface, DockerImageContainer, SoftwareLibrary, Notebook, Script,
+        RequirementsCollection, Survey, Documentation, EvaluationReport, Story, Persona,
+        Mockup, InPresenceSurvey, FocusGroup, Tutorial, Component'
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/pitchcontext/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''release-date'' error:
+
+      datetime.date(2023, 6, 2) should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''release-date'' error:'
+      - datetime.date(2023, 6, 2) should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''changelog'' error:
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''changelog'' error:'
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - None should be instance of 'list'
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/polifonia-lexicon/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''CC BY'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/registry_app/ecosystem/container.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - The activity should have at least one funding organisation.
+    state:
+      autos:
+      - 'Key ''funder'' error:'
+      - null
+      - 'Or() did not validate {''name'': ''European Commission'', ''url'': ''https://cordis.europa.eu/project/id/101004746/it'',
+        ''grant-agreement'': ''101004746''}'
+      errors:
+      - null
+      - null
+      - The activity should have at least one funding organisation.
+content/_polifonia-project/registry_app/ecosystem/dataset.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/polifonia-project/registry_app/releases/latest')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fd2883a1af0>))
+        did not validate 'CC0'
+      - null
+      - <lambda>('CC0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning: []
+content/_polifonia-project/registry_app/ecosystem/interface.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/polifonia-project/registry_app/releases/latest')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fd2883a1af0>))
+        did not validate 'CC0'
+      - null
+      - <lambda>('CC0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning: []
+content/_polifonia-project/rulebook/CHAMPIONS.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fd2883a1af0>))
+        did not validate 'CC0'
+      - null
+      - <lambda>('CC0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/rulebook/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'TODO'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/rulebook/ontology-KG-development-documentation-guidelines.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/rulebook/schema.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/source-ontology/header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'diagrams/source-module.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Amy_Organologist/Amy#1_OrganTrends.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Amy_Organologist/Amy#2_OrganBuilders.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Amy_Organologist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Andrea_Theology_Scholar/Andrea#1_Serendipity.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''musoW'''
+      - null
+      - '''musoW'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Andrea_Theology_Scholar/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Anna_Hearing-impaired/Anna#1_HearingMusic.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Anna_Hearing-impaired/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Brendan_Traditional_Musician/Brendan#1_FindTraditionalMusic.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Brendan_Traditional_Musician/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Carolina_Music_Historian/Carolina#1_SourcesCrossAnalysis.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Carolina_Music_Historian/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/David_Music_Historian/David#1_MusicHistorian.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/David_Music_Historian/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Frank_Organist/Frank#1_OrganKnowledge.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Frank_Organist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Jorge_Librarian/Jorge#1_OrganizeMyLibrary.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Jorge_Librarian/Jorge#2_FindSimilarScores.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Jorge_Librarian/Jorge#3_DynamicExploration.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Jorge_Librarian/Jorge#4_LinkToSources.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Jorge_Librarian/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Keith_Music_Producer/Keith#1_MusicConnections.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Keith_Music_Producer/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - This annotation should include a description, as a single paragraph
+    state:
+      autos:
+      - 'Key ''description'' error:'
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - This annotation should include a description, as a single paragraph
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Keoma_Architect/Keoma#1_RestorationAndSoundPractices.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Keoma_Architect/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Laurent_Music_Journalist/Laurent#1_MusicArchives.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''musoW'''
+      - null
+      - '''musoW'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Laurent_Music_Journalist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Linka_Computer_Scientist/Linka#1_MusicKnowledge.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Linka_Computer_Scientist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Mark_Computational_Musicologist/Mark#1_FolkMusic.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Mark_Computational_Musicologist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Ortenz_Music_Historian/Ortenz#1_MusicAndChildhood.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Ortenz_Music_Historian/Ortenz#2_MusicalSocialNetwork.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Ortenz_Music_Historian/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''Ortenz#1_MusicAndChildhood'''
+      - null
+      - '''Ortenz#1_MusicAndChildhood'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Patrizia_Ethnoanthropologist/Patrizia#1_IdentificationOfIntangibleElements.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Patrizia_Ethnoanthropologist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''Patrizia#1_IdentificationOfIntangibleElements'''
+      - null
+      - '''Patrizia#1_IdentificationOfIntangibleElements'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Paul_Organ_Advisor/Paul#1_OrganComparison.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Paul_Organ_Advisor/Paul#2_ResourceReliability.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Paul_Organ_Advisor/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''Paul#1_OrganComparison'''
+      - null
+      - '''Paul#1_OrganComparison'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Ralph_Music_Historian/Ralph#1_WordsAndMusic.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Ralph_Music_Historian/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''Ralph#1_WordsAndMusic'''
+      - null
+      - '''Ralph#1_WordsAndMusic'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sethus_Music_Theorist/Sethus#1_ConflictingTheoreticalInterpretations.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sethus_Music_Theorist/Sethus#2_CreateRelevantCorpus.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sethus_Music_Theorist/Sethus#3_ConflictingAnalyticalAnnotations.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sethus_Music_Theorist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sonia_Playlist_User/Sonia#1_ExplorationMode.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sonia_Playlist_User/Sonia#2_ShuffleMode.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sonia_Playlist_User/Sonia#3_StatsMode.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sonia_Playlist_User/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sophia_Musicologist/Sophia#1_MusiciansAndTheirEnvironment.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sophia_Musicologist/Sophia#2_OriginsAndForm.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sophia_Musicologist/Sophia#3_Reorchestration.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Sophia_Musicologist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Valeriana_Linguist/Valeriana#1_DiscourseAnalysis.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Valeriana_Linguist/Valeriana#2_Terminology.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''description'''
+    state:
+      autos:
+      - 'Missing key: ''description'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/Valeriana_Linguist/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/William_Curator_Europeana/William#1EuropeanFolkMusic.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/stories/William_Curator_Europeana/readme.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/textual-corpus-population/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a.'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''MIT'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a.'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a.'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''running-instance'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'n/a'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''File scraper - Internet
+        Culturale Scraper - Hemeroteca Digitale Scraper - DigiPress Scraper'''
+      - null
+      - '''File scraper - Internet Culturale Scraper - Hemeroteca Digitale Scraper
+        - DigiPress Scraper'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''bibliography'' error:
+
+      ''n/a'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - '''n/a'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''work-package'' error:
+
+      ''WP4'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''work-package'' error:'
+      - '''WP4'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Components should have an associated bibliography
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - null
+      - '''n/a'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Components should have an associated bibliography
+content/_polifonia-project/tunes-ontology/header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'diagrams/tunes_ontology.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/web_portal/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''release-date'' error:
+
+      datetime.date(2022, 6, 20) should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''release-date'' error:'
+      - datetime.date(2022, 6, 20) should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''CC-BY'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate ''musoW'''
+      - null
+      - '''musoW'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''work-package'' error:
+
+      ''WP1'' should be instance of ''list'''
+    state:
+      autos:
+      - 'Key ''work-package'' error:'
+      - '''WP1'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_smashub/harmory/assets/header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Value must be an HTTP(S) URL
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - Regex('^http[s]?://.+$') does not match 'assets/harmory_wide.png'
+      errors:
+      - null
+      - null
+      - null
+      - Value must be an HTTP(S) URL
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''derived-from''): Or(<class ''str''>, <class ''list''>),
+        Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>), Optional(''extends''):
+        Or(<class ''str''>, <class ''list''>), Optional(''reuses''): Or(<class ''str''>,
+        <class ''list''>), Optional(''serves''): Or(<class ''str''>, <class ''list''>),
+        Optional(''produces''): Or(<class ''str''>, <class ''list''>), Optional(''reused-in''):
+        Or(<class ''str''>, <class ''list''>), Optional(''generated-by''): Or(<class
+        ''str''>, <class ''list''>)})) did not validate {''reuses'': None}'
+      - null
+      - 'Key ''reuses'' error:'
+      - null
+      - Or(<class 'str'>, <class 'list'>) did not validate None
+      - None should be instance of 'str'
+      - None should be instance of 'list'
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+      - Invalid or malformed annotation
+      - null
+      - null
+      - null
+  warning: []
