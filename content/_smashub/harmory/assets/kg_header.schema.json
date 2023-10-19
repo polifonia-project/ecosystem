@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Harmory",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -52,12 +46,26 @@
         "@value": "https://github.com/smashub/harmory/releases"
       }
     ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/jams/"
+      },
+      {
+        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
+      },
+      {
+        "@value": "ChoCo"
+      },
+      {
+        "@value": "https://w3id.org/polifonia/ontology/core/"
+      }
+    ],
     "https://schema.org/identifier": [
       {
         "@value": "Harmory"
       },
       {
-        "@id": "_:n48f75c27ced749859a8bddca523dedb3b1"
+        "@id": "_:n08ff1ed7fd824c2189e8f7c092e33fa0b1"
       }
     ],
     "https://schema.org/image": [
@@ -91,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n48f75c27ced749859a8bddca523dedb3b2"
+        "@id": "_:n08ff1ed7fd824c2189e8f7c092e33fa0b2"
       }
     ],
     "https://schema.org/title": [
@@ -112,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:n48f75c27ced749859a8bddca523dedb3b1",
+    "@id": "_:n08ff1ed7fd824c2189e8f7c092e33fa0b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -128,7 +136,7 @@
     ]
   },
   {
-    "@id": "_:n48f75c27ced749859a8bddca523dedb3b2",
+    "@id": "_:n08ff1ed7fd824c2189e8f7c092e33fa0b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -143,6 +151,12 @@
       {
         "@value": "01-02-2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

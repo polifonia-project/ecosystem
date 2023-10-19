@@ -1,5 +1,35 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-cli",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/CLITool",
@@ -55,7 +85,7 @@
         "@value": "sparql-anything-cli"
       },
       {
-        "@id": "_:nfdbfba1e0a824b1e991dcdeeb3564994b1"
+        "@id": "_:nd35fefdf2fdf492abe65586cfd70a688b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -98,7 +128,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nfdbfba1e0a824b1e991dcdeeb3564994b2"
+        "@id": "_:nd35fefdf2fdf492abe65586cfd70a688b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -122,7 +152,7 @@
     ]
   },
   {
-    "@id": "_:nfdbfba1e0a824b1e991dcdeeb3564994b1",
+    "@id": "_:nd35fefdf2fdf492abe65586cfd70a688b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -138,7 +168,7 @@
     ]
   },
   {
-    "@id": "_:nfdbfba1e0a824b1e991dcdeeb3564994b2",
+    "@id": "_:nd35fefdf2fdf492abe65586cfd70a688b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -156,27 +186,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -186,27 +204,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

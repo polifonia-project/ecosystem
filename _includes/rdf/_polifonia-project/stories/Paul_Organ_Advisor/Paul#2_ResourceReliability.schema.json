@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Paul#2_ResourceReliability",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -58,6 +52,12 @@
         "@language": "en",
         "@value": "Resource Reliability"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -45,7 +45,7 @@
         "@value": "clef-software"
       },
       {
-        "@id": "_:n3f2c415affe948a3ab0c31590781957fb1"
+        "@id": "_:nadb3811e2ae44d5cb5a5c28d2d6ffe59b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -68,7 +68,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n3f2c415affe948a3ab0c31590781957fb2"
+        "@id": "_:nadb3811e2ae44d5cb5a5c28d2d6ffe59b2"
       }
     ],
     "https://schema.org/title": [
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "@id": "_:n3f2c415affe948a3ab0c31590781957fb1",
+    "@id": "_:nadb3811e2ae44d5cb5a5c28d2d6ffe59b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:n3f2c415affe948a3ab0c31590781957fb2",
+    "@id": "_:nadb3811e2ae44d5cb5a5c28d2d6ffe59b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/clef/releases/tag/v1.0.2"
@@ -118,9 +118,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   }
 ]

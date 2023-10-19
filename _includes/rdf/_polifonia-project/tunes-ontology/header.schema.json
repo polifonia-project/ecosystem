@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/tunes/",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
@@ -59,12 +47,12 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:n6592419ed7c74b608ddb152bb9f511edb1"
+        "@id": "_:n824d6ac3f2ea4b95b837d2d46559d16db1"
       }
     ],
     "https://schema.org/image": [
       {
-        "@value": "diagrams/tunes_ontology.png"
+        "@value": "https://github.com/polifonia-project/tunes-ontology/raw/main/diagrams/tunes_ontology.png"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -96,7 +84,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6592419ed7c74b608ddb152bb9f511edb2"
+        "@id": "_:n824d6ac3f2ea4b95b837d2d46559d16db2"
       }
     ],
     "https://schema.org/title": [
@@ -112,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:n6592419ed7c74b608ddb152bb9f511edb1",
+    "@id": "_:n824d6ac3f2ea4b95b837d2d46559d16db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -128,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:n6592419ed7c74b608ddb152bb9f511edb2",
+    "@id": "_:n824d6ac3f2ea4b95b837d2d46559d16db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -146,15 +134,27 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Mark",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
