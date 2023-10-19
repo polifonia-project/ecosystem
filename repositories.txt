@@ -35,4 +35,7 @@ smashub/choco:branches:main
 polifonia-project/pitchcontext:branches:main
 smashub/harmory:branches:main
 polifonia-project/patterns-knowledge-graph:branches:main
+polifonia-project/bells-knowledge-graph
+polifonia-project/bells-ontology
+
 
