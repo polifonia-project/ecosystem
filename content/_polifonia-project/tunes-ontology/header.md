@@ -3,7 +3,7 @@ component-id: https://w3id.org/polifonia/ontology/tunes/
 type: Ontology
 name: Tunes Ontology
 description: A specialisation of the Music Meta Ontology for folk music.
-image: diagrams/tunes_ontology.png
+image: https://github.com/polifonia-project/tunes-ontology/raw/main/diagrams/tunes_ontology.png
 work-package:
 - WP2
 pilot:

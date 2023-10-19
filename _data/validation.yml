@@ -12,6 +12,28 @@ content/_polifonia-project/Polifonia-Corpus-Web-API/README.md:
 content/_polifonia-project/Polifonia-Corpus/README.md:
   error: []
   warning: []
+content/_polifonia-project/bells-knowledge-graph/README.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/bells-ontology/header.md:
+  error: []
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
 content/_polifonia-project/broadcast-concerts-knowledge-graph/ecosystem/broadcast-concerts-docs-blog.md:
   error:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -109,19 +131,20 @@ content/_polifonia-project/cometa-ontology/header.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - Value must be an HTTP(S) URL
+    - URL cannot be resolved.
     state:
       autos:
       - 'Key ''image'' error:'
       - null
       - null
       - null
-      - Regex('^http[s]?://.+$') does not match 'diagrams/cometa_overview.png'
+      - <lambda>('https://github.com/polifonia-project/cometa-ontology/raw/main/diagrams/cometa_overview.png')
+        raised Exception('URL cannot be resolved')
       errors:
       - null
       - null
       - null
-      - Value must be an HTTP(S) URL
+      - URL cannot be resolved.
       - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -441,7 +464,7 @@ content/_polifonia-project/folk_ngram_analysis/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa913d02700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -487,7 +510,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa913d02700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -533,7 +556,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa913d02700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -561,23 +584,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       errors:
       - null
 content/_polifonia-project/instrument-ontology/header.md:
-  error:
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - Value must be an HTTP(S) URL
-    state:
-      autos:
-      - 'Key ''image'' error:'
-      - null
-      - null
-      - null
-      - Regex('^http[s]?://.+$') does not match 'diagrams/music-instrument-main-entities.png'
-      errors:
-      - null
-      - null
-      - null
-      - Value must be an HTTP(S) URL
-      - null
+  error: []
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
@@ -981,50 +988,20 @@ content/_polifonia-project/ontology-network/header.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - Value must be an HTTP(S) URL
+    - URL cannot be resolved.
     state:
       autos:
       - 'Key ''image'' error:'
       - null
       - null
       - null
-      - Regex('^http[s]?://.+$') does not match 'assets/pon_architecture.png'
+      - <lambda>('https://github.com/polifonia-project/ontology-network/raw/main/assets/pon_architecture.png')
+        raised Exception('URL cannot be resolved')
       errors:
       - null
       - null
       - null
-      - Value must be an HTTP(S) URL
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - Invalid or malformed annotation
-    state:
-      autos:
-      - 'Key ''related-components'' error:'
-      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
-        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
-        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
-        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
-        ''list''>), Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>),
-        Optional(''extends''): Or(<class ''str''>, <class ''list''>), Optional(''reuses''):
-        Or(<class ''str''>, <class ''list''>), Optional(''serves''): Or(<class ''str''>,
-        <class ''list''>), Optional(''produces''): Or(<class ''str''>, <class ''list''>),
-        Optional(''reused-in''): Or(<class ''str''>, <class ''list''>), Optional(''generated-by''):
-        Or(<class ''str''>, <class ''list''>)})) did not validate {''reuses'': None}'
-      - null
-      - 'Key ''reuses'' error:'
-      - null
-      - Or(<class 'str'>, <class 'list'>) did not validate None
-      - None should be instance of 'str'
-      - None should be instance of 'list'
-      errors:
-      - null
-      - null
-      - null
-      - Invalid or malformed annotation
-      - Invalid or malformed annotation
-      - null
-      - null
+      - URL cannot be resolved.
       - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -1037,25 +1014,6 @@ content/_polifonia-project/ontology-network/header.md:
       - null
 content/_polifonia-project/patterns-knowledge-graph/P2KG-Pipeline/readme.md:
   error:
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa913d02700>))
-        did not validate 'GPLv3'
-      - null
-      - <lambda>('GPLv3') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
   - !!python/object/apply:schema.SchemaError
     args:
     - URL cannot be resolved.
@@ -1073,15 +1031,7 @@ content/_polifonia-project/patterns-knowledge-graph/P2KG-Pipeline/readme.md:
       - null
       - URL cannot be resolved.
       - null
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  warning: []
 content/_polifonia-project/patterns-knowledge-graph/README.md:
   error: []
   warning:
@@ -1117,15 +1067,7 @@ content/_polifonia-project/patterns-knowledge-graph/patterns-knowledge-graph-dat
       - null
       - URL cannot be resolved.
       - null
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  warning: []
 content/_polifonia-project/pitchcontext/README.md:
   error: []
   warning:
@@ -1173,7 +1115,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa913d02700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True
@@ -1267,19 +1209,20 @@ content/_polifonia-project/source-ontology/header.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - Value must be an HTTP(S) URL
+    - URL cannot be resolved.
     state:
       autos:
       - 'Key ''image'' error:'
       - null
       - null
       - null
-      - Regex('^http[s]?://.+$') does not match 'diagrams/source-module.png'
+      - <lambda>('https://github.com/polifonia-project/source-ontology/raw/main/diagrams/source-module.png')
+        raised Exception('URL cannot be resolved')
       errors:
       - null
       - null
       - null
-      - Value must be an HTTP(S) URL
+      - URL cannot be resolved.
       - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -2679,19 +2622,20 @@ content/_polifonia-project/tunes-ontology/header.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - Value must be an HTTP(S) URL
+    - URL cannot be resolved.
     state:
       autos:
       - 'Key ''image'' error:'
       - null
       - null
       - null
-      - Regex('^http[s]?://.+$') does not match 'diagrams/tunes_ontology.png'
+      - <lambda>('https://github.com/polifonia-project/tunes-ontology/raw/main/diagrams/tunes_ontology.png')
+        raised Exception('URL cannot be resolved')
       errors:
       - null
       - null
       - null
-      - Value must be an HTTP(S) URL
+      - URL cannot be resolved.
       - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -2740,7 +2684,169 @@ content/_smashub/choco/assets/container_header.md:
       - null
       - null
       - The activity should have at least one funding organisation.
-content/_smashub/harmory/assets/header.md:
+content/_smashub/choco/assets/dataset_header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/smashub/choco/raw/main/assets/choco_main.png')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/smashub/choco/raw/main/assets/choco_logo_a.png')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://projects.dharc.unibo.it/melody/choco/chord_corpus_statistics')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  warning: []
+content/_smashub/choco/assets/kg_header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/smashub/choco/raw/main/assets/choco_main.png')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/smashub/choco/raw/main/assets/choco_logo_a.png')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://projects.dharc.unibo.it/melody/choco/chord_corpus_statistics')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  warning: []
+content/_smashub/choco/assets/software_header.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''image'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/smashub/choco/raw/main/assets/choco_main.png')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''logo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/smashub/choco/raw/main/assets/choco_logo_a.png')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://projects.dharc.unibo.it/melody/choco/chord_corpus_statistics')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  warning: []
+content/_smashub/harmory/assets/kg_header.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
@@ -2758,35 +2864,23 @@ content/_smashub/harmory/assets/header.md:
       - null
       - Value must be an HTTP(S) URL
       - null
+  warning: []
+content/_smashub/harmory/assets/software_header.md:
+  error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - Invalid or malformed annotation
+    - Value must be an HTTP(S) URL
     state:
       autos:
-      - 'Key ''related-components'' error:'
-      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
-        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
-        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
-        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
-        ''list''>), Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>),
-        Optional(''extends''): Or(<class ''str''>, <class ''list''>), Optional(''reuses''):
-        Or(<class ''str''>, <class ''list''>), Optional(''serves''): Or(<class ''str''>,
-        <class ''list''>), Optional(''produces''): Or(<class ''str''>, <class ''list''>),
-        Optional(''reused-in''): Or(<class ''str''>, <class ''list''>), Optional(''generated-by''):
-        Or(<class ''str''>, <class ''list''>)})) did not validate {''reuses'': None}'
+      - 'Key ''image'' error:'
       - null
-      - 'Key ''reuses'' error:'
       - null
-      - Or(<class 'str'>, <class 'list'>) did not validate None
-      - None should be instance of 'str'
-      - None should be instance of 'list'
+      - null
+      - Regex('^http[s]?://.+$') does not match 'assets/harmory_wide.png'
       errors:
       - null
       - null
       - null
-      - Invalid or malformed annotation
-      - Invalid or malformed annotation
-      - null
-      - null
+      - Value must be an HTTP(S) URL
       - null
   warning: []

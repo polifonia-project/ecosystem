@@ -6,9 +6,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -71,7 +71,7 @@
         "@value": "meetups-application"
       },
       {
-        "@id": "_:nc98b4bc8b76d4fd2bbb5a64e577af03ab1"
+        "@id": "_:nca2a14b966cb48829fb5705242aefc0bb1"
       }
     ],
     "https://schema.org/image": [
@@ -116,7 +116,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nc98b4bc8b76d4fd2bbb5a64e577af03ab2"
+        "@id": "_:nca2a14b966cb48829fb5705242aefc0bb2"
       }
     ],
     "https://schema.org/title": [
@@ -137,7 +137,7 @@
     ]
   },
   {
-    "@id": "_:nc98b4bc8b76d4fd2bbb5a64e577af03ab1",
+    "@id": "_:nca2a14b966cb48829fb5705242aefc0bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "@id": "_:nc98b4bc8b76d4fd2bbb5a64e577af03ab2",
+    "@id": "_:nca2a14b966cb48829fb5705242aefc0bb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -171,9 +171,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "https://schema.org/ShortStory"
+      "https://schema.org/Project"
     ]
   },
   {

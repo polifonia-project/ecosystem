@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -18,21 +18,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "https://schema.org/HowTo"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -81,7 +75,7 @@
         "@value": "broadcast-concerts-knowledge-graph"
       },
       {
-        "@id": "_:nb1eedad258a843eaa2c26e6072b7d571b1"
+        "@id": "_:nec8fc935772e42968189b503bf32902bb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -122,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:nb1eedad258a843eaa2c26e6072b7d571b1",
+    "@id": "_:nec8fc935772e42968189b503bf32902bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -135,6 +129,12 @@
       {
         "@value": "10.5281/zenodo.7377532"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

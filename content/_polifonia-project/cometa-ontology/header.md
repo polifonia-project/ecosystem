@@ -3,7 +3,7 @@ component-id: https://w3id.org/polifonia/ontology/cometa/
 type: Ontology
 name: CoMeta Ontology
 description: An extension of Music Meta to describe music datasets
-image: diagrams/cometa_overview.png
+image: https://github.com/polifonia-project/cometa-ontology/raw/main/diagrams/cometa_overview.png
 work-package:
 - WP2
 pilot:

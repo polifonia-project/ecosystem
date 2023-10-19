@@ -1,8 +1,8 @@
 ---
-component-id: Harmory
-type: KnowledgeGraph
+component-id: harmory-software
+type: Software
 name: "Harmory: the Harmonic Memory"
-description: A Knowledge Graph of interconnected harmonic patterns aimed to support computationally creative applications.
+description: Software for harmonic segmentation and harmonic similarity computation for the creation of the Harmory Knowledge Graph.
 image: assets/harmory_wide.png
 work-package:
 - WP2
@@ -25,11 +25,11 @@ contributors: # replace these with the GitHub URL of each contributor
 related-components:
 - informed-by:
   - polifoniacq-dataset
-- reuses:  # any reused/imported ontology
-- ChoCo
-- https://w3id.org/polifonia/ontology/core/
-- https://w3id.org/polifonia/ontology/music-meta/
-- https://w3id.org/polifonia/ontology/jams/
+- reuses:
+  - ChoCo
+  - https://w3id.org/polifonia/ontology/core/
+  - https://w3id.org/polifonia/ontology/music-meta/
+  - https://w3id.org/polifonia/ontology/jams/
 bibliography:
 - main-publication: "Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882)."
 ---

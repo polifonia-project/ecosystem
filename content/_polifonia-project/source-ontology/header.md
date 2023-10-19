@@ -3,7 +3,7 @@ component-id: https://w3id.org/polifonia/ontology/source/
 type: Ontology
 name: Source ontology
 description: Source represents various sources of music-related information
-image: diagrams/source-module.png
+image: https://github.com/polifonia-project/source-ontology/raw/main/diagrams/source-module.png
 work-package:
 - WP2
 pilot:

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/rulebook",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Documentation",
@@ -54,7 +60,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n65b8ccd41a174625a71f922577e913a8b1"
+        "@id": "_:nbf261dc90d1244f1a89e257934194840b1"
       }
     ],
     "https://schema.org/title": [
@@ -65,7 +71,7 @@
     ]
   },
   {
-    "@id": "_:n65b8ccd41a174625a71f922577e913a8b1",
+    "@id": "_:nbf261dc90d1244f1a89e257934194840b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "TODO"
@@ -80,12 +86,6 @@
       {
         "@value": "21/04/2022"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

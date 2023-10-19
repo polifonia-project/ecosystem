@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -15,6 +9,18 @@
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -58,7 +64,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b1"
+        "@id": "_:n2e577165d76a455ca3974db9b463ce46b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -95,7 +101,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b2"
+        "@id": "_:n2e577165d76a455ca3974db9b463ce46b2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +112,7 @@
     ]
   },
   {
-    "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b1",
+    "@id": "_:n2e577165d76a455ca3974db9b463ce46b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:n4328a1ddea0b4ebba16358d9dc877644b2",
+    "@id": "_:n2e577165d76a455ca3974db9b463ce46b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -137,12 +143,6 @@
       {
         "@value": "2022/12/18"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

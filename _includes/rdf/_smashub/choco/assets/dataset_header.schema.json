@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/choco-dataset",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Dataset",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "ChoCo dataset, containing 20k+ track professionally annotated with chord annotations."
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "de Berardinis, Jacopo; Meroño Peñuela, Albert; Poltronieri, Andrea; Presutti, Valentina. ChoCo: a Chord Corpus and a Data Transformation Workflow for Musical Harmony Knowledge Graphs (manuscript in progress)."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Andrea Poltronieri <https://andreapoltronieri.com>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://jonnybluesman.github.io/>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Jacopo de Berardinis, Andrea Poltronieri"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/fabulous-inc/repo1/releases/tag/v1.0.0"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/smashub/choco/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "choco-dataset"
+      },
+      {
+        "@id": "_:nfa4695f5c9dd4d968e7b55646122041bb1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "https://github.com/smashub/choco/raw/main/assets/choco_main.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "ChoCo dataset, containing 20k+ track professionally annotated with chord annotations."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "ChoCo"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Interlink"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY-NC_v4"
+      },
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://github.com/smashub/choco/raw/main/assets/choco_logo_a.png"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:nfa4695f5c9dd4d968e7b55646122041bb2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "ChoCo Dataset"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://projects.dharc.unibo.it/melody/choco/chord_corpus_statistics"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa4695f5c9dd4d968e7b55646122041bb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.000000"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa4695f5c9dd4d968e7b55646122041bb2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "13-10-2022"
+      }
+    ]
+  }
+]

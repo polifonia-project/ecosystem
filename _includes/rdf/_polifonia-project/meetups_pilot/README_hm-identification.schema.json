@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -57,7 +51,7 @@
         "@value": "meetups-hm-identification"
       },
       {
-        "@id": "_:n1d6ca543cdb74e3f94166ac6197ec686b1"
+        "@id": "_:n8907d7d58ab0472692bb0514aaa2cb3db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -83,7 +77,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n1d6ca543cdb74e3f94166ac6197ec686b2"
+        "@id": "_:n8907d7d58ab0472692bb0514aaa2cb3db2"
       }
     ],
     "https://schema.org/title": [
@@ -108,7 +102,7 @@
     ]
   },
   {
-    "@id": "_:n1d6ca543cdb74e3f94166ac6197ec686b1",
+    "@id": "_:n8907d7d58ab0472692bb0514aaa2cb3db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -124,7 +118,7 @@
     ]
   },
   {
-    "@id": "_:n1d6ca543cdb74e3f94166ac6197ec686b2",
+    "@id": "_:n8907d7d58ab0472692bb0514aaa2cb3db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -139,6 +133,12 @@
       {
         "@value": "31/08/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

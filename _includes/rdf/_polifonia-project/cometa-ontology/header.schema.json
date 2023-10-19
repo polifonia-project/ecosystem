@@ -1,14 +1,26 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -62,12 +74,12 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:n5e1c1d372fcf4e84a971d12f9aa98e5fb1"
+        "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b1"
       }
     ],
     "https://schema.org/image": [
       {
-        "@value": "diagrams/cometa_overview.png"
+        "@value": "https://github.com/polifonia-project/cometa-ontology/raw/main/diagrams/cometa_overview.png"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -102,7 +114,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n5e1c1d372fcf4e84a971d12f9aa98e5fb2"
+        "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b2"
       }
     ],
     "https://schema.org/title": [
@@ -118,7 +130,7 @@
     ]
   },
   {
-    "@id": "_:n5e1c1d372fcf4e84a971d12f9aa98e5fb1",
+    "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,7 +146,7 @@
     ]
   },
   {
-    "@id": "_:n5e1c1d372fcf4e84a971d12f9aa98e5fb2",
+    "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -149,18 +161,6 @@
       {
         "@value": "13/05/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

@@ -3,7 +3,7 @@ component-id: https://w3id.org/polifonia/ontology/instrument/
 type: Ontology
 name: Music Instrument Ontology
 description: An ontology to describe instruments as mediums of performance and their technical properties.
-image: diagrams/music-instrument-main-entities.png
+image: https://github.com/polifonia-project/music-instrument-ontology/blob/main/diagrams/music-instrument-main-entities.png
 work-package:
 - WP2
 pilot:
@@ -17,11 +17,12 @@ release-number: v1.0
 release-link: https://github.com/polifonia-project/ontology-network/releases
 doi: 10.5281/zenodo.7919970
 changelog: https://github.com/polifonia-project/ontology-network/releases
-licence: 
+licence:
 - CC-BY_v4
 copyright: "Copyright (c) 2023 Music Instrument Contributors"
 contributors: # replace these with the GitHub URL of each contributor
 - Jacopo de Berardinis <https://github.com/jonnybluesman>
+- Nicolas Lazzari <https://github.com/n28div>
 - Valentina Anita Carriero <https://github.com/valecarriero>
 - Fiorela Ciroku <https://github.com/FiorelaCiroku>
 related-components:
