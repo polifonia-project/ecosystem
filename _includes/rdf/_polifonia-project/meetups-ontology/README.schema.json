@@ -1,26 +1,26 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -69,7 +69,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:n11a7b4b8b1744db9ab2fd35a1b0dfadbb1"
+        "@id": "_:n61d4a0a7fdbe4917b2f7927fe6555fdab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -104,7 +104,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n11a7b4b8b1744db9ab2fd35a1b0dfadbb2"
+        "@id": "_:n61d4a0a7fdbe4917b2f7927fe6555fdab2"
       }
     ],
     "https://schema.org/title": [
@@ -123,7 +123,7 @@
     ]
   },
   {
-    "@id": "_:n11a7b4b8b1744db9ab2fd35a1b0dfadbb1",
+    "@id": "_:n61d4a0a7fdbe4917b2f7927fe6555fdab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -139,7 +139,7 @@
     ]
   },
   {
-    "@id": "_:n11a7b4b8b1744db9ab2fd35a1b0dfadbb2",
+    "@id": "_:n61d4a0a7fdbe4917b2f7927fe6555fdab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -157,7 +157,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]

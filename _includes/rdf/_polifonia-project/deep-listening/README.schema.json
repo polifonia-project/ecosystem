@@ -1,8 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul_Organ_Advisor",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -78,21 +84,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul_Organ_Advisor",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

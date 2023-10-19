@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -82,7 +76,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0598419bdb9c452ba1509eb5fe3a1585b1"
+        "@id": "_:n21c00bc7aa49425681392e4a2fd7b060b1"
       }
     ],
     "https://schema.org/title": [
@@ -98,7 +92,7 @@
     ]
   },
   {
-    "@id": "_:n0598419bdb9c452ba1509eb5fe3a1585b1",
+    "@id": "_:n21c00bc7aa49425681392e4a2fd7b060b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -119,6 +113,12 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

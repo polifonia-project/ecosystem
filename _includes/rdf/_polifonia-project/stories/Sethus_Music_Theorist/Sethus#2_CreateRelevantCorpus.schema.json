@@ -1,18 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -24,7 +12,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sethus#2_CreateRelevantCorpus",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus%232_CreateRelevantCorpus",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -45,10 +33,10 @@
         "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
       },
       {
-        "@value": "Sethus#3_ConflictingAnalyticalAnnotations"
+        "@value": "Sethus prepares a book on a specific aspect of compositional practices during the Renaissance period, and aims at finding a set of relevant references to sources to illustrate his text."
       },
       {
-        "@value": "Sethus prepares a book on a specific aspect of compositional practices during the Renaissance period, and aims at finding a set of relevant references to sources to illustrate his text."
+        "@value": "Sethus#3_ConflictingAnalyticalAnnotations"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/Sethus"
@@ -56,16 +44,16 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP3"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -76,7 +64,19 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

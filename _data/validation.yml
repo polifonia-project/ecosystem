@@ -464,7 +464,7 @@ content/_polifonia-project/folk_ngram_analysis/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa89da8c700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -510,7 +510,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa89da8c700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -556,7 +556,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa89da8c700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1115,7 +1115,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f6d17ab2700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa89da8c700>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True

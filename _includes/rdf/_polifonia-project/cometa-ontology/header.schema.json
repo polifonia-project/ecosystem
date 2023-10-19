@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -12,22 +12,10 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fcometa%2F",
     "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/cometa/",
-    "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://w3id.org/polifonia/ecosystem/Ontology"
+      "http://w3id.org/polifonia/ecosystem/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -37,13 +25,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
-      },
-      {
         "@value": "Nicolas Lazzari <https://github.com/n28div>"
       },
       {
         "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -63,10 +51,10 @@
     ],
     "https://schema.org/hasPart": [
       {
-        "@value": "https://w3id.org/polifonia/ontology/core/"
+        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
+        "@value": "https://w3id.org/polifonia/ontology/core/"
       }
     ],
     "https://schema.org/identifier": [
@@ -74,7 +62,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b1"
+        "@id": "_:n5a8f8b5147124260be70561f605360dbb1"
       }
     ],
     "https://schema.org/image": [
@@ -114,7 +102,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b2"
+        "@id": "_:n5a8f8b5147124260be70561f605360dbb2"
       }
     ],
     "https://schema.org/title": [
@@ -130,7 +118,7 @@
     ]
   },
   {
-    "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b1",
+    "@id": "_:n5a8f8b5147124260be70561f605360dbb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -146,7 +134,7 @@
     ]
   },
   {
-    "@id": "_:n6830cd1a03cc47619e9a8af23994a5b4b2",
+    "@id": "_:n5a8f8b5147124260be70561f605360dbb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -161,6 +149,18 @@
       {
         "@value": "13/05/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

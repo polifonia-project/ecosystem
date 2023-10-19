@@ -1,18 +1,18 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keoma",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/source/",
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fsource%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -25,13 +25,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
-      },
-      {
         "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
       },
       {
         "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -59,7 +59,7 @@
         "@value": "https://w3id.org/polifonia/ontology/source/"
       },
       {
-        "@id": "_:n7cf96e66be9144f1b2a2117677de2632b1"
+        "@id": "_:nfe2be80370ce4a9f97fd263089aaa83db1"
       }
     ],
     "https://schema.org/image": [
@@ -69,16 +69,16 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Source represents various sources of music-related information"
-      },
-      {
         "@value": "Sonia#1_ExplorationMode"
       },
       {
-        "@value": "Keoma#1_RestorationAndSoundPractices"
+        "@value": "Carolina#1_SourcesCrossAnalysis"
       },
       {
-        "@value": "Carolina#1_SourcesCrossAnalysis"
+        "@value": "Source represents various sources of music-related information"
+      },
+      {
+        "@value": "Keoma#1_RestorationAndSoundPractices"
       },
       {
         "@value": "Ortenz#1_MusicAndChildhood"
@@ -98,16 +98,16 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
-      },
-      {
         "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO"
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO"
       }
     ],
     "https://schema.org/license": [
@@ -117,7 +117,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7cf96e66be9144f1b2a2117677de2632b2"
+        "@id": "_:nfe2be80370ce4a9f97fd263089aaa83db2"
       }
     ],
     "https://schema.org/title": [
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "@id": "_:n7cf96e66be9144f1b2a2117677de2632b1",
+    "@id": "_:nfe2be80370ce4a9f97fd263089aaa83db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "@id": "_:n7cf96e66be9144f1b2a2117677de2632b2",
+    "@id": "_:nfe2be80370ce4a9f97fd263089aaa83db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/source-ontology"
@@ -167,15 +167,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Keoma",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
-    "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -185,13 +179,19 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
     "@type": [
       "https://schema.org/ShortStory"
     ]

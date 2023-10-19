@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-java",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -56,7 +62,7 @@
         "@value": "sparql-anything-java"
       },
       {
-        "@id": "_:n8ce1b10bbf0d420db7a0c2db54f51541b1"
+        "@id": "_:nbacbd09bb56844e1a16c618a4b4e1b05b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -81,7 +87,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n8ce1b10bbf0d420db7a0c2db54f51541b2"
+        "@id": "_:nbacbd09bb56844e1a16c618a4b4e1b05b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -105,7 +111,7 @@
     ]
   },
   {
-    "@id": "_:n8ce1b10bbf0d420db7a0c2db54f51541b1",
+    "@id": "_:nbacbd09bb56844e1a16c618a4b4e1b05b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -121,7 +127,7 @@
     ]
   },
   {
-    "@id": "_:n8ce1b10bbf0d420db7a0c2db54f51541b2",
+    "@id": "_:nbacbd09bb56844e1a16c618a4b4e1b05b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -136,12 +142,6 @@
       {
         "@value": "2022/12/18"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
-    "@type": [
-      "https://schema.org/HowTo"
     ]
   }
 ]

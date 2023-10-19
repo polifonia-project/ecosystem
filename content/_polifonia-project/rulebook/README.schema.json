@@ -60,7 +60,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nbf261dc90d1244f1a89e257934194840b1"
+        "@id": "_:n3c39c3c39f074e08b3a33c229a184fdfb1"
       }
     ],
     "https://schema.org/title": [
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "@id": "_:nbf261dc90d1244f1a89e257934194840b1",
+    "@id": "_:n3c39c3c39f074e08b3a33c229a184fdfb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "TODO"

@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -18,10 +18,16 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul#1_OrganComparison",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
-      "http://w3id.org/polifonia/ecosystem/Story",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul%231_OrganComparison",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Story"
     ],
     "https://schema.org/abstract": [
       {
@@ -58,12 +64,6 @@
         "@language": "en",
         "@value": "Organ Comparison"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]

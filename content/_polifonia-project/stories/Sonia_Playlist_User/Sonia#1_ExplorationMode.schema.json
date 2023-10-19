@@ -1,36 +1,12 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sonia#1_ExplorationMode",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sonia%231_ExplorationMode",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -48,13 +24,13 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Sonia#3_StatsMode"
+        "@value": "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests."
       },
       {
         "@value": "Sonia#2_ShuffleMode"
       },
       {
-        "@value": "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests."
+        "@value": "Sonia#3_StatsMode"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/Sonia"
@@ -62,19 +38,19 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
-      },
-      {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
-      },
-      {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP4"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -85,9 +61,33 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

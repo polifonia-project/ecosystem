@@ -6,10 +6,28 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/bells-ontology/",
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
-      "http://w3id.org/polifonia/ecosystem/Ontology",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fbells-ontology%2F",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Ontology"
     ],
     "https://schema.org/abstract": [
       {
@@ -19,13 +37,13 @@
     ],
     "https://schema.org/contributor": [
       {
+        "@value": "Valentina Carriero <https://github.com/valecarriero>"
+      },
+      {
         "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
       },
       {
         "@value": "Elena Musumeci <https://github.com/elenamusumeci>"
-      },
-      {
-        "@value": "Valentina Carriero <https://github.com/valecarriero>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -56,7 +74,7 @@
         "@value": "https://w3id.org/polifonia/ontology/bells-ontology/"
       },
       {
-        "@id": "_:n83acc9cd315f4d2c9da7fcef6e9cbda4b1"
+        "@id": "_:nf460b4f209fd4719a8ed4caa7791167fb1"
       }
     ],
     "https://schema.org/image": [
@@ -77,19 +95,19 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@value": "ArCo ontology network https://w3id.org/arco/ontology/arco"
-      },
-      {
         "@value": "Polifonia Ontology Network https://w3id.org/polifonia/ontology/ontology-network"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+        "@value": "ArCo ontology network https://w3id.org/arco/ontology/arco"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/BELLS"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/BELLS"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       }
     ],
     "https://schema.org/license": [
@@ -99,7 +117,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n83acc9cd315f4d2c9da7fcef6e9cbda4b2"
+        "@id": "_:nf460b4f209fd4719a8ed4caa7791167fb2"
       }
     ],
     "https://schema.org/title": [
@@ -110,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:n83acc9cd315f4d2c9da7fcef6e9cbda4b1",
+    "@id": "_:nf460b4f209fd4719a8ed4caa7791167fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -126,7 +144,7 @@
     ]
   },
   {
-    "@id": "_:n83acc9cd315f4d2c9da7fcef6e9cbda4b2",
+    "@id": "_:nf460b4f209fd4719a8ed4caa7791167fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/bells-ontology/blob/main/ontology/bells.owl"
@@ -141,24 +159,6 @@
       {
         "@value": "15/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
