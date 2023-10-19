@@ -7,7 +7,11 @@ namespace = config['rdf']['namespace']
 engine = pysa.SparqlAnything()
 directory = './content/'
 includes = './_includes/rdf/'
-os.remove('ecosystem.nt')
+try:
+    os.remove('ecosystem.nt')
+except OSError:
+    pass
+
 for root, dirs, files in os.walk(directory):
     for filename in files:
         if not filename.endswith('.md'):
