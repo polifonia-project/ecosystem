@@ -7,6 +7,7 @@ namespace = config['rdf']['namespace']
 engine = pysa.SparqlAnything()
 directory = './content/'
 includes = './_includes/rdf/'
+os.remove('ecosystem.nt')
 for root, dirs, files in os.walk(directory):
     for filename in files:
         if not filename.endswith('.md'):
@@ -29,4 +30,6 @@ for root, dirs, files in os.walk(directory):
         f.write(g.serialize(format='json-ld'))
         f1 = open(output_includes, 'w')
         f1.write(g.serialize(format='json-ld'))
+        with open("ecosystem.nt", "a") as myfile:
+            myfile.write(g.serialize(format='nt'))
 
