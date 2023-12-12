@@ -22,5 +22,15 @@ layout: pilot
 link: https://polifonia-project.eu/pilots/access/
 --- 
 
-The aim of this use case is to co-design, develop and evaluate wearable haptic technology to enable people who are Deaf or hearing impaired to engage as audience members in live performances.
+The goal of ACCESS is to pilot ways to improve inclusion & engagement in music via innovative haptic, gestural and visual interaction, targeting users with physical and sensory disabilities, in scenario such as:  
+
+- Deaf people 
+- Profoundly physically disabled musicians 
+- School children 
+- University/Conservatoire music students 
+- Public festival attendees 
+
+<!-- The key activities of this pilot are the workshops listed in the table of resources -->
+
+
 
