@@ -25,10 +25,10 @@ contributors:
 related-components:
 - reuses:  
   - "ArCo ontology network https://w3id.org/arco/ontology/arco"
-  - "Polifonia Ontology Network https://w3id.org/polifonia/ontology/ontology-network"
+  - https://w3id.org/polifonia/ontology/ontology-network/
 - extends:
   - "ArCo ontology network https://w3id.org/arco/ontology/arco"
-  - "Polifonia Ontology Network https://w3id.org/polifonia/ontology/ontology-network"
+  - https://w3id.org/polifonia/ontology/ontology-network/
 - story:
   - Keoma#1_RestorationAndSoundPractices
 - persona:

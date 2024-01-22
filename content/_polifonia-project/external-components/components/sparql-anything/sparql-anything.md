@@ -36,7 +36,7 @@ has-part:
 
 # SPARQL Anything
 
-[SPARQL Anything](http://sparql-anything.eu) is a system for Semantic Web re-engineering that allows users to ... query anything with SPARQL.
+[SPARQL Anything](http://sparql-anything.cc) is a system for Semantic Web re-engineering that allows users to ... query anything with SPARQL.
 
 Main features:
 - Query files in plain SPARQL 1.1, via the `SERVICE <x-sparql-anything:>` (see [configuration](https://sparql-anything.readthedocs.io/en/latest/#configuration)) and build knowledge graphs with `CONSTRUCT` queries

@@ -12,6 +12,7 @@ pilot:
 - CHILD
 licence:
 - Apache-2.0
+doi: 10.5281/zenodo.6866982
 related-component:
 - led
 - sparql-anything-cli

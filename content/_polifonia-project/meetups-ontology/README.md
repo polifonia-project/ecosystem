@@ -87,7 +87,7 @@ These Competency Questions were selected from the following stories
 
 ## Examples of SPARQL queries
 
-Refer to queries folder
+Refer to [queries folder](https://github.com/polifonia-project/meetups-ontology/tree/578438d07425b775df9aedae27f67fe4ddb002bc/queries)
 
 ## Statistics
 
@@ -105,9 +105,23 @@ MEETUPS Pilot dataset: dataset representing a collection of ~33k biographies col
 
 ## Alignment to other ontologies
 
-MEETUPS pilot is part of the European project Polifonia and it is align to the Polifonia Ontology Network (PON)
+MEETUPS pilot is part of the European project Polifonia and it is aligned to the Polifonia Ontology Network (PON)
 - [Core](https://w3id.org/polifonia/ontology/core)
 
 MEETUPS also reuse ontologies such as Time and ProvOnto
 - [Time](http://www.w3.org/2006/time)
 - [PROV-Onto](http://w3.org/ns/prov#)
+
+## Citation
+```
+@inproceedings{Morales_2023,
+  title={Musical Meetups: a Knowledge Graph Approach for Historical Social Network Analysis},
+  author={Morales Tirado, Alba and Carvalho, Jason and Mulholland, Paul and Daga, Enrico},
+  booktitle={Proceedings of the ESWC 2023 Workshops and Tutorials co-located with 20th European Semantic Web Conference (ESWC 2023)},
+  year={2023}
+}
+```
+
+## Acknowledgements
+
+This work was supported by the EU’s Horizon Europe research and innovation programme within the Polifonia project (grant agreement N. 101004746).

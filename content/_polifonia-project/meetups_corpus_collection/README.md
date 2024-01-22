@@ -28,8 +28,8 @@ related-components:
 
 ### Collecting Wikipedia pages of people in the music scene in Europe
 
-
 MEETUPS Corpus collection is a tool developed in Python and PyCharm IDE. It collects Wikipedia web pages (in txt format) of music authors in Europe.
+Refer to the [Meetups Pilot](https://github.com/polifonia-project/meetups_pilot) for use and implementation.
 
 - Uses the "wikipedia" library to download only wikipedia webpage text
 - Process the list of files in chunks of 100 units
@@ -75,3 +75,6 @@ Dataset:
 
 Select random biographies -> sampleBiographies.py
 
+## Acknowledgements
+
+This work was supported by the EU’s Horizon Europe research and innovation programme within the Polifonia project (grant agreement N. 101004746).
