@@ -1,0 +1,11 @@
+name: Research Ecosystem Website
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Ecosystem Website
+        id: create-release-milestone
+        uses: reeco-framework/reeco-website-action@main
+        with:
+          repositories: repositories.txt
