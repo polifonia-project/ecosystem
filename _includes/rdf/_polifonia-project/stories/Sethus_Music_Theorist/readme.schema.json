@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sethus's research focuses on the description and formalization of the compositional processes at work in modal polyphony."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sethus"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sethus#3_ConflictingAnalyticalAnnotations"
+      },
+      {
+        "@value": "Sethus#2_CreateRelevantCorpus"
+      },
+      {
+        "@value": "Sethus's research focuses on the description and formalization of the compositional processes at work in modal polyphony."
+      },
+      {
+        "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Sethus"
+      }
+    ]
+  }
+]

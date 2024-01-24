@@ -1,1 +1,144 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/meetups-hm-identification",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Software",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "MEETUPS Historical meetups identification was developed using Python and Jupyter Notebook. As input it uses the bag of entities obtained from the Entity Recognition and Coreference steps. The output is a corpus that contains the text (typically a sentence or a set of sentences), and the list of entities that account for a meetup. The results are stored in CSV files, grouped by biographies. The corpus is used later to build the MEETUPS KG."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Alba Morales Tirado <https://github.com/albamoralest>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 MEETUPS @ The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/blob/main/06_Coreference.ipynb"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "meetups-hm-identification"
+      },
+      {
+        "@id": "_:nc52adfafc70845b6bbfad8ecf1a4c552b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "MEETUPS Historical meetups identification was developed using Python and Jupyter Notebook. As input it uses the bag of entities obtained from the Entity Recognition and Coreference steps. The output is a corpus that contains the text (typically a sentence or a set of sentences), and the list of entities that account for a meetup. The results are stored in CSV files, grouped by biographies. The corpus is used later to build the MEETUPS KG."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:nc52adfafc70845b6bbfad8ecf1a4c552b2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MEETUPS - Historical meetups identification"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-entity-recognition"
+      },
+      {
+        "@value": "meetups-coreference"
+      },
+      {
+        "@value": "meetups-time-extraction"
+      },
+      {
+        "@value": "meetups-themes"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc52adfafc70845b6bbfad8ecf1a4c552b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7875353"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc52adfafc70845b6bbfad8ecf1a4c552b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "31/08/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

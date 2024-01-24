@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Mark",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Mark#1_FolkMusic",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Mark is interested in understanding how Dutch folk tunes relate to other music, e.g. French court operas."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Mark#1_FolkMusic"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Mark is interested in understanding how Dutch folk tunes relate to other music, e.g. French court operas."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Mark"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Folk Music"
+      }
+    ]
+  }
+]

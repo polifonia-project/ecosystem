@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Music Journalist and Editor."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Laurent"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Music Journalist and Editor."
+      },
+      {
+        "@value": "Laurent#1_MusicArchives"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Laurent"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  }
+]

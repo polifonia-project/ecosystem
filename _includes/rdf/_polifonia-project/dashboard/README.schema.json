@@ -1,1 +1,155 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/melody-software",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/WebApplication",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Giulia Renda <https://github.com/mondoboia>"
+      },
+      {
+        "@value": "Marilena Daquino <https://github.com/marilenadaquino>"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/dashboard/releases/latest"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/dashboard/releases"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "melody-software"
+      },
+      {
+        "@id": "_:ndb3a89dd99ed4067bdfb7ae925240b50b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "IscLicense"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:ndb3a89dd99ed4067bdfb7ae925240b50b2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@value": "Giulia Renda, Marilena Daquino (2023). Storytelling with Linked Open Data. In La memoria digitale: forme del testo e organizzazione della conoscenza. Atti del XII Convegno Annuale AIUCD. Siena: Università degli Studi di Siena. https://zenodo.org/doi/10.5281/zenodo.8070707"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes"
+      }
+    ],
+    "https://schema.org/supportingData": [
+      {
+        "@value": "musow-dataset"
+      },
+      {
+        "@value": "led"
+      },
+      {
+        "@value": "musicbo-knowledge-graph"
+      },
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "bells-knowledge-graph"
+      },
+      {
+        "@value": "broadcast-concerts-knowledge-graph"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MELODY"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://projects.dharc.unibo.it/melody/"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb3a89dd99ed4067bdfb7ae925240b50b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.6637345"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb3a89dd99ed4067bdfb7ae925240b50b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2022/05/12"
+      }
+    ]
+  }
+]

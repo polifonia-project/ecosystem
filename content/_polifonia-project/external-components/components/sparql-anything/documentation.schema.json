@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Documentation",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Online documentation of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://sparql-anything.readthedocs.io/en/latest/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "sparql-anything-docs"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Online documentation of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "SPARQL Anything Documentation"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "sparql-anything-server"
+      },
+      {
+        "@value": "sparql-anything-cli"
+      },
+      {
+        "@value": "sparql-anything-requirements"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/showcase-tate"
+      }
+    ]
+  }
+]

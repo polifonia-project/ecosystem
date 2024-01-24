@@ -1,1 +1,148 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docker",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/DockerImageContainer"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Docker file of the SPARQL Anything Web Server"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/blob/v0.8-DEV/Dockerfile.development"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-java"
+      },
+      {
+        "@value": "sparql-anything-server"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "sparql-anything-docker"
+      },
+      {
+        "@id": "_:n8e03a23ac684417f9ae60b08dca26943b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Docker file of the SPARQL Anything Web Server"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n8e03a23ac684417f9ae60b08dca26943b2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "SPARQL Anything Docker Instance"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e03a23ac684417f9ae60b08dca26943b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7454360"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e03a23ac684417f9ae60b08dca26943b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.8.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2022/12/18"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

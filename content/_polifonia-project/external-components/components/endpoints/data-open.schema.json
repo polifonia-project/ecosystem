@@ -1,1 +1,141 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/data-open-ac-uk",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/SPARQLEndpoint",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Open Knowldedge Graph (OKG) SPARQL Endpoint"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Daga, Enrico, Mathieu d’Aquin, Alessandro Adamou, and Stuart Brown. \"The open university linked data–data. open. ac. uk.\" Semantic Web 7, no. 2 (2016): 183-191."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Mathieu d'Aquin <https://mdaquin.github.io/>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 The Open University"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://data.open.ac.uk/sparql"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "meetups-ontology"
+      },
+      {
+        "@value": "sparql-anything-cli"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "data-open-ac-uk"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The Open Knowldedge Graph (OKG) SPARQL Endpoint"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/CHILD"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "http://dev-ext.kmi.open.ac.uk/data/assets/img/open-data-icon.png"
+      }
+    ],
+    "https://schema.org/supportingData": [
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "led"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "The Open Knowldedge Graph (OKG)"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://data.open.ac.uk/sparql"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

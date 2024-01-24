@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/LHARP",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Repository",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "J. de Berardinis (KCL), A. Poltronieri (UniBo)"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "n/a."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "LHARP"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "n/a."
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY-NC_v4"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "n/a."
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Local Harmonic Agreement based on Recurrent Patterns"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://polifonia-project.github.io/musilar-preview/"
+      }
+    ]
+  }
+]

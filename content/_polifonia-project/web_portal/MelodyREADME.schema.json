@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Documentation",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Documents and materials relevant to Melody software and interface"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "Giulia Manganelli (UNIBO), Marco Grasso (UNIBO), Marilena Daquino (UNIBO)"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "musoW"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "melody-prototypes"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Documents and materials relevant to Melody software and interface"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Prototypes of Melody"
+      }
+    ]
+  }
+]

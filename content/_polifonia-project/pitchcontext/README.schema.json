@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/pitchcontext",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/SoftwareLibrary"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Python module for melody analysis based on pitch context vectors."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "P. van Kranenburg <https://github.com/pvankranenburg>"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "pitchcontext"
+      },
+      {
+        "@id": "_:na28904da94b740ed89fa2269b9568b48b1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "https://github.com/polifonia-project/pitchcontext/blob/main/image/vector_example_hor.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Brendan#1_FindTraditionalMusic"
+      },
+      {
+        "@value": "Mark#1_FolkMusic"
+      },
+      {
+        "@value": "Python module for melody analysis based on pitch context vectors."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "MIT"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "pitchcontext"
+      }
+    ]
+  },
+  {
+    "@id": "_:na28904da94b740ed89fa2269b9568b48b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.8020644"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  }
+]
