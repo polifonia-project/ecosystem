@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/bells-knowledge-graph",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Repository"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Knowledge Graph about Italian bells, bell towers and bell ringers."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/a48bc97c27f8c8123d2c3c1321a39366#/credits"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "Schede catalografiche delle campane della Regione Liguria http://dati.beniculturali.it/resource/datasetCampaneLiguria"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "bells-knowledge-graph"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The Knowledge Graph about Italian bells, bell towers and bell ringers."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "BELLS Knowledge Graph"
+      }
+    ]
+  }
+]

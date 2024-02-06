@@ -1,1 +1,160 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/tunes/",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "A specialisation of the Music Meta Ontology for folk music."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+      },
+      {
+        "@value": "Peter van Kranenburg <https://github.com/pvankranenburg>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Tunes Ontology Contributors"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "ontology/tunes.owl"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/core/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/tunes/"
+      },
+      {
+        "@id": "_:n4d5c1627fd6f4588931761253e96b9fab1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "https://github.com/polifonia-project/tunes-ontology/raw/main/diagrams/tunes_ontology.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "A specialisation of the Music Meta Ontology for folk music."
+      },
+      {
+        "@value": "Mark#1_FolkMusic"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Mark"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n4d5c1627fd6f4588931761253e96b9fab2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tunes Ontology"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "polifoniacq-dataset"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d5c1627fd6f4588931761253e96b9fab1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7919970"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d5c1627fd6f4588931761253e96b9fab2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "13/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Mark",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

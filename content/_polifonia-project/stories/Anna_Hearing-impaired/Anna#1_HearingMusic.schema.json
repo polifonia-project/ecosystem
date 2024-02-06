@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Anna",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Anna#1_HearingMusic",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Anna wants to experience live music with the aid of haptic technology."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Anna#1_HearingMusic"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Anna wants to experience live music with the aid of haptic technology."
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Anna"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/ACCESS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Hearing Music"
+      }
+    ]
+  }
+]

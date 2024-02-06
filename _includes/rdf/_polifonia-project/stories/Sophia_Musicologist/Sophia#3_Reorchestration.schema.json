@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/To be completed",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophia#3_Reorchestration",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sophia needs to study the instrumentation of a musical composition of the 18th century in order to organize a music festival that compares philological and modern performances and that proposes  music compositions of that time with a completely new orchestration."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sophia#3_Reorchestration"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sophia needs to study the instrumentation of a musical composition of the 18th century in order to organize a music festival that compares philological and modern performances and that proposes  music compositions of that time with a completely new orchestration."
+      },
+      {
+        "@value": "Sophia#1_MusiciansAndTheirEnvironment"
+      },
+      {
+        "@value": "Sophia#3_Reorchestration"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Sophia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/To be completed"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Reorchestration"
+      }
+    ]
+  }
+]

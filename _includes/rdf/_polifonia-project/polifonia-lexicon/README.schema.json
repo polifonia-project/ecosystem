@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Valeriana",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia-Lexicon",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Lexicon",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL)"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "https://github.com/arianna-graciotti"
+      },
+      {
+        "@value": "https://github.com/roccotrip"
+      },
+      {
+        "@value": "https://github.com/EleonoraMarzi"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Polifonia-Lexicon"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL)"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Valeriana"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Carolina"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "Polifonia-Lexicon"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Polifonia Lexicon - The Polifonia Multilingual WordNet"
+      }
+    ]
+  }
+]

@@ -1,1 +1,183 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/pymusicmeta",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Software",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "A library to create Music Meta resources on the Web."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Music Meta Contributors"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/music-meta-ontology"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/music-meta-ontology/tree/main/musicmeta"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "pymusicmeta"
+      },
+      {
+        "@id": "_:n8cb1a55e5cc6424cb0b4eefdc8b92e1fb1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "A library to create Music Meta resources on the Web."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "IscLicense"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://github.com/polifonia-project/music-meta-ontology"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n8cb1a55e5cc6424cb0b4eefdc8b92e1fb2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "pymusicmeta"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8cb1a55e5cc6424cb0b4eefdc8b92e1fb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7919970"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8cb1a55e5cc6424cb0b4eefdc8b92e1fb2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/music-meta-ontology"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "13/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

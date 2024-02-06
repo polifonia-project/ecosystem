@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/cre_corpus",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Corpus",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/31c8b01cd06cc32dedf87d326a59a1c8#/credits"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "cre_corpus"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC_BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Ceol Rince na hÉireann MIDI corpus"
+      }
+    ]
+  }
+]

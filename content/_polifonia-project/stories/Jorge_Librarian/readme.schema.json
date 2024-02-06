@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Jorge",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Jorge"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Jorge#4_LinkToSources"
+      },
+      {
+        "@value": "Jorge#2_FindSimilarScores"
+      },
+      {
+        "@value": "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."
+      },
+      {
+        "@value": "Jorge#1_OrganizeMyLibrary"
+      },
+      {
+        "@value": "Jorge#3_DynamicExploration"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Jorge"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  }
+]

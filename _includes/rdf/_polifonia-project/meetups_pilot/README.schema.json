@@ -1,1 +1,117 @@
-[]
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n908732b65aba416e9cca75ba1c49089cb1"
+      }
+    ]
+  },
+  {
+    "@id": "_:n908732b65aba416e9cca75ba1c49089cb1",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/meetups-pilot",
+    "@type": [
+      "https://schema.org/Collection",
+      "http://w3id.org/polifonia/ecosystem/Project"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@value": "MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Morales Tirado, Alba; Carvalho, Jason; Mulholland, Paul and Daga, Enrico (2023). Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis. In: Proceedings of the ESWC 2023 Workshops and Tutorials, Semantic Methods for Events and Stories (SEMMES)."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746. The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains."
+      }
+    ],
+    "https://schema.org/funding": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/GA101004746"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "meetups-time-extraction"
+      },
+      {
+        "@value": "meetups-themes"
+      },
+      {
+        "@value": "meetups-entity-recognition"
+      },
+      {
+        "@value": "meetups-corpus-collection"
+      },
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "meetups-data-cleaning"
+      },
+      {
+        "@value": "meetups-hm-identification"
+      },
+      {
+        "@value": "meetups-ontology"
+      },
+      {
+        "@value": "meetups-coreference"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Musical MEETUPS"
+      }
+    ]
+  }
+]
