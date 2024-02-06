@@ -20,41 +20,37 @@ The ecosystem considers applications executable systems and tools produced by th
 We distinguish applications from software, where software can be copied, moved, and executed in multiple different applications (each in relation to some usage senarios).
 Applications include various types of artifacts such as Web Applications, Web sites, and Command Line Interface (CLI) tools.
 
-<!-- Create the canvas for the chart -->
-<div>
-  <canvas id="data_pie_chart"></canvas>
-</div>
-<!-- Import chart.js and build the chart -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+<div id="chart_container_software"></div>
 <script>
-  const ctx = document.getElementById('data_pie_chart');
-
-  new Chart(ctx, {
-    type: 'doughnut',
-    options: {
-      responsive: true,
-      radius: '70%'
-    },
-    data: {
-      labels: [
-        'Application',
-        'CLITool',
-        'DockerImageContainer', 
-        'SPARQLEndpoint',
-        'Software',
-        'SoftwareLibrary',
-        'UserInterface',
-        'WebApplication'
-        ],
-      datasets: [{
-        label: 'No. of Tools',
-        data: [1, 1, 1, 2, 9, 2, 1, 5],
-        borderWidth: 3
-      }]
-    }
+anychart.onDocumentReady(function() {
+    // set the data
+    var data = [
+        {x: "Application", value: 1},
+        {x: "CLITool", value: 1},
+        {x: "DockerImageContainer", value: 1},
+        {x: "SPARQLEndpoint", value: 2},
+        {x: "Software", value: 8},
+        {x: "SoftwareLibrary", value: 2},
+        {x: "UserInterface", value: 1},
+        {x: "WebApplication", value: 5}
+    ];
+    // create the chart
+    var chart = anychart.pie3d();
+    // set the chart title
+    // chart.title("Polifonia Project Components by Type");
+    // add the data
+    chart.data(data);
+    // sort elements
+    chart.sort("desc");  
+    // set legend position
+    chart.legend().position("right");
+    // set items layout
+    chart.legend().itemsLayout("vertical");
+    // display the chart in the container
+    chart.container('chart_container_software');
+    chart.draw();
   });
-</script>
+  </script>
 
 
 {% assign software_data = "Software,Workflow,API,UserInterface,SoftwareLibrary,DockerImageContainer,Notebook,Script,Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," | sort %}

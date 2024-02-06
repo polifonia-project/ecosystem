@@ -14,6 +14,13 @@ url: https://polifonia-project.github.io
 baseurl: "ecosystem"
 #baseurl: ""
 
+
+rdf:
+    namespace: "http://w3id.org/polifonia/ecosystem/"
+
+reeco:
+    validate: true
+
 # just-the-docs
 #theme: "just-the-docs"
 logo: "/assets/images/polifonia-black.png"
@@ -45,8 +52,6 @@ isso: ''
 # Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
 disqus: ''
 
-rdf:
-    namespace: "http://w3id.org/polifonia/ecosystem/"
 #permalink: /:path.html
 
 highlighter: rouge

@@ -15,38 +15,34 @@ The ecosystem considers reports any digital object that specifies, describes, or
 Reports differ from *data* as they are mainly directed to human consumption, rather than computational treatment.
 Reports include various types of digital objects such as [documentation](#documentation), [tutorial](#tutorial), [requirements collections](#requirementscollection), [stories](#story) or [persona](#persona) specifications.
 
-<!-- Create the canvas for the chart -->
-<div>
-  <canvas id="data_pie_chart"></canvas>
-</div>
-<!-- Import chart.js and build the chart -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+<div id="chart_container_report"></div>
 <script>
-  const ctx = document.getElementById('data_pie_chart');
-
-  new Chart(ctx, {
-    type: 'doughnut',
-    options: {
-      responsive: true,
-      radius: '70%'
-    },
-    data: {
-      labels: [
-        'Documentation',
-        'Persona',
-        'RequirementsCollection', 
-        'Story',
-        'Tutorial'
-        ],
-      datasets: [{
-        label: 'No. of Reports',
-        data: [7, 22, 2, 35, 1],
-        borderWidth: 3
-      }]
-    }
+anychart.onDocumentReady(function() {
+    // set the data
+    var data = [
+        {x: "Documentation", value: 4}, 
+        {x: "Persona", value: 22}, 
+        {x: "RequirementsCollection", value: 2}, 
+        {x: "Story", value: 35}, 
+        {x: "Tutorial", value: 1}
+    ];
+    // create the chart
+    var chart = anychart.pie3d();
+    // set the chart title
+    // chart.title("Report Components by Type");
+    // add the data
+    chart.data(data);
+    // sort elements
+    chart.sort("desc");  
+    // set legend position
+    chart.legend().position("right");
+    // set items layout
+    chart.legend().itemsLayout("vertical");  
+    // display the chart in the container
+    chart.container('chart_container_report');
+    chart.draw();
   });
-</script>
+  </script>
 
 {% assign report_data = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}
 {% for type in report_data %}

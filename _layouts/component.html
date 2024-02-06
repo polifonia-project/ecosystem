@@ -2,17 +2,22 @@
 layout: default
 ---
 
-<button onclick="toggleMetaData(this)">Show Metadata</button>
-<div class="annotation-schema" id="schema" style="display:none">
+<button onclick="toggleMetaData(this)">Metadata</button>
+{% if page['doi'] %}
+<button onclick="toggleApa(this)">Cite as</button>
+<button onclick="toggleBibtex(this)">Bibtex</button>
+{% endif %}
+
+<div class="annotation-schema" id="metadata" style="display:none">
 
 <table>
 
   {% if page['component-id'] %}
-      <!-- USE CONTAINER TERMS -->
+      <!-- USE COMPONENT TERMS -->
      {% assign metadata_terms = site.data.component %}
   {% endif %}
   {% if page['container-id'] %}
-      <!-- USE COMPONENT TERMS -->
+      <!-- USE CONTAINER TERMS -->
      {% assign metadata_terms = site.data.container %}
   {% endif %}
      
@@ -47,8 +52,23 @@ layout: default
     {% endif %}
   {% endfor %}
 </table>
-
-
+ {% if site.reeco['validate'] %}
+<div class="reeco-validate">
+  {% assign validation_key = "content/" | append: page.path %}
+  {% if site.data.validation[validation_key] %}
+   {% for message in site.data.validation[validation_key] %}
+    {% assign message_type = message[0] %}
+    {% for message_content in message[1] %}
+  <p class="reeco-message"><span class="material-symbols-outlined">
+     {{message_type}}
+   </span>
+     {{message_content['args'][0]}} ({{message_type}})
+  </p>
+    {% endfor %}
+   {% endfor %}
+  {% endif %}
+ {% endif %}
+</div>
 <!--  <a href="https://github.com/polifonia-project/stories/blob/main/{{ page.id | remove: "/stories/" | replace: "#", "%23"}}.md">View this file on Github</a> -->
 
 {% assign ghLinkParts = page.id | split: "/" %}
@@ -58,16 +78,32 @@ layout: default
 {% assign repo_arr = page.url | split: "/" %}
 {% assign repo = "" | append: repo_arr[1] | append: '/' | append: repo_arr[2] %}
 {% assign repo_data = site.data.repositories | where_exp: "item", "item.repo == repo" | first %}
-
 {% assign raw_link = repo_data.raw_link %}
 {% capture ghLink %}{{ repo_data.link }}{{ ghLinkAfter }}{% endcapture %}
   <a href="{{ ghLink | replace: "#", "%23"}}.md">View this file on Github</a>
     {% assign schema_file_path = page.path | replace: '.md', '.schema.json' %}
-    {% assign schema_file_path_fs = "rdf/" | append: {{schema_file_path}}  %}
-    <a href="{{ page.url | replace: '.html', '.schema.json' | absolute_url}}">Download as Schema.org</a>
+    {% assign schema_file_path_fs = "rdf/" | append: schema_file_path  %}
+	<a href="{{ page.url | replace: '.html', '.schema.json' | absolute_url}}">Download as Schema.org</a>
     <script type="application/ld+json">
         {% include {{schema_file_path_fs}} %}
     </script>
+
+</div>
+
+{% if page['doi'] %}
+{% assign cite = site.data.cite | where_exp: "item", "item.id == page['component-id']" | first %}
+{% endif %}
+
+<div class="annotation-schema" id="bibtex" style="display:none">
+{% if page['doi'] %}
+<cite>{{cite['bibtex']}}</cite>
+{% endif %}
+</div>
+
+<div class="annotation-schema" id="apa" style="display:none">
+{% if page['doi'] %}
+<cite>{{cite['apa']}}</cite>
+{% endif %}
 </div>
 
 <!--
