@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -11,9 +23,15 @@
       "http://w3id.org/polifonia/ecosystem/Dataset",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "A benchmark for the extraction of documentary evidence, taking the Listening Experience Database (LED) as a reference."
+      }
+    ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/331c29e7171da64a0fbb0b7c03013f26#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/006bbe1563fec7adfe896527e191e2d5#/credits"
       }
     ],
     "https://schema.org/identifier": [
@@ -21,7 +39,12 @@
         "@value": "documentary-evidence-benchmark"
       },
       {
-        "@id": "_:necb23a4b89304195953f09bd3b44d501b1"
+        "@id": "_:n4ebdf73157014930ad99999814f90ab7b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "A benchmark for the extraction of documentary evidence, taking the Listening Experience Database (LED) as a reference."
       }
     ],
     "https://schema.org/isPartOf": [
@@ -48,7 +71,7 @@
     ]
   },
   {
-    "@id": "_:necb23a4b89304195953f09bd3b44d501b1",
+    "@id": "_:n4ebdf73157014930ad99999814f90ab7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -61,18 +84,6 @@
       {
         "@value": "10.5281/zenodo.6866982"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

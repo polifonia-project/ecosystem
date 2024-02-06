@@ -29,7 +29,7 @@
         "@value": "licences"
       },
       {
-        "@id": "_:n4568c2a131ce46cdba5c3f33b246db96b1"
+        "@id": "_:nf789503d754c407d93bb30f8783cefedb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "@id": "_:n4568c2a131ce46cdba5c3f33b246db96b1",
+    "@id": "_:nf789503d754c407d93bb30f8783cefedb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -82,13 +82,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

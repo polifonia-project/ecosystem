@@ -6,7 +6,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/neuma-search-engine",
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/tonalities-app",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
       "http://w3id.org/polifonia/ecosystem/Application"
@@ -14,35 +20,32 @@
     "https://schema.org/abstract": [
       {
         "@language": "en",
-        "@value": "A search engine for music content"
+        "@value": "A collaborative annotation interface for music analysis"
       }
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/bcfa105c59a913b6c4fd56a605a763f0#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/4e0458e1b2e7ed5068a379f71aa48517#/credits"
       }
     ],
     "https://schema.org/distribution": [
       {
-        "@value": "http://neuma.huma-num.fr"
+        "@id": "http://sparql.xyz/facade-x/data/4e0458e1b2e7ed5068a379f71aa48517#/resource"
       }
     ],
     "https://schema.org/identifier": [
       {
-        "@value": "neuma-search-engine"
+        "@value": "tonalities-app"
       }
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "A search engine for music content"
+        "@value": "A collaborative annotation interface for music analysis"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
-      },
-      {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP1"
@@ -50,26 +53,14 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC-BY_v4"
+        "@value": "Apache-2.0"
       }
     ],
     "https://schema.org/title": [
       {
         "@language": "en",
-        "@value": "Neuma search engine"
+        "@value": "Tonalities"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

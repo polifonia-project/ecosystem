@@ -1,5 +1,35 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https://github.com/polifonia-project/tonalities_pilot/tree/main/validation/interface",
+    "@type": [
+      "https://schema.org/Review"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/tonalities-mockup",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -99,7 +129,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n329cf10c59044de9ad5c926c1833b314b1"
+        "@id": "_:nc8eec28aa8d94e0abda16f24f51dcae3b1"
       }
     ],
     "https://schema.org/review": [
@@ -131,7 +161,7 @@
     ]
   },
   {
-    "@id": "_:n329cf10c59044de9ad5c926c1833b314b1",
+    "@id": "_:nc8eec28aa8d94e0abda16f24f51dcae3b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/tonalities_pilot/tree/main/mockup"
@@ -149,39 +179,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://github.com/polifonia-project/tonalities_pilot/tree/main/validation/interface",
-    "@type": [
-      "https://schema.org/Review"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

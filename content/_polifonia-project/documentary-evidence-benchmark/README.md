@@ -1,7 +1,7 @@
 ---
 component-id: documentary-evidence-benchmark
 name: Documentary evidence benchmark
-brief-description: the benchmark for the extraction of documentary evidence
+description: "A benchmark for the extraction of documentary evidence, taking the Listening Experience Database (LED) as a reference."
 type: Dataset
 release-date: 25/04/2022
 release-number: v1.0
@@ -13,11 +13,16 @@ pilot:
 licence:
 - Apache-2.0
 doi: 10.5281/zenodo.6866982
-related-component:
-- led
-- sparql-anything-cli
+related-components:
+- reuses: led
+- generated-by: sparql-anything-cli
+bibliography:
+- main-report: "Enrico Daga, Alba Morales Tirado, Rocco Tripodi, and Arianna Graciotti. \"D4.3 - Software for Knowledge Extraction from Text\". Polifonia Project deliverable. European Commission grant agreement N. 101004746 (2022)"
 credits:
 - Enrico Daga <https://github.com/enridaga>
+- Jason Carvalho <https://github.com/JaseMK>
+- Alba Morales Tirado <https://github.com/albamoralest>
+- Helen Barlow <https://www.open.ac.uk/people/hgb3>
 ---
 # Documentary evidence benchmark
 

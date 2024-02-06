@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/MusicBo",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/textual-corpus-population",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -48,7 +54,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n3f11b105ea11413a97f0822dbcd25ccbb1"
+        "@id": "_:n4057c496dead4f919db99fd38dbb9c8eb1"
       }
     ],
     "https://schema.org/title": [
@@ -64,7 +70,7 @@
     ]
   },
   {
-    "@id": "_:n3f11b105ea11413a97f0822dbcd25ccbb1",
+    "@id": "_:n4057c496dead4f919db99fd38dbb9c8eb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "n/a."
@@ -79,12 +85,6 @@
       {
         "@value": "07-12-2021"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MusicBo",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

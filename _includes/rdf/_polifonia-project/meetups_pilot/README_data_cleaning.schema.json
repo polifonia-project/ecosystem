@@ -39,7 +39,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b1"
+        "@id": "_:n40193fe92a1a4dc09cfcaeef29caf704b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -74,7 +74,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b2"
+        "@id": "_:n40193fe92a1a4dc09cfcaeef29caf704b2"
       }
     ],
     "https://schema.org/title": [
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b1",
+    "@id": "_:n40193fe92a1a4dc09cfcaeef29caf704b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -101,7 +101,7 @@
     ]
   },
   {
-    "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b2",
+    "@id": "_:n40193fe92a1a4dc09cfcaeef29caf704b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -119,7 +119,19 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -131,7 +143,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -140,18 +152,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]
