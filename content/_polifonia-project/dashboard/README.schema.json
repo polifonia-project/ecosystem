@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/melody-software",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/WebApplication",
@@ -40,7 +34,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:nec0dd9ee0c024213bf604640df55aa60b1"
+        "@id": "_:n2a6c81d1ebe94c0d9fe07dc0e4b5ea7db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -63,7 +57,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nec0dd9ee0c024213bf604640df55aa60b2"
+        "@id": "_:n2a6c81d1ebe94c0d9fe07dc0e4b5ea7db2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -107,7 +101,7 @@
     ]
   },
   {
-    "@id": "_:nec0dd9ee0c024213bf604640df55aa60b1",
+    "@id": "_:n2a6c81d1ebe94c0d9fe07dc0e4b5ea7db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -123,7 +117,7 @@
     ]
   },
   {
-    "@id": "_:nec0dd9ee0c024213bf604640df55aa60b2",
+    "@id": "_:n2a6c81d1ebe94c0d9fe07dc0e4b5ea7db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
@@ -138,6 +132,12 @@
       {
         "@value": "2022/05/12"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

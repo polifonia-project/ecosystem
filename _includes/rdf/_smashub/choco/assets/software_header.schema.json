@@ -1,23 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/choco-software",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -67,7 +49,7 @@
         "@value": "choco-software"
       },
       {
-        "@id": "_:n9e2ac9e63e46440f967ec49c47b4aedcb1"
+        "@id": "_:n9e75e7453c0342bfb8f450de9e1e6895b1"
       }
     ],
     "https://schema.org/image": [
@@ -109,7 +91,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n9e2ac9e63e46440f967ec49c47b4aedcb2"
+        "@id": "_:n9e75e7453c0342bfb8f450de9e1e6895b2"
       }
     ],
     "https://schema.org/title": [
@@ -125,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:n9e2ac9e63e46440f967ec49c47b4aedcb1",
+    "@id": "_:n9e75e7453c0342bfb8f450de9e1e6895b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -141,7 +123,7 @@
     ]
   },
   {
-    "@id": "_:n9e2ac9e63e46440f967ec49c47b4aedcb2",
+    "@id": "_:n9e75e7453c0342bfb8f450de9e1e6895b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"
@@ -156,6 +138,24 @@
       {
         "@value": "13-10-2022"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

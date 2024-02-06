@@ -28,6 +28,8 @@ related-components:
   - Ortenz
   - David
   - Sophie
+bibliography:
+- main-publication: "Morales Tirado, Alba; Carvalho, Jason; Mulholland, Paul and Daga, Enrico (2023). Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis. In: CEUR Workshop Proceedings: SEMMES 2023: Semantic Methods for Events and Stories workshop ESWC 2023. https://oro.open.ac.uk/88720/1/2023_SEMMES_Meetups-CR.pdf"
 ---
 
 # MEETUPS Ontology

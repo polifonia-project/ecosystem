@@ -62,7 +62,7 @@
         "@value": "musow-dataset"
       },
       {
-        "@id": "_:n3f883ab1693a4152a7bb832046fa1ddeb1"
+        "@id": "_:nc11dfd971f3b40bfaf064fb8c683d08cb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -93,7 +93,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n3f883ab1693a4152a7bb832046fa1ddeb2"
+        "@id": "_:nc11dfd971f3b40bfaf064fb8c683d08cb2"
       }
     ],
     "https://schema.org/title": [
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "@id": "_:n3f883ab1693a4152a7bb832046fa1ddeb1",
+    "@id": "_:nc11dfd971f3b40bfaf064fb8c683d08cb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "@id": "_:n3f883ab1693a4152a7bb832046fa1ddeb2",
+    "@id": "_:nc11dfd971f3b40bfaf064fb8c683d08cb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"

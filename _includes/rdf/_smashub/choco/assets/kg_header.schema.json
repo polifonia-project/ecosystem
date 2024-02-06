@@ -1,23 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/choco-software",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -67,7 +49,7 @@
         "@value": "choco-software"
       },
       {
-        "@id": "_:n292856067f9b49ea85c501dd15f4a027b1"
+        "@id": "_:n24ecd4bb9631460092f8822a88751590b1"
       }
     ],
     "https://schema.org/image": [
@@ -109,7 +91,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n292856067f9b49ea85c501dd15f4a027b2"
+        "@id": "_:n24ecd4bb9631460092f8822a88751590b2"
       }
     ],
     "https://schema.org/title": [
@@ -125,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:n292856067f9b49ea85c501dd15f4a027b1",
+    "@id": "_:n24ecd4bb9631460092f8822a88751590b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -141,7 +123,7 @@
     ]
   },
   {
-    "@id": "_:n292856067f9b49ea85c501dd15f4a027b2",
+    "@id": "_:n24ecd4bb9631460092f8822a88751590b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"
@@ -156,6 +138,24 @@
       {
         "@value": "13-10-2022"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

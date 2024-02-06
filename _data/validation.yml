@@ -506,7 +506,7 @@ content/_polifonia-project/folk_ngram_analysis/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa135cb7a60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7feec94fea60>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -552,7 +552,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa135cb7a60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7feec94fea60>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -598,7 +598,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa135cb7a60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7feec94fea60>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -794,58 +794,7 @@ content/_polifonia-project/licences/Pipeline.md:
       errors:
       - null
 content/_polifonia-project/meetups-application/meetups-application.md:
-  error:
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - URL cannot be resolved.
-    state:
-      autos:
-      - 'Key ''image'' error:'
-      - null
-      - null
-      - null
-      - <lambda>('https://polifonia.kmi.open.ac.uk/MEETUPS/img/screen_exploremap.png')
-        raised Exception('URL cannot be resolved')
-      errors:
-      - null
-      - null
-      - null
-      - URL cannot be resolved.
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - URL cannot be resolved.
-    state:
-      autos:
-      - 'Key ''logo'' error:'
-      - null
-      - null
-      - null
-      - <lambda>('https://polifonia.kmi.open.ac.uk/MEETUPS/img/meetups_logo_white.png')
-        raised Exception('URL cannot be resolved')
-      errors:
-      - null
-      - null
-      - null
-      - URL cannot be resolved.
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - URL cannot be resolved.
-    state:
-      autos:
-      - 'Key ''demo'' error:'
-      - null
-      - null
-      - null
-      - <lambda>('https://polifonia.kmi.open.ac.uk/MEETUPS/') raised Exception('URL
-        cannot be resolved')
-      errors:
-      - null
-      - null
-      - null
-      - URL cannot be resolved.
-      - null
+  error: []
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
@@ -868,15 +817,7 @@ content/_polifonia-project/meetups-knowledge-graph/README.md:
       - null
 content/_polifonia-project/meetups-ontology/README.md:
   error: []
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  warning: []
 content/_polifonia-project/meetups-ui-design/meetups-ui-design.md:
   error:
   - !!python/object/apply:schema.SchemaError
@@ -1208,7 +1149,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fa135cb7a60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7feec94fea60>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True

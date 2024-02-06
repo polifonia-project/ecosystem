@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Sophia#1_MusiciansAndTheirEnvironment",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -55,6 +49,12 @@
         "@language": "en",
         "@value": "Musicians and their environment"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

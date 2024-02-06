@@ -6,21 +6,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {
@@ -74,7 +62,7 @@
         "@value": "https://w3id.org/polifonia/ontology/bells-ontology/"
       },
       {
-        "@id": "_:n12608acaffbe4d0cac6f5d5d5662ae64b1"
+        "@id": "_:n55ed3aee35854a328999bccc89aafad2b1"
       }
     ],
     "https://schema.org/image": [
@@ -117,7 +105,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n12608acaffbe4d0cac6f5d5d5662ae64b2"
+        "@id": "_:n55ed3aee35854a328999bccc89aafad2b2"
       }
     ],
     "https://schema.org/title": [
@@ -128,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:n12608acaffbe4d0cac6f5d5d5662ae64b1",
+    "@id": "_:n55ed3aee35854a328999bccc89aafad2b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -144,7 +132,7 @@
     ]
   },
   {
-    "@id": "_:n12608acaffbe4d0cac6f5d5d5662ae64b2",
+    "@id": "_:n55ed3aee35854a328999bccc89aafad2b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/bells-ontology/blob/main/ontology/bells.owl"
@@ -159,6 +147,18 @@
       {
         "@value": "15/04/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

@@ -1,23 +1,23 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n1ddd8343b2e44626a07ee4ee7f664b39b1"
+        "@id": "_:n0e3b51cbd8dd48629a9fafeddf89ea4cb2"
       }
     ]
   },
   {
-    "@id": "_:n1ddd8343b2e44626a07ee4ee7f664b39b1",
+    "@id": "_:n0e3b51cbd8dd48629a9fafeddf89ea4cb2",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -36,18 +36,30 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n1ddd8343b2e44626a07ee4ee7f664b39b2"
+        "@id": "_:n0e3b51cbd8dd48629a9fafeddf89ea4cb1"
       }
     ]
   },
   {
-    "@id": "_:n1ddd8343b2e44626a07ee4ee7f664b39b2",
+    "@id": "_:n0e3b51cbd8dd48629a9fafeddf89ea4cb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -60,21 +72,15 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -162,12 +168,6 @@
         "@language": "en",
         "@value": "SPARQL Anything"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

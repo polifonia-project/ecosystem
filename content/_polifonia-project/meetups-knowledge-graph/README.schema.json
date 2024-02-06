@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-knowledge-graph",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -67,7 +55,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:n2ee8c59bffce4abcaba8cde7b3904906b1"
+        "@id": "_:na183ab5ddaa64ce089c6ab29eaf9c2b0b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -121,7 +109,7 @@
     ]
   },
   {
-    "@id": "_:n2ee8c59bffce4abcaba8cde7b3904906b1",
+    "@id": "_:na183ab5ddaa64ce089c6ab29eaf9c2b0b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -137,7 +125,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -150,6 +138,18 @@
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]

@@ -24,7 +24,7 @@
     ],
     "https://schema.org/copyrightNotice": [
       {
-        "@value": "Copyright (c) 2023 The Open University"
+        "@value": "Copyright (c) 2024 The Open University"
       }
     ],
     "https://schema.org/discussionUrl": [
@@ -34,7 +34,7 @@
     ],
     "https://schema.org/distribution": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/"
       }
     ],
     "https://schema.org/hasPart": [
@@ -47,12 +47,12 @@
         "@value": "meetups-application"
       },
       {
-        "@id": "_:n7f818b7af6f84c65883e4e3f14a561b4b1"
+        "@id": "_:n9fe7ac3edee94404b2920dbebb2e7fd7b1"
       }
     ],
     "https://schema.org/image": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/img/screen_exploremap.png"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/img/screen_exploremap.png"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -87,12 +87,12 @@
     ],
     "https://schema.org/logo": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/img/meetups_logo_white.png"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/img/meetups_logo_white.png"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7f818b7af6f84c65883e4e3f14a561b4b2"
+        "@id": "_:n9fe7ac3edee94404b2920dbebb2e7fd7b2"
       }
     ],
     "https://schema.org/title": [
@@ -108,12 +108,12 @@
     ],
     "https://schema.org/workExample": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/"
       }
     ]
   },
   {
-    "@id": "_:n7f818b7af6f84c65883e4e3f14a561b4b1",
+    "@id": "_:n9fe7ac3edee94404b2920dbebb2e7fd7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "@id": "_:n7f818b7af6f84c65883e4e3f14a561b4b2",
+    "@id": "_:n9fe7ac3edee94404b2920dbebb2e7fd7b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -137,7 +137,7 @@
     ],
     "https://schema.org/softwareVersion": [
       {
-        "@value": "v0.5.4"
+        "@value": "v0.8.6"
       }
     ],
     "https://schema.org/startDate": [
@@ -153,9 +153,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -165,13 +165,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]

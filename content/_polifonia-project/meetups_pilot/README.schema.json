@@ -79,12 +79,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n29d6890de69249cd8342677e87ed2ea4b1"
+        "@id": "_:n773666a1cf4947668d9164ece5b38c1db1"
       }
     ]
   },
   {
-    "@id": "_:n29d6890de69249cd8342677e87ed2ea4b1",
+    "@id": "_:n773666a1cf4947668d9164ece5b38c1db1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
