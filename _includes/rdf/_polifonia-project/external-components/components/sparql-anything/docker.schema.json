@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -40,7 +40,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:nb63b7e9ca29846f1bcaf4ec3a3ecb9b5b1"
+        "@id": "_:nea76692e1aa44f929e08181a3d2bc105b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -77,7 +77,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb63b7e9ca29846f1bcaf4ec3a3ecb9b5b2"
+        "@id": "_:nea76692e1aa44f929e08181a3d2bc105b2"
       }
     ],
     "https://schema.org/title": [
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:nb63b7e9ca29846f1bcaf4ec3a3ecb9b5b1",
+    "@id": "_:nea76692e1aa44f929e08181a3d2bc105b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:nb63b7e9ca29846f1bcaf4ec3a3ecb9b5b2",
+    "@id": "_:nea76692e1aa44f929e08181a3d2bc105b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

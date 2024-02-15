@@ -1,14 +1,14 @@
 ---
 component-id: folk_ngram_analysis
 name: FoNN -- Folk N-gram aNalysis
-description: data ingest pipeline and musical similarity tools for symbolic music data, with two test symbolic music corpora.
+description: data ingest pipeline and musical similarity and classification tools for symbolic music data, with two test symbolic music corpora.
 type: Repository
 release-date: 16/06/2023
 release-number: v1.0
 work-package: 
 - WP3
 licence:
-- CC_BY_v4
+- MIT
 links:
 - https://github.com/polifonia-project/folk_ngram_analysis
 - https://zenodo.org/record/5768216#.YbEAbS2Q3T8

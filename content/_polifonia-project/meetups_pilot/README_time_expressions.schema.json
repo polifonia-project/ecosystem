@@ -39,7 +39,7 @@
         "@value": "meetups-time-extraction"
       },
       {
-        "@id": "_:nc27225403e0d440a9790f04dc9c44967b1"
+        "@id": "_:na77bf0ef9dc64485acf83b402115e69bb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -65,7 +65,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nc27225403e0d440a9790f04dc9c44967b2"
+        "@id": "_:na77bf0ef9dc64485acf83b402115e69bb2"
       }
     ],
     "https://schema.org/title": [
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "@id": "_:nc27225403e0d440a9790f04dc9c44967b1",
+    "@id": "_:na77bf0ef9dc64485acf83b402115e69bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:nc27225403e0d440a9790f04dc9c44967b2",
+    "@id": "_:na77bf0ef9dc64485acf83b402115e69bb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"

@@ -8,12 +8,12 @@
     "https://schema.org/abstract": [
       {
         "@language": "en",
-        "@value": "data ingest pipeline and musical similarity tools for symbolic music data, with two test symbolic music corpora."
+        "@value": "data ingest pipeline and musical similarity and classification tools for symbolic music data, with two test symbolic music corpora."
       }
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/8c49745a61831211f152c5ca0c4b6736#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/8aa65f85d1ff7c0216a8f537689c07f3#/credits"
       }
     ],
     "https://schema.org/identifier": [
@@ -23,7 +23,7 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "data ingest pipeline and musical similarity tools for symbolic music data, with two test symbolic music corpora."
+        "@value": "data ingest pipeline and musical similarity and classification tools for symbolic music data, with two test symbolic music corpora."
       }
     ],
     "https://schema.org/isPartOf": [
@@ -33,7 +33,7 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC_BY_v4"
+        "@value": "MIT"
       }
     ],
     "https://schema.org/title": [

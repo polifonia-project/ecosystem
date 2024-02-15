@@ -24,6 +24,8 @@ contributors:
 credits:
 - https://github.com/albamoralest
 - https://github.com/enridaga
+bibliography:
+- main-publication: "Morales Tirado, A., Carvalho, J., Mulholland, P. and Daga, E., 2023. Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis."
 related-components:
 - informed-by: 
   - meetups-ontology

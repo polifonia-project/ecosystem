@@ -39,7 +39,7 @@
         "@value": "meetups-coreference"
       },
       {
-        "@id": "_:ne0da016c6ca8486e98ed47ee8d71b06db1"
+        "@id": "_:n9ac3b0aebb18496c85c216aeaa909990b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -65,7 +65,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne0da016c6ca8486e98ed47ee8d71b06db2"
+        "@id": "_:n9ac3b0aebb18496c85c216aeaa909990b2"
       }
     ],
     "https://schema.org/title": [
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "@id": "_:ne0da016c6ca8486e98ed47ee8d71b06db1",
+    "@id": "_:n9ac3b0aebb18496c85c216aeaa909990b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "@id": "_:ne0da016c6ca8486e98ed47ee8d71b06db2",
+    "@id": "_:n9ac3b0aebb18496c85c216aeaa909990b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"

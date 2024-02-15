@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Keoma",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -12,13 +12,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -27,6 +27,18 @@
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keoma",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -83,7 +95,7 @@
         "@value": "https://w3id.org/polifonia/ontology/source/"
       },
       {
-        "@id": "_:n56bb7b46346f4a93b5efb4e17b124a10b1"
+        "@id": "_:n0586fc122c884c32a31215a7d9be564db1"
       }
     ],
     "https://schema.org/image": [
@@ -141,7 +153,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n56bb7b46346f4a93b5efb4e17b124a10b2"
+        "@id": "_:n0586fc122c884c32a31215a7d9be564db2"
       }
     ],
     "https://schema.org/title": [
@@ -157,7 +169,7 @@
     ]
   },
   {
-    "@id": "_:n56bb7b46346f4a93b5efb4e17b124a10b1",
+    "@id": "_:n0586fc122c884c32a31215a7d9be564db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -173,7 +185,7 @@
     ]
   },
   {
-    "@id": "_:n56bb7b46346f4a93b5efb4e17b124a10b2",
+    "@id": "_:n0586fc122c884c32a31215a7d9be564db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/source-ontology"
@@ -188,18 +200,6 @@
       {
         "@value": "13/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

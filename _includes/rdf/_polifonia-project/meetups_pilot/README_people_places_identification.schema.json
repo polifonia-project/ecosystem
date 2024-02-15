@@ -57,7 +57,7 @@
         "@value": "meetups-entity-recognition"
       },
       {
-        "@id": "_:n0d6a59cee43548f0b5671afddf75d391b1"
+        "@id": "_:ne148f4640d8b4955b3120c6155bedbd8b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -83,7 +83,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0d6a59cee43548f0b5671afddf75d391b2"
+        "@id": "_:ne148f4640d8b4955b3120c6155bedbd8b2"
       }
     ],
     "https://schema.org/title": [
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "@id": "_:n0d6a59cee43548f0b5671afddf75d391b1",
+    "@id": "_:ne148f4640d8b4955b3120c6155bedbd8b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "@id": "_:n0d6a59cee43548f0b5671afddf75d391b2",
+    "@id": "_:ne148f4640d8b4955b3120c6155bedbd8b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-knowledge-graph",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -9,6 +15,11 @@
       {
         "@language": "en",
         "@value": "MEETUPS Knowledge Graph module with data on historical meetups and related to MEETUPS Pilot"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Morales Tirado, A., Carvalho, J., Mulholland, P. and Daga, E., 2023. Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis."
       }
     ],
     "https://schema.org/contributor": [
@@ -29,7 +40,7 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/79688c6da0ce3a26db056adf4aad55c3#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/a082a20da168cd9334f872fdc7d9918b#/credits"
       }
     ],
     "https://schema.org/discussionUrl": [
@@ -55,7 +66,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:na183ab5ddaa64ce089c6ab29eaf9c2b0b1"
+        "@id": "_:nd6fb1faa2a3e4d06b9f41cf6177963e3b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -109,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:na183ab5ddaa64ce089c6ab29eaf9c2b0b1",
+    "@id": "_:nd6fb1faa2a3e4d06b9f41cf6177963e3b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -137,27 +148,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Brendan",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -55,6 +49,12 @@
         "@language": "en",
         "@value": "Find Traditional Music"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Brendan",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]
