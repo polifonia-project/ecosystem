@@ -78,7 +78,7 @@ https://polifonia.kmi.open.ac.uk/meetups/sparql/
 ```
 ### Web Interface for exploration of historical meetups
 ```
-https://polifonia.kmi.open.ac.uk/MEETUPS/index.php
+https://polifonia.kmi.open.ac.uk/meetups/
 ```
 
 ## Repository organisation

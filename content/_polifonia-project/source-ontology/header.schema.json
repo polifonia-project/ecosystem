@@ -1,20 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -30,13 +18,19 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/source/",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fsource%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -49,13 +43,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
-      },
-      {
         "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
       },
       {
         "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -83,7 +77,7 @@
         "@value": "https://w3id.org/polifonia/ontology/source/"
       },
       {
-        "@id": "_:n75409095ed6344699aa7854b24ac897fb1"
+        "@id": "_:n58ffa7232d064667a604e1417be433fdb1"
       }
     ],
     "https://schema.org/image": [
@@ -93,16 +87,16 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Source represents various sources of music-related information"
-      },
-      {
         "@value": "Sonia#1_ExplorationMode"
       },
       {
-        "@value": "Keoma#1_RestorationAndSoundPractices"
+        "@value": "Carolina#1_SourcesCrossAnalysis"
       },
       {
-        "@value": "Carolina#1_SourcesCrossAnalysis"
+        "@value": "Source represents various sources of music-related information"
+      },
+      {
+        "@value": "Keoma#1_RestorationAndSoundPractices"
       },
       {
         "@value": "Ortenz#1_MusicAndChildhood"
@@ -122,16 +116,16 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
-      },
-      {
         "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO"
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO"
       }
     ],
     "https://schema.org/license": [
@@ -141,7 +135,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n75409095ed6344699aa7854b24ac897fb2"
+        "@id": "_:n58ffa7232d064667a604e1417be433fdb2"
       }
     ],
     "https://schema.org/title": [
@@ -157,7 +151,7 @@
     ]
   },
   {
-    "@id": "_:n75409095ed6344699aa7854b24ac897fb1",
+    "@id": "_:n58ffa7232d064667a604e1417be433fdb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -173,7 +167,7 @@
     ]
   },
   {
-    "@id": "_:n75409095ed6344699aa7854b24ac897fb2",
+    "@id": "_:n58ffa7232d064667a604e1417be433fdb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/source-ontology"
@@ -197,9 +191,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

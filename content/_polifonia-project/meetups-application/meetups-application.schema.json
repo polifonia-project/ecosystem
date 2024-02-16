@@ -1,26 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "https://schema.org/ShortStory"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -48,7 +36,7 @@
     ],
     "https://schema.org/copyrightNotice": [
       {
-        "@value": "Copyright (c) 2023 The Open University"
+        "@value": "Copyright (c) 2024 The Open University"
       }
     ],
     "https://schema.org/discussionUrl": [
@@ -58,7 +46,7 @@
     ],
     "https://schema.org/distribution": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/"
       }
     ],
     "https://schema.org/hasPart": [
@@ -71,12 +59,12 @@
         "@value": "meetups-application"
       },
       {
-        "@id": "_:nfc328dd906914e2b88f78e6301077bccb1"
+        "@id": "_:ne93d17b0f4684690b07cbeba49694828b1"
       }
     ],
     "https://schema.org/image": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/img/screen_exploremap.png"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/img/screen_exploremap.png"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -111,12 +99,12 @@
     ],
     "https://schema.org/logo": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/img/meetups_logo_white.png"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/img/meetups_logo_white.png"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nfc328dd906914e2b88f78e6301077bccb2"
+        "@id": "_:ne93d17b0f4684690b07cbeba49694828b2"
       }
     ],
     "https://schema.org/title": [
@@ -132,12 +120,12 @@
     ],
     "https://schema.org/workExample": [
       {
-        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/"
+        "@value": "https://polifonia.kmi.open.ac.uk/meetups/"
       }
     ]
   },
   {
-    "@id": "_:nfc328dd906914e2b88f78e6301077bccb1",
+    "@id": "_:ne93d17b0f4684690b07cbeba49694828b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -153,7 +141,7 @@
     ]
   },
   {
-    "@id": "_:nfc328dd906914e2b88f78e6301077bccb2",
+    "@id": "_:ne93d17b0f4684690b07cbeba49694828b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -161,7 +149,7 @@
     ],
     "https://schema.org/softwareVersion": [
       {
-        "@value": "v0.5.4"
+        "@value": "v0.8.6"
       }
     ],
     "https://schema.org/startDate": [
@@ -171,15 +159,27 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

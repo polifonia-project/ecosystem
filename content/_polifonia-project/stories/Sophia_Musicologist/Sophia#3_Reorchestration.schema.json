@@ -1,24 +1,18 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/To be completed",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophia",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophia#3_Reorchestration",
+    "@id": "http://w3id.org/polifonia/ecosystem/To%20be%20completed",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophia%233_Reorchestration",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -36,13 +30,13 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Sophia needs to study the instrumentation of a musical composition of the 18th century in order to organize a music festival that compares philological and modern performances and that proposes  music compositions of that time with a completely new orchestration."
+        "@value": "Sophia#3_Reorchestration"
       },
       {
         "@value": "Sophia#1_MusiciansAndTheirEnvironment"
       },
       {
-        "@value": "Sophia#3_Reorchestration"
+        "@value": "Sophia needs to study the instrumentation of a musical composition of the 18th century in order to organize a music festival that compares philological and modern performances and that proposes  music compositions of that time with a completely new orchestration."
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/Sophia"
@@ -50,10 +44,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+        "@id": "http://w3id.org/polifonia/ecosystem/To%20be%20completed"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/To be completed"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -61,6 +55,12 @@
         "@language": "en",
         "@value": "Reorchestration"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophia",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

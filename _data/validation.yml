@@ -162,32 +162,8 @@ content/_polifonia-project/deep-listening/README.md:
   error: []
   warning: []
 content/_polifonia-project/documentary-evidence-benchmark/README.md:
-  error:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''description'''
-    state:
-      autos:
-      - 'Missing key: ''description'''
-      errors:
-      - null
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''related-components'''
-    state:
-      autos:
-      - 'Missing key: ''related-components'''
-      errors:
-      - null
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  error: []
+  warning: []
 content/_polifonia-project/external-components/components/endpoints/data-open.md:
   error: []
   warning: []
@@ -453,27 +429,74 @@ content/_polifonia-project/external-components/components/sparql-anything/tutori
       - 'Missing key: ''bibliography'''
       errors:
       - null
-content/_polifonia-project/folk_ngram_analysis/README.md:
+content/_polifonia-project/external-components/components/tonalities-app.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
+    - 'Key ''resource'' error:
 
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+      [''https://data-iremus.huma-num.fr/tonalities'', ''https://data-iremus.huma-num.fr/tonalities'',
+      ''https://tonalities.gitpages.huma-num.fr'', ''https://github.com/sherlock-iremus/sherlock-tonalities'']
+      should be instance of ''str'''
     state:
       autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3f5ca91a60>))
-        did not validate 'CC_BY_v4'
-      - null
-      - <lambda>('CC_BY_v4') should evaluate to True
+      - 'Key ''resource'' error:'
+      - '[''https://data-iremus.huma-num.fr/tonalities'', ''https://data-iremus.huma-num.fr/tonalities'',
+        ''https://tonalities.gitpages.huma-num.fr'', ''https://github.com/sherlock-iremus/sherlock-tonalities'']
+        should be instance of ''str'''
       errors:
       - null
       - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''release-number'' error:
+
+      2.1 should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''release-number'' error:'
+      - 2.1 should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - "Key 'bibliography' error:\n{'main-publication': ['Thomas Bottini, Christophe\
+      \ Guillotel-Nothmann, Marco Gurrieri, F\xE9lix Poullet-Pag\xE8s. Tonalities:\
+      \ a Collaborative Annotation Interface for Music Analysis. Musical Heritage\
+      \ Knowledge Graphs workshop during the 22nd International Semantic Web Conference\
+      \ 2022, Oct 2022, Hangzhou, China. \u27E8hal-03923731\u27E9']} should be instance\
+      \ of 'list'"
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - "{'main-publication': ['Thomas Bottini, Christophe Guillotel-Nothmann, Marco\
+        \ Gurrieri, F\xE9lix Poullet-Pag\xE8s. Tonalities: a Collaborative Annotation\
+        \ Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop\
+        \ during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou,\
+        \ China. \u27E8hal-03923731\u27E9']} should be instance of 'list'"
+      errors:
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Components should have an associated bibliography
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - null
+      - "{'main-publication': ['Thomas Bottini, Christophe Guillotel-Nothmann, Marco\
+        \ Gurrieri, F\xE9lix Poullet-Pag\xE8s. Tonalities: a Collaborative Annotation\
+        \ Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop\
+        \ during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou,\
+        \ China. \u27E8hal-03923731\u27E9']} should be instance of 'list'"
+      errors:
+      - null
+      - null
+      - Components should have an associated bibliography
+content/_polifonia-project/folk_ngram_analysis/README.md:
+  error:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
     - 'Missing key: ''related-components'''
@@ -510,7 +533,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3f5ca91a60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f4c91edda60>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -556,7 +579,45 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3f5ca91a60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f4c91edda60>))
+        did not validate 'CC_BY_v4'
+      - null
+      - <lambda>('CC_BY_v4') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/folk_ngram_analysis/tune_family_annotations/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f4c91edda60>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -752,58 +813,7 @@ content/_polifonia-project/licences/Pipeline.md:
       errors:
       - null
 content/_polifonia-project/meetups-application/meetups-application.md:
-  error:
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - URL cannot be resolved.
-    state:
-      autos:
-      - 'Key ''image'' error:'
-      - null
-      - null
-      - null
-      - <lambda>('https://polifonia.kmi.open.ac.uk/MEETUPS/img/screen_exploremap.png')
-        raised Exception('URL cannot be resolved')
-      errors:
-      - null
-      - null
-      - null
-      - URL cannot be resolved.
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - URL cannot be resolved.
-    state:
-      autos:
-      - 'Key ''logo'' error:'
-      - null
-      - null
-      - null
-      - <lambda>('https://polifonia.kmi.open.ac.uk/MEETUPS/img/meetups_logo_white.png')
-        raised Exception('URL cannot be resolved')
-      errors:
-      - null
-      - null
-      - null
-      - URL cannot be resolved.
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - URL cannot be resolved.
-    state:
-      autos:
-      - 'Key ''demo'' error:'
-      - null
-      - null
-      - null
-      - <lambda>('https://polifonia.kmi.open.ac.uk/MEETUPS/') raised Exception('URL
-        cannot be resolved')
-      errors:
-      - null
-      - null
-      - null
-      - URL cannot be resolved.
-      - null
+  error: []
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
@@ -815,26 +825,10 @@ content/_polifonia-project/meetups-application/meetups-application.md:
       - null
 content/_polifonia-project/meetups-knowledge-graph/README.md:
   error: []
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  warning: []
 content/_polifonia-project/meetups-ontology/README.md:
   error: []
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  warning: []
 content/_polifonia-project/meetups-ui-design/meetups-ui-design.md:
   error:
   - !!python/object/apply:schema.SchemaError
@@ -1166,7 +1160,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3f5ca91a60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f4c91edda60>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True

@@ -34,5 +34,7 @@ Recent work in collaboration between the Polifonia and SPICE projects has invest
 
 The revised software has been used in two ways: (i) a musicologist curating experiences that link music to visual art in a museum collection, and (ii) visitors to a museum exhibition experiencing and creating cross-modal experiences.
 
-The browsing and navigation paradigm develop for Deep Listening is also being applied to support the public in exploring the ORGANS dataset.
+A second experiment into Deep Listening has explored how cross modal interpretation works online using a range of music and visual art.
+
+The browsing and navigation paradigm developed for Deep Listening is also being applied to support the public in exploring the ORGANS dataset.
 

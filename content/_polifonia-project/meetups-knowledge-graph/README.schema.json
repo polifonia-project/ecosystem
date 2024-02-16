@@ -1,32 +1,20 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -39,6 +27,11 @@
       {
         "@language": "en",
         "@value": "MEETUPS Knowledge Graph module with data on historical meetups and related to MEETUPS Pilot"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Morales Tirado, A., Carvalho, J., Mulholland, P. and Daga, E., 2023. Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis."
       }
     ],
     "https://schema.org/contributor": [
@@ -59,7 +52,7 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/79688c6da0ce3a26db056adf4aad55c3#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/a082a20da168cd9334f872fdc7d9918b#/credits"
       }
     ],
     "https://schema.org/discussionUrl": [
@@ -85,7 +78,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:n333da03802e74f49a9d2bd8ce1a4e13eb1"
+        "@id": "_:n5993b2deb4c943e2b865c484b4a06dafb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -139,7 +132,7 @@
     ]
   },
   {
-    "@id": "_:n333da03802e74f49a9d2bd8ce1a4e13eb1",
+    "@id": "_:n5993b2deb4c943e2b865c484b4a06dafb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -155,9 +148,21 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

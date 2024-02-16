@@ -19,4 +19,4 @@ parent: "Work packages"
 layout: wp
 --- 
 
-The objective of WP6 is to research and develop highly interactive inter-operable user interface tools to allow scholars, musicians and other consumers of musical content and knowledge to access, engage with, explore and reuse the resources unlocked by WPs 2,3, and 4.
+The objective of WP5 is to research and develop highly interactive inter-operable user interface tools to allow scholars, musicians and other consumers of musical content and knowledge to access, engage with, explore and reuse the resources unlocked by WPs 2, 3, and 4. Some of the work carried out in WP5 addresses use cases emerging from the pilots.

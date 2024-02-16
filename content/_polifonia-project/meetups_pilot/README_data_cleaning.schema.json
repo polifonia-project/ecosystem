@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-data-cleaning",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -39,7 +45,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b1"
+        "@id": "_:n0167ab5f8aec46e4a66651ad8c10a01bb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -74,7 +80,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b2"
+        "@id": "_:n0167ab5f8aec46e4a66651ad8c10a01bb2"
       }
     ],
     "https://schema.org/title": [
@@ -85,7 +91,7 @@
     ]
   },
   {
-    "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b1",
+    "@id": "_:n0167ab5f8aec46e4a66651ad8c10a01bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -101,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:n4d881dd8b91d4e82930a0b6a5f927b50b2",
+    "@id": "_:n0167ab5f8aec46e4a66651ad8c10a01bb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -125,21 +131,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {
@@ -152,6 +146,12 @@
     "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
