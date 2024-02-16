@@ -14,18 +14,22 @@ This section collects project outputs that are released as *data*.
 The ecosystem considers data any digital object that specifies, describes, or represents facts about the project's domain of interest.
 These include various types of digital objects such as [datasets](#dataset), [corpora](#corpus), [ontologies](#ontology), or [repositories](#repository).
 
+
+{% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
+
 <div id="chart_container_data"></div>
 <script>
 anychart.onDocumentReady(function() {
     // set the data
     var data = [
-        {x: "Corpus", value: 1},
-        {x: "Dataset", value: 4},
-        {x: "KnowledgeGraph", value: 1},
-        {x: "Lexicon", value: 1},
-        {x: "Ontology", value: 6},
-        {x: "Repository", value: 4},
-        {x: "Schema", value: 2}
+		{% for type in types_data %}
+			{% if type != "" %}
+				{% assign comps =  site.documents  | where: 'type',type | size%}
+				{% if comps > 0 %}
+     		   		{x: "{{type}}", value: {{ comps }} },
+				{% endif %}
+			{% endif %}
+		{% endfor %}
     ];
     // create the chart
     var chart = anychart.pie3d();
@@ -45,7 +49,6 @@ anychart.onDocumentReady(function() {
   });
   </script>
 
-{% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
 {% for type in types_data %}
 {% if type != "" %}
 {% assign components =  site.documents  | where: 'type',type %}

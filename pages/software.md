@@ -20,19 +20,21 @@ The ecosystem considers applications executable systems and tools produced by th
 We distinguish applications from software, where software can be copied, moved, and executed in multiple different applications (each in relation to some usage senarios).
 Applications include various types of artifacts such as Web Applications, Web sites, and Command Line Interface (CLI) tools.
 
+{% assign types_software = "Software,Workflow,API,UserInterface,SoftwareLibrary,DockerImageContainer,Notebook,Script,Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," | sort %}
+
 <div id="chart_container_software"></div>
 <script>
 anychart.onDocumentReady(function() {
     // set the data
     var data = [
-        {x: "Application", value: 1},
-        {x: "CLITool", value: 1},
-        {x: "DockerImageContainer", value: 1},
-        {x: "SPARQLEndpoint", value: 2},
-        {x: "Software", value: 8},
-        {x: "SoftwareLibrary", value: 2},
-        {x: "UserInterface", value: 1},
-        {x: "WebApplication", value: 5}
+		{% for type in types_software %}
+			{% if type != "" %}
+				{% assign comps =  site.documents  | where: 'type',type | size%}
+				{% if comps > 0 %}
+     		   		{x: "{{type}}", value: {{ comps }} },
+				{% endif %}
+			{% endif %}
+		{% endfor %}
     ];
     // create the chart
     var chart = anychart.pie3d();
@@ -53,8 +55,7 @@ anychart.onDocumentReady(function() {
   </script>
 
 
-{% assign software_data = "Software,Workflow,API,UserInterface,SoftwareLibrary,DockerImageContainer,Notebook,Script,Application,Website,WebApplication,WebService,SPARQLEndpoint,MobileApp,CLITool" | split: "," | sort %}
-{% for type in software_data %}
+{% for type in types_software %}
 {% if type != "" %}
 {% assign numberOf = site.documents  | where_exp: 'item', "item.type == type" | size %}
 {% if numberOf > 0 %}

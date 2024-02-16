@@ -15,16 +15,21 @@ The ecosystem considers reports any digital object that specifies, describes, or
 Reports differ from *data* as they are mainly directed to human consumption, rather than computational treatment.
 Reports include various types of digital objects such as [documentation](#documentation), [tutorial](#tutorial), [requirements collections](#requirementscollection), [stories](#story) or [persona](#persona) specifications.
 
+{% assign types_report = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," |sort %}
+
 <div id="chart_container_report"></div>
 <script>
 anychart.onDocumentReady(function() {
     // set the data
     var data = [
-        {x: "Documentation", value: 4}, 
-        {x: "Persona", value: 22}, 
-        {x: "RequirementsCollection", value: 2}, 
-        {x: "Story", value: 35}, 
-        {x: "Tutorial", value: 1}
+		{% for type in types_report %}
+			{% if type != "" %}
+				{% assign comps =  site.documents  | where: 'type',type | size%}
+				{% if comps > 0 %}
+     		   		{x: "{{type}}", value: {{ comps }} },
+				{% endif %}
+			{% endif %}
+		{% endfor %}
     ];
     // create the chart
     var chart = anychart.pie3d();
@@ -44,8 +49,7 @@ anychart.onDocumentReady(function() {
   });
   </script>
 
-{% assign report_data = "Report,RequirementsCollection,Story,Persona,Mockup,Surbey,InPresenceGroup,Documentation,Tutorial,EvaluationReport" | split: "," %}
-{% for type in report_data %}
+{% for type in types_report %}
 {% if type != "" %}
 {% assign components =  site.documents  | where: 'type',type %}
 {% assign numberOf = components | size %}
