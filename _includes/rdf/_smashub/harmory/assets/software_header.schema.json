@@ -53,7 +53,7 @@
         "@value": "harmory-software"
       },
       {
-        "@id": "_:nf79572f732374773bb935da82045a13bb1"
+        "@id": "_:n0f8f261797d4404bb5ef8a518d92c361b1"
       }
     ],
     "https://schema.org/image": [
@@ -87,7 +87,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf79572f732374773bb935da82045a13bb2"
+        "@id": "_:n0f8f261797d4404bb5ef8a518d92c361b2"
       }
     ],
     "https://schema.org/title": [
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "@id": "_:nf79572f732374773bb935da82045a13bb1",
+    "@id": "_:n0f8f261797d4404bb5ef8a518d92c361b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:nf79572f732374773bb935da82045a13bb2",
+    "@id": "_:n0f8f261797d4404bb5ef8a518d92c361b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"

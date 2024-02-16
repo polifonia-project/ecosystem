@@ -1,0 +1,102 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/pattern-exploration-gui",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/WebApplication",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "A frontend interface for dispaying data derived from the [Patterns Knowledge Graph](https://github.com/polifonia-project/patterns-knowledge-graph)."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Pushkar Jajoria <https://github.com/pushkarjajoria>"
+      },
+      {
+        "@value": "James McDermott <https://github.com/jmmcd>"
+      },
+      {
+        "@value": "Rory Sweeney <https://github.com/rorys4>"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746."
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/pattern-exploration-gui/releases"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "patterns-knowledge-graph"
+      },
+      {
+        "@value": "pattern-explorations-backend"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "pattern-exploration-gui"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "A frontend interface for dispaying data derived from the [Patterns Knowledge Graph](https://github.com/polifonia-project/patterns-knowledge-graph)."
+      },
+      {
+        "@value": "Brendan#1_FindTraditionalMusic"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Brendan"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "GNU_GPL_v3"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@value": "Polifonia Deliverable 5.6"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Pattern Exploration GUI"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Brendan",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]

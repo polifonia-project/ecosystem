@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/musow-registry",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Project",
@@ -60,12 +54,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n5186d876a60b47599e6b69088e2c2cbfb1"
+        "@id": "_:n04535d16252a4204ad06e5c48aea7a1eb1"
       }
     ]
   },
   {
-    "@id": "_:n5186d876a60b47599e6b69088e2c2cbfb1",
+    "@id": "_:n04535d16252a4204ad06e5c48aea7a1eb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission"
@@ -75,6 +69,12 @@
       {
         "@value": "https://cordis.europa.eu/project/id/101004746/it"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
