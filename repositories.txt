@@ -39,3 +39,4 @@ polifonia-project/bells-knowledge-graph:branches:main
 polifonia-project/bells-ontology:branches:main
 polifonia-project/pattern-exploration-gui:branches:main
 polifonia-project/pattern-explorations-backend:branches:main
+polifonia-project/portal:branches:main
