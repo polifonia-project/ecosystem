@@ -3,7 +3,6 @@
 This project is under development. See
 https://polifonia-project.github.io/ecosystem/ for the live version of this website. 
 
-
 ## Contributing
 
 The website is built with [Jekyll](https://jekyllrb.com/) and hosted on [Github
