@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -46,7 +40,7 @@
         "@value": "Polifonia-Corpus-Web-API"
       },
       {
-        "@id": "_:ne747612b38224179a524b427c611723eb1"
+        "@id": "_:nc857c5cb936f4b0088c56e26f75feecbb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -80,7 +74,7 @@
     ]
   },
   {
-    "@id": "_:ne747612b38224179a524b427c611723eb1",
+    "@id": "_:nc857c5cb936f4b0088c56e26f75feecbb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -93,6 +87,12 @@
       {
         "@value": "10.5281/zenodo.7736486"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

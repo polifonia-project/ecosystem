@@ -1,15 +1,15 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Anna#1_HearingMusic",
+    "@id": "http://w3id.org/polifonia/ecosystem/Anna%231_HearingMusic",
     "@type": [
-      "http://w3id.org/polifonia/ecosystem/Story",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Story"
     ],
     "https://schema.org/abstract": [
       {
@@ -32,19 +32,19 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/ACCESS"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP3"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP5"
+        "@id": "http://w3id.org/polifonia/ecosystem/ACCESS"
       }
     ],
     "https://schema.org/title": [
@@ -61,15 +61,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

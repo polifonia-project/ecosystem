@@ -1,48 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/",
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -55,28 +13,28 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Mari Wigham <https://github.com/mwigham>"
-      },
-      {
-        "@value": "Philippe Rigaux <https://github.com/rigaux>"
-      },
-      {
-        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
-      },
-      {
-        "@value": "Nicolas Lazzari <https://github.com/n28div>"
-      },
-      {
-        "@value": "Marco Gurrieri <https://github.com/margur78>"
+        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
       },
       {
         "@value": "Peter van Kranenburg <https://github.com/pvankranenburg>"
       },
       {
-        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+        "@value": "Mari Wigham <https://github.com/mwigham>"
+      },
+      {
+        "@value": "Marco Gurrieri <https://github.com/margur78>"
       },
       {
         "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Nicolas Lazzari <https://github.com/n28div>"
+      },
+      {
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+      },
+      {
+        "@value": "Philippe Rigaux <https://github.com/rigaux>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -104,7 +62,7 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:n31fe3609b0f74fc3a4ebdd6dcd97871ab1"
+        "@id": "_:na44d84085309488986a82571839db7e3b1"
       }
     ],
     "https://schema.org/image": [
@@ -125,22 +83,22 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
-      },
-      {
         "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+        "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       }
     ],
     "https://schema.org/license": [
@@ -155,7 +113,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n31fe3609b0f74fc3a4ebdd6dcd97871ab2"
+        "@id": "_:na44d84085309488986a82571839db7e3b2"
       }
     ],
     "https://schema.org/title": [
@@ -171,7 +129,7 @@
     ]
   },
   {
-    "@id": "_:n31fe3609b0f74fc3a4ebdd6dcd97871ab1",
+    "@id": "_:na44d84085309488986a82571839db7e3b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -187,7 +145,7 @@
     ]
   },
   {
-    "@id": "_:n31fe3609b0f74fc3a4ebdd6dcd97871ab2",
+    "@id": "_:na44d84085309488986a82571839db7e3b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -202,6 +160,48 @@
       {
         "@value": "13/04/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

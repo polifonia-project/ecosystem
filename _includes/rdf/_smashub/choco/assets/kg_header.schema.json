@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/choco-software",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -55,7 +49,7 @@
         "@value": "choco-software"
       },
       {
-        "@id": "_:n1136b3ffda044e69a86ea8be2d233e83b1"
+        "@id": "_:n9fcd0995215240aeb263e078af472f71b1"
       }
     ],
     "https://schema.org/image": [
@@ -76,7 +70,7 @@
         "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project"
+        "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/Interlink"
@@ -97,7 +91,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n1136b3ffda044e69a86ea8be2d233e83b2"
+        "@id": "_:n9fcd0995215240aeb263e078af472f71b2"
       }
     ],
     "https://schema.org/title": [
@@ -113,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:n1136b3ffda044e69a86ea8be2d233e83b1",
+    "@id": "_:n9fcd0995215240aeb263e078af472f71b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -129,7 +123,7 @@
     ]
   },
   {
-    "@id": "_:n1136b3ffda044e69a86ea8be2d233e83b2",
+    "@id": "_:n9fcd0995215240aeb263e078af472f71b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"
@@ -147,15 +141,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia Project",
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

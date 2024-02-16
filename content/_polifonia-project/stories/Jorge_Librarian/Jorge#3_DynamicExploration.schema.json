@@ -1,18 +1,18 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Jorge",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Jorge#3_DynamicExploration",
+    "@id": "http://w3id.org/polifonia/ecosystem/Jorge%233_DynamicExploration",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
       "http://w3id.org/polifonia/ecosystem/Story"
@@ -33,10 +33,10 @@
         "@value": "Jorge#2_FindSimilarScores"
       },
       {
-        "@value": "Jorge accesses to a part of the collection and is overwhelmed by the number of scores and their heterogeneity."
+        "@value": "Jorge#4_LinkToSources"
       },
       {
-        "@value": "Jorge#4_LinkToSources"
+        "@value": "Jorge accesses to a part of the collection and is overwhelmed by the number of scores and their heterogeneity."
       },
       {
         "@value": "Jorge#1_OrganizeMyLibrary"
@@ -50,13 +50,13 @@
         "@id": "http://w3id.org/polifonia/ecosystem/WP1"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
-      },
-      {
         "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
       }
     ],
     "https://schema.org/title": [
@@ -67,21 +67,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Jorge",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

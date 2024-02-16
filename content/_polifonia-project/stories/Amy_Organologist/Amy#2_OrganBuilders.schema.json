@@ -6,7 +6,19 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Amy#2_OrganBuilders",
+    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Amy%232_OrganBuilders",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -43,18 +55,6 @@
         "@language": "en",
         "@value": "Organ Builders"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

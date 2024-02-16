@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -51,9 +51,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   }
 ]

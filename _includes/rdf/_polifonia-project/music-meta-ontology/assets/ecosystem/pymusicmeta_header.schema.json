@@ -1,29 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/pymusicmeta",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -68,7 +44,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:n31bd430acb8940e2837b60bd23a7353ab1"
+        "@id": "_:nbd1ce280a1b04bb18cf7f67e20d252a9b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -108,12 +84,12 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n31bd430acb8940e2837b60bd23a7353ab2"
+        "@id": "_:nbd1ce280a1b04bb18cf7f67e20d252a9b2"
       }
     ],
     "https://schema.org/subjectOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/"
+        "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F"
       }
     ],
     "https://schema.org/title": [
@@ -129,7 +105,7 @@
     ]
   },
   {
-    "@id": "_:n31bd430acb8940e2837b60bd23a7353ab1",
+    "@id": "_:nbd1ce280a1b04bb18cf7f67e20d252a9b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -145,7 +121,7 @@
     ]
   },
   {
-    "@id": "_:n31bd430acb8940e2837b60bd23a7353ab2",
+    "@id": "_:nbd1ce280a1b04bb18cf7f67e20d252a9b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -163,7 +139,37 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -172,12 +178,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/music-meta/",
-    "@type": [
-      "https://schema.org/HowTo"
     ]
   }
 ]

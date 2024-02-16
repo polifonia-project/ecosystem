@@ -1,24 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz#2_MusicalSocialNetwork",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz%232_MusicalSocialNetwork",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -44,16 +26,16 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
-      },
-      {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP4"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -64,9 +46,27 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {

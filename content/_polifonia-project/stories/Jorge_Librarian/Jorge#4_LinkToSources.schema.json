@@ -1,30 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Jorge",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Jorge#4_LinkToSources",
+    "@id": "http://w3id.org/polifonia/ecosystem/Jorge%234_LinkToSources",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -39,10 +15,10 @@
         "@value": "Jorge#3_DynamicExploration"
       },
       {
-        "@value": "Jorge#1_OrganizeMyLibrary"
+        "@value": "Jorge#2_FindSimilarScores"
       },
       {
-        "@value": "Jorge#2_FindSimilarScores"
+        "@value": "Jorge#1_OrganizeMyLibrary"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/Jorge"
@@ -50,13 +26,13 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP1"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP3"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
@@ -73,6 +49,30 @@
     "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Jorge",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

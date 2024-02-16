@@ -1,18 +1,12 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Mark",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://w3id.org/polifonia/ontology/tunes/",
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Ftunes%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
       "http://purl.org/cerif/frapo/MaterialOutput"
@@ -25,10 +19,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
       },
       {
-        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       },
       {
         "@value": "Peter van Kranenburg <https://github.com/pvankranenburg>"
@@ -59,7 +53,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:n25feb9fce5964cd28ed53d6f7bdf1c76b1"
+        "@id": "_:nda3300ce6ed34135820db9af3a15e797b1"
       }
     ],
     "https://schema.org/image": [
@@ -80,10 +74,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
       },
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
       },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/TUNES"
@@ -96,7 +90,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n25feb9fce5964cd28ed53d6f7bdf1c76b2"
+        "@id": "_:nda3300ce6ed34135820db9af3a15e797b2"
       }
     ],
     "https://schema.org/title": [
@@ -112,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:n25feb9fce5964cd28ed53d6f7bdf1c76b1",
+    "@id": "_:nda3300ce6ed34135820db9af3a15e797b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -128,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n25feb9fce5964cd28ed53d6f7bdf1c76b2",
+    "@id": "_:nda3300ce6ed34135820db9af3a15e797b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -152,9 +146,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@id": "http://w3id.org/polifonia/ecosystem/Mark",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

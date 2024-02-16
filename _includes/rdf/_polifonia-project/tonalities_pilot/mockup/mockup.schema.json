@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/tonalities-mockup",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -105,12 +99,12 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nab9195b5449f4de786927bb781049d50b1"
+        "@id": "_:neda09c0ae24745d19043e2ad8a7c45c8b1"
       }
     ],
     "https://schema.org/review": [
       {
-        "@id": "http://w3id.org/polifonia/ecosystem/https://github.com/polifonia-project/tonalities_pilot/tree/main/validation/interface"
+        "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Ftonalities_pilot%2Ftree%2Fmain%2Fvalidation%2Finterface"
       }
     ],
     "https://schema.org/supportingData": [
@@ -137,7 +131,7 @@
     ]
   },
   {
-    "@id": "_:nab9195b5449f4de786927bb781049d50b1",
+    "@id": "_:neda09c0ae24745d19043e2ad8a7c45c8b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/tonalities_pilot/tree/main/mockup"
@@ -155,24 +149,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https://github.com/polifonia-project/tonalities_pilot/tree/main/validation/interface",
-    "@type": [
-      "https://schema.org/Review"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -182,6 +158,30 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Ftonalities_pilot%2Ftree%2Fmain%2Fvalidation%2Finterface",
+    "@type": [
+      "https://schema.org/Review"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
