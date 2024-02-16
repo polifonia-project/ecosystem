@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes",
     "@type": [
       "https://schema.org/HowTo"
@@ -46,7 +40,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:nc55974c447404a0082a390408765e560b1"
+        "@id": "_:na27a7f3ac53a4a10a5a745587e4520a7b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -69,7 +63,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nc55974c447404a0082a390408765e560b2"
+        "@id": "_:na27a7f3ac53a4a10a5a745587e4520a7b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -113,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:nc55974c447404a0082a390408765e560b1",
+    "@id": "_:na27a7f3ac53a4a10a5a745587e4520a7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -129,7 +123,7 @@
     ]
   },
   {
-    "@id": "_:nc55974c447404a0082a390408765e560b2",
+    "@id": "_:na27a7f3ac53a4a10a5a745587e4520a7b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
@@ -144,6 +138,12 @@
       {
         "@value": "2022/05/12"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {

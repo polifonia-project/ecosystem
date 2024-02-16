@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/folk_ngram_analysis",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Repository",
@@ -41,12 +47,6 @@
         "@language": "en",
         "@value": "FoNN -- Folk N-gram aNalysis"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
