@@ -40,3 +40,6 @@ polifonia-project/bells-ontology:branches:main
 polifonia-project/pattern-exploration-gui:branches:main
 polifonia-project/pattern-explorations-backend:branches:main
 polifonia-project/portal:branches:main
+polifonia-project/tonalities_pilot:branches:main
+polifonia-project/music-analysis-ontology:branches:main
+
