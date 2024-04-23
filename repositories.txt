@@ -44,5 +44,7 @@ polifonia-project/tonalities_pilot:branches:main
 polifonia-project/music-analysis-ontology:branches:main
 polifonia-project/organs-knowledge-graph:branches:main
 polifonia-project/data-wanderings:branches:main
+polifonia-project/pipe-organ-pathways:branches:main
+
 
 
