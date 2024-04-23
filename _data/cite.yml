@@ -30,6 +30,10 @@ choco-dataset:
   apa: ''
   bibtex: ''
   id: choco-dataset
+choco-kg:
+  apa: ''
+  bibtex: ''
+  id: choco-kg
 choco-software:
   apa: ''
   bibtex: ''
@@ -448,6 +452,21 @@ pitchcontext:
     abstractNote={Library for melody analysis based on pitch context vectors.}, publisher={Zenodo},
     author={Van Kranenburg, Peter and Daga, Enrico}, year={2023}, month={Jun} }'
   id: pitchcontext
+polifonia-web-portal:
+  apa: 'giuliarenda, marcograsso, &amp; marilenadaquino. (2024). <i>polifonia-project/portal:
+    v1.0.0</i> (Latest) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.10454048'
+  bibtex: ' @book{giuliarenda_marcograsso_marilenadaquino_2024, title={polifonia-project/portal:
+    v1.0.0}, url={https://zenodo.org/doi/10.5281/zenodo.10454048}, DOI={10.5281/ZENODO.10454048},
+    abstractNote={The Polifonia Web portal is the main entry point into the extensive
+    musical heritage produced by Polifonia. It is targeted to enthusiasts, scholars,
+    musicians, and educators, and facilitates exploration of a varied spectrum of
+    musical Linked Data. Key functionalities of the portal include text search and
+    on-demand insights. The web portal currently ingests a selection of pilot datasets
+    and allows their exploration via bespoke user journeys designed to foster serendipitous
+    discovery. This is the first official release of the prototype that include the
+    reconciliation process.}, publisher={Zenodo}, author={giuliarenda and marcograsso
+    and marilenadaquino}, year={2024}, month={Jan} }'
+  id: polifonia-web-portal
 pymusicmeta:
   apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
     <i>Polifonia Ontology Network (PON)</i> (Version v1.0). Zenodo. https://doi.org/10.5281/ZENODO.7919970

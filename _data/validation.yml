@@ -167,6 +167,41 @@ content/_polifonia-project/documentary-evidence-benchmark/README.md:
 content/_polifonia-project/external-components/components/endpoints/data-open.md:
   error: []
   warning: []
+content/_polifonia-project/external-components/components/facets-search-engine.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - "Key 'bibliography' error:\n{'main-publication': ['Zhu, T.; Fournier-S\u2019\
+      niehotta, R.; Rigaux, P.; Travers, N., A Framework for Content-Based Search\
+      \ in Large Music Collections (https://www.mdpi.com/2504-2289/6/1/23). Big Data\
+      \ Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023']} should be\
+      \ instance of 'list'"
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - "{'main-publication': ['Zhu, T.; Fournier-S\u2019niehotta, R.; Rigaux, P.;\
+        \ Travers, N., A Framework for Content-Based Search in Large Music Collections\
+        \ (https://www.mdpi.com/2504-2289/6/1/23). Big Data Cogn. Comput. 2022, 6,\
+        \ 23. https://doi.org/10.3390/bdcc6010023']} should be instance of 'list'"
+      errors:
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Components should have an associated bibliography
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - null
+      - "{'main-publication': ['Zhu, T.; Fournier-S\u2019niehotta, R.; Rigaux, P.;\
+        \ Travers, N., A Framework for Content-Based Search in Large Music Collections\
+        \ (https://www.mdpi.com/2504-2289/6/1/23). Big Data Cogn. Comput. 2022, 6,\
+        \ 23. https://doi.org/10.3390/bdcc6010023']} should be instance of 'list'"
+      errors:
+      - null
+      - null
+      - Components should have an associated bibliography
 content/_polifonia-project/external-components/components/led.md:
   error: []
   warning: []
@@ -294,41 +329,6 @@ content/_polifonia-project/external-components/components/midi2vec.md:
       - null
       - null
   warning: []
-content/_polifonia-project/external-components/components/neuma-search-engine.md:
-  error:
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - "Key 'bibliography' error:\n{'main-publication': ['Zhu, T.; Fournier-S\u2019\
-      niehotta, R.; Rigaux, P.; Travers, N., A Framework for Content-Based Search\
-      \ in Large Music Collections (https://www.mdpi.com/2504-2289/6/1/23). Big Data\
-      \ Cogn. Comput. 2022, 6, 23. https://doi.org/10.3390/bdcc6010023']} should be\
-      \ instance of 'list'"
-    state:
-      autos:
-      - 'Key ''bibliography'' error:'
-      - "{'main-publication': ['Zhu, T.; Fournier-S\u2019niehotta, R.; Rigaux, P.;\
-        \ Travers, N., A Framework for Content-Based Search in Large Music Collections\
-        \ (https://www.mdpi.com/2504-2289/6/1/23). Big Data Cogn. Comput. 2022, 6,\
-        \ 23. https://doi.org/10.3390/bdcc6010023']} should be instance of 'list'"
-      errors:
-      - null
-      - null
-  warning:
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - Components should have an associated bibliography
-    state:
-      autos:
-      - 'Key ''bibliography'' error:'
-      - null
-      - "{'main-publication': ['Zhu, T.; Fournier-S\u2019niehotta, R.; Rigaux, P.;\
-        \ Travers, N., A Framework for Content-Based Search in Large Music Collections\
-        \ (https://www.mdpi.com/2504-2289/6/1/23). Big Data Cogn. Comput. 2022, 6,\
-        \ 23. https://doi.org/10.3390/bdcc6010023']} should be instance of 'list'"
-      errors:
-      - null
-      - null
-      - Components should have an associated bibliography
 content/_polifonia-project/external-components/components/ramose.md:
   error: []
   warning: []
@@ -447,54 +447,7 @@ content/_polifonia-project/external-components/components/tonalities-app.md:
       errors:
       - null
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Key ''release-number'' error:
-
-      2.1 should be instance of ''str'''
-    state:
-      autos:
-      - 'Key ''release-number'' error:'
-      - 2.1 should be instance of 'str'
-      errors:
-      - null
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - "Key 'bibliography' error:\n{'main-publication': ['Thomas Bottini, Christophe\
-      \ Guillotel-Nothmann, Marco Gurrieri, F\xE9lix Poullet-Pag\xE8s. Tonalities:\
-      \ a Collaborative Annotation Interface for Music Analysis. Musical Heritage\
-      \ Knowledge Graphs workshop during the 22nd International Semantic Web Conference\
-      \ 2022, Oct 2022, Hangzhou, China. \u27E8hal-03923731\u27E9']} should be instance\
-      \ of 'list'"
-    state:
-      autos:
-      - 'Key ''bibliography'' error:'
-      - "{'main-publication': ['Thomas Bottini, Christophe Guillotel-Nothmann, Marco\
-        \ Gurrieri, F\xE9lix Poullet-Pag\xE8s. Tonalities: a Collaborative Annotation\
-        \ Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop\
-        \ during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou,\
-        \ China. \u27E8hal-03923731\u27E9']} should be instance of 'list'"
-      errors:
-      - null
-      - null
-  warning:
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - Components should have an associated bibliography
-    state:
-      autos:
-      - 'Key ''bibliography'' error:'
-      - null
-      - "{'main-publication': ['Thomas Bottini, Christophe Guillotel-Nothmann, Marco\
-        \ Gurrieri, F\xE9lix Poullet-Pag\xE8s. Tonalities: a Collaborative Annotation\
-        \ Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop\
-        \ during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou,\
-        \ China. \u27E8hal-03923731\u27E9']} should be instance of 'list'"
-      errors:
-      - null
-      - null
-      - Components should have an associated bibliography
+  warning: []
 content/_polifonia-project/folk_ngram_analysis/README.md:
   error:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -533,7 +486,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f30cdd2da60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -579,7 +532,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f30cdd2da60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -617,7 +570,7 @@ content/_polifonia-project/folk_ngram_analysis/tune_family_annotations/README.md
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f30cdd2da60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -959,6 +912,78 @@ content/_polifonia-project/meetups_pilot/README_time_expressions.md:
       - 'Missing key: ''bibliography'''
       errors:
       - null
+content/_polifonia-project/music-analysis-ontology/annotationModels/annotationModels.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''resource'' error:
+
+      [''https://github.com/polifonia-project/music-analysis-ontology/tree/main/annotationModels'']
+      should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''resource'' error:'
+      - '[''https://github.com/polifonia-project/music-analysis-ontology/tree/main/annotationModels'']
+        should be instance of ''str'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
+        did not validate 'CC BY-NC-SA 4.0'
+      - null
+      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning: []
+content/_polifonia-project/music-analysis-ontology/theoreticalModels/theoreticalModels.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''resource'' error:
+
+      [''https://github.com/polifonia-project/music-analysis-ontology/tree/main/theoreticalModels'']
+      should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''resource'' error:'
+      - '[''https://github.com/polifonia-project/music-analysis-ontology/tree/main/theoreticalModels'']
+        should be instance of ''str'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
+        did not validate 'CC BY-NC-SA 4.0'
+      - null
+      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning: []
 content/_polifonia-project/music-meta-ontology/assets/ecosystem/meta_ontology_header.md:
   error:
   - !!python/object/apply:schema.SchemaError
@@ -1084,7 +1109,21 @@ content/_polifonia-project/patterns-knowledge-graph/P2KG-Pipeline/readme.md:
       - null
   warning: []
 content/_polifonia-project/patterns-knowledge-graph/README.md:
-  error: []
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Type must be one of: Project, WorkingGroup, WorkPackage, Task, UseCase, Pilot,
+      Container'
+    state:
+      autos:
+      - 'Key ''type'' error:'
+      - null
+      - <lambda>('KnowledgeGraph') should evaluate to True
+      errors:
+      - null
+      - null
+      - 'Type must be one of: Project, WorkingGroup, WorkPackage, Task, UseCase, Pilot,
+        Container'
   warning:
   - !!python/object/apply:schema.SchemaError
     args:
@@ -1133,6 +1172,9 @@ content/_polifonia-project/pitchcontext/README.md:
 content/_polifonia-project/polifonia-lexicon/README.md:
   error: []
   warning: []
+content/_polifonia-project/portal/README.md:
+  error: []
+  warning: []
 content/_polifonia-project/registry_app/ecosystem/container.md:
   error: []
   warning:
@@ -1166,7 +1208,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f30cdd2da60>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True
@@ -2666,8 +2708,239 @@ content/_polifonia-project/textual-corpus-population/README.md:
       - null
       - null
       - Components should have an associated bibliography
+content/_polifonia-project/tonalities_pilot/annotations/annotations.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''resource'' error:
+
+      [''https://github.com/polifonia-project/tonalities_pilot/tree/main/annotations'']
+      should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''resource'' error:'
+      - '[''https://github.com/polifonia-project/tonalities_pilot/tree/main/annotations'']
+        should be instance of ''str'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''release-number'' error:
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''release-number'' error:'
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
+        did not validate 'CC BY-NC-SA 4.0'
+      - null
+      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning: []
 content/_polifonia-project/tonalities_pilot/mockup/mockup.md:
   error: []
+  warning: []
+content/_polifonia-project/tonalities_pilot/scores/scores.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''resource'' error:
+
+      [''https://github.com/polifonia-project/tonalities_pilot/tree/main/scores'']
+      should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''resource'' error:'
+      - '[''https://github.com/polifonia-project/tonalities_pilot/tree/main/scores'']
+        should be instance of ''str'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
+        did not validate 'CHORAL PUBLIC DOMAIN LIBRARY LICENSE'
+      - null
+      - <lambda>('CHORAL PUBLIC DOMAIN LIBRARY LICENSE') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  warning: []
+content/_polifonia-project/tonalities_pilot/scripts/alignment-import-export/alignment-import-export.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''resource'' error:
+
+      [''https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/alignment-import-export'']
+      should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''resource'' error:'
+      - '[''https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/alignment-import-export'']
+        should be instance of ''str'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
+        did not validate 'CC BY-NC-SA 4.0'
+      - null
+      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>),
+        Optional(''extends''): Or(<class ''str''>, <class ''list''>), Optional(''reuses''):
+        Or(<class ''str''>, <class ''list''>), Optional(''serves''): Or(<class ''str''>,
+        <class ''list''>), Optional(''produces''): Or(<class ''str''>, <class ''list''>),
+        Optional(''reused-in''): Or(<class ''str''>, <class ''list''>), Optional(''generated-by''):
+        Or(<class ''str''>, <class ''list''>)})) did not validate ''tonalities-scores'''
+      - null
+      - '''tonalities-scores'' should be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''bibliography'' error:
+
+      Or({Optional(''published-in''): Or(<class ''str''>, <class ''list''>), Optional(''main-publication''):
+      <class ''str''>, Optional(''publication''): Or(<class ''str''>, <class ''list''>),
+      Optional(''main-report''): <class ''str''>, Optional(''deliverable-document''):
+      Or(<class ''str''>, <class ''list''>)}) did not validate ''Tonalities Alignment
+      (Import/Export) <10.5281/zenodo.10974193>''
+
+      ''Tonalities Alignment (Import/Export) <10.5281/zenodo.10974193>'' should be
+      instance of ''dict'''
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - 'Or({Optional(''published-in''): Or(<class ''str''>, <class ''list''>), Optional(''main-publication''):
+        <class ''str''>, Optional(''publication''): Or(<class ''str''>, <class ''list''>),
+        Optional(''main-report''): <class ''str''>, Optional(''deliverable-document''):
+        Or(<class ''str''>, <class ''list''>)}) did not validate ''Tonalities Alignment
+        (Import/Export) <10.5281/zenodo.10974193>'''
+      - '''Tonalities Alignment (Import/Export) <10.5281/zenodo.10974193>'' should
+        be instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
+  warning: []
+content/_polifonia-project/tonalities_pilot/scripts/meihead-parser/meihead-parser.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''resource'' error:
+
+      [''https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/meihead-parser'']
+      should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''resource'' error:'
+      - '[''https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/meihead-parser'']
+        should be instance of ''str'''
+      errors:
+      - null
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Specify at least one licence from the REECO Annotation Schema reference.
+
+      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f36cb1abca0>))
+        did not validate 'CC BY-NC-SA 4.0'
+      - null
+      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Specify at least one licence from the REECO Annotation Schema reference.
+      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''bibliography'' error:
+
+      Or({Optional(''published-in''): Or(<class ''str''>, <class ''list''>), Optional(''main-publication''):
+      <class ''str''>, Optional(''publication''): Or(<class ''str''>, <class ''list''>),
+      Optional(''main-report''): <class ''str''>, Optional(''deliverable-document''):
+      Or(<class ''str''>, <class ''list''>)}) did not validate ''Tonalities Meihead
+      Parser Script <10.5281/zenodo.10974021>''
+
+      ''Tonalities Meihead Parser Script <10.5281/zenodo.10974021>'' should be instance
+      of ''dict'''
+    state:
+      autos:
+      - 'Key ''bibliography'' error:'
+      - 'Or({Optional(''published-in''): Or(<class ''str''>, <class ''list''>), Optional(''main-publication''):
+        <class ''str''>, Optional(''publication''): Or(<class ''str''>, <class ''list''>),
+        Optional(''main-report''): <class ''str''>, Optional(''deliverable-document''):
+        Or(<class ''str''>, <class ''list''>)}) did not validate ''Tonalities Meihead
+        Parser Script <10.5281/zenodo.10974021>'''
+      - '''Tonalities Meihead Parser Script <10.5281/zenodo.10974021>'' should be
+        instance of ''dict'''
+      errors:
+      - null
+      - null
+      - null
   warning: []
 content/_polifonia-project/tunes-ontology/header.md:
   error:

@@ -1,0 +1,71 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/tonalities-theoreticalModels",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Tonalities ontologies for theoretical models"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Guillotel-Nothmann, C., Gurrieri, M., & Lazzari, N. (2024). Tonalities ontologies for theoretical models. Zenodo. https://doi.org/10.5281/zenodo.10940238"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/b7ccd467ddafb8e83e8e24d5102f38b0#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/b7ccd467ddafb8e83e8e24d5102f38b0#/resource"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "tonalities-theoreticalModels"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Tonalities ontologies for theoretical models"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC BY-NC-SA 4.0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tonalities Theoretical Models"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

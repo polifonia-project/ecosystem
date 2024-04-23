@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ralph",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Ralph%231_WordsAndMusic",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
@@ -34,12 +40,6 @@
         "@language": "en",
         "@value": "Words and Music"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ralph",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {

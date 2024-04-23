@@ -20,16 +20,17 @@ credits:
 
 
 
-# FONN - FOlk _N_-gram aNalysis 
+# FoNN - FOlk _N_-gram aNalysis 
 
 - Targeting the goals of [Polifonia](https://polifonia-project.eu) WP3, FoNN contains tools to extract feature sequence data, extract musical patterns, and detect similarity within a symbolic music corpus. Although some of FoNN's functionality is tailored to Western European folk music, the software can be used on any corpus in a compatible symbolic representation format (MIDI, ABC Notation, **kern, MusicXML, or any other format compatible with the [music21](http://web.mit.edu/music21/) Python library).
 
-The repo contains a fully functional work-in-progress version of the software, along with two test music datasets: the Meertens Annotated Corpus (MTC-ANN) of Dutch folk songs and The Session corpus of Irish traditional folk dance tunes.
-Three demo notebooks are supplied in ```./FoNN/demo_notebooks``` directory. These demos illustrate FoNN's feature extraction, pattern extraction, and similarity search tools as applied to the MTC-ANN corpus: 
+The repo contains a fully functional version of the software, along with two test music datasets: the Meertens Annotated Corpus (MTC-ANN) of Dutch folk songs and The Session corpus of Irish traditional folk dance tunes.
+Four demo notebooks are supplied in ```./FoNN/demo_notebooks``` directory. These demos illustrate FoNN's feature extraction, pattern extraction, and similarity search tools as applied to the MTC-ANN corpus: 
 
 - [feature_extraction_demo.ipynb](https://github.com/polifonia-project/folk_ngram_analysis/blob/master/demo_notebooks/feature_extraction_demo.ipynb): Reads the symbolic MTC-ANN music corpus from **kern format; extracts feature sequence data and writes to csv at ```./FoNN/mtc_ann_corpus/feature_sequence_data``` 
-- [pattern_extraction_demo.ipynb](https://github.com/polifonia-project/folk_ngram_analysis/master/demo_notebooks/pattern_extraction_demo.ipynb): Reads the feature sequence data outputted by the above notebook, extracts unique feature patterns and counts their occurrences per tune across the corpus. Writes output to ```./FoNN/mtc_ann_corpus/pattern_corpus```.
-- [similarity_search_demo.ipynb](https://github.com/polifonia-project/folk_ngram_analysis/blob/master/demo_notebooks/similarity_search_demo.ipynb): Using the data outputted by the notebook above, for a user-selectable query tune, this demo detects similar tunes across the corpus   via FoNN's three novel pattern-based similarity metrics. Writes output to ```./FoNN/mtc_ann_corpus/similarity_results```
+- [setup_pattern_corpus_demo.ipynb](https://github.com/polifonia-project/folk_ngram_analysis/master/demo_notebooks/setup_pattern_corpus_demo.ipynb): Reads the feature sequence data outputted by the above notebook, extracts unique feature patterns and counts their occurrences per tune across the corpus. Writes output to ```./FoNN/mtc_ann_corpus/pattern_corpus```.
+- [setup_tfidf_similarity_demo.ipynb](https://github.com/polifonia-project/folk_ngram_analysis/master/demo_notebooks/setup_tfidf_similarity_demo.ipynb): Reads the feature sequence data outputted by ```./FoNN/mtc_ann_corpus/pattern_corpus``` notebook, calculates TF-IDF values for every pattern occurrence in each tune in the corpus. Calculates TF-IDF vectors for each tune, using which a pairwise Cosine similarity matrix is calculated. Writes output to ```./FoNN/mtc_ann_corpus/pattern_corpus```.
+- [similarity_search_demo.ipynb](https://github.com/polifonia-project/folk_ngram_analysis/blob/master/demo_notebooks/similarity_search_demo.ipynb): Using the data outputted by the notebooks above, for a user-selectable query tune, this demo detects similar tunes across the corpus via FoNN's three novel pattern-based similarity metrics. Writes output to ```./FoNN/mtc_ann_corpus/similarity_results```
 
 The repo also contains a data extraction and processing pipline to generate inputs for Polifonia [Patterns Knowledge Graph (KG)](https://github.com/polifonia-project/patterns-knowledge-graph). Two Jupyter notebooks which run this pipeline are stored in ```./FoNN/pattern_knowledge_graph_pipeline``` directory:
 - ```./FoNN/pattern_knowledge_graph_pipeline/patterns_kg_data_extraction.ipynb``` runs FoNN's pattern extraction tools to extract corpus data.
@@ -56,11 +57,13 @@ NOTE: Deliverable 3.4 of the Polifonia project describes the context and researc
    * 2.1. For the associated *Ceol Rince na hÉireann* corpus of 1,195 monophonic Irish traditional dance tunes in ABC and MIDI formats, please see: [./cre_corpus/readme.md](https://github.com/polifonia-project/folk_ngram_analysis/blob/master/cre_corpus/readme.md).
 3. **Root Note Detection**
    * 3.1. Work-in-progress on automatic detection of musical root for each tune in the corpus, please see: [/.root_key_detection/README.md](https://github.com/polifonia-project/folk_ngram_analysis/blob/master/root_note_detection/README.md)
+4. **Tune family annotations**
+   * 4.1. Tune family membership annotation for 10 families containing a total of 314 tunes from *The Session* corpus. This annotation is based on an extensive literature review of musicological research on Irish traditional music, documented in *Tune family detection in a corpus of Irish traditional dance tunes*, Danny Diamond, 2024. MSc Thesis, University of Galway. In preparation.
 
 
 ## FoNN - Requirements
 
-To ensure FONN runs correctly, please navigate to local repo root directory and run the following in Terminal:
+To ensure FoNN runs correctly, please navigate to local repo root directory and run the following in Terminal:
 
 ``` pip install -r requirements.txt ```
 
@@ -115,9 +118,9 @@ NOTE: *The Session* and *CRÉ* corpora are provided in both ABC Notation and MID
 
 1.2. **Extracting patterns and counting their occurrences:**
 
-- For a user-selected musical feature, ```/FoNN/demo_notebooks/pattern_extraction_demo.ipynb``` uses FoNN.pattern_extraction.NgramPatternCorpus class to extract all unique *n*-gram patterns from the input corpus. The default feature is 'diatonic_pitch_class' but other features can be selected by the user from the list above in Section 1.1. 
+- For a user-selected musical feature, ```/FoNN/demo_notebooks/setup_pattern_corpus_demo.ipynb``` uses FoNN.pattern_extraction.NgramPatternCorpus class to extract all unique *n*-gram patterns from the input corpus for a user-defined *n* value or range. Allowable *n* values are 3 <= *n* <= 16. The default feature is 'diatonic_pitch_class' but other features can be selected by the user from the list above in Section 1.1. The default 
 - Default input data is the MTC-ANN corpus feature sequence data at ```./FoNN/mtc_ann_corpus/feature_sequence_data```, but pattern extraction can be applied to any other symbolic corpus which has first been processed via FoNN's feature extraction pipeline as described in section 1.1.
-- A pattern is defined as a subsequence of length between 3 and 12 elements which occurs at least once in the corpus. All patterns following this definition which occur in the corpus are stored in an array. Their occurrences in every tune in the corpus are counted and stored in a sparse matrix. These counts are weighted and converted to TF-IDF values to supress frequent-but-insignificant 'stop word' patterns. These outputs are the core input requirements for FoNN's similarity search tool; they are stored in ```./FoNN/[corpus name]/pattern_corpus``` dir.
+- A pattern is defined as a subsequence containing *n* elements which occurs at least once in the corpus. All patterns following this definition which occur in the corpus are stored in an array. Their occurrences in every tune in the corpus are counted and stored in a sparse matrix. These counts are weighted and converted to TF-IDF values to supress frequent-but-insignificant 'stop word' patterns. These outputs are the core input requirements for FoNN's similarity search tool; they are stored in ```./FoNN/[corpus name]/pattern_corpus``` dir.
 
 
 1.3. **Pattern-based tune similarity**
@@ -125,8 +128,7 @@ NOTE: *The Session* and *CRÉ* corpora are provided in both ABC Notation and MID
 - The ```/FoNN/demo_notebooks/similarity_search_demo.ipynb``` notebook contains sample similarity searches for a user-selected query tune from the MTC-ANN corpus via FoNN.similarity_search.
 - Results are returned which rank other tunes in the corpus by their similarity to the candidate tune. These are obtained via FoNN's three novel metrics: 'motif', 'incipit and cadence', and 'TFIDF'.
 1. 'motif':
-First a representative pattern is extracted from the query tune via maximal tfidf. Similar patterns to this search term pattern are detected via Levenshtein distance, with only one single edit permitted. The number of similar patterns per tune in the corpus is calculated, normalised by tune length, and returned as a
-tune-similarity metric.
+First representative patterns are extracted from the query tune via an automatically-calculated TF-IDF threshold based on the distribution of TF-IDF values for all unique pattern occurrences in the query tune. Patterns with TF-IDF values greater than the threshold are taken as representative of the query tune and retained for use as search terms. For each search term pattern, similar patterns across the corpus are detected via a custom-weighted Levenshtein distance. For every tune in the corpus, the number of similar pattern occurrences per tune is calculated and weighted by up to two novel musicologically-informed factors. These weighted count values are taken as a similarity score, and are returned in raw and normalised formats.
 2. 'incipit and_cadence':
 An extended version of a traditional musicological incipit search.
 Structurally-important incipit and cadence subsequences are extracted from all tunes in the corpus and
@@ -162,6 +164,11 @@ A classical IR baseline methodology: the Cosine similarity between TFIDF vectors
 
 Work-in-progress on automatic detection of musical root for each tune in the corpus. Please see: [/.root_key_detection/README.md](https://github.com/polifonia-project/folk_ngram_analysis/blob/master/root_note_detection/README.md).
   This component contains a jupyter notebook script that makes use of  ```cre_root_detection.csv```, which is a file containing pitch class values assigned to each piece of music in the corpus by the above-mentioned root-detection metrics outputted by ```setup_corpus.py```. From this input data, the script makes use of machine learning methods to classify the root note. The root note detection notebook can be accessed at [/.root_note_detection/root_note_detection.ipynb](https://github.com/polifonia-project/folk_ngram_analysis/blob/master/root_note_detection/root_note_detection.ipynb).
+
+## 4. Tune family annotations
+
+This component contains Tune family membership annotation for 10 families containing a total of 314 tunes from *The Session* corpus. This annotation is based on an extensive literature review of musicological research on Irish traditional music, documented in *Tune family detection in a corpus of Irish traditional dance tunes*, Danny Diamond, 2024. MSc Thesis, University of Galway. In preparation. The data is formatted as a csv file, where identifiers is a unique tune ID numer from *The Session* corpus, and tune_family is a string containing the tune family name.
+
   
 ##  Attribution
 
@@ -169,10 +176,10 @@ Work-in-progress on automatic detection of musical root for each tune in the cor
 
 If you use the code in this repository, please cite this software as follows: 
 ```
-@software{diamond_fonn_2022,
+@software{diamond_fonn_2024,
 	address = {Galway, Ireland},
-	title = {% raw %}{{{% endraw %}FONN} - {FOlk} {N}-gram {aNalysis}},
-	shorttitle = {% raw %}{{{% endraw %}FONN}},
+	title = {% raw %}{{{% endraw %}FoNN} - {FOlk} {N}-gram {aNalysis}},
+	shorttitle = {% raw %}{{{% endraw %}FoNN}},
 	url = {https://github.com/polifonia-project/folk_ngram_analysis},
 	publisher = {National University of Ireland, Galway},
 	author = {Diamond, Danny and Shahid, Abdul and McDermott, James},
@@ -181,4 +188,4 @@ If you use the code in this repository, please cite this software as follows:
 ```
 
 ## License
-This work is licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+The FoNN software toolkit is made available under MIT licence. Please see ```./FoNN/LICENSE.md``` for details.

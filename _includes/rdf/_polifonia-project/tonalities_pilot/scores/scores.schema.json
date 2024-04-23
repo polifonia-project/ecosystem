@@ -1,0 +1,80 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/tonalities-scores",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Corpus",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Corpora of MEI Files for Tonalities"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Guillotel-Nothmann, C., Gurrieri, M., & Greentree, M. (2024). List of MEI files displayed by Tonalities App [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10940070"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/4f1fc3e4a4db05511cd12b6525ff1c64#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/4f1fc3e4a4db05511cd12b6525ff1c64#/resource"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "tonalities-scores"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Corpora of MEI Files for Tonalities"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CHORAL PUBLIC DOMAIN LIBRARY LICENSE"
+      },
+      {
+        "@value": "CC BY-NC 4.0"
+      },
+      {
+        "@value": "CC BY-NC 2.5"
+      },
+      {
+        "@value": "CC-BY-SA 4.0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tonalities' Corpora"
+      }
+    ]
+  }
+]

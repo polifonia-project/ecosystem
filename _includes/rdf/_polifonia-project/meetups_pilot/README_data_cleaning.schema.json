@@ -1,14 +1,38 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -51,7 +75,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:n3fefb6f962ea4f7ab8200766d424fffab1"
+        "@id": "_:n1f321f76743344928cd9799ea077eb4db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -86,7 +110,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n3fefb6f962ea4f7ab8200766d424fffab2"
+        "@id": "_:n1f321f76743344928cd9799ea077eb4db2"
       }
     ],
     "https://schema.org/title": [
@@ -97,7 +121,7 @@
     ]
   },
   {
-    "@id": "_:n3fefb6f962ea4f7ab8200766d424fffab1",
+    "@id": "_:n1f321f76743344928cd9799ea077eb4db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -113,7 +137,7 @@
     ]
   },
   {
-    "@id": "_:n3fefb6f962ea4f7ab8200766d424fffab2",
+    "@id": "_:n1f321f76743344928cd9799ea077eb4db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -128,30 +152,6 @@
       {
         "@value": "20/07/2022"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]

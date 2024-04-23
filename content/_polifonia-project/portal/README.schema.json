@@ -1,0 +1,135 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-web-portal",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/WebApplication"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Source code of the Polifonia Portal web application"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Giulia Renda, Marco Grasso, and Marilena Daquino (2023). From ontology design to user-centred interfaces for music heritage. In Proceedings of AIUCD 2023. Preprint available at: https://arxiv.org/abs/2306.12973v1"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Giulia Renda <https://github.com/mondoboia>"
+      },
+      {
+        "@value": "Marilena Daquino <https://github.com/marilenadaquino>"
+      },
+      {
+        "@value": "Marco Grasso <https://github.com/marcograsso>"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://polifonia.disi.unibo.it/portal/"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "melody-software"
+      },
+      {
+        "@value": "musow-interface"
+      },
+      {
+        "@value": "polifonia-corpus-web-api"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "polifonia-web-portal"
+      },
+      {
+        "@id": "_:n5cf039dfc657465c9ed363792274becbb1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Source code of the Polifonia Portal web application"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "web-portal-prototypes"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Cc010Universal"
+      }
+    ],
+    "https://schema.org/supportingData": [
+      {
+        "@value": "musicbo-knowledge-graph"
+      },
+      {
+        "@value": "led"
+      },
+      {
+        "@value": "broadcast-concerts-knowledge-graph"
+      },
+      {
+        "@value": "musow-dataset"
+      },
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "bells-knowledge-graph"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Polifonia Web Portal"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://polifonia.disi.unibo.it/portal/"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5cf039dfc657465c9ed363792274becbb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.10454048"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]
