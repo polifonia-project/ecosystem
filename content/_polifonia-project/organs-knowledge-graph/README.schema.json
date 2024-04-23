@@ -1,0 +1,118 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/organs-knowledge-graph",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Knowledge Graph of the ORGANS pilot"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "organs-knowledge-graph"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Paul#1_OrganComparison"
+      },
+      {
+        "@value": "Frank#1_OrganKnowledge"
+      },
+      {
+        "@value": "Paul#2_ResourceReliability"
+      },
+      {
+        "@value": "The Knowledge Graph of the ORGANS pilot"
+      },
+      {
+        "@value": "Amy#1_OrganTrends"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Frank"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Amy"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/Paul"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/ORGANS"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "ORGANS Knowledge Graph"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]

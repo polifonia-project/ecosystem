@@ -1,5 +1,23 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/bells-knowledge-graph",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -13,12 +31,12 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/a48bc97c27f8c8123d2c3c1321a39366#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/25e9bbf121d3f248da3b09ea1df3ec70#/credits"
       }
     ],
     "https://schema.org/hasPart": [
       {
-        "@value": "Schede catalografiche delle campane della Regione Liguria http://dati.beniculturali.it/resource/datasetCampaneLiguria"
+        "@value": "Schede catalografiche delle campane della Regione Liguria [http://dati.beniculturali.it/resource/datasetCampaneLiguria](https://dati.beniculturali.it/lodview/resource/datasetCampaneLiguria.html)"
       }
     ],
     "https://schema.org/identifier": [
@@ -32,6 +50,9 @@
       }
     ],
     "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/BELLS"
+      },
       {
         "@id": "http://w3id.org/polifonia/ecosystem/WP4"
       },
@@ -49,18 +70,6 @@
         "@language": "en",
         "@value": "BELLS Knowledge Graph"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

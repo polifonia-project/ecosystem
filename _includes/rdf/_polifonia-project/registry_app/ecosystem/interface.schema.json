@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -54,7 +54,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:n7f29f84f8e804d5fb23e87650dc93e3db1"
+        "@id": "_:n860e24141a464980b667ff9088f24801b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -85,7 +85,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7f29f84f8e804d5fb23e87650dc93e3db2"
+        "@id": "_:n860e24141a464980b667ff9088f24801b2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -106,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:n7f29f84f8e804d5fb23e87650dc93e3db1",
+    "@id": "_:n860e24141a464980b667ff9088f24801b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n7f29f84f8e804d5fb23e87650dc93e3db2",
+    "@id": "_:n860e24141a464980b667ff9088f24801b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"

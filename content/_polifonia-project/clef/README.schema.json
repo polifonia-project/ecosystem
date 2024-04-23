@@ -45,7 +45,7 @@
         "@value": "clef-software"
       },
       {
-        "@id": "_:n5766e72d9a9743d086c78cb6020a9fb2b1"
+        "@id": "_:nd13d4ead5f9c49d082289d066229dd99b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -68,7 +68,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n5766e72d9a9743d086c78cb6020a9fb2b2"
+        "@id": "_:nd13d4ead5f9c49d082289d066229dd99b2"
       }
     ],
     "https://schema.org/title": [
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "@id": "_:n5766e72d9a9743d086c78cb6020a9fb2b1",
+    "@id": "_:nd13d4ead5f9c49d082289d066229dd99b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:n5766e72d9a9743d086c78cb6020a9fb2b2",
+    "@id": "_:nd13d4ead5f9c49d082289d066229dd99b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/clef/releases/tag/v1.0.2"

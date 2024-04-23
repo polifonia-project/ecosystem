@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fcometa%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
@@ -62,7 +50,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:n34d97da02ff84a35a0f92773fac5e840b1"
+        "@id": "_:nf374cf7573614f97997d038b7a239dd1b1"
       }
     ],
     "https://schema.org/image": [
@@ -102,7 +90,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n34d97da02ff84a35a0f92773fac5e840b2"
+        "@id": "_:nf374cf7573614f97997d038b7a239dd1b2"
       }
     ],
     "https://schema.org/title": [
@@ -118,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:n34d97da02ff84a35a0f92773fac5e840b1",
+    "@id": "_:nf374cf7573614f97997d038b7a239dd1b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n34d97da02ff84a35a0f92773fac5e840b2",
+    "@id": "_:nf374cf7573614f97997d038b7a239dd1b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -152,15 +140,27 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/Linka",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

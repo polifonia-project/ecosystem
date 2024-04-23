@@ -1,0 +1,41 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/laboratories-slides-italian",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Documentation",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Slides of laboratories"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "link-to-the-slides"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "laboratories-slides-italian"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Slides of laboratories"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Slides of laboratories"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "laboratories"
+      }
+    ]
+  }
+]
