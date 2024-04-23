@@ -1,0 +1,65 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/video-AT-30bnqiEc",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Tutorial",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Tutorial on Facets Output of Polifonia"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://www.youtube.com/watch?v=AT-30bnqiEc&t=1s"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "video-AT-30bnqiEc"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Tutorial on Facets Output of Polifonia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP6"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/FACETS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tutorial on Facets Output of Polifonia"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/video-VNqSzutgras",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Tutorial",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Tutorial on Meetups Output of Polifonia"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://www.youtube.com/watch?v=VNqSzutgras"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "video-VNqSzutgras"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Tutorial on Meetups Output of Polifonia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP6"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tutorial on Meetups Output of Polifonia"
+      }
+    ]
+  }
+]

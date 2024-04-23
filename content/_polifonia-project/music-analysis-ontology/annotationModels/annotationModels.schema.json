@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/tonalities-annotationModels",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
@@ -24,12 +30,12 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/6a9767b2c336b60e189c1e610c6ee026#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/788259028b123bf3c308a0bd562c65ab#/credits"
       }
     ],
     "https://schema.org/distribution": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/6a9767b2c336b60e189c1e610c6ee026#/resource"
+        "@id": "http://sparql.xyz/facade-x/data/788259028b123bf3c308a0bd562c65ab#/resource"
       }
     ],
     "https://schema.org/identifier": [
@@ -52,7 +58,7 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC BY-NC-SA 4.0"
+        "@value": "CC-BY-NC-SA_v4"
       }
     ],
     "https://schema.org/title": [
@@ -60,12 +66,6 @@
         "@language": "en",
         "@value": "Tonalities Annotation Models"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

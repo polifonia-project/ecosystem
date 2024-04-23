@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/laboratories-slides-italian",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Documentation",
@@ -24,6 +30,11 @@
     "https://schema.org/isBasedOn": [
       {
         "@value": "Slides of laboratories"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP6"
       }
     ],
     "https://schema.org/title": [

@@ -14,7 +14,7 @@ keywords:
   - "Metadata"
   - "Music analysis"
 licence:
-  - CC BY-NC-SA 4.0
+  - CC-BY-NC-SA_v4
 resource:
   - "https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/alignment-import-export"
 credits:

@@ -1,23 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/musow-interface",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -54,7 +36,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:n860e24141a464980b667ff9088f24801b1"
+        "@id": "_:nae16c75efe4142ef9470218567103474b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -85,7 +67,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n860e24141a464980b667ff9088f24801b2"
+        "@id": "_:nae16c75efe4142ef9470218567103474b2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -106,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:n860e24141a464980b667ff9088f24801b1",
+    "@id": "_:nae16c75efe4142ef9470218567103474b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:n860e24141a464980b667ff9088f24801b2",
+    "@id": "_:nae16c75efe4142ef9470218567103474b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"
@@ -137,6 +119,24 @@
       {
         "@value": "2023/05/16"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

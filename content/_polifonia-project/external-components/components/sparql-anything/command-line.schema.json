@@ -1,18 +1,24 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
-      "https://schema.org/HowTo"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -73,7 +79,7 @@
         "@value": "sparql-anything-cli"
       },
       {
-        "@id": "_:nb9a9f1277b504ed382c4367627f9cfbdb1"
+        "@id": "_:n9357d914ac384f6eacc8829345a91765b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -116,7 +122,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb9a9f1277b504ed382c4367627f9cfbdb2"
+        "@id": "_:n9357d914ac384f6eacc8829345a91765b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -140,7 +146,7 @@
     ]
   },
   {
-    "@id": "_:nb9a9f1277b504ed382c4367627f9cfbdb1",
+    "@id": "_:n9357d914ac384f6eacc8829345a91765b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -156,7 +162,7 @@
     ]
   },
   {
-    "@id": "_:nb9a9f1277b504ed382c4367627f9cfbdb2",
+    "@id": "_:n9357d914ac384f6eacc8829345a91765b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -174,21 +180,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
     "@type": [
       "https://schema.org/HowTo"
     ]

@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/tonalities-scores",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Corpus",
@@ -24,12 +18,12 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/4f1fc3e4a4db05511cd12b6525ff1c64#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/86969b0fde168f5983c038c862275ff1#/credits"
       }
     ],
     "https://schema.org/distribution": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/4f1fc3e4a4db05511cd12b6525ff1c64#/resource"
+        "@id": "http://sparql.xyz/facade-x/data/86969b0fde168f5983c038c862275ff1#/resource"
       }
     ],
     "https://schema.org/identifier": [
@@ -52,16 +46,10 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CHORAL PUBLIC DOMAIN LIBRARY LICENSE"
+        "@value": "CC-BY-NC_v4"
       },
       {
-        "@value": "CC BY-NC 4.0"
-      },
-      {
-        "@value": "CC BY-NC 2.5"
-      },
-      {
-        "@value": "CC-BY-SA 4.0"
+        "@value": "CC-BY-NC-SA_v4"
       }
     ],
     "https://schema.org/title": [
@@ -69,6 +57,12 @@
         "@language": "en",
         "@value": "Tonalities' Corpora"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

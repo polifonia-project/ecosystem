@@ -560,6 +560,639 @@ content/_polifonia-project/external-components/components/tonalities-app.md:
       - null
       - null
   warning: []
+content/_polifonia-project/external-components/components/videos/video-5BRvdWuqHvg.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-622nswxXs2U.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
+      None
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
+        None
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-AT-30bnqiEc.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-BQg0cr6V75c.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-DntIlJqBb9M.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
+      None
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
+        None
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-ExGcaTgaep0.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-LiZQH75gRo0.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
+      None
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
+        None
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-NqEbw2Ezv_4.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-VNqSzutgras.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-_GqMAH830JM.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-eLjNobupHFc.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
+      None
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
+        None
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-gMQNJOXLzKc.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-gUsKjo9edno.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
+      None
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
+        None
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-giF-Lrgc23s.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-r2LALrWoWTA.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-sTKGm1FK0Oo.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-tQdDY2rRQHc.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - 'Key ''pilot'' error:
+
+      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
+      None
+
+      None should be instance of ''str'''
+    state:
+      autos:
+      - 'Key ''pilot'' error:'
+      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
+        None
+      - null
+      - None should be instance of 'str'
+      errors:
+      - null
+      - null
+      - null
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-vgmy8hRoaU0.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/external-components/components/videos/video-z84Q0vPYMlQ.md:
+  error:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''licence'''
+    state:
+      autos:
+      - 'Missing key: ''licence'''
+      errors:
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
 content/_polifonia-project/folk_ngram_analysis/README.md:
   error:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -598,7 +1231,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -644,7 +1277,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -682,7 +1315,7 @@ content/_polifonia-project/folk_ngram_analysis/tune_family_annotations/README.md
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1040,25 +1673,6 @@ content/_polifonia-project/music-analysis-ontology/annotationModels/annotationMo
       errors:
       - null
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
-        did not validate 'CC BY-NC-SA 4.0'
-      - null
-      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
   warning: []
 content/_polifonia-project/music-analysis-ontology/theoreticalModels/theoreticalModels.md:
   error:
@@ -1076,25 +1690,6 @@ content/_polifonia-project/music-analysis-ontology/theoreticalModels/theoretical
       errors:
       - null
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
-        did not validate 'CC BY-NC-SA 4.0'
-      - null
-      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
   warning: []
 content/_polifonia-project/music-meta-ontology/assets/ecosystem/meta_ontology_header.md:
   error:
@@ -1184,6 +1779,60 @@ content/_polifonia-project/ontology-network/header.md:
       - null
       - null
       - URL cannot be resolved.
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
+content/_polifonia-project/organs-knowledge-graph/QUERIES.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Specify at least one licence from the REECO Annotation Schema reference.
+    state:
+      autos:
+      - 'Key ''licence'' error:'
+      - null
+      - '''CC BY'' should be instance of ''list'''
+      errors:
+      - null
+      - null
+      - Specify at least one licence from the REECO Annotation Schema reference.
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - Invalid or malformed annotation
+    state:
+      autos:
+      - 'Key ''related-components'' error:'
+      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
+        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
+        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
+        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
+        ''list''>), Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>),
+        Optional(''extends''): Or(<class ''str''>, <class ''list''>), Optional(''reuses''):
+        Or(<class ''str''>, <class ''list''>), Optional(''serves''): Or(<class ''str''>,
+        <class ''list''>), Optional(''produces''): Or(<class ''str''>, <class ''list''>),
+        Optional(''reused-in''): Or(<class ''str''>, <class ''list''>), Optional(''generated-by''):
+        Or(<class ''str''>, <class ''list''>)})) did not validate {''story'': None}'
+      - null
+      - 'Key ''story'' error:'
+      - null
+      - Or(<class 'str'>, <class 'list'>) did not validate None
+      - None should be instance of 'str'
+      - None should be instance of 'list'
+      errors:
+      - null
+      - null
+      - null
+      - Invalid or malformed annotation
+      - Invalid or malformed annotation
+      - null
+      - null
       - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -1331,7 +1980,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True
@@ -2859,25 +3508,6 @@ content/_polifonia-project/tonalities_pilot/annotations/annotations.md:
       errors:
       - null
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
-        did not validate 'CC BY-NC-SA 4.0'
-      - null
-      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
   warning: []
 content/_polifonia-project/tonalities_pilot/mockup/mockup.md:
   error: []
@@ -2898,25 +3528,6 @@ content/_polifonia-project/tonalities_pilot/scores/scores.md:
       errors:
       - null
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
-        did not validate 'CHORAL PUBLIC DOMAIN LIBRARY LICENSE'
-      - null
-      - <lambda>('CHORAL PUBLIC DOMAIN LIBRARY LICENSE') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
   warning: []
 content/_polifonia-project/tonalities_pilot/scripts/alignment-import-export/alignment-import-export.md:
   error:
@@ -2934,25 +3545,6 @@ content/_polifonia-project/tonalities_pilot/scripts/alignment-import-export/alig
       errors:
       - null
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
-        did not validate 'CC BY-NC-SA 4.0'
-      - null
-      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
   - !!python/object/apply:schema.SchemaError
     args:
     - Invalid or malformed annotation
@@ -3019,25 +3611,6 @@ content/_polifonia-project/tonalities_pilot/scripts/meihead-parser/meihead-parse
       errors:
       - null
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f5aafccbca0>))
-        did not validate 'CC BY-NC-SA 4.0'
-      - null
-      - <lambda>('CC BY-NC-SA 4.0') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
   - !!python/object/apply:schema.SchemaError
     args:
     - 'Key ''bibliography'' error:

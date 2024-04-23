@@ -65,7 +65,7 @@
         "@value": "Harmory"
       },
       {
-        "@id": "_:nd11b8b8773b34eb3a5f4294399d83857b1"
+        "@id": "_:n050800220d924bc6bb7b149ef568a6f4b1"
       }
     ],
     "https://schema.org/image": [
@@ -99,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd11b8b8773b34eb3a5f4294399d83857b2"
+        "@id": "_:n050800220d924bc6bb7b149ef568a6f4b2"
       }
     ],
     "https://schema.org/title": [
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:nd11b8b8773b34eb3a5f4294399d83857b1",
+    "@id": "_:n050800220d924bc6bb7b149ef568a6f4b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -136,7 +136,7 @@
     ]
   },
   {
-    "@id": "_:nd11b8b8773b34eb3a5f4294399d83857b2",
+    "@id": "_:n050800220d924bc6bb7b149ef568a6f4b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"

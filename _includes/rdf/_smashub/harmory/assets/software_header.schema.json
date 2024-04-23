@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/harmory-software",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -71,7 +65,7 @@
         "@value": "harmory-software"
       },
       {
-        "@id": "_:nd04686888a1b4086892fddb1dbb2ec79b1"
+        "@id": "_:n13ea7b5b65e6425b9434819473dd496db1"
       }
     ],
     "https://schema.org/image": [
@@ -105,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd04686888a1b4086892fddb1dbb2ec79b2"
+        "@id": "_:n13ea7b5b65e6425b9434819473dd496db2"
       }
     ],
     "https://schema.org/title": [
@@ -126,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:nd04686888a1b4086892fddb1dbb2ec79b1",
+    "@id": "_:n13ea7b5b65e6425b9434819473dd496db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -142,7 +136,7 @@
     ]
   },
   {
-    "@id": "_:nd04686888a1b4086892fddb1dbb2ec79b2",
+    "@id": "_:n13ea7b5b65e6425b9434819473dd496db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -157,6 +151,12 @@
       {
         "@value": "01-02-2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]
