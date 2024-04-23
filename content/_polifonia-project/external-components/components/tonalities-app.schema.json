@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -17,14 +17,19 @@
         "@value": "A collaborative annotation interface for music analysis"
       }
     ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou, China. ⟨hal-03923731⟩"
+      }
+    ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/4e0458e1b2e7ed5068a379f71aa48517#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/caf47d9c086e27e1d60d350f81eb735a#/credits"
       }
     ],
     "https://schema.org/distribution": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/4e0458e1b2e7ed5068a379f71aa48517#/resource"
+        "@id": "http://sparql.xyz/facade-x/data/caf47d9c086e27e1d60d350f81eb735a#/resource"
       }
     ],
     "https://schema.org/identifier": [
@@ -58,9 +63,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

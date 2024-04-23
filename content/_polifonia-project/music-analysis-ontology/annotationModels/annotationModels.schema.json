@@ -1,0 +1,71 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/tonalities-annotationModels",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Tonalities Ontologies for Annotation Models"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Guillotel-Nothmann, C., Gurrieri, M., & Filaber, A. (2024). Tonalities ontologies for annotation models. Zenodo. https://doi.org/10.5281/zenodo.10940196"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/6a9767b2c336b60e189c1e610c6ee026#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/6a9767b2c336b60e189c1e610c6ee026#/resource"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "tonalities-annotationModels"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Tonalities Ontologies for Annotation Models"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC BY-NC-SA 4.0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tonalities Annotation Models"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

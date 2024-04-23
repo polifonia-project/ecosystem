@@ -1,0 +1,66 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/tonalities-scriptAlignment-import-export",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://w3id.org/polifonia/ecosystem/Script"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Tonalities Alignment (Import/Export)"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/aae5eee2f31580112a2b8f07d7cd4723#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/aae5eee2f31580112a2b8f07d7cd4723#/resource"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "tonalities-scriptAlignment-import-export"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Tonalities Alignment (Import/Export)"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC BY-NC-SA 4.0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tonalities Alignment (Import/Export)"
+      }
+    ]
+  }
+]

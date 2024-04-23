@@ -1,17 +1,23 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:ne931e72e138f414f917560be0a611604b1"
+        "@id": "_:n2019db75b3ae4a009b97ea65884d046bb1"
       }
     ]
   },
   {
-    "@id": "_:ne931e72e138f414f917560be0a611604b1",
+    "@id": "_:n2019db75b3ae4a009b97ea65884d046bb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission"
@@ -21,6 +27,12 @@
       {
         "@value": "https://cordis.europa.eu/project/id/101004746/it"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -63,18 +75,6 @@
         "@language": "en",
         "@value": "The musoW registry"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

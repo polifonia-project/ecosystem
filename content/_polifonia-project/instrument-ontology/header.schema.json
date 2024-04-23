@@ -6,6 +6,18 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Amy",
     "@type": [
       "https://schema.org/ShortStory"
@@ -15,30 +27,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {
@@ -92,7 +80,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:n63814450727542c68e3de2ae9c4c4d42b1"
+        "@id": "_:n5ff7ddbfd5e24e5fb51e5b1b01d31660b1"
       }
     ],
     "https://schema.org/image": [
@@ -153,7 +141,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n63814450727542c68e3de2ae9c4c4d42b2"
+        "@id": "_:n5ff7ddbfd5e24e5fb51e5b1b01d31660b2"
       }
     ],
     "https://schema.org/title": [
@@ -169,7 +157,7 @@
     ]
   },
   {
-    "@id": "_:n63814450727542c68e3de2ae9c4c4d42b1",
+    "@id": "_:n5ff7ddbfd5e24e5fb51e5b1b01d31660b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -185,7 +173,7 @@
     ]
   },
   {
-    "@id": "_:n63814450727542c68e3de2ae9c4c4d42b2",
+    "@id": "_:n5ff7ddbfd5e24e5fb51e5b1b01d31660b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -203,9 +191,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

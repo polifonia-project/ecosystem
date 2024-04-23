@@ -7,14 +7,14 @@ work-package:
 - WP5
 project: polifonia-project
 resource: https://github.com/polifonia-project/pattern-explorations-backend/releases
-release-date: 01/03/2024
-release-number: v0.1.0
+release-date: 23/02/2024
+release-number: v1.0.0
 licence:
 - GNU_GPL_v3
 contributors:
-- James McDermott <https://github.com/jmmcd>
-- Pushkar Jajoria <https://github.com/pushkarjajoria>
 - Rory Sweeney <https://github.com/rorys4>
+- Pushkar Jajoria <https://github.com/pushkarjajoria>
+- James McDermott <https://github.com/jmmcd>
 related-components:
 - reuses:
   - "pattern-exploration-gui"
@@ -24,8 +24,8 @@ bibliography:
   - "Polifonia Deliverable 5.6"
 links:
 - https://github.com/polifonia-project/pattern-explorations-backend
-- https://polifonia.disi.unibo.it:8080/patterns (TODO)
-- https://zenodo.org/record/ (TODO)
+- https://polifonia.disi.unibo.it/patterns/api
+- https://zenodo.org/records/10698170
 funder:
   - name: Horizon 2020 Framework Programme
     url: https://cordis.europa.eu/programme/id/H2020-EC
@@ -33,9 +33,9 @@ funder:
 credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746."
 ---
 
-# Python Flask Server for Pattern Explorations using the Blazegraph KG
+# Python Flask Server for Patterns UI using the Blazegraph KG
 
-A Python Flask server providing APIs for searching musical tunes and retrieving similarity measures. It can be connected to a SPARQL endpoint but currently uses a mock response.
+A Python Flask server providing APIs used by the Pattens UI frontend. It is connected to the FONN SPARQL endpoint for the Patterns and Tunes knowledge graphs.
 
 This software forms part of Polifonia Deliverable D5.6.
 
@@ -48,16 +48,15 @@ Ensure you have Python and pip installed on your machine. I'd recommend using a 
 Clone the repository, navigate to the project folder and install the dependencies from `requirements.txt`.
 
 ```
-git clone <repository-url>
-cd <project-folder>
+git clone git@github.com:polifonia-project/pattern-explorations-backend.git
+cd pattern-explorations-backend
 pip install -r requirements.txt
 ```
-
-Replace `<repository-url>` and `<project-folder>` with your actual repository URL and project folder name.
 
 ## Application Code
 
 The main application code is in `app.py`, and the SPARQL queries are generated using a query factory in `query_factory.py`.
+The file `fuzzy_search.py` contains properties and methods related to the fuzzy tune title search feature.
 
 ## Running the Server
 
@@ -69,53 +68,6 @@ python app.py
 
 The server runs on `localhost` port `5000` by default.
 
-## API Endpoints
-
-### 1. Search for Tunes
-
-Search for tunes with a GET request to `/api/search`, passing the search query as a parameter.
-
-Example:
-
-```
-curl http://localhost:5000/api/search?query=Vivaldi
-```
-
-### 2. Retrieve Similarity Measures
-
-Get a list of similarity measures with a GET request to `/api/similarity-measures`.  
-
-Example:
-
-```
-curl http://localhost:5000/api/similarity-measures
-```
-would return all of the available similarity measures.
-
-## `query_factory.py` Example
-
-The `query_factory.py` contains functions to generate SPARQL queries. Here is a usage example:
-
-```python
-import requests
-from query_factory import get_tune_given_name
-
-# Generate the SPARQL query
-sparql_query = get_tune_given_name("Yankee Doodle")
-
-# Execute the SPARQL query
-response = requests.post(
-    BLAZEGRAPH_URL,
-    data={
-        'query': sparql_query,
-        'format': 'json'
-    }
-)
-
-# Print the JSON data
-print(response.json())
-```
-
 ## `requirements.txt`
 
 The required libraries are listed in `requirements.txt`:
@@ -124,5 +76,8 @@ The required libraries are listed in `requirements.txt`:
 Flask==2.3.2
 Flask_Cors==3.0.10
 Requests==2.31.0
+fuzzywuzzy~=0.18.0
+singleton-decorator
+python-Levenshtein
 ```
 

@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -64,6 +58,12 @@
         "@language": "en",
         "@value": "Organ Comparison"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

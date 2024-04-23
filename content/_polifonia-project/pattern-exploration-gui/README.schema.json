@@ -1,20 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Brendan",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@id": "http://w3id.org/polifonia/ecosystem/Brendan",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -95,8 +89,14 @@
     "https://schema.org/title": [
       {
         "@language": "en",
-        "@value": "Pattern Exploration GUI"
+        "@value": "Patterns UI"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,0 +1,66 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/tonalities-scriptMeiheadParser",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Script",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Tonalities Meihead-Parser for MEI files"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/b321f39c4eb5d587973cb0efb577d608#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/b321f39c4eb5d587973cb0efb577d608#/resource"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "tonalities-scriptMeiheadParser"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Tonalities Meihead-Parser for MEI files"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC BY-NC-SA 4.0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tonalities Meihead-Parser"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

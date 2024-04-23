@@ -1,0 +1,80 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/tonalities-annotations",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Dataset",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Tonalities dataset of analytical annotations"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Guillotel-Nothmann, C., Gurrieri, M., Mangani, M., Ceulemans, A.-E., Freedman, R., Poullet-Pagès, F., & Filaber, A. (2024). Tonalities annotations [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10940035"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/6aca5f0ab7bc8f9540a393984fae06d9#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/6aca5f0ab7bc8f9540a393984fae06d9#/resource"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "tonalities-annotations"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Tonalities dataset of analytical annotations"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP1"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP2"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC BY-NC-SA 4.0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Tonalities annotations"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

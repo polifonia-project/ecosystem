@@ -40,7 +40,7 @@
         "@value": "Polifonia-Corpus-Web-API"
       },
       {
-        "@id": "_:n66d71142bff94a86b1c161f111106d41b1"
+        "@id": "_:nf9ec06d2fcc6448bb5f936c499374a16b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "@id": "_:n66d71142bff94a86b1c161f111106d41b1",
+    "@id": "_:nf9ec06d2fcc6448bb5f936c499374a16b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
