@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
@@ -18,12 +24,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n5f30fb9db6bf47b3b56fc2c6ef8c5c01b1"
+        "@id": "_:n4e7d9b03465641b89a4af438eb7984f9b1"
       }
     ]
   },
   {
-    "@id": "_:n5f30fb9db6bf47b3b56fc2c6ef8c5c01b1",
+    "@id": "_:n4e7d9b03465641b89a4af438eb7984f9b1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -106,12 +112,6 @@
         "@language": "en",
         "@value": "Musical MEETUPS"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,8 +1,20 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -12,19 +24,25 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -119,7 +137,7 @@
         "@value": "https://w3id.org/polifonia/ontology/ontology-network/"
       },
       {
-        "@id": "_:nf96ebfd2b1e74f599106394812a31c27b1"
+        "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db1"
       }
     ],
     "https://schema.org/image": [
@@ -177,7 +195,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf96ebfd2b1e74f599106394812a31c27b2"
+        "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -201,7 +219,7 @@
     ]
   },
   {
-    "@id": "_:nf96ebfd2b1e74f599106394812a31c27b1",
+    "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -217,7 +235,7 @@
     ]
   },
   {
-    "@id": "_:nf96ebfd2b1e74f599106394812a31c27b2",
+    "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -235,25 +253,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -265,19 +265,19 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

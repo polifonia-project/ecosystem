@@ -6,30 +6,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fcordis.europa.eu%2Fproject%2Fid%2F101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:ne83792935d9a4f9fb28a758655d633dbb1"
-      }
-    ]
-  },
-  {
-    "@id": "_:ne83792935d9a4f9fb28a758655d633dbb1",
-    "https://schema.org/name": [
-      {
-        "@value": "Horizon 2020 Framework Programme"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://cordis.europa.eu/programme/id/H2020-EC"
-      }
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -86,6 +62,30 @@
       {
         "@language": "en",
         "@value": "Patterns Knowledge Graph"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fcordis.europa.eu%2Fproject%2Fid%2F101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n1cf96c367d874379a3ff124fbbf23741b1"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1cf96c367d874379a3ff124fbbf23741b1",
+    "https://schema.org/name": [
+      {
+        "@value": "Horizon 2020 Framework Programme"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://cordis.europa.eu/programme/id/H2020-EC"
       }
     ]
   }

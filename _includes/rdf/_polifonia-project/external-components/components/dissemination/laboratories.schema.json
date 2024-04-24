@@ -65,12 +65,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n2ab62d9989c947c68f61b9aefe9cb5acb1"
+        "@id": "_:na7666a759ae54c25bf368e160786667db1"
       }
     ]
   },
   {
-    "@id": "_:n2ab62d9989c947c68f61b9aefe9cb5acb1",
+    "@id": "_:na7666a759ae54c25bf368e160786667db1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -89,12 +89,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n2ab62d9989c947c68f61b9aefe9cb5acb2"
+        "@id": "_:na7666a759ae54c25bf368e160786667db2"
       }
     ]
   },
   {
-    "@id": "_:n2ab62d9989c947c68f61b9aefe9cb5acb2",
+    "@id": "_:na7666a759ae54c25bf368e160786667db2",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
