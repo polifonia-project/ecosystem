@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -52,9 +46,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

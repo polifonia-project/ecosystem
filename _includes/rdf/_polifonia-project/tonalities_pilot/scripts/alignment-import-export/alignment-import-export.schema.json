@@ -19,12 +19,12 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/aae5eee2f31580112a2b8f07d7cd4723#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/ba4f7f883c920857c9c597a3a26491bf#/credits"
       }
     ],
     "https://schema.org/distribution": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/aae5eee2f31580112a2b8f07d7cd4723#/resource"
+        "@id": "http://sparql.xyz/facade-x/data/ba4f7f883c920857c9c597a3a26491bf#/resource"
       }
     ],
     "https://schema.org/identifier": [
@@ -47,7 +47,7 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC BY-NC-SA 4.0"
+        "@value": "CC-BY-NC-SA_v4"
       }
     ],
     "https://schema.org/title": [

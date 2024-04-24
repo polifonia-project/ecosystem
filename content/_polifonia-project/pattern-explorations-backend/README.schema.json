@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -82,9 +82,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

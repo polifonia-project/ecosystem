@@ -67,7 +67,7 @@
         "@value": "choco-software"
       },
       {
-        "@id": "_:n5fbd845c5bba4ded8926e9ed42007032b1"
+        "@id": "_:nd36cd13815de4872931b32e97b5df821b1"
       }
     ],
     "https://schema.org/image": [
@@ -109,7 +109,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n5fbd845c5bba4ded8926e9ed42007032b2"
+        "@id": "_:nd36cd13815de4872931b32e97b5df821b2"
       }
     ],
     "https://schema.org/title": [
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "@id": "_:n5fbd845c5bba4ded8926e9ed42007032b1",
+    "@id": "_:nd36cd13815de4872931b32e97b5df821b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -141,7 +141,7 @@
     ]
   },
   {
-    "@id": "_:n5fbd845c5bba4ded8926e9ed42007032b2",
+    "@id": "_:nd36cd13815de4872931b32e97b5df821b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"

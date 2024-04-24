@@ -15,7 +15,7 @@ keywords:
   - "music analysis"
   - "MEI"
 licence:
-  - CC BY-NC-SA 4.0
+  - CC-BY-NC-SA_v4
 resource:
   - "https://github.com/polifonia-project/music-analysis-ontology/tree/main/theoreticalModels"
 credits:

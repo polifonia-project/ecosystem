@@ -16,10 +16,8 @@ keywords:
   - "Johann Sebastian Bach"
   - "Praetoriue"
 licence:
-  - CHORAL PUBLIC DOMAIN LIBRARY LICENSE
-  - CC BY-NC 4.0
-  - CC BY-NC 2.5
-  - CC-BY-SA 4.0
+  - CC-BY-NC_v4
+  - CC-BY-NC-SA_v4
 resource:
   - "https://github.com/polifonia-project/tonalities_pilot/tree/main/scores"
 credits:

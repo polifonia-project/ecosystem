@@ -1,0 +1,56 @@
+[
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/video-622nswxXs2U",
+    "@type": [
+      "http://w3id.org/polifonia/ecosystem/Documentation",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Introductionary video of the outputs and lines of work of the Polifonia Work Package 4"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://www.youtube.com/watch?v=622nswxXs2U"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "video-622nswxXs2U"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Introductionary video of the outputs and lines of work of the Polifonia Work Package 4"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP4"
+      },
+      {
+        "@id": "http://w3id.org/polifonia/ecosystem/WP6"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Outputs and lines of work of the Polifonia WorkPackage4"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

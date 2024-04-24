@@ -13,7 +13,7 @@ keywords:
   - "MEI"
   - "Meihead"
 licence:
-  - CC BY-NC-SA 4.0
+  - CC-BY-NC-SA_v4
 resource:
   - "https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/meihead-parser"
 credits:

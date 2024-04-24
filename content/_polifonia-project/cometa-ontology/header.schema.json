@@ -50,7 +50,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:nf374cf7573614f97997d038b7a239dd1b1"
+        "@id": "_:nbfcdfafe0ec04b84ba320bc316a20398b1"
       }
     ],
     "https://schema.org/image": [
@@ -90,7 +90,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf374cf7573614f97997d038b7a239dd1b2"
+        "@id": "_:nbfcdfafe0ec04b84ba320bc316a20398b2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:nf374cf7573614f97997d038b7a239dd1b1",
+    "@id": "_:nbfcdfafe0ec04b84ba320bc316a20398b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:nf374cf7573614f97997d038b7a239dd1b2",
+    "@id": "_:nbfcdfafe0ec04b84ba320bc316a20398b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
