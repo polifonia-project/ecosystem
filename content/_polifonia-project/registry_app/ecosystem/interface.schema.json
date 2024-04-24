@@ -1,20 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -54,7 +48,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:nb3c95e3f02454ec4ba9fc3e5551ac937b1"
+        "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -85,7 +79,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb3c95e3f02454ec4ba9fc3e5551ac937b2"
+        "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -106,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:nb3c95e3f02454ec4ba9fc3e5551ac937b1",
+    "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:nb3c95e3f02454ec4ba9fc3e5551ac937b2",
+    "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"
@@ -137,6 +131,12 @@
       {
         "@value": "2023/05/16"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

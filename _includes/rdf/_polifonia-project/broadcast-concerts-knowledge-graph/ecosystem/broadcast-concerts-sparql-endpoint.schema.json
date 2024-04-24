@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -80,6 +74,12 @@
         "@language": "en",
         "@value": "NISV SPARQL Endpoint"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

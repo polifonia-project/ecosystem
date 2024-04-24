@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Sophia",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/To%20be%20completed",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -58,9 +58,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/To%20be%20completed",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

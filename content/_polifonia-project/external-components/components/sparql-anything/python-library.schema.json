@@ -56,7 +56,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n477221f048114cf48a10420b7a18d00bb1"
+        "@id": "_:nafc66957379a44fd958bc74fea3f0b02b1"
       }
     ],
     "https://schema.org/title": [
@@ -67,7 +67,7 @@
     ]
   },
   {
-    "@id": "_:n477221f048114cf48a10420b7a18d00bb1",
+    "@id": "_:nafc66957379a44fd958bc74fea3f0b02b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/PySPARQL-Anything/releases/tag/v0.8.1.1"

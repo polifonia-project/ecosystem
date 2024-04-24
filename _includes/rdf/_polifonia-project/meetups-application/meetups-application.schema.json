@@ -1,14 +1,20 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -18,9 +24,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -71,7 +77,7 @@
         "@value": "meetups-application"
       },
       {
-        "@id": "_:n77ab84bbc5704ade81b538b970b3f8ebb1"
+        "@id": "_:n2cae08143d884f12a7637bfc4a1bd41fb1"
       }
     ],
     "https://schema.org/image": [
@@ -116,7 +122,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n77ab84bbc5704ade81b538b970b3f8ebb2"
+        "@id": "_:n2cae08143d884f12a7637bfc4a1bd41fb2"
       }
     ],
     "https://schema.org/title": [
@@ -137,7 +143,7 @@
     ]
   },
   {
-    "@id": "_:n77ab84bbc5704ade81b538b970b3f8ebb1",
+    "@id": "_:n2cae08143d884f12a7637bfc4a1bd41fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -153,7 +159,7 @@
     ]
   },
   {
-    "@id": "_:n77ab84bbc5704ade81b538b970b3f8ebb2",
+    "@id": "_:n2cae08143d884f12a7637bfc4a1bd41fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -171,13 +177,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]

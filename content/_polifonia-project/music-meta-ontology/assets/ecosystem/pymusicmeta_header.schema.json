@@ -1,26 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
-    "@type": [
-      "https://schema.org/HowTo"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -68,7 +56,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:ned661bd0349e480280fdaaaca3836865b1"
+        "@id": "_:n9a4a6537c94a4ff986fe2e615af88eb5b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -108,7 +96,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ned661bd0349e480280fdaaaca3836865b2"
+        "@id": "_:n9a4a6537c94a4ff986fe2e615af88eb5b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -129,7 +117,7 @@
     ]
   },
   {
-    "@id": "_:ned661bd0349e480280fdaaaca3836865b1",
+    "@id": "_:n9a4a6537c94a4ff986fe2e615af88eb5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -145,7 +133,7 @@
     ]
   },
   {
-    "@id": "_:ned661bd0349e480280fdaaaca3836865b2",
+    "@id": "_:n9a4a6537c94a4ff986fe2e615af88eb5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -175,9 +163,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   }
 ]

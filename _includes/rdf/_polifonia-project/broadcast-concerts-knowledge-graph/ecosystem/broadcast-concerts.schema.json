@@ -1,29 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-blog",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/William",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-knowledge-graph",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -69,7 +45,7 @@
         "@value": "broadcast-concerts-knowledge-graph"
       },
       {
-        "@id": "_:ne0da4cee72c54d46bdeedd36e71a43b6b1"
+        "@id": "_:nc6e55a6da13e483896036d740ea03177b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -110,7 +86,7 @@
     ]
   },
   {
-    "@id": "_:ne0da4cee72c54d46bdeedd36e71a43b6b1",
+    "@id": "_:nc6e55a6da13e483896036d740ea03177b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -126,15 +102,39 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-blog",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/William",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

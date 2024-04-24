@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-web-portal",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -48,7 +54,7 @@
         "@value": "polifonia-web-portal"
       },
       {
-        "@id": "_:n824b956260d54c6e96592b6f32de32a7b1"
+        "@id": "_:nb407ba68cea446fab32c2a36af7a8df6b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -105,7 +111,7 @@
     ]
   },
   {
-    "@id": "_:n824b956260d54c6e96592b6f32de32a7b1",
+    "@id": "_:nb407ba68cea446fab32c2a36af7a8df6b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -124,12 +130,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

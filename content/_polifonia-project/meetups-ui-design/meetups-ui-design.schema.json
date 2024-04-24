@@ -6,15 +6,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -88,7 +88,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd7a588bc31a3451fa17620135dd7694bb1"
+        "@id": "_:n9fa28e8342d74dd4af36392eaff61d53b1"
       }
     ],
     "https://schema.org/title": [
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:nd7a588bc31a3451fa17620135dd7694bb1",
+    "@id": "_:n9fa28e8342d74dd4af36392eaff61d53b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"

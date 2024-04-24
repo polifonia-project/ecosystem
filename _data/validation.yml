@@ -124,6 +124,72 @@ content/_polifonia-project/broadcast-concerts-knowledge-graph/ecosystem/broadcas
       - 'Missing key: ''bibliography'''
       errors:
       - null
+content/_polifonia-project/child-search-expansions/README.md:
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - DOI is invalid
+    state:
+      autos:
+      - 'Key ''doi'' error:'
+      - null
+      - null
+      - Or(Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE), Regex('^10.1002/[^\\s]+$',
+        flags=re.IGNORECASE), Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE)) did not validate 'https://zenodo.org/badge/latestdoi/588597123'
+      - null
+      - Regex('^10.\\d{4,9}/[-._;()/:A-Z0-9]+$', flags=re.IGNORECASE) does not match
+        'https://zenodo.org/badge/latestdoi/588597123'
+      - null
+      - Regex('^10.1002/[^\\s]+$', flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/588597123'
+      - null
+      - Regex('^10.\\d{4}/\\d+-\\d+X?(\\d+)\\d+<[\\d\\w]+:[\\d\\w]*>\\d+.\\d+.\\w+;\\d$',
+        flags=re.IGNORECASE) does not match 'https://zenodo.org/badge/latestdoi/588597123'
+      errors:
+      - null
+      - null
+      - null
+      - DOI is invalid
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+      - DOI is invalid
+      - null
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''release-link'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://github.com/polifonia-project/child-search-expansions/releases/tag/v0.1')
+        raised Exception('URL cannot be resolved')
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''related-components'''
+    state:
+      autos:
+      - 'Missing key: ''related-components'''
+      errors:
+      - null
+  warning:
+  - !!python/object/apply:schema.SchemaMissingKeyError
+    args:
+    - 'Missing key: ''bibliography'''
+    state:
+      autos:
+      - 'Missing key: ''bibliography'''
+      errors:
+      - null
 content/_polifonia-project/clef/README.md:
   error: []
   warning: []
@@ -1231,7 +1297,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f869355dca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3583d6bca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1277,7 +1343,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f869355dca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3583d6bca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1315,7 +1381,7 @@ content/_polifonia-project/folk_ngram_analysis/tune_family_annotations/README.md
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f869355dca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3583d6bca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1980,7 +2046,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f869355dca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3583d6bca0>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True

@@ -1,5 +1,41 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:na8ec5c451d6a4badbc66714079148918b1"
+      }
+    ]
+  },
+  {
+    "@id": "_:na8ec5c451d6a4badbc66714079148918b1",
+    "https://schema.org/name": [
+      {
+        "@value": "Polifonia Project"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://polifonia-project.eu"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/ChoCo",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Project",
@@ -66,45 +102,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:nb34f850a38774910a709ca5d69148171b1"
-      }
-    ]
-  },
-  {
-    "@id": "_:nb34f850a38774910a709ca5d69148171b1",
-    "https://schema.org/name": [
-      {
-        "@value": "Polifonia Project"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://polifonia-project.eu"
-      }
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

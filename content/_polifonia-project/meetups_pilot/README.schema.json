@@ -6,12 +6,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:ne4aa77ae6f0d4e01812d775b4fdec904b1"
+        "@id": "_:n1e9b2d6df39444f9b08960a8f756d40eb1"
       }
     ]
   },
   {
-    "@id": "_:ne4aa77ae6f0d4e01812d775b4fdec904b1",
+    "@id": "_:n1e9b2d6df39444f9b08960a8f756d40eb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -21,6 +21,12 @@
       {
         "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -106,12 +112,6 @@
         "@language": "en",
         "@value": "Musical MEETUPS"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

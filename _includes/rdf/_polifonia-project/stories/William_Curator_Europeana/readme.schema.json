@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -43,12 +49,6 @@
         "@language": "en",
         "@value": "William"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
