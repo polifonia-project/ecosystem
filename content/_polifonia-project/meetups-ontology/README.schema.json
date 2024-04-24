@@ -44,7 +44,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:n8d38e9b7eada44c18b69be055afeadedb1"
+        "@id": "_:nbb456dc5300b4e61a2342ef8d7f9146cb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -79,7 +79,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n8d38e9b7eada44c18b69be055afeadedb2"
+        "@id": "_:nbb456dc5300b4e61a2342ef8d7f9146cb2"
       }
     ],
     "https://schema.org/title": [
@@ -98,7 +98,7 @@
     ]
   },
   {
-    "@id": "_:n8d38e9b7eada44c18b69be055afeadedb1",
+    "@id": "_:nbb456dc5300b4e61a2342ef8d7f9146cb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -114,7 +114,7 @@
     ]
   },
   {
-    "@id": "_:n8d38e9b7eada44c18b69be055afeadedb2",
+    "@id": "_:nbb456dc5300b4e61a2342ef8d7f9146cb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -132,7 +132,19 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -150,21 +162,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -45,7 +51,7 @@
         "@value": "clef-software"
       },
       {
-        "@id": "_:n37b3370317ac40b083e24c8de488267fb1"
+        "@id": "_:n89daeb26b1ac4a9ebbbd6a1e577d337cb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -68,7 +74,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n37b3370317ac40b083e24c8de488267fb2"
+        "@id": "_:n89daeb26b1ac4a9ebbbd6a1e577d337cb2"
       }
     ],
     "https://schema.org/title": [
@@ -84,7 +90,7 @@
     ]
   },
   {
-    "@id": "_:n37b3370317ac40b083e24c8de488267fb1",
+    "@id": "_:n89daeb26b1ac4a9ebbbd6a1e577d337cb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -100,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:n37b3370317ac40b083e24c8de488267fb2",
+    "@id": "_:n89daeb26b1ac4a9ebbbd6a1e577d337cb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/clef/releases/tag/v1.0.2"
@@ -115,12 +121,6 @@
       {
         "@value": "2023/05/13"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

@@ -1,41 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-application",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -83,7 +47,7 @@
         "@value": "meetups-application"
       },
       {
-        "@id": "_:n7cde5c35fb864239be35ff1c92eae43fb1"
+        "@id": "_:n25aeae89eef6425b9f51d855fd044158b1"
       }
     ],
     "https://schema.org/image": [
@@ -128,7 +92,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7cde5c35fb864239be35ff1c92eae43fb2"
+        "@id": "_:n25aeae89eef6425b9f51d855fd044158b2"
       }
     ],
     "https://schema.org/title": [
@@ -149,7 +113,7 @@
     ]
   },
   {
-    "@id": "_:n7cde5c35fb864239be35ff1c92eae43fb1",
+    "@id": "_:n25aeae89eef6425b9f51d855fd044158b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -165,7 +129,7 @@
     ]
   },
   {
-    "@id": "_:n7cde5c35fb864239be35ff1c92eae43fb2",
+    "@id": "_:n25aeae89eef6425b9f51d855fd044158b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -180,6 +144,42 @@
       {
         "@value": "18/10/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

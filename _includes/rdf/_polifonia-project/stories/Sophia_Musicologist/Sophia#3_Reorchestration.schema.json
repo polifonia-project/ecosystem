@@ -12,6 +12,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/To%20be%20completed",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Sophia%233_Reorchestration",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
@@ -55,12 +61,6 @@
         "@language": "en",
         "@value": "Reorchestration"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/To%20be%20completed",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
