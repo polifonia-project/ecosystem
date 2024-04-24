@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/video-vgmy8hRoaU0",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -45,19 +51,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

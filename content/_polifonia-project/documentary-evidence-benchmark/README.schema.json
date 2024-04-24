@@ -1,14 +1,20 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -33,7 +39,7 @@
         "@value": "documentary-evidence-benchmark"
       },
       {
-        "@id": "_:n4eb727a8f6674e3ba2e864fa5bc1029ab1"
+        "@id": "_:n889fff2fb635403aa9ff628c1df72ddeb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -65,7 +71,7 @@
     ]
   },
   {
-    "@id": "_:n4eb727a8f6674e3ba2e864fa5bc1029ab1",
+    "@id": "_:n889fff2fb635403aa9ff628c1df72ddeb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -78,12 +84,6 @@
       {
         "@value": "10.5281/zenodo.6866982"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

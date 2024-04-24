@@ -1,5 +1,23 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Frank%231_OrganKnowledge",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
@@ -28,24 +46,6 @@
         "@language": "en",
         "@value": "Organ Knowledge"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]
