@@ -60,7 +60,7 @@ layout: default
 		 - {{k}}
 			{% for s in k %}
 		 		{{k[s]}} 
-						 		{% if page['component-id'] in k[s] %}
+						 		{% if k[s] contains page['component-id'] %}
 								=== YES IN ===
 								{% endif %}
 
