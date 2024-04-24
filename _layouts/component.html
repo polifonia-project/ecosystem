@@ -57,7 +57,9 @@ layout: default
 {% for post in posts %}
     title: {{post.title}}
 	{% for related in post['related-components'] %}
-		{{related}}
+		{% for k in related %}
+		-- {{k}} --
+		{% endfor %}
 <!-- - {{related}} -->
 	{% endfor %}
 {% endfor %}
