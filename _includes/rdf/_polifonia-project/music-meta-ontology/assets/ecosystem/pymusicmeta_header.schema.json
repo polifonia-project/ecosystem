@@ -1,8 +1,32 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -50,7 +74,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb1"
+        "@id": "_:n5057b439069b43cb9a9a4dd8e147bc66b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -90,7 +114,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb2"
+        "@id": "_:n5057b439069b43cb9a9a4dd8e147bc66b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -111,7 +135,7 @@
     ]
   },
   {
-    "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb1",
+    "@id": "_:n5057b439069b43cb9a9a4dd8e147bc66b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -127,7 +151,7 @@
     ]
   },
   {
-    "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb2",
+    "@id": "_:n5057b439069b43cb9a9a4dd8e147bc66b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -145,7 +169,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -154,30 +178,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

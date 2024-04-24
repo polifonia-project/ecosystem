@@ -50,7 +50,7 @@
         "@value": "sparql-anything-java"
       },
       {
-        "@id": "_:nf29e543c69794305836cbb5664623499b1"
+        "@id": "_:nb0247736fef04d9397e7eb5659802505b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -75,7 +75,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf29e543c69794305836cbb5664623499b2"
+        "@id": "_:nb0247736fef04d9397e7eb5659802505b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "@id": "_:nf29e543c69794305836cbb5664623499b1",
+    "@id": "_:nb0247736fef04d9397e7eb5659802505b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "@id": "_:nf29e543c69794305836cbb5664623499b2",
+    "@id": "_:nb0247736fef04d9397e7eb5659802505b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"

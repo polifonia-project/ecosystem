@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

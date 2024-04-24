@@ -1,30 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -92,7 +68,7 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:n34bd836e1d9048648bbbc536e9d1b818b1"
+        "@id": "_:nad3b2c94836d4b738e0eba2c843f03c0b1"
       }
     ],
     "https://schema.org/image": [
@@ -143,7 +119,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n34bd836e1d9048648bbbc536e9d1b818b2"
+        "@id": "_:nad3b2c94836d4b738e0eba2c843f03c0b2"
       }
     ],
     "https://schema.org/title": [
@@ -159,7 +135,7 @@
     ]
   },
   {
-    "@id": "_:n34bd836e1d9048648bbbc536e9d1b818b1",
+    "@id": "_:nad3b2c94836d4b738e0eba2c843f03c0b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -175,7 +151,7 @@
     ]
   },
   {
-    "@id": "_:n34bd836e1d9048648bbbc536e9d1b818b2",
+    "@id": "_:nad3b2c94836d4b738e0eba2c843f03c0b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -193,15 +169,39 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

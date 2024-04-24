@@ -1,44 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -92,7 +62,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:ned7e28f5678f4b59834b9c85daf8cc56b1"
+        "@id": "_:n22b7b20ba2de4ba78a167fa68c27f887b1"
       }
     ],
     "https://schema.org/image": [
@@ -153,7 +123,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ned7e28f5678f4b59834b9c85daf8cc56b2"
+        "@id": "_:n22b7b20ba2de4ba78a167fa68c27f887b2"
       }
     ],
     "https://schema.org/title": [
@@ -169,7 +139,7 @@
     ]
   },
   {
-    "@id": "_:ned7e28f5678f4b59834b9c85daf8cc56b1",
+    "@id": "_:n22b7b20ba2de4ba78a167fa68c27f887b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -185,7 +155,7 @@
     ]
   },
   {
-    "@id": "_:ned7e28f5678f4b59834b9c85daf8cc56b2",
+    "@id": "_:n22b7b20ba2de4ba78a167fa68c27f887b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -203,9 +173,39 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

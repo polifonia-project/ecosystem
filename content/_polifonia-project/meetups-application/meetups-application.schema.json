@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-application",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -53,7 +47,7 @@
         "@value": "meetups-application"
       },
       {
-        "@id": "_:n776d31fb1c4d4b3b87903cbb1fb69ee1b1"
+        "@id": "_:neeb89f3cb63644928e7383ded7e834a5b1"
       }
     ],
     "https://schema.org/image": [
@@ -98,7 +92,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n776d31fb1c4d4b3b87903cbb1fb69ee1b2"
+        "@id": "_:neeb89f3cb63644928e7383ded7e834a5b2"
       }
     ],
     "https://schema.org/title": [
@@ -119,7 +113,7 @@
     ]
   },
   {
-    "@id": "_:n776d31fb1c4d4b3b87903cbb1fb69ee1b1",
+    "@id": "_:neeb89f3cb63644928e7383ded7e834a5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -135,7 +129,7 @@
     ]
   },
   {
-    "@id": "_:n776d31fb1c4d4b3b87903cbb1fb69ee1b2",
+    "@id": "_:neeb89f3cb63644928e7383ded7e834a5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -153,21 +147,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -177,7 +159,25 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
       "https://schema.org/ShortStory"
     ]

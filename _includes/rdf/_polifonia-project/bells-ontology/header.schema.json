@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Keoma_Architect",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fbells-ontology%2F",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -62,7 +50,7 @@
         "@value": "https://w3id.org/polifonia/ontology/bells-ontology/"
       },
       {
-        "@id": "_:n17ef6d997b2e4fdbbf5645d5385e50bbb1"
+        "@id": "_:n6253978b3d08455183fd0a4c189cf998b1"
       }
     ],
     "https://schema.org/image": [
@@ -105,7 +93,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n17ef6d997b2e4fdbbf5645d5385e50bbb2"
+        "@id": "_:n6253978b3d08455183fd0a4c189cf998b2"
       }
     ],
     "https://schema.org/title": [
@@ -116,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:n17ef6d997b2e4fdbbf5645d5385e50bbb1",
+    "@id": "_:n6253978b3d08455183fd0a4c189cf998b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -132,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:n17ef6d997b2e4fdbbf5645d5385e50bbb2",
+    "@id": "_:n6253978b3d08455183fd0a4c189cf998b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/bells-ontology/blob/main/ontology/bells.owl"
@@ -150,15 +138,27 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keoma_Architect",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/video-tQdDY2rRQHc",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Tutorial",
@@ -45,12 +51,6 @@
         "@language": "en",
         "@value": "Tutorial on Polifonia Ecosystem"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

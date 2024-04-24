@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -12,9 +12,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -88,7 +88,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd286f91ed1ea468fabaf30e2a9c8253cb1"
+        "@id": "_:nd11584de56a244bdb2857e8d9fc65ef8b1"
       }
     ],
     "https://schema.org/title": [
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:nd286f91ed1ea468fabaf30e2a9c8253cb1",
+    "@id": "_:nd11584de56a244bdb2857e8d9fc65ef8b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
