@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-web-portal",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -60,7 +54,7 @@
         "@value": "polifonia-web-portal"
       },
       {
-        "@id": "_:nbe12c2218ff649428457478a4598b7b4b1"
+        "@id": "_:n3d5578737eae48a189bc472f18ed4bbdb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -117,7 +111,7 @@
     ]
   },
   {
-    "@id": "_:nbe12c2218ff649428457478a4598b7b4b1",
+    "@id": "_:n3d5578737eae48a189bc472f18ed4bbdb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -130,6 +124,12 @@
       {
         "@value": "10.5281/zenodo.10454048"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

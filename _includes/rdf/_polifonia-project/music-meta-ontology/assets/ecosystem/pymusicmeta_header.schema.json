@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -50,7 +50,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:n8b8303dc7d8c46e9beb2939952244b0eb1"
+        "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -90,7 +90,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n8b8303dc7d8c46e9beb2939952244b0eb2"
+        "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -111,7 +111,7 @@
     ]
   },
   {
-    "@id": "_:n8b8303dc7d8c46e9beb2939952244b0eb1",
+    "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "@id": "_:n8b8303dc7d8c46e9beb2939952244b0eb2",
+    "@id": "_:n357c6114328247f58e9ca42bdba5a2bfb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -145,13 +145,19 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -163,19 +169,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

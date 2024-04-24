@@ -1,35 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Fontology-network",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
@@ -42,7 +12,43 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -137,7 +143,7 @@
         "@value": "https://w3id.org/polifonia/ontology/ontology-network/"
       },
       {
-        "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db1"
+        "@id": "_:n4c55fccb3b134d13b9a9efa2fc1fc25bb1"
       }
     ],
     "https://schema.org/image": [
@@ -195,7 +201,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db2"
+        "@id": "_:n4c55fccb3b134d13b9a9efa2fc1fc25bb2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -219,7 +225,7 @@
     ]
   },
   {
-    "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db1",
+    "@id": "_:n4c55fccb3b134d13b9a9efa2fc1fc25bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -235,7 +241,7 @@
     ]
   },
   {
-    "@id": "_:nba082e93b68f4bf4b7792550ebeadd7db2",
+    "@id": "_:n4c55fccb3b134d13b9a9efa2fc1fc25bb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -253,21 +259,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Fontology-network",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -277,7 +277,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

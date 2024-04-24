@@ -55,7 +55,7 @@
         "@value": "choco-kg"
       },
       {
-        "@id": "_:n1c571690086e45e9bdeae7d8a0b2be71b1"
+        "@id": "_:n769e812d2ccc4a84aa2acbc12e366c05b1"
       }
     ],
     "https://schema.org/image": [
@@ -97,7 +97,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n1c571690086e45e9bdeae7d8a0b2be71b2"
+        "@id": "_:n769e812d2ccc4a84aa2acbc12e366c05b2"
       }
     ],
     "https://schema.org/title": [
@@ -113,7 +113,7 @@
     ]
   },
   {
-    "@id": "_:n1c571690086e45e9bdeae7d8a0b2be71b1",
+    "@id": "_:n769e812d2ccc4a84aa2acbc12e366c05b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "@id": "_:n1c571690086e45e9bdeae7d8a0b2be71b2",
+    "@id": "_:n769e812d2ccc4a84aa2acbc12e366c05b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"

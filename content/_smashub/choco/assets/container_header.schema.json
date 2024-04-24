@@ -1,41 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:n6e43d6f314c240c9a9bf68c5be346626b1"
-      }
-    ]
-  },
-  {
-    "@id": "_:n6e43d6f314c240c9a9bf68c5be346626b1",
-    "https://schema.org/name": [
-      {
-        "@value": "Polifonia Project"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://polifonia-project.eu"
-      }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/ChoCo",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Project",
@@ -98,6 +62,42 @@
       {
         "@language": "en",
         "@value": "ChoCo: the Chord Corpus"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n0f97220ebaba486cb847c54a7ee36460b1"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0f97220ebaba486cb847c54a7ee36460b1",
+    "https://schema.org/name": [
+      {
+        "@value": "Polifonia Project"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://polifonia-project.eu"
       }
     ]
   },

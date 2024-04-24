@@ -1,5 +1,47 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fsource%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
@@ -47,7 +89,7 @@
         "@value": "https://w3id.org/polifonia/ontology/source/"
       },
       {
-        "@id": "_:n31cf72ab6cbc42429af42bee0773272bb1"
+        "@id": "_:n5400a9b10e014d8497b7a305f0aeda51b1"
       }
     ],
     "https://schema.org/image": [
@@ -105,7 +147,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n31cf72ab6cbc42429af42bee0773272bb2"
+        "@id": "_:n5400a9b10e014d8497b7a305f0aeda51b2"
       }
     ],
     "https://schema.org/title": [
@@ -121,7 +163,7 @@
     ]
   },
   {
-    "@id": "_:n31cf72ab6cbc42429af42bee0773272bb1",
+    "@id": "_:n5400a9b10e014d8497b7a305f0aeda51b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -137,7 +179,7 @@
     ]
   },
   {
-    "@id": "_:n31cf72ab6cbc42429af42bee0773272bb2",
+    "@id": "_:n5400a9b10e014d8497b7a305f0aeda51b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/source-ontology"
@@ -158,48 +200,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/Keoma",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

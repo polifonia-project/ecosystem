@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-corpus",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -63,12 +69,6 @@
         "@language": "en",
         "@value": "MEETUPS Corpus"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Polifonia-Lexicon",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Lexicon",
@@ -68,6 +62,12 @@
         "@language": "en",
         "@value": "Polifonia Lexicon - The Polifonia Multilingual WordNet"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

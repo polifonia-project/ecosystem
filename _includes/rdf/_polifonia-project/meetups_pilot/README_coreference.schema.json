@@ -39,7 +39,7 @@
         "@value": "meetups-coreference"
       },
       {
-        "@id": "_:n154263bb8edc4432a1ae7c7c836674feb1"
+        "@id": "_:n72d23267124845fab614c5fd3da47e06b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -65,7 +65,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n154263bb8edc4432a1ae7c7c836674feb2"
+        "@id": "_:n72d23267124845fab614c5fd3da47e06b2"
       }
     ],
     "https://schema.org/title": [
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "@id": "_:n154263bb8edc4432a1ae7c7c836674feb1",
+    "@id": "_:n72d23267124845fab614c5fd3da47e06b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "@id": "_:n154263bb8edc4432a1ae7c7c836674feb2",
+    "@id": "_:n72d23267124845fab614c5fd3da47e06b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -121,15 +121,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

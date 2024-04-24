@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Valeriana",
+    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
+    "@id": "http://w3id.org/polifonia/ecosystem/Valeriana",
     "@type": [
       "https://schema.org/ShortStory"
     ]

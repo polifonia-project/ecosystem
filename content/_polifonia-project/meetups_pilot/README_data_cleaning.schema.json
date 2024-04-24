@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
@@ -51,7 +45,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:ne0b9ec27a3ee45c2a05c6bdb245079edb1"
+        "@id": "_:n4cae0b5afee247788766bb84f624476bb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -86,7 +80,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne0b9ec27a3ee45c2a05c6bdb245079edb2"
+        "@id": "_:n4cae0b5afee247788766bb84f624476bb2"
       }
     ],
     "https://schema.org/title": [
@@ -97,7 +91,7 @@
     ]
   },
   {
-    "@id": "_:ne0b9ec27a3ee45c2a05c6bdb245079edb1",
+    "@id": "_:n4cae0b5afee247788766bb84f624476bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -113,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:ne0b9ec27a3ee45c2a05c6bdb245079edb2",
+    "@id": "_:n4cae0b5afee247788766bb84f624476bb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -131,15 +125,21 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
