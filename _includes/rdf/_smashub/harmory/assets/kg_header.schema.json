@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Harmory",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -65,7 +53,7 @@
         "@value": "Harmory"
       },
       {
-        "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb1"
+        "@id": "_:nb5d6ffdc338b4467a14a08b5aa9ee508b1"
       }
     ],
     "https://schema.org/image": [
@@ -99,7 +87,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb2"
+        "@id": "_:nb5d6ffdc338b4467a14a08b5aa9ee508b2"
       }
     ],
     "https://schema.org/title": [
@@ -120,7 +108,7 @@
     ]
   },
   {
-    "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb1",
+    "@id": "_:nb5d6ffdc338b4467a14a08b5aa9ee508b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -136,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb2",
+    "@id": "_:nb5d6ffdc338b4467a14a08b5aa9ee508b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -151,6 +139,18 @@
       {
         "@value": "01-02-2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

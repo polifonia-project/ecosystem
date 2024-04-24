@@ -1,29 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Finstrument%2F",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -74,7 +50,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:n63db5f1e3ceb4b1b8da621b03655348bb1"
+        "@id": "_:ne45ccd1fd3fe4dd09f0908e029cbf70bb1"
       }
     ],
     "https://schema.org/image": [
@@ -135,7 +111,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n63db5f1e3ceb4b1b8da621b03655348bb2"
+        "@id": "_:ne45ccd1fd3fe4dd09f0908e029cbf70bb2"
       }
     ],
     "https://schema.org/title": [
@@ -151,7 +127,7 @@
     ]
   },
   {
-    "@id": "_:n63db5f1e3ceb4b1b8da621b03655348bb1",
+    "@id": "_:ne45ccd1fd3fe4dd09f0908e029cbf70bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -167,7 +143,7 @@
     ]
   },
   {
-    "@id": "_:n63db5f1e3ceb4b1b8da621b03655348bb2",
+    "@id": "_:ne45ccd1fd3fe4dd09f0908e029cbf70bb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -185,15 +161,33 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -206,6 +200,12 @@
     "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

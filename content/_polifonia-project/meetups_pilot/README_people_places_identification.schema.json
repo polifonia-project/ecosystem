@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-entity-recognition",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -39,7 +45,7 @@
         "@value": "meetups-entity-recognition"
       },
       {
-        "@id": "_:n0abd3f523baf4a228f17a3d33327c0bab1"
+        "@id": "_:n25b4100aa91b400fa68bff246db80f51b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -65,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0abd3f523baf4a228f17a3d33327c0bab2"
+        "@id": "_:n25b4100aa91b400fa68bff246db80f51b2"
       }
     ],
     "https://schema.org/title": [
@@ -84,7 +90,7 @@
     ]
   },
   {
-    "@id": "_:n0abd3f523baf4a228f17a3d33327c0bab1",
+    "@id": "_:n25b4100aa91b400fa68bff246db80f51b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -100,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:n0abd3f523baf4a228f17a3d33327c0bab2",
+    "@id": "_:n25b4100aa91b400fa68bff246db80f51b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -121,12 +127,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

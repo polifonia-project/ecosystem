@@ -1,29 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Ftonalities_pilot%2Ftree%2Fmain%2Fvalidation%2Finterface",
-    "@type": [
-      "https://schema.org/Review"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/tonalities-mockup",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -123,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n09565af67a964a82903dc8a31cc172a9b1"
+        "@id": "_:n1af4925233d541ee87ea13281db110f5b1"
       }
     ],
     "https://schema.org/review": [
@@ -155,7 +131,7 @@
     ]
   },
   {
-    "@id": "_:n09565af67a964a82903dc8a31cc172a9b1",
+    "@id": "_:n1af4925233d541ee87ea13281db110f5b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/tonalities_pilot/tree/main/mockup"
@@ -173,9 +149,33 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Ftonalities_pilot%2Ftree%2Fmain%2Fvalidation%2Finterface",
+    "@type": [
+      "https://schema.org/Review"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
