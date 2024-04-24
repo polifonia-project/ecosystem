@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -61,7 +55,7 @@
         "@value": "choco-software"
       },
       {
-        "@id": "_:na084ce1faeb441e192fd1dbd7ecdd31ab1"
+        "@id": "_:n7d696ae8923d43179921a3f426935bedb1"
       }
     ],
     "https://schema.org/image": [
@@ -103,7 +97,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:na084ce1faeb441e192fd1dbd7ecdd31ab2"
+        "@id": "_:n7d696ae8923d43179921a3f426935bedb2"
       }
     ],
     "https://schema.org/title": [
@@ -119,7 +113,7 @@
     ]
   },
   {
-    "@id": "_:na084ce1faeb441e192fd1dbd7ecdd31ab1",
+    "@id": "_:n7d696ae8923d43179921a3f426935bedb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -135,7 +129,7 @@
     ]
   },
   {
-    "@id": "_:na084ce1faeb441e192fd1dbd7ecdd31ab2",
+    "@id": "_:n7d696ae8923d43179921a3f426935bedb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"
@@ -153,9 +147,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

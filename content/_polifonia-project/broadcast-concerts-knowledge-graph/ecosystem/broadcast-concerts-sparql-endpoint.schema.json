@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-sparql-endpoint",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/SPARQLEndpoint",
@@ -68,12 +74,6 @@
         "@language": "en",
         "@value": "NISV SPARQL Endpoint"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {
