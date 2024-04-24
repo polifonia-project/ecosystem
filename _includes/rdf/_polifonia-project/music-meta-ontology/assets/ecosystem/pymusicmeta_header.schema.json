@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/pymusicmeta",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -44,7 +56,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:n0af0898ec9954ae7a13ff7c2186d3b18b1"
+        "@id": "_:n275e6867030b4fdba6ac98952918ce3cb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -84,7 +96,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0af0898ec9954ae7a13ff7c2186d3b18b2"
+        "@id": "_:n275e6867030b4fdba6ac98952918ce3cb2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -105,7 +117,7 @@
     ]
   },
   {
-    "@id": "_:n0af0898ec9954ae7a13ff7c2186d3b18b1",
+    "@id": "_:n275e6867030b4fdba6ac98952918ce3cb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -121,7 +133,7 @@
     ]
   },
   {
-    "@id": "_:n0af0898ec9954ae7a13ff7c2186d3b18b2",
+    "@id": "_:n275e6867030b4fdba6ac98952918ce3cb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -139,27 +151,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fmusic-meta%2F",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -169,9 +163,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

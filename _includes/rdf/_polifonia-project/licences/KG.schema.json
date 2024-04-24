@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -41,7 +35,7 @@
         "@value": "licences"
       },
       {
-        "@id": "_:ncdc39c9e42e44d4ebd97f214bc9848cbb1"
+        "@id": "_:n822830a1892f4d05b46dbfd29c6348a2b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -78,7 +72,7 @@
     ]
   },
   {
-    "@id": "_:ncdc39c9e42e44d4ebd97f214bc9848cbb1",
+    "@id": "_:n822830a1892f4d05b46dbfd29c6348a2b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -91,6 +85,12 @@
       {
         "@value": "10.5281/zenodo.7875034"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
