@@ -57,16 +57,16 @@ layout: default
 {% for post in posts %}
 	{% for related in post['related-components'] %}
 		{% for k in related %}
-		 - {{k}}
+		 <!-- - {{k}} -->
 			{% for s in k %}
-		 		{{k[s]}} ?? {{page['component-id']}}
-						 		{% if k[s] contains page['component-id'] %}
-								=== YES IN ===
+		 		<!-- {{k[s]}} ?? {{page['component-id']}} -->
+						 		{% if s contains page['component-id'] %}
+								<!-- === YES IN === -->
 								{% endif %}
 
-						 		{% if page['component-id'] == k[s] %}
-								=== YES EQ ===
-								{% endif %} < --
+						 		{% if page['component-id'] == s %}
+								<!-- === YES EQ === -->
+								{% endif %} 
 		{% endfor %}		{% endfor %}
 <!-- - {{related}} -->
 	{% endfor %}
