@@ -59,7 +59,7 @@ layout: default
 		{% for k in related %}
 		 - {{k}}
 			{% for s in k %}
-		 		{{k[s]}} 
+		 		{{k[s]}} ?? {{page['component-id']}}
 						 		{% if k[s] contains page['component-id'] %}
 								=== YES IN ===
 								{% endif %}
