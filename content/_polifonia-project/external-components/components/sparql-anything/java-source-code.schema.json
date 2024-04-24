@@ -50,7 +50,7 @@
         "@value": "sparql-anything-java"
       },
       {
-        "@id": "_:n87c6992e93b14d8da8bbf486373670ecb1"
+        "@id": "_:na0b5873183a44e71a35a271f76aebb08b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -75,7 +75,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n87c6992e93b14d8da8bbf486373670ecb2"
+        "@id": "_:na0b5873183a44e71a35a271f76aebb08b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "@id": "_:n87c6992e93b14d8da8bbf486373670ecb1",
+    "@id": "_:na0b5873183a44e71a35a271f76aebb08b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "@id": "_:n87c6992e93b14d8da8bbf486373670ecb2",
+    "@id": "_:na0b5873183a44e71a35a271f76aebb08b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -133,13 +133,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
     "@type": [
       "https://schema.org/HowTo"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docs",
+    "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-tutorials",
     "@type": [
       "https://schema.org/HowTo"
     ]

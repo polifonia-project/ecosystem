@@ -1,5 +1,23 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/William",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-knowledge-graph",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -45,7 +63,7 @@
         "@value": "broadcast-concerts-knowledge-graph"
       },
       {
-        "@id": "_:ncb03bca4a29a4f4ab186dddbef798f08b1"
+        "@id": "_:n22c62c6b647247af85c19f474c72880db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -86,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:ncb03bca4a29a4f4ab186dddbef798f08b1",
+    "@id": "_:n22c62c6b647247af85c19f474c72880db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -102,9 +120,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-blog",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -114,27 +132,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-blog",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/William",
-    "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

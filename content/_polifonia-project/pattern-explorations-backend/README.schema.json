@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/pattern-explorations-backend",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -79,12 +85,6 @@
         "@language": "en",
         "@value": "Pattern Exploration Backend"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

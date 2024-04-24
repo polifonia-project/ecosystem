@@ -1,8 +1,20 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Ftonalities_pilot%2Ftree%2Fmain%2Fvalidation%2Finterface",
+    "@type": [
+      "https://schema.org/Review"
     ]
   },
   {
@@ -15,12 +27,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/Sethus",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -123,7 +129,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ndd6ab3297d1c477b9949638a57dfdaf4b1"
+        "@id": "_:nfd34221b09fe4166aab67885f9482bdcb1"
       }
     ],
     "https://schema.org/review": [
@@ -155,7 +161,7 @@
     ]
   },
   {
-    "@id": "_:ndd6ab3297d1c477b9949638a57dfdaf4b1",
+    "@id": "_:nfd34221b09fe4166aab67885f9482bdcb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/tonalities_pilot/tree/main/mockup"
@@ -173,15 +179,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fgithub.com%2Fpolifonia-project%2Ftonalities_pilot%2Ftree%2Fmain%2Fvalidation%2Finterface",
-    "@type": [
-      "https://schema.org/Review"
     ]
   }
 ]

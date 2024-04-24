@@ -1,32 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:n37c5617b338c41339426fd7d25d426ddb1"
-      }
-    ]
-  },
-  {
-    "@id": "_:n37c5617b338c41339426fd7d25d426ddb1",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -83,18 +65,18 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n37c5617b338c41339426fd7d25d426ddb2"
+        "@id": "_:n240b2b1a85e149e6b9035b22f66c69afb1"
       }
     ]
   },
   {
-    "@id": "_:n37c5617b338c41339426fd7d25d426ddb2",
+    "@id": "_:n240b2b1a85e149e6b9035b22f66c69afb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -107,9 +89,27 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n240b2b1a85e149e6b9035b22f66c69afb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n240b2b1a85e149e6b9035b22f66c69afb2",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
     ]
   }
 ]
