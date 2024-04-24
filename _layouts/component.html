@@ -53,10 +53,11 @@ layout: default
   {% endfor %}
 </table>
 <!-- RELATED -->
-{% assign posts = site.posts %}
+{% assign posts = site.documents %}
 {% for post in posts %}
     title: {{post.title}}
 	{% for related in post['related-components'] %}
+		{{related}}
 <!-- - {{related}} -->
 	{% endfor %}
 {% endfor %}
