@@ -55,13 +55,18 @@ layout: default
 <!-- RELATED -->
 {% assign posts = site.documents %}
 {% for post in posts %}
-    title: {{post.title}}
 	{% for related in post['related-components'] %}
-		-- > {{related}} 
 		{% for k in related %}
 		 - {{k}}
 			{% for s in k %}
-		 		{{s}} < --
+		 		{{k[s]}} 
+						 		{% if page['component-id'] in k[s] %}
+								=== YES IN ===
+								{% endif %}
+
+						 		{% if page['component-id'] == k[s] %}
+								=== YES EQ ===
+								{% endif %} < --
 		{% endfor %}		{% endfor %}
 <!-- - {{related}} -->
 	{% endfor %}
