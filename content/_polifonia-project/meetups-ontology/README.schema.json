@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "https://schema.org/ShortStory"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -12,15 +12,21 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -68,7 +74,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:ne85714a6c6d24855a4eaf57307f2e06eb1"
+        "@id": "_:nc21e9d97582c4ff99e8a3ce0a75c7a41b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -103,7 +109,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne85714a6c6d24855a4eaf57307f2e06eb2"
+        "@id": "_:nc21e9d97582c4ff99e8a3ce0a75c7a41b2"
       }
     ],
     "https://schema.org/title": [
@@ -122,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:ne85714a6c6d24855a4eaf57307f2e06eb1",
+    "@id": "_:nc21e9d97582c4ff99e8a3ce0a75c7a41b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -138,7 +144,7 @@
     ]
   },
   {
-    "@id": "_:ne85714a6c6d24855a4eaf57307f2e06eb2",
+    "@id": "_:nc21e9d97582c4ff99e8a3ce0a75c7a41b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -153,12 +159,6 @@
       {
         "@value": "2023/01/13"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

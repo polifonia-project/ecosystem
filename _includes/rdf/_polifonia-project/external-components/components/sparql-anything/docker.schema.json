@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/sparql-anything-docker",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -40,7 +34,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n236c3deda8084fe7b56ceec138400d54b1"
+        "@id": "_:n93c541d716a94804961d8b77984e6eecb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -77,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n236c3deda8084fe7b56ceec138400d54b2"
+        "@id": "_:n93c541d716a94804961d8b77984e6eecb2"
       }
     ],
     "https://schema.org/title": [
@@ -88,7 +82,7 @@
     ]
   },
   {
-    "@id": "_:n236c3deda8084fe7b56ceec138400d54b1",
+    "@id": "_:n93c541d716a94804961d8b77984e6eecb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +98,7 @@
     ]
   },
   {
-    "@id": "_:n236c3deda8084fe7b56ceec138400d54b2",
+    "@id": "_:n93c541d716a94804961d8b77984e6eecb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -122,15 +116,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -141,6 +135,12 @@
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

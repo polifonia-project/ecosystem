@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -61,7 +67,7 @@
         "@value": "choco-software"
       },
       {
-        "@id": "_:n9d29fe524d7c4712ab01eef33e886613b1"
+        "@id": "_:n0b37106d452f4e6e9fb94152ba39cc6eb1"
       }
     ],
     "https://schema.org/image": [
@@ -103,7 +109,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n9d29fe524d7c4712ab01eef33e886613b2"
+        "@id": "_:n0b37106d452f4e6e9fb94152ba39cc6eb2"
       }
     ],
     "https://schema.org/title": [
@@ -119,7 +125,7 @@
     ]
   },
   {
-    "@id": "_:n9d29fe524d7c4712ab01eef33e886613b1",
+    "@id": "_:n0b37106d452f4e6e9fb94152ba39cc6eb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -135,7 +141,7 @@
     ]
   },
   {
-    "@id": "_:n9d29fe524d7c4712ab01eef33e886613b2",
+    "@id": "_:n0b37106d452f4e6e9fb94152ba39cc6eb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/choco/releases/tag/v1.0.0"
@@ -150,12 +156,6 @@
       {
         "@value": "13-10-2022"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

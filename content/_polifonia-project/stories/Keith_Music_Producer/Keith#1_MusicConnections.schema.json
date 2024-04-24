@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Keith",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Keith%231_MusicConnections",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
@@ -43,6 +37,12 @@
         "@language": "en",
         "@value": "Music Connections"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keith",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {

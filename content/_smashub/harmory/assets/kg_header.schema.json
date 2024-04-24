@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Harmory",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -59,7 +65,7 @@
         "@value": "Harmory"
       },
       {
-        "@id": "_:n3cf172899a43416aa0ec5bae261cf67cb1"
+        "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb1"
       }
     ],
     "https://schema.org/image": [
@@ -93,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n3cf172899a43416aa0ec5bae261cf67cb2"
+        "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb2"
       }
     ],
     "https://schema.org/title": [
@@ -114,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:n3cf172899a43416aa0ec5bae261cf67cb1",
+    "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -130,7 +136,7 @@
     ]
   },
   {
-    "@id": "_:n3cf172899a43416aa0ec5bae261cf67cb2",
+    "@id": "_:nec8b4caa1b79471f98a06d94788b9bcdb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -151,12 +157,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

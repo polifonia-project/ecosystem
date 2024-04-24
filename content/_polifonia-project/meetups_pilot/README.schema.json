@@ -1,14 +1,20 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -18,12 +24,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n8d0770db99e042d395d9df198470bb7db1"
+        "@id": "_:n66b5d211e2054fe891521047ce0c2164b1"
       }
     ]
   },
   {
-    "@id": "_:n8d0770db99e042d395d9df198470bb7db1",
+    "@id": "_:n66b5d211e2054fe891521047ce0c2164b1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -33,12 +39,6 @@
       {
         "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

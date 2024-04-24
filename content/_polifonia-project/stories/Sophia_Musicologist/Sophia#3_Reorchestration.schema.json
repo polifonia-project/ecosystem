@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Sophia%233_Reorchestration",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Story",
@@ -52,15 +46,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophia",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/To%20be%20completed",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophia",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

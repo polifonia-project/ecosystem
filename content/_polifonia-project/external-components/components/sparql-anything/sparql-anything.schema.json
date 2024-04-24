@@ -6,12 +6,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:nbacf7a529d0c4334a5535ad8ed79f3d5b2"
+        "@id": "_:n2a2d537ae8ca47c9943d66b0caa86492b2"
       }
     ]
   },
   {
-    "@id": "_:nbacf7a529d0c4334a5535ad8ed79f3d5b2",
+    "@id": "_:n2a2d537ae8ca47c9943d66b0caa86492b2",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -24,15 +24,33 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -42,12 +60,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:nbacf7a529d0c4334a5535ad8ed79f3d5b1"
+        "@id": "_:n2a2d537ae8ca47c9943d66b0caa86492b1"
       }
     ]
   },
   {
-    "@id": "_:nbacf7a529d0c4334a5535ad8ed79f3d5b1",
+    "@id": "_:n2a2d537ae8ca47c9943d66b0caa86492b1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -147,27 +165,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

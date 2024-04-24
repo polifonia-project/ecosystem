@@ -21,7 +21,7 @@
         "@value": "documentary-evidence-benchmark"
       },
       {
-        "@id": "_:n27ac7b497ca64618a4f112fe0e3af924b1"
+        "@id": "_:n976c89855e064d73898d89061b3600feb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "@id": "_:n27ac7b497ca64618a4f112fe0e3af924b1",
+    "@id": "_:n976c89855e064d73898d89061b3600feb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -75,15 +75,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
