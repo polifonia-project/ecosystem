@@ -57,7 +57,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb68efceefe0b43138bb7aa6298680f77b1"
+        "@id": "_:nea0b4e056da74e41acfdf5ef95705d11b1"
       }
     ],
     "https://schema.org/title": [
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "@id": "_:nb68efceefe0b43138bb7aa6298680f77b1",
+    "@id": "_:nea0b4e056da74e41acfdf5ef95705d11b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/opencitations/ramose/releases/tag/v1.0.6"

@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/tonalities-scriptMeiheadParser",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Script",
@@ -55,6 +49,12 @@
         "@language": "en",
         "@value": "Tonalities Meihead-Parser"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

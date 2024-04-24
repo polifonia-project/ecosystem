@@ -156,7 +156,24 @@ content/_polifonia-project/cometa-ontology/header.md:
       errors:
       - null
 content/_polifonia-project/dashboard/README.md:
-  error: []
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://projects.dharc.unibo.it/melody/') raised ConnectionError(ProtocolError('Connection
+        aborted.', RemoteDisconnected('Remote end closed connection without response')))
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
   warning: []
 content/_polifonia-project/data-wanderings/README.md:
   error:
@@ -1231,7 +1248,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3ad7bacca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1277,7 +1294,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3ad7bacca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1315,7 +1332,7 @@ content/_polifonia-project/folk_ngram_analysis/tune_family_annotations/README.md
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3ad7bacca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1964,7 +1981,24 @@ content/_polifonia-project/registry_app/ecosystem/container.md:
       - null
       - The activity should have at least one funding organisation.
 content/_polifonia-project/registry_app/ecosystem/dataset.md:
-  error: []
+  error:
+  - !!python/object/apply:schema.SchemaError
+    args:
+    - URL cannot be resolved.
+    state:
+      autos:
+      - 'Key ''demo'' error:'
+      - null
+      - null
+      - null
+      - <lambda>('https://projects.dharc.unibo.it/musow/') raised ConnectionError(ProtocolError('Connection
+        aborted.', RemoteDisconnected('Remote end closed connection without response')))
+      errors:
+      - null
+      - null
+      - null
+      - URL cannot be resolved.
+      - null
   warning: []
 content/_polifonia-project/registry_app/ecosystem/interface.md:
   error: []
@@ -1980,7 +2014,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f0e586e3ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f3ad7bacca0>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True
@@ -3858,7 +3892,8 @@ content/_smashub/choco/assets/software_header.md:
       - null
       - null
       - <lambda>('https://projects.dharc.unibo.it/melody/choco/chord_corpus_statistics')
-        raised Exception('URL cannot be resolved')
+        raised ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote
+        end closed connection without response')))
       errors:
       - null
       - null
