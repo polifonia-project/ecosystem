@@ -52,6 +52,15 @@ layout: default
     {% endif %}
   {% endfor %}
 </table>
+<!-- RELATED -->
+{% assign posts = site.posts %}
+{% for post in posts %}
+    title: {{post.title}}
+	{% for related in post['related-components'] %}
+<!-- - {{related}} -->
+	{% endfor %}
+{% endfor %}
+<!-- END RELATED -->
  {% if site.reeco['validate'] %}
 <div class="reeco-validate">
   {% assign validation_key = "content/" | append: page.path %}
