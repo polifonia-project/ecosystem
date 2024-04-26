@@ -6,12 +6,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:na8ec5c451d6a4badbc66714079148918b1"
+        "@id": "_:n0f433eac3b1f4c3fa20255c29e8fb904b1"
       }
     ]
   },
   {
-    "@id": "_:na8ec5c451d6a4badbc66714079148918b1",
+    "@id": "_:n0f433eac3b1f4c3fa20255c29e8fb904b1",
     "https://schema.org/name": [
       {
         "@value": "Polifonia Project"
@@ -21,18 +21,6 @@
       {
         "@value": "https://polifonia-project.eu"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {
@@ -102,9 +90,21 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

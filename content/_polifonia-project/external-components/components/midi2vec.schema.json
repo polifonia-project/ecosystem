@@ -33,7 +33,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n8dc988fc77134cc999ccb647a6a8bb1bb1"
+        "@id": "_:nca8e5f2adede4d1d8d65298614f773dbb1"
       }
     ],
     "https://schema.org/title": [
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "@id": "_:n8dc988fc77134cc999ccb647a6a8bb1bb1",
+    "@id": "_:nca8e5f2adede4d1d8d65298614f773dbb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/midi-ld/midi2vec/releases/tag/v0.0.1"

@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -46,7 +46,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n228f3f4bb45f464c9db733601d762672b1"
+        "@id": "_:n9823f55aee5b4eac85ef9c5df8fa17e5b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -83,7 +83,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n228f3f4bb45f464c9db733601d762672b2"
+        "@id": "_:n9823f55aee5b4eac85ef9c5df8fa17e5b2"
       }
     ],
     "https://schema.org/title": [
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "@id": "_:n228f3f4bb45f464c9db733601d762672b1",
+    "@id": "_:n9823f55aee5b4eac85ef9c5df8fa17e5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "@id": "_:n228f3f4bb45f464c9db733601d762672b2",
+    "@id": "_:n9823f55aee5b4eac85ef9c5df8fa17e5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -134,15 +134,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

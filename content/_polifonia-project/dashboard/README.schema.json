@@ -34,7 +34,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:ne5b00a9ffedf47cbbd292f25c7f2521eb1"
+        "@id": "_:n1a92ce3aa44b4fadaf3bb84f3a407417b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -57,7 +57,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne5b00a9ffedf47cbbd292f25c7f2521eb2"
+        "@id": "_:n1a92ce3aa44b4fadaf3bb84f3a407417b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -101,7 +101,7 @@
     ]
   },
   {
-    "@id": "_:ne5b00a9ffedf47cbbd292f25c7f2521eb1",
+    "@id": "_:n1a92ce3aa44b4fadaf3bb84f3a407417b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "@id": "_:ne5b00a9ffedf47cbbd292f25c7f2521eb2",
+    "@id": "_:n1a92ce3aa44b4fadaf3bb84f3a407417b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
@@ -135,15 +135,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/melody-prototypes",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   },
   {

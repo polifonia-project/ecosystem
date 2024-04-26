@@ -346,6 +346,10 @@ licences-pipeline:
     of licencing, ownership and conditions of use (V1.0)}, publisher={Zenodo}, author={Enrico
     Daga and Jason Carvalho}, year={2023}, month={Oct} }'
   id: licences-pipeline
+llm4led:
+  apa: ''
+  bibtex: ''
+  id: llm4led
 meetups-application:
   apa: 'Jason Carvalho. (2023). <i>polifonia-project/meetups-application: v0.5.4</i>
     (Version v0.5.4) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.10017423'
