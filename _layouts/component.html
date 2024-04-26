@@ -52,13 +52,14 @@ layout: default
     {% endif %}
   {% endfor %}
 </table>
+
 <!-- RELATED -->
 {% assign posts = site.documents %}
 {% for post in posts %}
 	{% for related in post['related-components'] %}
 		{% for k in related %}
 			{% for s in k %}
-			{% if s contains page['component-id'] %} <!-- === {{s[0]}} {{post['component-id']}} {{post['name']}}  === --> {% endif %}
+			{% if s contains page['component-id'] %} <!-- === {{k[0]}} {{s[0]}} {{post['component-id']}} {{post['name']}}  === --> {% endif %}
 		{% endfor %}{% endfor %}
 	{% endfor %}
 {% endfor %}
