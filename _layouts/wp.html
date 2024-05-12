@@ -21,8 +21,7 @@ layout: default
 	{% for component in components %}
   {% if component.type contains "Story" %}
     {% if component.name %}
-    <li><a href="{{ component.url | relative_url }}">{{ component.name }}</a>
-      ({{component.persona}})</li>	
+    <li><a href="{{ component.url | relative_url }}">{{ component.name }}</a></li>	
     {% else %}
 {% assign fakename = component.id | split: '_' | last %} 
 <li><a href="{{ component.url | relative_url }}">{{ fakename }}</a></li>	
