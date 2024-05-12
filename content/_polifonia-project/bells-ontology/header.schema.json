@@ -1,8 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Keoma_Architect",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "https://schema.org/ShortStory"
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -56,7 +62,7 @@
         "@value": "https://w3id.org/polifonia/ontology/bells-ontology/"
       },
       {
-        "@id": "_:nf3bfefdf2a5b4e248d3280e148da25b6b1"
+        "@id": "_:nb582b1cc9b30427888cc43df5217ce39b1"
       }
     ],
     "https://schema.org/image": [
@@ -99,7 +105,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf3bfefdf2a5b4e248d3280e148da25b6b2"
+        "@id": "_:nb582b1cc9b30427888cc43df5217ce39b2"
       }
     ],
     "https://schema.org/title": [
@@ -110,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:nf3bfefdf2a5b4e248d3280e148da25b6b1",
+    "@id": "_:nb582b1cc9b30427888cc43df5217ce39b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -126,7 +132,7 @@
     ]
   },
   {
-    "@id": "_:nf3bfefdf2a5b4e248d3280e148da25b6b2",
+    "@id": "_:nb582b1cc9b30427888cc43df5217ce39b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/bells-ontology/blob/main/ontology/bells.owl"
@@ -144,21 +150,15 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keoma_Architect",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

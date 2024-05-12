@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fcometa%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
@@ -50,7 +56,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:n4a214c14e27a4ecf8deb9c1ce62f0740b1"
+        "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b1"
       }
     ],
     "https://schema.org/image": [
@@ -90,7 +96,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n4a214c14e27a4ecf8deb9c1ce62f0740b2"
+        "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +112,7 @@
     ]
   },
   {
-    "@id": "_:n4a214c14e27a4ecf8deb9c1ce62f0740b1",
+    "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:n4a214c14e27a4ecf8deb9c1ce62f0740b2",
+    "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -140,6 +146,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Linka",
     "@type": [
       "https://schema.org/ShortStory"
@@ -149,18 +161,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

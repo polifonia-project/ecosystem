@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/musow-interface",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -48,7 +36,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb1"
+        "@id": "_:n1b6b034aa31d4f1f995af06398d16e54b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -79,7 +67,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb2"
+        "@id": "_:n1b6b034aa31d4f1f995af06398d16e54b2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -100,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb1",
+    "@id": "_:n1b6b034aa31d4f1f995af06398d16e54b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -116,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:n0fe1151a63444ea6b4f1a643f0d1dc3bb2",
+    "@id": "_:n1b6b034aa31d4f1f995af06398d16e54b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"
@@ -131,6 +119,18 @@
       {
         "@value": "2023/05/16"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-data-cleaning",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -39,7 +45,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:neff1c80b118649bf91588273ebb30a26b1"
+        "@id": "_:n10100bb71e024058bcabb5acea109de0b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -74,7 +80,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:neff1c80b118649bf91588273ebb30a26b2"
+        "@id": "_:n10100bb71e024058bcabb5acea109de0b2"
       }
     ],
     "https://schema.org/title": [
@@ -85,7 +91,7 @@
     ]
   },
   {
-    "@id": "_:neff1c80b118649bf91588273ebb30a26b1",
+    "@id": "_:n10100bb71e024058bcabb5acea109de0b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -101,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:neff1c80b118649bf91588273ebb30a26b2",
+    "@id": "_:n10100bb71e024058bcabb5acea109de0b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -125,7 +131,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -143,13 +149,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
     "@type": [
       "https://schema.org/ShortStory"
     ]
