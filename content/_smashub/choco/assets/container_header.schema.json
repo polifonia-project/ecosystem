@@ -1,17 +1,23 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n0f433eac3b1f4c3fa20255c29e8fb904b1"
+        "@id": "_:n720325e800f645f7967d400af94cf5fcb1"
       }
     ]
   },
   {
-    "@id": "_:n0f433eac3b1f4c3fa20255c29e8fb904b1",
+    "@id": "_:n720325e800f645f7967d400af94cf5fcb1",
     "https://schema.org/name": [
       {
         "@value": "Polifonia Project"
@@ -21,6 +27,12 @@
       {
         "@value": "https://polifonia-project.eu"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -93,18 +105,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

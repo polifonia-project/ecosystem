@@ -6,6 +6,24 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fcometa%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
@@ -56,7 +74,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b1"
+        "@id": "_:n4d64800c28e940af8cc65ce027cf90bfb1"
       }
     ],
     "https://schema.org/image": [
@@ -96,7 +114,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b2"
+        "@id": "_:n4d64800c28e940af8cc65ce027cf90bfb2"
       }
     ],
     "https://schema.org/title": [
@@ -112,7 +130,7 @@
     ]
   },
   {
-    "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b1",
+    "@id": "_:n4d64800c28e940af8cc65ce027cf90bfb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -128,7 +146,7 @@
     ]
   },
   {
-    "@id": "_:nfc516e4e0ffa4d69aa8beef7e8de5fd1b2",
+    "@id": "_:n4d64800c28e940af8cc65ce027cf90bfb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -143,24 +161,6 @@
       {
         "@value": "13/05/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
