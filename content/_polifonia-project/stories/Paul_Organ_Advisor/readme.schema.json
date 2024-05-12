@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -43,9 +43,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   }
 ]

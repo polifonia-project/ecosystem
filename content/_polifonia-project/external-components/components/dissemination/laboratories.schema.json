@@ -1,14 +1,32 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:nf148555f7cab4edd93f137bf103194fab2"
+      }
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@id": "_:nf148555f7cab4edd93f137bf103194fab2",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -18,12 +36,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:nf13713fd770a473d8cb8f60f80aed6c5b1"
+        "@id": "_:nf148555f7cab4edd93f137bf103194fab1"
       }
     ]
   },
   {
-    "@id": "_:nf13713fd770a473d8cb8f60f80aed6c5b1",
+    "@id": "_:nf148555f7cab4edd93f137bf103194fab1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -89,27 +107,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
     "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:nf13713fd770a473d8cb8f60f80aed6c5b2"
-      }
-    ]
-  },
-  {
-    "@id": "_:nf13713fd770a473d8cb8f60f80aed6c5b2",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

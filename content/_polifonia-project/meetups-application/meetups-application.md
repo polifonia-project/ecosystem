@@ -13,7 +13,7 @@ pilot:
 project: polifonia-project
 resource: https://polifonia.kmi.open.ac.uk/meetups/
 release-date: 18/10/2023
-release-number: v0.8.6
+release-number: v1.0.0
 release-link: https://github.com/polifonia-project/meetups-application/releases
 changelog: https://github.com/polifonia-project/meetups-application/releases
 doi: 10.5281/zenodo.10017423

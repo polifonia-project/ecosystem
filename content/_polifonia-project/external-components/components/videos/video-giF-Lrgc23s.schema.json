@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/video-giF-Lrgc23s",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Documentation",
@@ -48,12 +54,6 @@
         "@language": "en",
         "@value": "Outputs and lines of work of the Polifonia TUNES pilot"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

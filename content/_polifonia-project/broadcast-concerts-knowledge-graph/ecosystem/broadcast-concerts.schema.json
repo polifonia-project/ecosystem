@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-blog",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-knowledge-graph",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/KnowledgeGraph",
@@ -57,7 +45,7 @@
         "@value": "broadcast-concerts-knowledge-graph"
       },
       {
-        "@id": "_:ne6d0d9f1b6e84548ab72b1447e11d96eb1"
+        "@id": "_:n353fa66ddb7349c6a7a94d91bb85581bb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -98,7 +86,7 @@
     ]
   },
   {
-    "@id": "_:ne6d0d9f1b6e84548ab72b1447e11d96eb1",
+    "@id": "_:n353fa66ddb7349c6a7a94d91bb85581bb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -114,15 +102,21 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/William",
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-blog",
     "@type": [
-      "https://schema.org/ShortStory"
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -132,9 +126,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/broadcast-concerts-docs-melody",
+    "@id": "http://w3id.org/polifonia/ecosystem/William",
     "@type": [
-      "https://schema.org/HowTo"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
