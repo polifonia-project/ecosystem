@@ -1,17 +1,29 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:nb49c89057f1e4b19bac18108fb70625db2"
+        "@id": "_:n495875abba6e4e0093ad0d7da1c26dd8b2"
       }
     ]
   },
   {
-    "@id": "_:nb49c89057f1e4b19bac18108fb70625db2",
+    "@id": "_:n495875abba6e4e0093ad0d7da1c26dd8b2",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -21,12 +33,6 @@
       {
         "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -36,39 +42,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:nb49c89057f1e4b19bac18108fb70625db1"
-      }
-    ]
-  },
-  {
-    "@id": "_:nb49c89057f1e4b19bac18108fb70625db1",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -159,15 +135,39 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n495875abba6e4e0093ad0d7da1c26dd8b1"
+      }
+    ]
+  },
+  {
+    "@id": "_:n495875abba6e4e0093ad0d7da1c26dd8b1",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

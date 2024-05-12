@@ -11,12 +11,8 @@ Harmory:
     Berardinis, Jacopo and Poltronieri, Andrea}, year={2023}, month={Jun} }'
   id: Harmory
 Polifonia-Corpus-Web-API:
-  apa: 'Marcograsso, &amp; Marilenadaquino. (2023). <i>polifonia-project/Polifonia-Corpus-Web-API:
-    first release</i> (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7736486'
-  bibtex: ' @book{marcograsso_marilenadaquino_2023, title={polifonia-project/Polifonia-Corpus-Web-API:
-    first release}, url={https://zenodo.org/record/7736486}, DOI={10.5281/ZENODO.7736486},
-    abstractNote={No description provided.}, publisher={Zenodo}, author={Marcograsso
-    and Marilenadaquino}, year={2023}, month={Mar} }'
+  apa: ''
+  bibtex: ''
   id: Polifonia-Corpus-Web-API
 broadcast-concerts-knowledge-graph:
   apa: 'Mwigham. (2022). <i>polifonia-project/broadcast-concerts-knowledge-graph:
@@ -67,14 +63,7 @@ documentary-evidence-benchmark:
 harmory-software:
   apa: 'De Berardinis, J., &amp; Poltronieri, A. (2023). <i>Harmory: the Harmonic
     Memory</i> (Version v1.0) [Data set]. Zenodo. https://doi.org/10.5281/ZENODO.8021211'
-  bibtex: ' @misc{de berardinis_poltronieri_2023, title={Harmory: the Harmonic Memory},
-    url={https://zenodo.org/record/8021211}, DOI={10.5281/ZENODO.8021211}, abstractNote={The
-    first release of Harmory contains ~26K harmonic segments from 1800 harmonic (~10%
-    of ChoCo, corresponding to all the audio partitions). Out of all segments: 13667
-    (16%) correspond to the same pattern families, 66175 (53%) are pattern-friendly
-    (they share non-trivial similarities with other segments), whereas 8176 (32%)
-    are inherently unique (they are found in other songs).}, publisher={Zenodo}, author={De
-    Berardinis, Jacopo and Poltronieri, Andrea}, year={2023}, month={Jun} }'
+  bibtex: ''
   id: harmory-software
 https://w3id.org/polifonia/ontology/bells-ontology/:
   apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
@@ -149,40 +138,8 @@ https://w3id.org/polifonia/ontology/cometa/:
     \ Lazzari, Nicolas and Carriero, Valentina}, year={2023}, month={May} }"
   id: https://w3id.org/polifonia/ontology/cometa/
 https://w3id.org/polifonia/ontology/instrument/:
-  apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
-    <i>Polifonia Ontology Network (PON)</i> (Version v1.0). Zenodo. https://doi.org/10.5281/ZENODO.7919970
-  bibtex: " @article{de berardinis_poltronieri_lazzari_carriero_2023, title={Polifonia\
-    \ Ontology Network (PON)}, url={https://zenodo.org/record/7919970}, DOI={10.5281/ZENODO.7919970},\
-    \ abstractNote={<strong>Polifonia Ontology Network v1.0 Release</strong> \U0001F389\
-    \ The first stable release of the Polifonia Ontology Network is out! \U0001F680\
-    \ The Polifonia Ontology Network is a collection of ontologies designed to support\
-    \ a wide range of musical applications and facilitate interoperability within\
-    \ the musical domain. This release includes various ontology modules that cover\
-    \ different aspects of music representation, metadata, instruments, sources, notations,\
-    \ and more. Ontology Modules Included: FULL \U0001F310 (pon:) - The FULL ontology\
-    \ module stored in this repository, which imports all the modules listed here.\
-    \ URI | Repository Core \U0001F48E (core:) - Elements of general reuse and ontology\
-    \ design patterns. URI | Repository Music Meta \U0001F3B5 (mm:) - Achieving interoperability\
-    \ of music metadata. URI | Repository Music Representation \U0001F3BC (mr:) -\
-    \ Foundational model to describe arbitrary musical content. URI | Repository Music\
-    \ Instrument \U0001F3BB (mop:) - Instruments and their evolution through time\
-    \ and space. URI | Repository Source \U0001F4DC (src:) - Representing musical\
-    \ sources and their context of production. URI | Repository Tunes \U0001F3B5 (tunes:)\
-    \ - A specialization of Music Meta for folk music. URI | Repository CoMeta \U0001F4DA\
-    \ (com:) - An extension of Music Meta to represent music corpora. URI | Repository\
-    \ Music Projection \U0001F3B5 (mp:) - Achieving interoperability of music notation\
-    \ systems. URI | Repository Organs \U0001F3B9 (organ:) - A rich descriptive model\
-    \ of organs and building methods. URI | Repository Bells \U0001F514 (bell:) -\
-    \ Describing bells, bell towers, and bell ringers. URI | Repository Music Algorithm\
-    \ \U0001F9EE (mx:) - Computational methods for music and their parameterization.\
-    \ URI | Repository Music Analysis \U0001F50D (ma:) - Music analysis through reasoning\
-    \ using modal-tonal theories. URI | Repository Music Annotation \U0001F3B6 (ann:)\
-    \ - A wrapper of ontologies for music annotations (audio, symbolic). URI | Repository\
-    \ \U0001F517 For detailed information about each ontology module, please refer\
-    \ to the respective URIs. \U0001F310 For more information about the Polifonia\
-    \ project and its ongoing efforts, visit our website: https://polifonia-project.eu/},\
-    \ publisher={Zenodo}, author={De Berardinis, Jacopo and Poltronieri, Andrea and\
-    \ Lazzari, Nicolas and Carriero, Valentina}, year={2023}, month={May} }"
+  apa: ''
+  bibtex: ''
   id: https://w3id.org/polifonia/ontology/instrument/
 https://w3id.org/polifonia/ontology/music-meta/:
   apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
@@ -223,110 +180,16 @@ https://w3id.org/polifonia/ontology/music-meta/:
 https://w3id.org/polifonia/ontology/ontology-network/:
   apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
     <i>Polifonia Ontology Network (PON)</i> (Version v1.0). Zenodo. https://doi.org/10.5281/ZENODO.7919970
-  bibtex: " @article{de berardinis_poltronieri_lazzari_carriero_2023, title={Polifonia\
-    \ Ontology Network (PON)}, url={https://zenodo.org/record/7919970}, DOI={10.5281/ZENODO.7919970},\
-    \ abstractNote={<strong>Polifonia Ontology Network v1.0 Release</strong> \U0001F389\
-    \ The first stable release of the Polifonia Ontology Network is out! \U0001F680\
-    \ The Polifonia Ontology Network is a collection of ontologies designed to support\
-    \ a wide range of musical applications and facilitate interoperability within\
-    \ the musical domain. This release includes various ontology modules that cover\
-    \ different aspects of music representation, metadata, instruments, sources, notations,\
-    \ and more. Ontology Modules Included: FULL \U0001F310 (pon:) - The FULL ontology\
-    \ module stored in this repository, which imports all the modules listed here.\
-    \ URI | Repository Core \U0001F48E (core:) - Elements of general reuse and ontology\
-    \ design patterns. URI | Repository Music Meta \U0001F3B5 (mm:) - Achieving interoperability\
-    \ of music metadata. URI | Repository Music Representation \U0001F3BC (mr:) -\
-    \ Foundational model to describe arbitrary musical content. URI | Repository Music\
-    \ Instrument \U0001F3BB (mop:) - Instruments and their evolution through time\
-    \ and space. URI | Repository Source \U0001F4DC (src:) - Representing musical\
-    \ sources and their context of production. URI | Repository Tunes \U0001F3B5 (tunes:)\
-    \ - A specialization of Music Meta for folk music. URI | Repository CoMeta \U0001F4DA\
-    \ (com:) - An extension of Music Meta to represent music corpora. URI | Repository\
-    \ Music Projection \U0001F3B5 (mp:) - Achieving interoperability of music notation\
-    \ systems. URI | Repository Organs \U0001F3B9 (organ:) - A rich descriptive model\
-    \ of organs and building methods. URI | Repository Bells \U0001F514 (bell:) -\
-    \ Describing bells, bell towers, and bell ringers. URI | Repository Music Algorithm\
-    \ \U0001F9EE (mx:) - Computational methods for music and their parameterization.\
-    \ URI | Repository Music Analysis \U0001F50D (ma:) - Music analysis through reasoning\
-    \ using modal-tonal theories. URI | Repository Music Annotation \U0001F3B6 (ann:)\
-    \ - A wrapper of ontologies for music annotations (audio, symbolic). URI | Repository\
-    \ \U0001F517 For detailed information about each ontology module, please refer\
-    \ to the respective URIs. \U0001F310 For more information about the Polifonia\
-    \ project and its ongoing efforts, visit our website: https://polifonia-project.eu/},\
-    \ publisher={Zenodo}, author={De Berardinis, Jacopo and Poltronieri, Andrea and\
-    \ Lazzari, Nicolas and Carriero, Valentina}, year={2023}, month={May} }"
+  bibtex: ''
   id: https://w3id.org/polifonia/ontology/ontology-network/
 https://w3id.org/polifonia/ontology/source/:
   apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
     <i>Polifonia Ontology Network (PON)</i> (Version v1.0). Zenodo. https://doi.org/10.5281/ZENODO.7919970
-  bibtex: " @article{de berardinis_poltronieri_lazzari_carriero_2023, title={Polifonia\
-    \ Ontology Network (PON)}, url={https://zenodo.org/record/7919970}, DOI={10.5281/ZENODO.7919970},\
-    \ abstractNote={<strong>Polifonia Ontology Network v1.0 Release</strong> \U0001F389\
-    \ The first stable release of the Polifonia Ontology Network is out! \U0001F680\
-    \ The Polifonia Ontology Network is a collection of ontologies designed to support\
-    \ a wide range of musical applications and facilitate interoperability within\
-    \ the musical domain. This release includes various ontology modules that cover\
-    \ different aspects of music representation, metadata, instruments, sources, notations,\
-    \ and more. Ontology Modules Included: FULL \U0001F310 (pon:) - The FULL ontology\
-    \ module stored in this repository, which imports all the modules listed here.\
-    \ URI | Repository Core \U0001F48E (core:) - Elements of general reuse and ontology\
-    \ design patterns. URI | Repository Music Meta \U0001F3B5 (mm:) - Achieving interoperability\
-    \ of music metadata. URI | Repository Music Representation \U0001F3BC (mr:) -\
-    \ Foundational model to describe arbitrary musical content. URI | Repository Music\
-    \ Instrument \U0001F3BB (mop:) - Instruments and their evolution through time\
-    \ and space. URI | Repository Source \U0001F4DC (src:) - Representing musical\
-    \ sources and their context of production. URI | Repository Tunes \U0001F3B5 (tunes:)\
-    \ - A specialization of Music Meta for folk music. URI | Repository CoMeta \U0001F4DA\
-    \ (com:) - An extension of Music Meta to represent music corpora. URI | Repository\
-    \ Music Projection \U0001F3B5 (mp:) - Achieving interoperability of music notation\
-    \ systems. URI | Repository Organs \U0001F3B9 (organ:) - A rich descriptive model\
-    \ of organs and building methods. URI | Repository Bells \U0001F514 (bell:) -\
-    \ Describing bells, bell towers, and bell ringers. URI | Repository Music Algorithm\
-    \ \U0001F9EE (mx:) - Computational methods for music and their parameterization.\
-    \ URI | Repository Music Analysis \U0001F50D (ma:) - Music analysis through reasoning\
-    \ using modal-tonal theories. URI | Repository Music Annotation \U0001F3B6 (ann:)\
-    \ - A wrapper of ontologies for music annotations (audio, symbolic). URI | Repository\
-    \ \U0001F517 For detailed information about each ontology module, please refer\
-    \ to the respective URIs. \U0001F310 For more information about the Polifonia\
-    \ project and its ongoing efforts, visit our website: https://polifonia-project.eu/},\
-    \ publisher={Zenodo}, author={De Berardinis, Jacopo and Poltronieri, Andrea and\
-    \ Lazzari, Nicolas and Carriero, Valentina}, year={2023}, month={May} }"
+  bibtex: ''
   id: https://w3id.org/polifonia/ontology/source/
 https://w3id.org/polifonia/ontology/tunes/:
-  apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
-    <i>Polifonia Ontology Network (PON)</i> (Version v1.0). Zenodo. https://doi.org/10.5281/ZENODO.7919970
-  bibtex: " @article{de berardinis_poltronieri_lazzari_carriero_2023, title={Polifonia\
-    \ Ontology Network (PON)}, url={https://zenodo.org/record/7919970}, DOI={10.5281/ZENODO.7919970},\
-    \ abstractNote={<strong>Polifonia Ontology Network v1.0 Release</strong> \U0001F389\
-    \ The first stable release of the Polifonia Ontology Network is out! \U0001F680\
-    \ The Polifonia Ontology Network is a collection of ontologies designed to support\
-    \ a wide range of musical applications and facilitate interoperability within\
-    \ the musical domain. This release includes various ontology modules that cover\
-    \ different aspects of music representation, metadata, instruments, sources, notations,\
-    \ and more. Ontology Modules Included: FULL \U0001F310 (pon:) - The FULL ontology\
-    \ module stored in this repository, which imports all the modules listed here.\
-    \ URI | Repository Core \U0001F48E (core:) - Elements of general reuse and ontology\
-    \ design patterns. URI | Repository Music Meta \U0001F3B5 (mm:) - Achieving interoperability\
-    \ of music metadata. URI | Repository Music Representation \U0001F3BC (mr:) -\
-    \ Foundational model to describe arbitrary musical content. URI | Repository Music\
-    \ Instrument \U0001F3BB (mop:) - Instruments and their evolution through time\
-    \ and space. URI | Repository Source \U0001F4DC (src:) - Representing musical\
-    \ sources and their context of production. URI | Repository Tunes \U0001F3B5 (tunes:)\
-    \ - A specialization of Music Meta for folk music. URI | Repository CoMeta \U0001F4DA\
-    \ (com:) - An extension of Music Meta to represent music corpora. URI | Repository\
-    \ Music Projection \U0001F3B5 (mp:) - Achieving interoperability of music notation\
-    \ systems. URI | Repository Organs \U0001F3B9 (organ:) - A rich descriptive model\
-    \ of organs and building methods. URI | Repository Bells \U0001F514 (bell:) -\
-    \ Describing bells, bell towers, and bell ringers. URI | Repository Music Algorithm\
-    \ \U0001F9EE (mx:) - Computational methods for music and their parameterization.\
-    \ URI | Repository Music Analysis \U0001F50D (ma:) - Music analysis through reasoning\
-    \ using modal-tonal theories. URI | Repository Music Annotation \U0001F3B6 (ann:)\
-    \ - A wrapper of ontologies for music annotations (audio, symbolic). URI | Repository\
-    \ \U0001F517 For detailed information about each ontology module, please refer\
-    \ to the respective URIs. \U0001F310 For more information about the Polifonia\
-    \ project and its ongoing efforts, visit our website: https://polifonia-project.eu/},\
-    \ publisher={Zenodo}, author={De Berardinis, Jacopo and Poltronieri, Andrea and\
-    \ Lazzari, Nicolas and Carriero, Valentina}, year={2023}, month={May} }"
+  apa: ''
+  bibtex: ''
   id: https://w3id.org/polifonia/ontology/tunes/
 licences:
   apa: 'Enrico Daga, &amp; Jason Carvalho. (2023). <i>polifonia-project/licences:
@@ -367,20 +230,12 @@ meetups-coreference:
     author={Albamoralest and Daga, Enrico}, year={2023}, month={Apr} }'
   id: meetups-coreference
 meetups-data-cleaning:
-  apa: 'Albamoralest, &amp; Daga, E. (2023). <i>polifonia-project/meetups_pilot: v0.2</i>
-    (Version v0.2) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7875353'
-  bibtex: ' @book{albamoralest_daga_2023, title={polifonia-project/meetups_pilot:
-    v0.2}, url={https://zenodo.org/record/7875353}, DOI={10.5281/ZENODO.7875353},
-    abstractNote={To be published in the next ecosystem release}, publisher={Zenodo},
-    author={Albamoralest and Daga, Enrico}, year={2023}, month={Apr} }'
+  apa: ''
+  bibtex: ''
   id: meetups-data-cleaning
 meetups-entity-recognition:
-  apa: 'Albamoralest, &amp; Daga, E. (2023). <i>polifonia-project/meetups_pilot: v0.2</i>
-    (Version v0.2) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7875353'
-  bibtex: ' @book{albamoralest_daga_2023, title={polifonia-project/meetups_pilot:
-    v0.2}, url={https://zenodo.org/record/7875353}, DOI={10.5281/ZENODO.7875353},
-    abstractNote={To be published in the next ecosystem release}, publisher={Zenodo},
-    author={Albamoralest and Daga, Enrico}, year={2023}, month={Apr} }'
+  apa: ''
+  bibtex: ''
   id: meetups-entity-recognition
 meetups-hm-identification:
   apa: 'Albamoralest, &amp; Daga, E. (2023). <i>polifonia-project/meetups_pilot: v0.2</i>
@@ -393,11 +248,7 @@ meetups-hm-identification:
 meetups-knowledge-graph:
   apa: 'Tirado, A. M. (2023). <i>polifonia-project/meetups-knowledge-graph: v0.2</i>
     (Version v0.2) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7924618'
-  bibtex: ' @book{tirado_2023, title={polifonia-project/meetups-knowledge-graph: v0.2},
-    url={https://zenodo.org/record/7924618}, DOI={10.5281/ZENODO.7924618}, abstractNote={The
-    MEETUPS knowledge graph contains data about historical encounters of people in
-    the musical world in Europe from c. 1800 to c. 1945.}, publisher={Zenodo}, author={Tirado,
-    Alba Morales}, year={2023}, month={May} }'
+  bibtex: ''
   id: meetups-knowledge-graph
 meetups-ontology:
   apa: 'Albamoralest. (2023). <i>polifonia-project/meetups-ontology: v0.1</i> (Version
@@ -409,10 +260,7 @@ meetups-ontology:
 meetups-themes:
   apa: 'Albamoralest, &amp; Daga, E. (2023). <i>polifonia-project/meetups_pilot: v0.2</i>
     (Version v0.2) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7875353'
-  bibtex: ' @book{albamoralest_daga_2023, title={polifonia-project/meetups_pilot:
-    v0.2}, url={https://zenodo.org/record/7875353}, DOI={10.5281/ZENODO.7875353},
-    abstractNote={To be published in the next ecosystem release}, publisher={Zenodo},
-    author={Albamoralest and Daga, Enrico}, year={2023}, month={Apr} }'
+  bibtex: ''
   id: meetups-themes
 meetups-time-extraction:
   apa: 'Albamoralest, &amp; Daga, E. (2023). <i>polifonia-project/meetups_pilot: v0.2</i>
@@ -437,14 +285,8 @@ melody-software:
     year={2023}, month={Oct} }'
   id: melody-software
 musow-dataset:
-  apa: 'Daquino, M., &amp; Hlosta, M. (2021). <i>polifonia-project/registry_app: latest</i>
-    (Version v0.1.4) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.5603223'
-  bibtex: ' @book{daquino_hlosta_2021, title={polifonia-project/registry_app: latest},
-    url={https://zenodo.org/record/5603223}, DOI={10.5281/ZENODO.5603223}, abstractNote={CLEF
-    (<em>Crowdsourcing Linked Entities via web Form</em>) is a lightweight Linked
-    Open Data native cataloguing system tailored to small-medium crowdsourcing projects.},
-    publisher={Zenodo}, author={Daquino, Marilena and Hlosta, Martin}, year={2021},
-    month={Oct} }'
+  apa: ''
+  bibtex: ''
   id: musow-dataset
 musow-interface:
   apa: 'Daquino, M., &amp; Hlosta, M. (2021). <i>polifonia-project/registry_app: latest</i>
@@ -457,28 +299,15 @@ musow-interface:
     month={Oct} }'
   id: musow-interface
 pitchcontext:
-  apa: 'Van Kranenburg, P., &amp; Daga, E. (2023). <i>polifonia-project/pitchcontext:
-    Version 0.1.9 of pitchcontext</i> (Version v0.1.9) [Computer software]. Zenodo.
-    https://doi.org/10.5281/ZENODO.8020644'
+  apa: ''
   bibtex: ' @book{van kranenburg_daga_2023, title={polifonia-project/pitchcontext:
     Version 0.1.9 of pitchcontext}, url={https://zenodo.org/record/8020644}, DOI={10.5281/ZENODO.8020644},
     abstractNote={Library for melody analysis based on pitch context vectors.}, publisher={Zenodo},
     author={Van Kranenburg, Peter and Daga, Enrico}, year={2023}, month={Jun} }'
   id: pitchcontext
 polifonia-web-portal:
-  apa: 'giuliarenda, marcograsso, &amp; marilenadaquino. (2024). <i>polifonia-project/portal:
-    v1.0.0</i> (Latest) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.10454048'
-  bibtex: ' @book{giuliarenda_marcograsso_marilenadaquino_2024, title={polifonia-project/portal:
-    v1.0.0}, url={https://zenodo.org/doi/10.5281/zenodo.10454048}, DOI={10.5281/ZENODO.10454048},
-    abstractNote={The Polifonia Web portal is the main entry point into the extensive
-    musical heritage produced by Polifonia. It is targeted to enthusiasts, scholars,
-    musicians, and educators, and facilitates exploration of a varied spectrum of
-    musical Linked Data. Key functionalities of the portal include text search and
-    on-demand insights. The web portal currently ingests a selection of pilot datasets
-    and allows their exploration via bespoke user journeys designed to foster serendipitous
-    discovery. This is the first official release of the prototype that include the
-    reconciliation process.}, publisher={Zenodo}, author={giuliarenda and marcograsso
-    and marilenadaquino}, year={2024}, month={Jan} }'
+  apa: ''
+  bibtex: ''
   id: polifonia-web-portal
 pymusicmeta:
   apa: De Berardinis, J., Poltronieri, A., Lazzari, N., &amp; Carriero, V. (2023).
@@ -517,18 +346,8 @@ pymusicmeta:
     \ Lazzari, Nicolas and Carriero, Valentina}, year={2023}, month={May} }"
   id: pymusicmeta
 sparql-anything-cli:
-  apa: 'Daga, E., Luigi-Asprino, &amp; Dowdy, J. (2022). <i>SPARQL-Anything/sparql.anything:
-    v0.8.1</i> (Version v0.8.1) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7454360'
-  bibtex: ' @book{daga_luigi-asprino_dowdy_2022, title={SPARQL-Anything/sparql.anything:
-    v0.8.1}, url={https://zenodo.org/record/7454360}, DOI={10.5281/ZENODO.7454360},
-    abstractNote={As part of this release we had 7 issues closed. <strong>Bug</strong>
-    <strong>#320</strong> ASK Query CLI Output <strong>Documentation</strong> <strong>#310</strong>
-    Minimal URI confusion (in README) <strong>Features</strong> <strong>#308</strong>
-    [Spreadsheet] Composite cell values <strong>#319</strong> CLI main method that
-    returns the content of STDOUT <strong>Improvements</strong> <strong>#311</strong>
-    Upgrade JSoup to 1.15.3 <strong>#313</strong> Upgrade commons-text to 1.10.0 <strong>#314</strong>
-    Upgrade metadata-extractor to v2.18.0}, publisher={Zenodo}, author={Daga, Enrico
-    and Luigi-Asprino and Dowdy, Justin}, year={2022}, month={Dec} }'
+  apa: ''
+  bibtex: ''
   id: sparql-anything-cli
 sparql-anything-docker:
   apa: 'Daga, E., Luigi-Asprino, &amp; Dowdy, J. (2022). <i>SPARQL-Anything/sparql.anything:
@@ -561,14 +380,5 @@ sparql-anything-java:
 sparql-anything-server:
   apa: 'Daga, E., Luigi-Asprino, &amp; Dowdy, J. (2022). <i>SPARQL-Anything/sparql.anything:
     v0.8.1</i> (Version v0.8.1) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7454360'
-  bibtex: ' @book{daga_luigi-asprino_dowdy_2022, title={SPARQL-Anything/sparql.anything:
-    v0.8.1}, url={https://zenodo.org/record/7454360}, DOI={10.5281/ZENODO.7454360},
-    abstractNote={As part of this release we had 7 issues closed. <strong>Bug</strong>
-    <strong>#320</strong> ASK Query CLI Output <strong>Documentation</strong> <strong>#310</strong>
-    Minimal URI confusion (in README) <strong>Features</strong> <strong>#308</strong>
-    [Spreadsheet] Composite cell values <strong>#319</strong> CLI main method that
-    returns the content of STDOUT <strong>Improvements</strong> <strong>#311</strong>
-    Upgrade JSoup to 1.15.3 <strong>#313</strong> Upgrade commons-text to 1.10.0 <strong>#314</strong>
-    Upgrade metadata-extractor to v2.18.0}, publisher={Zenodo}, author={Daga, Enrico
-    and Luigi-Asprino and Dowdy, Justin}, year={2022}, month={Dec} }'
+  bibtex: ''
   id: sparql-anything-server

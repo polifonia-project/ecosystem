@@ -1,8 +1,26 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Mark",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -53,7 +71,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:n168bc33247ec452b951a55fe6a1924ebb1"
+        "@id": "_:nd26a89fe68d140cb84f41880484e2daab1"
       }
     ],
     "https://schema.org/image": [
@@ -90,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n168bc33247ec452b951a55fe6a1924ebb2"
+        "@id": "_:nd26a89fe68d140cb84f41880484e2daab2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n168bc33247ec452b951a55fe6a1924ebb1",
+    "@id": "_:nd26a89fe68d140cb84f41880484e2daab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:n168bc33247ec452b951a55fe6a1924ebb2",
+    "@id": "_:nd26a89fe68d140cb84f41880484e2daab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -137,24 +155,6 @@
       {
         "@value": "13/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Mark",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

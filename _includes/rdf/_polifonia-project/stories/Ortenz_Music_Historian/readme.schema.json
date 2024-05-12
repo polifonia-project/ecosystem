@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -52,9 +46,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

@@ -21,7 +21,7 @@
         "@value": "pitchcontext"
       },
       {
-        "@id": "_:n8c647b926add4ccc911d698912625f15b1"
+        "@id": "_:n6c0c5314fec144b9a1468222f739e3b6b1"
       }
     ],
     "https://schema.org/image": [
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "@id": "_:n8c647b926add4ccc911d698912625f15b1",
+    "@id": "_:n6c0c5314fec144b9a1468222f739e3b6b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -86,15 +86,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

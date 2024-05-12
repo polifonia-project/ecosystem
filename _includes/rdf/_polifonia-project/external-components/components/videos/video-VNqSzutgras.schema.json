@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/video-VNqSzutgras",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Tutorial",
@@ -60,6 +54,12 @@
         "@language": "en",
         "@value": "Tutorial on Meetups Output of Polifonia"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
