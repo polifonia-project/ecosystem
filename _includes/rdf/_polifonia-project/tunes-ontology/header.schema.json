@@ -6,18 +6,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Mark",
     "@type": [
       "https://schema.org/ShortStory"
@@ -71,7 +59,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:nd26a89fe68d140cb84f41880484e2daab1"
+        "@id": "_:n66e2ed86c53546cb861b718a681dd51fb1"
       }
     ],
     "https://schema.org/image": [
@@ -108,7 +96,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd26a89fe68d140cb84f41880484e2daab2"
+        "@id": "_:n66e2ed86c53546cb861b718a681dd51fb2"
       }
     ],
     "https://schema.org/title": [
@@ -124,7 +112,7 @@
     ]
   },
   {
-    "@id": "_:nd26a89fe68d140cb84f41880484e2daab1",
+    "@id": "_:n66e2ed86c53546cb861b718a681dd51fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -140,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:nd26a89fe68d140cb84f41880484e2daab2",
+    "@id": "_:n66e2ed86c53546cb861b718a681dd51fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -155,6 +143,18 @@
       {
         "@value": "13/04/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

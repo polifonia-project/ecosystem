@@ -1,4 +1,3 @@
-
 ---
 component-id: video-VNqSzutgras
 type: Tutorial

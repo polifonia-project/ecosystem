@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -18,12 +12,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n82aacdec773245ab91a9bc914b9b6267b1"
+        "@id": "_:n3451235c067048918caa23c76709008cb1"
       }
     ]
   },
   {
-    "@id": "_:n82aacdec773245ab91a9bc914b9b6267b1",
+    "@id": "_:n3451235c067048918caa23c76709008cb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -33,6 +27,18 @@
       {
         "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -106,12 +112,6 @@
         "@language": "en",
         "@value": "Musical MEETUPS"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

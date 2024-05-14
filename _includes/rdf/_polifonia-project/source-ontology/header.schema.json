@@ -1,8 +1,20 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keoma",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -12,9 +24,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -71,7 +83,7 @@
         "@value": "https://w3id.org/polifonia/ontology/source/"
       },
       {
-        "@id": "_:n6a4f30fbf20b4e879d19a26c1b802834b1"
+        "@id": "_:nf7ddcbffbb684834acf6f93ce49071dab1"
       }
     ],
     "https://schema.org/image": [
@@ -129,7 +141,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6a4f30fbf20b4e879d19a26c1b802834b2"
+        "@id": "_:nf7ddcbffbb684834acf6f93ce49071dab2"
       }
     ],
     "https://schema.org/title": [
@@ -145,7 +157,7 @@
     ]
   },
   {
-    "@id": "_:n6a4f30fbf20b4e879d19a26c1b802834b1",
+    "@id": "_:nf7ddcbffbb684834acf6f93ce49071dab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -161,7 +173,7 @@
     ]
   },
   {
-    "@id": "_:n6a4f30fbf20b4e879d19a26c1b802834b2",
+    "@id": "_:nf7ddcbffbb684834acf6f93ce49071dab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/source-ontology"
@@ -179,25 +191,13 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Carolina",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Keoma",
     "@type": [
       "https://schema.org/ShortStory"
     ]

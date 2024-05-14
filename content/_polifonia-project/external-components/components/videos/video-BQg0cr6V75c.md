@@ -1,4 +1,3 @@
-
 ---
 component-id: video-BQg0cr6V75c
 type: Documentation

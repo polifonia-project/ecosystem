@@ -1,4 +1,3 @@
-
 ---
 component-id: video-sTKGm1FK0Oo
 type: Documentation
