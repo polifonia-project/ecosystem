@@ -1,8 +1,26 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -40,7 +58,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:ne8df21ada43f46c79550c884b97251f4b1"
+        "@id": "_:n59ead97d98434e3492b7b04f976a3982b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -77,7 +95,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne8df21ada43f46c79550c884b97251f4b2"
+        "@id": "_:n59ead97d98434e3492b7b04f976a3982b2"
       }
     ],
     "https://schema.org/title": [
@@ -88,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:ne8df21ada43f46c79550c884b97251f4b1",
+    "@id": "_:n59ead97d98434e3492b7b04f976a3982b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:ne8df21ada43f46c79550c884b97251f4b2",
+    "@id": "_:n59ead97d98434e3492b7b04f976a3982b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -125,24 +143,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

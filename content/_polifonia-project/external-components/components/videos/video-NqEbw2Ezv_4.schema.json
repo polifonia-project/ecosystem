@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/video-NqEbw2Ezv_4",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Documentation",
@@ -48,6 +42,12 @@
         "@language": "en",
         "@value": "Outputs and lines of work of the Polifonia MEETUPS pilot"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

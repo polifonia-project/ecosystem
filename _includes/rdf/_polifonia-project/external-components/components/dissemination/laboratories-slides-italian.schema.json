@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/laboratories-slides-italian",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Documentation",
@@ -27,7 +21,7 @@
         "@value": "laboratories-slides-italian"
       },
       {
-        "@id": "_:ne8cff8dbb65b4d058cafc59881d293a4b1"
+        "@id": "_:n92c72a21766f463d94a23686ac120c9eb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -53,7 +47,7 @@
     ]
   },
   {
-    "@id": "_:ne8cff8dbb65b4d058cafc59881d293a4b1",
+    "@id": "_:n92c72a21766f463d94a23686ac120c9eb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -66,6 +60,12 @@
       {
         "@value": "10.5281/zenodo.11094159"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

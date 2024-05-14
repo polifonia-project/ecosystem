@@ -1,5 +1,23 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Keoma_Architect",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Fbells-ontology%2F",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -50,7 +68,7 @@
         "@value": "https://w3id.org/polifonia/ontology/bells-ontology/"
       },
       {
-        "@id": "_:n748725afe4474142ae34f4d4532f06a6b1"
+        "@id": "_:n2f42de416bb64c0d9ecf29a1cad7ea76b1"
       }
     ],
     "https://schema.org/image": [
@@ -93,7 +111,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n748725afe4474142ae34f4d4532f06a6b2"
+        "@id": "_:n2f42de416bb64c0d9ecf29a1cad7ea76b2"
       }
     ],
     "https://schema.org/title": [
@@ -104,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n748725afe4474142ae34f4d4532f06a6b1",
+    "@id": "_:n2f42de416bb64c0d9ecf29a1cad7ea76b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -120,7 +138,7 @@
     ]
   },
   {
-    "@id": "_:n748725afe4474142ae34f4d4532f06a6b2",
+    "@id": "_:n2f42de416bb64c0d9ecf29a1cad7ea76b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/bells-ontology/blob/main/ontology/bells.owl"
@@ -135,24 +153,6 @@
       {
         "@value": "15/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Keoma_Architect",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {

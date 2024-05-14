@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/laboratories",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Project",
@@ -53,9 +59,27 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:nd4ae06bb78114ae1bc6e551cbfef24c0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd4ae06bb78114ae1bc6e551cbfef24c0b2",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
     ]
   },
   {
@@ -65,12 +89,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n737dc87a3c5d453882663cd6d965218ab1"
+        "@id": "_:nd4ae06bb78114ae1bc6e551cbfef24c0b1"
       }
     ]
   },
   {
-    "@id": "_:n737dc87a3c5d453882663cd6d965218ab1",
+    "@id": "_:nd4ae06bb78114ae1bc6e551cbfef24c0b1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -83,33 +107,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:n737dc87a3c5d453882663cd6d965218ab2"
-      }
-    ]
-  },
-  {
-    "@id": "_:n737dc87a3c5d453882663cd6d965218ab2",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP6",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   }
 ]

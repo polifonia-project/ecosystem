@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -56,7 +68,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:na7fb53b9c6bb4a11bf1da6c19f3091a0b1"
+        "@id": "_:n4f94706acc574284bd0bb7299dca741fb1"
       }
     ],
     "https://schema.org/image": [
@@ -96,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:na7fb53b9c6bb4a11bf1da6c19f3091a0b2"
+        "@id": "_:n4f94706acc574284bd0bb7299dca741fb2"
       }
     ],
     "https://schema.org/title": [
@@ -112,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:na7fb53b9c6bb4a11bf1da6c19f3091a0b1",
+    "@id": "_:n4f94706acc574284bd0bb7299dca741fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -128,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:na7fb53b9c6bb4a11bf1da6c19f3091a0b2",
+    "@id": "_:n4f94706acc574284bd0bb7299dca741fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -143,18 +155,6 @@
       {
         "@value": "13/05/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {

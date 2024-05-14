@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/video-LiZQH75gRo0",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -48,6 +42,12 @@
         "@language": "en",
         "@value": "Outputs and lines of work of the Polifonia Work Package 2"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

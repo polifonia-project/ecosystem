@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/https%3A%2F%2Fw3id.org%2Fpolifonia%2Fontology%2Ftunes%2F",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Ontology",
@@ -47,7 +59,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:nbbc730be100f4f6f8793c7dd0ba4cf99b1"
+        "@id": "_:nb0f5917cbd8f4e9fa9aece2dc4de7cc5b1"
       }
     ],
     "https://schema.org/image": [
@@ -84,7 +96,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nbbc730be100f4f6f8793c7dd0ba4cf99b2"
+        "@id": "_:nb0f5917cbd8f4e9fa9aece2dc4de7cc5b2"
       }
     ],
     "https://schema.org/title": [
@@ -100,7 +112,7 @@
     ]
   },
   {
-    "@id": "_:nbbc730be100f4f6f8793c7dd0ba4cf99b1",
+    "@id": "_:nb0f5917cbd8f4e9fa9aece2dc4de7cc5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -116,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:nbbc730be100f4f6f8793c7dd0ba4cf99b2",
+    "@id": "_:nb0f5917cbd8f4e9fa9aece2dc4de7cc5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -131,18 +143,6 @@
       {
         "@value": "13/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

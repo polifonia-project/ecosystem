@@ -1,8 +1,20 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -45,7 +57,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:nbdf190a415654080bf0c52099fec4a66b1"
+        "@id": "_:n6116f2ed24b544fb949766309c2adf94b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -80,7 +92,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nbdf190a415654080bf0c52099fec4a66b2"
+        "@id": "_:n6116f2ed24b544fb949766309c2adf94b2"
       }
     ],
     "https://schema.org/title": [
@@ -91,7 +103,7 @@
     ]
   },
   {
-    "@id": "_:nbdf190a415654080bf0c52099fec4a66b1",
+    "@id": "_:n6116f2ed24b544fb949766309c2adf94b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -107,7 +119,7 @@
     ]
   },
   {
-    "@id": "_:nbdf190a415654080bf0c52099fec4a66b2",
+    "@id": "_:n6116f2ed24b544fb949766309c2adf94b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -131,27 +143,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/David",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/musow-interface",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -36,7 +42,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:n751b91ca3b0b44dbb411d7cd2afddac9b1"
+        "@id": "_:n69f7c9b067734c1faf6efea394822554b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -67,7 +73,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n751b91ca3b0b44dbb411d7cd2afddac9b2"
+        "@id": "_:n69f7c9b067734c1faf6efea394822554b2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -88,7 +94,7 @@
     ]
   },
   {
-    "@id": "_:n751b91ca3b0b44dbb411d7cd2afddac9b1",
+    "@id": "_:n69f7c9b067734c1faf6efea394822554b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +110,7 @@
     ]
   },
   {
-    "@id": "_:n751b91ca3b0b44dbb411d7cd2afddac9b2",
+    "@id": "_:n69f7c9b067734c1faf6efea394822554b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"
@@ -131,12 +137,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

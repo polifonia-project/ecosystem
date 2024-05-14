@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/melody-software",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/WebApplication",
@@ -34,7 +40,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:necb56e9f13ac41dc9cf299655f5b8483b1"
+        "@id": "_:n67981a82d7db4613b6bd247b0467ca50b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -57,7 +63,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:necb56e9f13ac41dc9cf299655f5b8483b2"
+        "@id": "_:n67981a82d7db4613b6bd247b0467ca50b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -101,7 +107,7 @@
     ]
   },
   {
-    "@id": "_:necb56e9f13ac41dc9cf299655f5b8483b1",
+    "@id": "_:n67981a82d7db4613b6bd247b0467ca50b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -117,7 +123,7 @@
     ]
   },
   {
-    "@id": "_:necb56e9f13ac41dc9cf299655f5b8483b2",
+    "@id": "_:n67981a82d7db4613b6bd247b0467ca50b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
@@ -144,12 +150,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,8 +1,20 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -93,24 +105,18 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n5fcb875cbd174de59173bf5e88af5239b1"
+        "@id": "_:na0f8da0cbbfc47fc832d1dbb9c35b19db2"
       }
     ]
   },
   {
-    "@id": "_:n5fcb875cbd174de59173bf5e88af5239b1",
+    "@id": "_:na0f8da0cbbfc47fc832d1dbb9c35b19db2",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -123,18 +129,18 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/GA870811",
+    "@id": "http://w3id.org/polifonia/ecosystem/GA101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n5fcb875cbd174de59173bf5e88af5239b2"
+        "@id": "_:na0f8da0cbbfc47fc832d1dbb9c35b19db1"
       }
     ]
   },
   {
-    "@id": "_:n5fcb875cbd174de59173bf5e88af5239b2",
+    "@id": "_:na0f8da0cbbfc47fc832d1dbb9c35b19db1",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -160,12 +166,6 @@
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

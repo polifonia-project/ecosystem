@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
@@ -71,7 +59,7 @@
         "@value": "harmory-software"
       },
       {
-        "@id": "_:n0dc5feed1cfd4c0384da7e075875ba6db1"
+        "@id": "_:n3279971915a04f76b83eec2db735c939b1"
       }
     ],
     "https://schema.org/image": [
@@ -105,7 +93,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0dc5feed1cfd4c0384da7e075875ba6db2"
+        "@id": "_:n3279971915a04f76b83eec2db735c939b2"
       }
     ],
     "https://schema.org/title": [
@@ -126,7 +114,7 @@
     ]
   },
   {
-    "@id": "_:n0dc5feed1cfd4c0384da7e075875ba6db1",
+    "@id": "_:n3279971915a04f76b83eec2db735c939b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -142,7 +130,7 @@
     ]
   },
   {
-    "@id": "_:n0dc5feed1cfd4c0384da7e075875ba6db2",
+    "@id": "_:n3279971915a04f76b83eec2db735c939b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -157,6 +145,18 @@
       {
         "@value": "01-02-2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -44,7 +44,7 @@
         "@value": "llm4led"
       },
       {
-        "@id": "_:n5eaf18f0720044e49b15a38b273130abb1"
+        "@id": "_:n16fffd15bffc4a3dad5264770f315e98b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -70,7 +70,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n5eaf18f0720044e49b15a38b273130abb2"
+        "@id": "_:n16fffd15bffc4a3dad5264770f315e98b2"
       }
     ],
     "https://schema.org/title": [
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "@id": "_:n5eaf18f0720044e49b15a38b273130abb1",
+    "@id": "_:n16fffd15bffc4a3dad5264770f315e98b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -97,7 +97,7 @@
     ]
   },
   {
-    "@id": "_:n5eaf18f0720044e49b15a38b273130abb2",
+    "@id": "_:n16fffd15bffc4a3dad5264770f315e98b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/llom4led/releases/tag/v1.0"
@@ -115,12 +115,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -130,6 +124,12 @@
     "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

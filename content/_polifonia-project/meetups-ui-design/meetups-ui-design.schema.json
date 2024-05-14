@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/meetups-ui-design",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -88,7 +82,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb87de49177e04f4394a8edac90579cbcb1"
+        "@id": "_:ne0b1cf3a957c4585b23411941134b18ab1"
       }
     ],
     "https://schema.org/title": [
@@ -104,7 +98,7 @@
     ]
   },
   {
-    "@id": "_:nb87de49177e04f4394a8edac90579cbcb1",
+    "@id": "_:ne0b1cf3a957c4585b23411941134b18ab1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -119,6 +113,12 @@
       {
         "@value": "17/04/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]
