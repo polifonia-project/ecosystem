@@ -8,22 +8,25 @@
     "https://schema.org/abstract": [
       {
         "@language": "en",
-        "@value": "Slides of laboratories"
+        "@value": "The Istituto Comprensivo I.C. n.7 - Via Scandellara Bologna and the Polifonia team were invited to take part in a workshop aimed at engaging more girls and women in STEM careers. The event was held on April 29th at Istituto Comprensivo I.C. n.7 - Via Scandellara Bologna."
       }
     ],
     "https://schema.org/distribution": [
       {
-        "@value": "link-to-the-slides"
+        "@value": "https://zenodo.org/records/11094159"
       }
     ],
     "https://schema.org/identifier": [
       {
         "@value": "laboratories-slides-italian"
+      },
+      {
+        "@id": "_:nf040502f644c40439da64394c65c17bfb1"
       }
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Slides of laboratories"
+        "@value": "The Istituto Comprensivo I.C. n.7 - Via Scandellara Bologna and the Polifonia team were invited to take part in a workshop aimed at engaging more girls and women in STEM careers. The event was held on April 29th at Istituto Comprensivo I.C. n.7 - Via Scandellara Bologna."
       }
     ],
     "https://schema.org/isPartOf": [
@@ -34,12 +37,28 @@
     "https://schema.org/title": [
       {
         "@language": "en",
-        "@value": "Slides of laboratories"
+        "@value": "Polifonia: Esplorare le connessioni nascoste della musica con l'IA e i grafi di conoscenza"
       }
     ],
     "https://schema.org/usageInfo": [
       {
         "@value": "laboratories"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf040502f644c40439da64394c65c17bfb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.11094159"
       }
     ]
   },

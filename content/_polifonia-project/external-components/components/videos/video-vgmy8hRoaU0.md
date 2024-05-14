@@ -1,4 +1,3 @@
-
 ---
 component-id: video-vgmy8hRoaU0
 type: Tutorial

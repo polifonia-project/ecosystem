@@ -663,26 +663,6 @@ content/_polifonia-project/external-components/components/videos/video-622nswxXs
       - 'Missing key: ''related-components'''
       errors:
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Key ''pilot'' error:
-
-      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
-      None
-
-      None should be instance of ''str'''
-    state:
-      autos:
-      - 'Key ''pilot'' error:'
-      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
-        None
-      - null
-      - None should be instance of 'str'
-      errors:
-      - null
-      - null
-      - null
-      - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
@@ -764,26 +744,6 @@ content/_polifonia-project/external-components/components/videos/video-DntIlJqBb
       - 'Missing key: ''related-components'''
       errors:
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Key ''pilot'' error:
-
-      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
-      None
-
-      None should be instance of ''str'''
-    state:
-      autos:
-      - 'Key ''pilot'' error:'
-      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
-        None
-      - null
-      - None should be instance of 'str'
-      errors:
-      - null
-      - null
-      - null
-      - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
@@ -837,26 +797,6 @@ content/_polifonia-project/external-components/components/videos/video-LiZQH75gR
       autos:
       - 'Missing key: ''related-components'''
       errors:
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Key ''pilot'' error:
-
-      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
-      None
-
-      None should be instance of ''str'''
-    state:
-      autos:
-      - 'Key ''pilot'' error:'
-      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
-        None
-      - null
-      - None should be instance of 'str'
-      errors:
-      - null
-      - null
-      - null
       - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -966,26 +906,6 @@ content/_polifonia-project/external-components/components/videos/video-eLjNobupH
       - 'Missing key: ''related-components'''
       errors:
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Key ''pilot'' error:
-
-      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
-      None
-
-      None should be instance of ''str'''
-    state:
-      autos:
-      - 'Key ''pilot'' error:'
-      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
-        None
-      - null
-      - None should be instance of 'str'
-      errors:
-      - null
-      - null
-      - null
-      - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
@@ -1039,26 +959,6 @@ content/_polifonia-project/external-components/components/videos/video-gUsKjo9ed
       autos:
       - 'Missing key: ''related-components'''
       errors:
-      - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Key ''pilot'' error:
-
-      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
-      None
-
-      None should be instance of ''str'''
-    state:
-      autos:
-      - 'Key ''pilot'' error:'
-      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
-        None
-      - null
-      - None should be instance of 'str'
-      errors:
-      - null
-      - null
-      - null
       - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
@@ -1168,26 +1068,6 @@ content/_polifonia-project/external-components/components/videos/video-tQdDY2rRQ
       - 'Missing key: ''related-components'''
       errors:
       - null
-  - !!python/object/apply:schema.SchemaError
-    args:
-    - 'Key ''pilot'' error:
-
-      Or(And(<class ''str''>, Regex(''[^\\s]+(/[^\\s]+(/[^\\s]+)?)?''))) did not validate
-      None
-
-      None should be instance of ''str'''
-    state:
-      autos:
-      - 'Key ''pilot'' error:'
-      - Or(And(<class 'str'>, Regex('[^\\s]+(/[^\\s]+(/[^\\s]+)?)?'))) did not validate
-        None
-      - null
-      - None should be instance of 'str'
-      errors:
-      - null
-      - null
-      - null
-      - null
   warning:
   - !!python/object/apply:schema.SchemaMissingKeyError
     args:
@@ -1289,7 +1169,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f98ffe73ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff38bb1dca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1335,7 +1215,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f98ffe73ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff38bb1dca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1373,7 +1253,7 @@ content/_polifonia-project/folk_ngram_analysis/tune_family_annotations/README.md
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f98ffe73ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff38bb1dca0>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -2096,7 +1976,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7f98ffe73ca0>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff38bb1dca0>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True

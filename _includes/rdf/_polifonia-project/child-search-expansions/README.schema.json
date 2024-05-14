@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -59,7 +59,7 @@
         "@value": "child-search-expansion"
       },
       {
-        "@id": "_:n88fa26eaaea4476a949d4e27e429cdcfb1"
+        "@id": "_:n736d4fabb2c945289cb4be85d3be2c68b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -85,7 +85,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n88fa26eaaea4476a949d4e27e429cdcfb2"
+        "@id": "_:n736d4fabb2c945289cb4be85d3be2c68b2"
       }
     ],
     "https://schema.org/title": [
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "@id": "_:n88fa26eaaea4476a949d4e27e429cdcfb1",
+    "@id": "_:n736d4fabb2c945289cb4be85d3be2c68b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "@id": "_:n88fa26eaaea4476a949d4e27e429cdcfb2",
+    "@id": "_:n736d4fabb2c945289cb4be85d3be2c68b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/child-search-expansions/releases/tag/v0.1"
@@ -130,9 +130,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   }
 ]

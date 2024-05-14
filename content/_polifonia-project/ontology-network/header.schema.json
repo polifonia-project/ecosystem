@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/MUSICBO",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -30,19 +18,7 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@id": "http://w3id.org/polifonia/ecosystem/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -54,13 +30,25 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -72,7 +60,13 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -167,7 +161,7 @@
         "@value": "https://w3id.org/polifonia/ontology/ontology-network/"
       },
       {
-        "@id": "_:n8e76df6e827544178e9323da88b9611fb1"
+        "@id": "_:nd2c768fc2a6d40418618ebb124e4ac16b1"
       }
     ],
     "https://schema.org/image": [
@@ -225,7 +219,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n8e76df6e827544178e9323da88b9611fb2"
+        "@id": "_:nd2c768fc2a6d40418618ebb124e4ac16b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -249,7 +243,7 @@
     ]
   },
   {
-    "@id": "_:n8e76df6e827544178e9323da88b9611fb1",
+    "@id": "_:nd2c768fc2a6d40418618ebb124e4ac16b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -265,7 +259,7 @@
     ]
   },
   {
-    "@id": "_:n8e76df6e827544178e9323da88b9611fb2",
+    "@id": "_:nd2c768fc2a6d40418618ebb124e4ac16b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -280,6 +274,12 @@
       {
         "@value": "09/05/2023"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

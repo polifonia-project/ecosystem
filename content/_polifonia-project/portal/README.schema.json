@@ -60,7 +60,7 @@
         "@value": "polifonia-web-portal"
       },
       {
-        "@id": "_:n8bf82ffcbd164e0e9a56cee0c0e6a63eb1"
+        "@id": "_:nb255f8bea7ae4aeb9e4350f43311c6feb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "@id": "_:n8bf82ffcbd164e0e9a56cee0c0e6a63eb1",
+    "@id": "_:nb255f8bea7ae4aeb9e4350f43311c6feb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],

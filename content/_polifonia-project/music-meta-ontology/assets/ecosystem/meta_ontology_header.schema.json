@@ -62,7 +62,7 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:n3bb5ed33ee5b47ff9c600fa9305e20a1b1"
+        "@id": "_:nd1a137a84cd34cf78e9b26fc015b81b5b1"
       }
     ],
     "https://schema.org/image": [
@@ -113,7 +113,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n3bb5ed33ee5b47ff9c600fa9305e20a1b2"
+        "@id": "_:nd1a137a84cd34cf78e9b26fc015b81b5b2"
       }
     ],
     "https://schema.org/title": [
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "@id": "_:n3bb5ed33ee5b47ff9c600fa9305e20a1b1",
+    "@id": "_:nd1a137a84cd34cf78e9b26fc015b81b5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -145,7 +145,7 @@
     ]
   },
   {
-    "@id": "_:n3bb5ed33ee5b47ff9c600fa9305e20a1b2",
+    "@id": "_:nd1a137a84cd34cf78e9b26fc015b81b5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -169,21 +169,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/Linka",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -193,13 +187,19 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
+    "@id": "http://w3id.org/polifonia/ecosystem/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

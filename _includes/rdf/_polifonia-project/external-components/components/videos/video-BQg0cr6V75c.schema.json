@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/video-BQg0cr6V75c",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -60,6 +54,12 @@
         "@language": "en",
         "@value": "Outputs and lines of work of the Polifonia CHILD pilot"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
