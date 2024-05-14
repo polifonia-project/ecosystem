@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/David",
     "@type": [
       "https://schema.org/ShortStory"
@@ -9,12 +21,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -74,7 +80,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:n0c1d5b5ca1e04a7d974af0e93705a339b1"
+        "@id": "_:n2532e51d195746dd84e5714046e90804b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -109,7 +115,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0c1d5b5ca1e04a7d974af0e93705a339b2"
+        "@id": "_:n2532e51d195746dd84e5714046e90804b2"
       }
     ],
     "https://schema.org/title": [
@@ -128,7 +134,7 @@
     ]
   },
   {
-    "@id": "_:n0c1d5b5ca1e04a7d974af0e93705a339b1",
+    "@id": "_:n2532e51d195746dd84e5714046e90804b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -144,7 +150,7 @@
     ]
   },
   {
-    "@id": "_:n0c1d5b5ca1e04a7d974af0e93705a339b2",
+    "@id": "_:n2532e51d195746dd84e5714046e90804b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -159,12 +165,6 @@
       {
         "@value": "2023/01/13"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

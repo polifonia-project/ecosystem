@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -51,7 +45,7 @@
         "@value": "meetups-entity-recognition"
       },
       {
-        "@id": "_:na71b73ae4d1d492e87a12c008d819c3ab1"
+        "@id": "_:n5a717ef45a5643a394a39b7ee5f0e04ab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -77,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:na71b73ae4d1d492e87a12c008d819c3ab2"
+        "@id": "_:n5a717ef45a5643a394a39b7ee5f0e04ab2"
       }
     ],
     "https://schema.org/title": [
@@ -96,7 +90,7 @@
     ]
   },
   {
-    "@id": "_:na71b73ae4d1d492e87a12c008d819c3ab1",
+    "@id": "_:n5a717ef45a5643a394a39b7ee5f0e04ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -112,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:na71b73ae4d1d492e87a12c008d819c3ab2",
+    "@id": "_:n5a717ef45a5643a394a39b7ee5f0e04ab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -130,9 +124,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://w3id.org/polifonia/ecosystem/pitchcontext",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -33,7 +21,7 @@
         "@value": "pitchcontext"
       },
       {
-        "@id": "_:n1602406979a84a99831947c6724b0215b1"
+        "@id": "_:ndc2d0ad5b5f84b36959af3408c4c8b63b1"
       }
     ],
     "https://schema.org/image": [
@@ -76,7 +64,7 @@
     ]
   },
   {
-    "@id": "_:n1602406979a84a99831947c6724b0215b1",
+    "@id": "_:ndc2d0ad5b5f84b36959af3408c4c8b63b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -89,6 +77,18 @@
       {
         "@value": "10.5281/zenodo.8020644"
       }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {

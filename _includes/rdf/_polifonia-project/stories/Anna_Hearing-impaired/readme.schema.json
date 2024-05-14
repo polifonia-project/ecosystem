@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/Anna",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Persona",
@@ -43,12 +49,6 @@
         "@language": "en",
         "@value": "Anna"
       }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/ACCESS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]
