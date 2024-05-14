@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -45,7 +45,7 @@
         "@value": "meetups-coreference"
       },
       {
-        "@id": "_:n38e6e98be1454435b7ca44d6a4ff1698b1"
+        "@id": "_:n11018a7ff5fe44569f74f88e2813afb3b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -71,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n38e6e98be1454435b7ca44d6a4ff1698b2"
+        "@id": "_:n11018a7ff5fe44569f74f88e2813afb3b2"
       }
     ],
     "https://schema.org/title": [
@@ -93,7 +93,7 @@
     ]
   },
   {
-    "@id": "_:n38e6e98be1454435b7ca44d6a4ff1698b1",
+    "@id": "_:n11018a7ff5fe44569f74f88e2813afb3b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "@id": "_:n38e6e98be1454435b7ca44d6a4ff1698b2",
+    "@id": "_:n11018a7ff5fe44569f74f88e2813afb3b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -127,15 +127,15 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP4",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

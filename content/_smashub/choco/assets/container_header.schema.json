@@ -66,18 +66,24 @@
     ]
   },
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n75ddf69a419c43aa87f07f6daa3e10dcb1"
+        "@id": "_:n0606c8d228b142df95356df9a1f64f4ab1"
       }
     ]
   },
   {
-    "@id": "_:n75ddf69a419c43aa87f07f6daa3e10dcb1",
+    "@id": "_:n0606c8d228b142df95356df9a1f64f4ab1",
     "https://schema.org/name": [
       {
         "@value": "Polifonia Project"
@@ -93,12 +99,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/Polifonia%20Project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

@@ -6,21 +6,27 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
     "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
     "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/polifonia/ecosystem/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -71,7 +77,7 @@
         "@value": "meetups-application"
       },
       {
-        "@id": "_:nb80c8c486e664998b1f1f6e3c3d1b2c2b1"
+        "@id": "_:nfffb0c6e763e4c91a0e7ace458df71d4b1"
       }
     ],
     "https://schema.org/image": [
@@ -116,7 +122,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb80c8c486e664998b1f1f6e3c3d1b2c2b2"
+        "@id": "_:nfffb0c6e763e4c91a0e7ace458df71d4b2"
       }
     ],
     "https://schema.org/title": [
@@ -137,7 +143,7 @@
     ]
   },
   {
-    "@id": "_:nb80c8c486e664998b1f1f6e3c3d1b2c2b1",
+    "@id": "_:nfffb0c6e763e4c91a0e7ace458df71d4b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -153,7 +159,7 @@
     ]
   },
   {
-    "@id": "_:nb80c8c486e664998b1f1f6e3c3d1b2c2b2",
+    "@id": "_:nfffb0c6e763e4c91a0e7ace458df71d4b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -171,15 +177,9 @@
     ]
   },
   {
-    "@id": "http://w3id.org/polifonia/ecosystem/Ortenz",
+    "@id": "http://w3id.org/polifonia/ecosystem/MEETUPS",
     "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

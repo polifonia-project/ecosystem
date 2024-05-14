@@ -21,7 +21,7 @@
         "@value": "laboratories-slides-italian"
       },
       {
-        "@id": "_:nf040502f644c40439da64394c65c17bfb1"
+        "@id": "_:n370eb1d4612e443fa182e6c73070489ab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "@id": "_:nf040502f644c40439da64394c65c17bfb1",
+    "@id": "_:n370eb1d4612e443fa182e6c73070489ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],

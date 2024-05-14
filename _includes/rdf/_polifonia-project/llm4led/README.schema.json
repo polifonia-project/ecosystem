@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://w3id.org/polifonia/ecosystem/llm4led",
     "@type": [
       "http://w3id.org/polifonia/ecosystem/Software",
@@ -44,7 +50,7 @@
         "@value": "llm4led"
       },
       {
-        "@id": "_:nfbfe9e91fda1410ba20721081d93f8d5b1"
+        "@id": "_:n52ca00c4c01e477394b3806903c54743b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -70,7 +76,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nfbfe9e91fda1410ba20721081d93f8d5b2"
+        "@id": "_:n52ca00c4c01e477394b3806903c54743b2"
       }
     ],
     "https://schema.org/title": [
@@ -81,7 +87,7 @@
     ]
   },
   {
-    "@id": "_:nfbfe9e91fda1410ba20721081d93f8d5b1",
+    "@id": "_:n52ca00c4c01e477394b3806903c54743b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -97,7 +103,7 @@
     ]
   },
   {
-    "@id": "_:nfbfe9e91fda1410ba20721081d93f8d5b2",
+    "@id": "_:n52ca00c4c01e477394b3806903c54743b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/llom4led/releases/tag/v1.0"
@@ -124,12 +130,6 @@
     "@id": "http://w3id.org/polifonia/ecosystem/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://w3id.org/polifonia/ecosystem/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]
